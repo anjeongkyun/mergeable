@@ -25,6 +25,8 @@ query($owner:String!, $name:String!, $label:String!) {
     issues(states:OPEN, labels:[$label], first:40, orderBy:{field:UPDATED_AT, direction:DESC}) {
       nodes {
         number title url createdAt updatedAt
+        author { login }
+        authorAssociation
         comments { totalCount }
         assignees(first:1) { nodes { login } }
         labels(first:15) { nodes { name } }
@@ -56,6 +58,43 @@ function hasOpenLinkedPR(node: any): boolean {
   return node.timelineItems.nodes.some((t: any) => t?.source?.state === "OPEN");
 }
 
+// 기여 가능성 스코어링. 신호: 라벨 감성 · 신선도(메인테이너 활동) · 크라우딩(댓글).
+// 연결된 열린 PR로 인한 점유는 이미 크롤 단계에서 제외했다.
+const MAINTAINER = new Set(["OWNER", "MEMBER", "COLLABORATOR"]);
+
+function scoreIssue(
+  labels: string[],
+  comments: number,
+  updatedAt: string,
+  association: string,
+): { score: number; tier: "high" | "medium" | "low" } {
+  const l = labels.join(" ").toLowerCase();
+  let s = 0;
+
+  // 메인테이너가 연 이슈 = triage된·in-scope 신호
+  if (MAINTAINER.has(association)) s += 2;
+
+  // 라벨 감성
+  if (/good.?first.?issue|ideal.for.contribution|first.?timers/.test(l)) s += 3;
+  if (/help.?wanted|contribution.?welcome/.test(l)) s += 2;
+  if (/acknowledged|confirmed|approved/.test(l)) s += 2;
+  if (/somedaymaybe|waiting.?for.?feedback|on.?hold|blocked|needs.?(triage|investigation|decision|feedback)|question|discussion|wontfix|declined|duplicate/.test(l)) s -= 3;
+
+  // 신선도 (최근 갱신 = 메인테이너 살아있음)
+  const days = (Date.now() - new Date(updatedAt).getTime()) / 86400000;
+  if (days <= 30) s += 3;
+  else if (days <= 120) s += 1;
+  else if (days > 365) s -= 2;
+
+  // 크라우딩 (댓글 적을수록 덜 경합)
+  if (comments <= 1) s += 2;
+  else if (comments <= 5) s += 1;
+  else if (comments > 12) s -= 2;
+
+  const tier = s >= 5 ? "high" : s >= 2 ? "medium" : "low";
+  return { score: s, tier };
+}
+
 async function crawlRepo(cfg: RepoConfig, into: Map<string, Issue>) {
   const [owner, name] = cfg.repo.split("/");
   const labels = await resolveLabels(cfg, owner, name);
@@ -75,17 +114,25 @@ async function crawlRepo(cfg: RepoConfig, into: Map<string, Issue>) {
       if (hasOpenLinkedPR(n)) continue; // 이미 점유
       const key = `${cfg.repo}#${n.number}`;
       if (into.has(key)) continue;
+      const labelNames = n.labels.nodes.map((l: any) => l.name);
+      const association = n.authorAssociation ?? "NONE";
+      const { score, tier } = scoreIssue(labelNames, n.comments.totalCount, n.updatedAt, association);
       into.set(key, {
         repo: cfg.repo,
         number: n.number,
         title: n.title,
         url: n.url,
-        labels: n.labels.nodes.map((l: any) => l.name),
+        labels: labelNames,
         stacks: cfg.stacks,
         comments: n.comments.totalCount,
         createdAt: n.createdAt,
         updatedAt: n.updatedAt,
         assignee: n.assignees.nodes[0]?.login ?? null,
+        author: n.author?.login ?? null,
+        authorAssociation: association,
+        byMaintainer: MAINTAINER.has(association),
+        score,
+        tier,
       });
     }
   }

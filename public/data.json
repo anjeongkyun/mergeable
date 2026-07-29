@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-29T09:53:13.860Z",
-  "repoCount": 14,
-  "issueCount": 54,
+  "generatedAt": "2026-07-29T10:16:53.030Z",
+  "repoCount": 21,
+  "issueCount": 55,
   "issues": [
     {
       "repo": "testcontainers/testcontainers-java",
@@ -21,7 +21,12 @@
       "comments": 13,
       "createdAt": "2020-03-24T10:49:28Z",
       "updatedAt": "2026-07-23T13:15:50Z",
-      "assignee": null
+      "assignee": null,
+      "author": "krichter722",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": 3,
+      "tier": "medium"
     },
     {
       "repo": "testcontainers/testcontainers-java",
@@ -39,7 +44,12 @@
       "comments": 5,
       "createdAt": "2019-09-24T07:42:45Z",
       "updatedAt": "2026-07-14T15:50:20Z",
-      "assignee": null
+      "assignee": null,
+      "author": "steghio",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": 8,
+      "tier": "high"
     },
     {
       "repo": "line/armeria",
@@ -57,7 +67,12 @@
       "comments": 9,
       "createdAt": "2019-10-03T06:12:48Z",
       "updatedAt": "2026-07-07T03:00:22Z",
-      "assignee": null
+      "assignee": null,
+      "author": "trustin",
+      "authorAssociation": "CONTRIBUTOR",
+      "byMaintainer": false,
+      "score": 6,
+      "tier": "high"
     },
     {
       "repo": "testcontainers/testcontainers-java",
@@ -78,7 +93,12 @@
       "comments": 8,
       "createdAt": "2019-01-20T11:58:21Z",
       "updatedAt": "2026-06-27T18:36:47Z",
-      "assignee": null
+      "assignee": null,
+      "author": "bsideup",
+      "authorAssociation": "MEMBER",
+      "byMaintainer": true,
+      "score": 10,
+      "tier": "high"
     },
     {
       "repo": "micrometer-metrics/micrometer",
@@ -96,7 +116,12 @@
       "comments": 4,
       "createdAt": "2024-05-10T09:06:03Z",
       "updatedAt": "2026-06-26T18:18:21Z",
-      "assignee": null
+      "assignee": null,
+      "author": "shakuzen",
+      "authorAssociation": "MEMBER",
+      "byMaintainer": true,
+      "score": 6,
+      "tier": "high"
     },
     {
       "repo": "micrometer-metrics/micrometer",
@@ -114,7 +139,12 @@
       "comments": 0,
       "createdAt": "2024-04-22T09:19:42Z",
       "updatedAt": "2026-06-26T18:18:21Z",
-      "assignee": null
+      "assignee": null,
+      "author": "shakuzen",
+      "authorAssociation": "MEMBER",
+      "byMaintainer": true,
+      "score": 7,
+      "tier": "high"
     },
     {
       "repo": "resilience4j/resilience4j",
@@ -130,7 +160,12 @@
       "comments": 4,
       "createdAt": "2022-05-06T04:27:19Z",
       "updatedAt": "2026-06-07T00:43:14Z",
-      "assignee": null
+      "assignee": null,
+      "author": "murmur76",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": 4,
+      "tier": "medium"
     },
     {
       "repo": "micrometer-metrics/micrometer",
@@ -151,7 +186,12 @@
       "comments": 7,
       "createdAt": "2022-06-09T17:08:21Z",
       "updatedAt": "2026-05-27T18:11:15Z",
-      "assignee": null
+      "assignee": null,
+      "author": "edudar",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": 0,
+      "tier": "low"
     },
     {
       "repo": "micrometer-metrics/micrometer",
@@ -170,7 +210,12 @@
       "comments": 9,
       "createdAt": "2021-05-27T18:18:43Z",
       "updatedAt": "2026-05-27T18:11:10Z",
-      "assignee": null
+      "assignee": null,
+      "author": "shakuzen",
+      "authorAssociation": "MEMBER",
+      "byMaintainer": true,
+      "score": 5,
+      "tier": "high"
     },
     {
       "repo": "spring-projects/spring-data-mongodb",
@@ -190,7 +235,12 @@
       "comments": 6,
       "createdAt": "2025-01-14T12:21:19Z",
       "updatedAt": "2026-04-27T07:39:40Z",
-      "assignee": null
+      "assignee": null,
+      "author": "ganeshbabugb",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": 4,
+      "tier": "medium"
     },
     {
       "repo": "micrometer-metrics/micrometer",
@@ -209,7 +259,12 @@
       "comments": 9,
       "createdAt": "2025-04-03T09:11:17Z",
       "updatedAt": "2026-03-05T14:44:51Z",
-      "assignee": null
+      "assignee": null,
+      "author": "pszymczyk",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": 2,
+      "tier": "medium"
     },
     {
       "repo": "micrometer-metrics/micrometer",
@@ -228,7 +283,12 @@
       "comments": 8,
       "createdAt": "2022-04-28T14:20:02Z",
       "updatedAt": "2026-03-04T14:52:04Z",
-      "assignee": null
+      "assignee": null,
+      "author": "rafal-dudek",
+      "authorAssociation": "CONTRIBUTOR",
+      "byMaintainer": false,
+      "score": 2,
+      "tier": "medium"
     },
     {
       "repo": "micrometer-metrics/micrometer",
@@ -248,7 +308,12 @@
       "comments": 4,
       "createdAt": "2025-06-14T00:09:08Z",
       "updatedAt": "2026-03-02T09:19:54Z",
-      "assignee": null
+      "assignee": null,
+      "author": "jonatan-ivanov",
+      "authorAssociation": "MEMBER",
+      "byMaintainer": true,
+      "score": 5,
+      "tier": "high"
     },
     {
       "repo": "micrometer-metrics/micrometer",
@@ -267,7 +332,12 @@
       "comments": 4,
       "createdAt": "2023-12-07T10:27:46Z",
       "updatedAt": "2026-01-07T00:43:49Z",
-      "assignee": null
+      "assignee": null,
+      "author": "AleksanderBrzozowski",
+      "authorAssociation": "CONTRIBUTOR",
+      "byMaintainer": false,
+      "score": 3,
+      "tier": "medium"
     },
     {
       "repo": "netty/netty",
@@ -284,7 +354,12 @@
       "comments": 7,
       "createdAt": "2014-07-08T20:16:18Z",
       "updatedAt": "2025-07-10T03:30:47Z",
-      "assignee": null
+      "assignee": null,
+      "author": "cskinfill",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": 0,
+      "tier": "low"
     },
     {
       "repo": "naver/fixture-monkey",
@@ -304,7 +379,36 @@
       "comments": 6,
       "createdAt": "2025-05-29T04:18:58Z",
       "updatedAt": "2025-06-08T03:16:04Z",
-      "assignee": null
+      "assignee": null,
+      "author": "seongahjo",
+      "authorAssociation": "CONTRIBUTOR",
+      "byMaintainer": false,
+      "score": 1,
+      "tier": "low"
+    },
+    {
+      "repo": "spring-projects/spring-data-redis",
+      "number": 3110,
+      "title": "Add support for Redis-native JSON operations",
+      "url": "https://github.com/spring-projects/spring-data-redis/issues/3110",
+      "labels": [
+        "status: ideal-for-contribution",
+        "type: enhancement"
+      ],
+      "stacks": [
+        "Java",
+        "Spring",
+        "Redis"
+      ],
+      "comments": 4,
+      "createdAt": "2025-02-20T08:22:24Z",
+      "updatedAt": "2025-02-24T12:13:46Z",
+      "assignee": "tishun",
+      "author": "samigeorgiev",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": 2,
+      "tier": "medium"
     },
     {
       "repo": "micrometer-metrics/micrometer",
@@ -323,7 +427,12 @@
       "comments": 2,
       "createdAt": "2023-06-15T21:19:55Z",
       "updatedAt": "2024-12-23T08:07:46Z",
-      "assignee": null
+      "assignee": null,
+      "author": "paulohenriqu",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": 1,
+      "tier": "low"
     },
     {
       "repo": "langchain4j/langchain4j",
@@ -344,7 +453,12 @@
       "comments": 5,
       "createdAt": "2024-09-27T10:20:42Z",
       "updatedAt": "2024-11-27T10:11:37Z",
-      "assignee": "rndtavares"
+      "assignee": "rndtavares",
+      "author": "troimaclure",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": 2,
+      "tier": "medium"
     },
     {
       "repo": "resilience4j/resilience4j",
@@ -360,7 +474,12 @@
       "comments": 6,
       "createdAt": "2021-09-25T15:15:12Z",
       "updatedAt": "2024-11-07T20:35:09Z",
-      "assignee": null
+      "assignee": null,
+      "author": "ssalamov",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": 0,
+      "tier": "low"
     },
     {
       "repo": "micrometer-metrics/micrometer",
@@ -380,7 +499,12 @@
       "comments": 8,
       "createdAt": "2024-09-27T13:18:56Z",
       "updatedAt": "2024-10-09T09:22:46Z",
-      "assignee": null
+      "assignee": null,
+      "author": "mihca",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": 0,
+      "tier": "low"
     },
     {
       "repo": "micrometer-metrics/micrometer",
@@ -399,7 +523,12 @@
       "comments": 2,
       "createdAt": "2019-11-11T00:28:59Z",
       "updatedAt": "2024-10-09T04:31:23Z",
-      "assignee": null
+      "assignee": null,
+      "author": "kubamarchwicki",
+      "authorAssociation": "CONTRIBUTOR",
+      "byMaintainer": false,
+      "score": -2,
+      "tier": "low"
     },
     {
       "repo": "spring-projects/spring-data-mongodb",
@@ -418,7 +547,12 @@
       "comments": 0,
       "createdAt": "2022-07-06T13:09:39Z",
       "updatedAt": "2024-10-02T13:33:31Z",
-      "assignee": "marcingrzejszczak"
+      "assignee": "marcingrzejszczak",
+      "author": "mp911de",
+      "authorAssociation": "MEMBER",
+      "byMaintainer": true,
+      "score": 5,
+      "tier": "high"
     },
     {
       "repo": "spring-projects/spring-data-mongodb",
@@ -437,7 +571,12 @@
       "comments": 0,
       "createdAt": "2023-08-16T04:45:22Z",
       "updatedAt": "2024-09-13T14:24:39Z",
-      "assignee": "marcingrzejszczak"
+      "assignee": "marcingrzejszczak",
+      "author": "christophstrobl",
+      "authorAssociation": "MEMBER",
+      "byMaintainer": true,
+      "score": 5,
+      "tier": "high"
     },
     {
       "repo": "micrometer-metrics/micrometer",
@@ -456,7 +595,12 @@
       "comments": 7,
       "createdAt": "2024-09-10T02:08:46Z",
       "updatedAt": "2024-09-13T00:36:18Z",
-      "assignee": null
+      "assignee": null,
+      "author": "kyungjun-pe",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": 0,
+      "tier": "low"
     },
     {
       "repo": "micrometer-metrics/micrometer",
@@ -476,7 +620,12 @@
       "comments": 12,
       "createdAt": "2024-07-10T13:54:59Z",
       "updatedAt": "2024-07-18T07:13:46Z",
-      "assignee": null
+      "assignee": null,
+      "author": "altaiezior",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": 0,
+      "tier": "low"
     },
     {
       "repo": "resilience4j/resilience4j",
@@ -492,7 +641,12 @@
       "comments": 8,
       "createdAt": "2022-05-03T20:17:24Z",
       "updatedAt": "2024-06-07T13:10:53Z",
-      "assignee": null
+      "assignee": null,
+      "author": "hemantkakodia",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": 0,
+      "tier": "low"
     },
     {
       "repo": "resilience4j/resilience4j",
@@ -508,7 +662,12 @@
       "comments": 9,
       "createdAt": "2023-10-20T16:14:15Z",
       "updatedAt": "2023-11-18T14:24:45Z",
-      "assignee": null
+      "assignee": null,
+      "author": "thejeff77",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": 0,
+      "tier": "low"
     },
     {
       "repo": "testcontainers/testcontainers-java",
@@ -526,7 +685,12 @@
       "comments": 3,
       "createdAt": "2021-02-22T22:13:49Z",
       "updatedAt": "2023-10-28T01:49:07Z",
-      "assignee": null
+      "assignee": null,
+      "author": "codepitbull",
+      "authorAssociation": "CONTRIBUTOR",
+      "byMaintainer": false,
+      "score": 1,
+      "tier": "low"
     },
     {
       "repo": "resilience4j/resilience4j",
@@ -542,7 +706,12 @@
       "comments": 13,
       "createdAt": "2023-07-17T22:24:30Z",
       "updatedAt": "2023-07-26T20:23:16Z",
-      "assignee": null
+      "assignee": null,
+      "author": "Eyesun23",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": -2,
+      "tier": "low"
     },
     {
       "repo": "resilience4j/resilience4j",
@@ -558,7 +727,12 @@
       "comments": 1,
       "createdAt": "2023-06-27T06:54:23Z",
       "updatedAt": "2023-07-20T12:52:28Z",
-      "assignee": null
+      "assignee": null,
+      "author": "suanziliu",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": 2,
+      "tier": "medium"
     },
     {
       "repo": "naver/fixture-monkey",
@@ -577,7 +751,12 @@
       "comments": 0,
       "createdAt": "2023-06-09T06:11:04Z",
       "updatedAt": "2023-06-13T10:41:11Z",
-      "assignee": null
+      "assignee": null,
+      "author": "seongahjo",
+      "authorAssociation": "CONTRIBUTOR",
+      "byMaintainer": false,
+      "score": 2,
+      "tier": "medium"
     },
     {
       "repo": "testcontainers/testcontainers-java",
@@ -594,7 +773,12 @@
       "comments": 21,
       "createdAt": "2015-04-29T23:16:06Z",
       "updatedAt": "2023-01-31T15:40:23Z",
-      "assignee": null
+      "assignee": null,
+      "author": "swissarmykirpan",
+      "authorAssociation": "MEMBER",
+      "byMaintainer": true,
+      "score": 0,
+      "tier": "low"
     },
     {
       "repo": "naver/fixture-monkey",
@@ -613,7 +797,12 @@
       "comments": 8,
       "createdAt": "2022-12-12T10:26:10Z",
       "updatedAt": "2023-01-31T06:47:34Z",
-      "assignee": null
+      "assignee": null,
+      "author": "seongahjo",
+      "authorAssociation": "CONTRIBUTOR",
+      "byMaintainer": false,
+      "score": 1,
+      "tier": "low"
     },
     {
       "repo": "naver/fixture-monkey",
@@ -631,7 +820,12 @@
       "comments": 0,
       "createdAt": "2022-12-23T08:48:16Z",
       "updatedAt": "2022-12-23T08:51:44Z",
-      "assignee": null
+      "assignee": null,
+      "author": "seongahjo",
+      "authorAssociation": "CONTRIBUTOR",
+      "byMaintainer": false,
+      "score": 2,
+      "tier": "medium"
     },
     {
       "repo": "testcontainers/testcontainers-java",
@@ -650,7 +844,12 @@
       "comments": 10,
       "createdAt": "2019-06-03T15:50:04Z",
       "updatedAt": "2022-10-28T15:48:20Z",
-      "assignee": null
+      "assignee": null,
+      "author": "remal",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": 2,
+      "tier": "medium"
     },
     {
       "repo": "testcontainers/testcontainers-java",
@@ -669,7 +868,12 @@
       "comments": 6,
       "createdAt": "2019-09-03T18:49:36Z",
       "updatedAt": "2022-10-04T11:25:22Z",
-      "assignee": null
+      "assignee": null,
+      "author": "remal",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": -3,
+      "tier": "low"
     },
     {
       "repo": "micrometer-metrics/micrometer",
@@ -688,7 +892,12 @@
       "comments": 25,
       "createdAt": "2018-04-24T06:06:55Z",
       "updatedAt": "2022-10-04T08:47:31Z",
-      "assignee": null
+      "assignee": null,
+      "author": "bjartek",
+      "authorAssociation": "CONTRIBUTOR",
+      "byMaintainer": false,
+      "score": -2,
+      "tier": "low"
     },
     {
       "repo": "spring-projects/spring-data-mongodb",
@@ -708,7 +917,12 @@
       "comments": 6,
       "createdAt": "2020-08-10T06:11:40Z",
       "updatedAt": "2022-06-27T14:00:27Z",
-      "assignee": "christophstrobl"
+      "assignee": "christophstrobl",
+      "author": "spring-projects-issues",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": 1,
+      "tier": "low"
     },
     {
       "repo": "spring-projects/spring-data-mongodb",
@@ -727,7 +941,12 @@
       "comments": 5,
       "createdAt": "2021-08-30T10:23:41Z",
       "updatedAt": "2022-05-25T19:18:34Z",
-      "assignee": "christophstrobl"
+      "assignee": "christophstrobl",
+      "author": "Strat1987",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": 2,
+      "tier": "medium"
     },
     {
       "repo": "resilience4j/resilience4j",
@@ -743,7 +962,12 @@
       "comments": 2,
       "createdAt": "2022-03-26T12:13:00Z",
       "updatedAt": "2022-04-27T20:57:17Z",
-      "assignee": null
+      "assignee": null,
+      "author": "bunty-raghani",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": 1,
+      "tier": "low"
     },
     {
       "repo": "resilience4j/resilience4j",
@@ -759,7 +983,12 @@
       "comments": 0,
       "createdAt": "2021-02-18T15:53:27Z",
       "updatedAt": "2022-04-26T07:05:45Z",
-      "assignee": null
+      "assignee": null,
+      "author": "alfonz19",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": 2,
+      "tier": "medium"
     },
     {
       "repo": "testcontainers/testcontainers-java",
@@ -778,7 +1007,12 @@
       "comments": 2,
       "createdAt": "2019-01-19T19:35:00Z",
       "updatedAt": "2022-02-03T13:40:45Z",
-      "assignee": null
+      "assignee": null,
+      "author": "rnorth",
+      "authorAssociation": "MEMBER",
+      "byMaintainer": true,
+      "score": 5,
+      "tier": "high"
     },
     {
       "repo": "resilience4j/resilience4j",
@@ -794,7 +1028,12 @@
       "comments": 15,
       "createdAt": "2021-03-19T09:15:53Z",
       "updatedAt": "2021-12-06T22:29:25Z",
-      "assignee": null
+      "assignee": null,
+      "author": "gawallace25",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": -2,
+      "tier": "low"
     },
     {
       "repo": "spring-projects/spring-data-mongodb",
@@ -814,7 +1053,12 @@
       "comments": 3,
       "createdAt": "2020-10-09T08:03:21Z",
       "updatedAt": "2021-09-27T23:34:34Z",
-      "assignee": null
+      "assignee": null,
+      "author": "spring-projects-issues",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": 2,
+      "tier": "medium"
     },
     {
       "repo": "resilience4j/resilience4j",
@@ -831,7 +1075,12 @@
       "comments": 4,
       "createdAt": "2021-03-18T17:41:50Z",
       "updatedAt": "2021-04-09T22:10:23Z",
-      "assignee": null
+      "assignee": null,
+      "author": "devdatto",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": -2,
+      "tier": "low"
     },
     {
       "repo": "micrometer-metrics/micrometer",
@@ -850,7 +1099,12 @@
       "comments": 5,
       "createdAt": "2020-05-06T05:28:54Z",
       "updatedAt": "2021-02-26T23:27:46Z",
-      "assignee": null
+      "assignee": null,
+      "author": "assaf79",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": 1,
+      "tier": "low"
     },
     {
       "repo": "testcontainers/testcontainers-java",
@@ -868,7 +1122,12 @@
       "comments": 4,
       "createdAt": "2020-04-03T09:23:54Z",
       "updatedAt": "2021-01-31T19:02:35Z",
-      "assignee": null
+      "assignee": null,
+      "author": "kirmandi",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": 3,
+      "tier": "medium"
     },
     {
       "repo": "testcontainers/testcontainers-java",
@@ -889,7 +1148,12 @@
       "comments": 3,
       "createdAt": "2017-03-03T23:05:02Z",
       "updatedAt": "2020-09-15T10:11:20Z",
-      "assignee": null
+      "assignee": null,
+      "author": "rnorth",
+      "authorAssociation": "MEMBER",
+      "byMaintainer": true,
+      "score": 2,
+      "tier": "medium"
     },
     {
       "repo": "testcontainers/testcontainers-java",
@@ -908,7 +1172,12 @@
       "comments": 2,
       "createdAt": "2019-01-19T19:29:09Z",
       "updatedAt": "2020-07-27T14:29:20Z",
-      "assignee": null
+      "assignee": null,
+      "author": "rnorth",
+      "authorAssociation": "MEMBER",
+      "byMaintainer": true,
+      "score": 5,
+      "tier": "high"
     },
     {
       "repo": "micrometer-metrics/micrometer",
@@ -927,7 +1196,12 @@
       "comments": 3,
       "createdAt": "2020-01-10T14:11:11Z",
       "updatedAt": "2020-04-29T10:52:59Z",
-      "assignee": null
+      "assignee": null,
+      "author": null,
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": 1,
+      "tier": "low"
     },
     {
       "repo": "testcontainers/testcontainers-java",
@@ -945,7 +1219,12 @@
       "comments": 5,
       "createdAt": "2019-01-19T17:09:17Z",
       "updatedAt": "2020-04-09T12:51:45Z",
-      "assignee": null
+      "assignee": null,
+      "author": "rnorth",
+      "authorAssociation": "MEMBER",
+      "byMaintainer": true,
+      "score": 3,
+      "tier": "medium"
     },
     {
       "repo": "testcontainers/testcontainers-java",
@@ -963,7 +1242,12 @@
       "comments": 4,
       "createdAt": "2019-01-19T17:07:33Z",
       "updatedAt": "2019-08-03T08:20:09Z",
-      "assignee": null
+      "assignee": null,
+      "author": "rnorth",
+      "authorAssociation": "MEMBER",
+      "byMaintainer": true,
+      "score": 3,
+      "tier": "medium"
     },
     {
       "repo": "testcontainers/testcontainers-java",
@@ -982,7 +1266,12 @@
       "comments": 1,
       "createdAt": "2019-01-20T10:57:11Z",
       "updatedAt": "2019-04-20T11:14:15Z",
-      "assignee": null
+      "assignee": null,
+      "author": "rnorth",
+      "authorAssociation": "MEMBER",
+      "byMaintainer": true,
+      "score": 6,
+      "tier": "high"
     },
     {
       "repo": "testcontainers/testcontainers-java",
@@ -1000,7 +1289,12 @@
       "comments": 6,
       "createdAt": "2016-10-27T20:23:43Z",
       "updatedAt": "2018-10-28T07:15:49Z",
-      "assignee": null
+      "assignee": null,
+      "author": "ldcasillas-progreso",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "score": 2,
+      "tier": "medium"
     }
   ]
 }

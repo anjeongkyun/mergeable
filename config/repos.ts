@@ -23,4 +23,13 @@ export const REPOS: RepoConfig[] = [
   { repo: "FasterXML/jackson-databind", stacks: ["Java"] },
   { repo: "netty/netty", stacks: ["Java", "Networking"] },
   { repo: "ollama4j/ollama4j", stacks: ["Java", "LLM"] },
+
+  // --- Spring Data / DB / AI 유명 레포 (필수 추가) ---
+  { repo: "spring-projects/spring-data-jpa", stacks: ["Java", "Spring", "JPA", "MySQL", "PostgreSQL"], labels: ["status: ideal-for-contribution", "help wanted"] },
+  { repo: "spring-projects/spring-data-r2dbc", stacks: ["Java", "Spring", "R2DBC", "PostgreSQL"], labels: ["status: ideal-for-contribution", "help wanted"] },
+  { repo: "spring-projects/spring-data-redis", stacks: ["Java", "Spring", "Redis"], labels: ["status: ideal-for-contribution", "help wanted"] },
+  { repo: "mongodb/mongo-java-driver", stacks: ["Java", "MongoDB"] },
+  { repo: "pgjdbc/pgjdbc", stacks: ["Java", "PostgreSQL"] },
+  { repo: "mybatis/mybatis-3", stacks: ["Java", "MySQL"] },
+  { repo: "brettwooldridge/HikariCP", stacks: ["Java", "JDBC"] },
 ];

@@ -11,6 +11,11 @@ export interface Issue {
   createdAt: string; // ISO
   updatedAt: string; // ISO
   assignee: string | null;
+  author: string | null; // 이슈 작성자
+  authorAssociation: string; // OWNER/MEMBER/COLLABORATOR/CONTRIBUTOR/NONE ...
+  byMaintainer: boolean; // 작성자가 메인테이너(OWNER/MEMBER/COLLABORATOR)인가
+  score: number; // 기여 가능성 점수 (크롤러 계산)
+  tier: "high" | "medium" | "low"; // 점수 구간
 }
 
 export interface Data {
