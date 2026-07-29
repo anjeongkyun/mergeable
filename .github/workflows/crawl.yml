@@ -1,0 +1,34 @@
+name: crawl
+
+on:
+  schedule:
+    - cron: "*/10 * * * *" # 목표 10분 (스케줄러 부하 시 지연될 수 있음)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: crawl
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: npm install --no-audit --no-fund
+      - name: crawl
+        run: npm run crawl
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: commit data.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data.json
+          git diff --cached --quiet || git commit -m "데이터를 갱신한다"
+          git push

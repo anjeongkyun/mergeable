@@ -1,0 +1,1006 @@
+{
+  "generatedAt": "2026-07-29T09:52:01.683Z",
+  "repoCount": 14,
+  "issueCount": 54,
+  "issues": [
+    {
+      "repo": "testcontainers/testcontainers-java",
+      "number": 2472,
+      "title": "Support container_name in docker-compose file",
+      "url": "https://github.com/testcontainers/testcontainers-java/issues/2472",
+      "labels": [
+        "help wanted",
+        "resolution/somedaymaybe",
+        "area/docker-compose",
+        "good first issue"
+      ],
+      "stacks": [
+        "Java",
+        "Testing"
+      ],
+      "comments": 13,
+      "createdAt": "2020-03-24T10:49:28Z",
+      "updatedAt": "2026-07-23T13:15:50Z",
+      "assignee": null
+    },
+    {
+      "repo": "testcontainers/testcontainers-java",
+      "number": 1910,
+      "title": "Improve documentation to include JNA configuration capabilities",
+      "url": "https://github.com/testcontainers/testcontainers-java/issues/1910",
+      "labels": [
+        "help wanted",
+        "resolution/acknowledged"
+      ],
+      "stacks": [
+        "Java",
+        "Testing"
+      ],
+      "comments": 5,
+      "createdAt": "2019-09-24T07:42:45Z",
+      "updatedAt": "2026-07-14T15:50:20Z",
+      "assignee": null
+    },
+    {
+      "repo": "line/armeria",
+      "number": 2149,
+      "title": "Limit the cardinality of request metrics",
+      "url": "https://github.com/line/armeria/issues/2149",
+      "labels": [
+        "new feature",
+        "good first issue"
+      ],
+      "stacks": [
+        "Java",
+        "RPC"
+      ],
+      "comments": 9,
+      "createdAt": "2019-10-03T06:12:48Z",
+      "updatedAt": "2026-07-07T03:00:22Z",
+      "assignee": null
+    },
+    {
+      "repo": "testcontainers/testcontainers-java",
+      "number": 1167,
+      "title": "Consolidate code snippets from the docs and `/examples` folder",
+      "url": "https://github.com/testcontainers/testcontainers-java/issues/1167",
+      "labels": [
+        "help wanted",
+        "type/docs",
+        "type/housekeeping",
+        "resolution/acknowledged",
+        "good first issue"
+      ],
+      "stacks": [
+        "Java",
+        "Testing"
+      ],
+      "comments": 8,
+      "createdAt": "2019-01-20T11:58:21Z",
+      "updatedAt": "2026-06-27T18:36:47Z",
+      "assignee": null
+    },
+    {
+      "repo": "micrometer-metrics/micrometer",
+      "number": 5063,
+      "title": "Test osgi with new Prometheus client",
+      "url": "https://github.com/micrometer-metrics/micrometer/issues/5063",
+      "labels": [
+        "help wanted",
+        "type: task"
+      ],
+      "stacks": [
+        "Java",
+        "Observability"
+      ],
+      "comments": 4,
+      "createdAt": "2024-05-10T09:06:03Z",
+      "updatedAt": "2026-06-26T18:18:21Z",
+      "assignee": null
+    },
+    {
+      "repo": "micrometer-metrics/micrometer",
+      "number": 4982,
+      "title": "Remove duplicated Spring Boot configuration properties documentation",
+      "url": "https://github.com/micrometer-metrics/micrometer/issues/4982",
+      "labels": [
+        "help wanted",
+        "doc-update"
+      ],
+      "stacks": [
+        "Java",
+        "Observability"
+      ],
+      "comments": 0,
+      "createdAt": "2024-04-22T09:19:42Z",
+      "updatedAt": "2026-06-26T18:18:21Z",
+      "assignee": null
+    },
+    {
+      "repo": "resilience4j/resilience4j",
+      "number": 1681,
+      "title": "Using WebClient with Mono.zip stuck in half-open state.",
+      "url": "https://github.com/resilience4j/resilience4j/issues/1681",
+      "labels": [
+        "help wanted"
+      ],
+      "stacks": [
+        "Java"
+      ],
+      "comments": 4,
+      "createdAt": "2022-05-06T04:27:19Z",
+      "updatedAt": "2026-06-07T00:43:14Z",
+      "assignee": null
+    },
+    {
+      "repo": "micrometer-metrics/micrometer",
+      "number": 3212,
+      "title": "Native image config for netty in statsd module is not relocated during shading",
+      "url": "https://github.com/micrometer-metrics/micrometer/issues/3212",
+      "labels": [
+        "bug",
+        "help wanted",
+        "registry: statsd",
+        "waiting for feedback",
+        "theme: native-image"
+      ],
+      "stacks": [
+        "Java",
+        "Observability"
+      ],
+      "comments": 7,
+      "createdAt": "2022-06-09T17:08:21Z",
+      "updatedAt": "2026-05-27T18:11:15Z",
+      "assignee": null
+    },
+    {
+      "repo": "micrometer-metrics/micrometer",
+      "number": 2624,
+      "title": "Statsd UDP epoll warn logs are verbose when statsd down",
+      "url": "https://github.com/micrometer-metrics/micrometer/issues/2624",
+      "labels": [
+        "help wanted",
+        "type: task",
+        "registry: statsd"
+      ],
+      "stacks": [
+        "Java",
+        "Observability"
+      ],
+      "comments": 9,
+      "createdAt": "2021-05-27T18:18:43Z",
+      "updatedAt": "2026-05-27T18:11:10Z",
+      "assignee": null
+    },
+    {
+      "repo": "spring-projects/spring-data-mongodb",
+      "number": 4873,
+      "title": "Queries in MongoTemplate Logs with ObjectId Format.",
+      "url": "https://github.com/spring-projects/spring-data-mongodb/issues/4873",
+      "labels": [
+        "status: ideal-for-contribution",
+        "type: enhancement",
+        "theme: logging"
+      ],
+      "stacks": [
+        "Java",
+        "Spring",
+        "MongoDB"
+      ],
+      "comments": 6,
+      "createdAt": "2025-01-14T12:21:19Z",
+      "updatedAt": "2026-04-27T07:39:40Z",
+      "assignee": null
+    },
+    {
+      "repo": "micrometer-metrics/micrometer",
+      "number": 6079,
+      "title": "Monitor Kafka Streams application state out of the box",
+      "url": "https://github.com/micrometer-metrics/micrometer/issues/6079",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "instrumentation"
+      ],
+      "stacks": [
+        "Java",
+        "Observability"
+      ],
+      "comments": 9,
+      "createdAt": "2025-04-03T09:11:17Z",
+      "updatedAt": "2026-03-05T14:44:51Z",
+      "assignee": null
+    },
+    {
+      "repo": "micrometer-metrics/micrometer",
+      "number": 3150,
+      "title": "Proper CUMULATIVE metrics option in StackdriverMeterRegistry",
+      "url": "https://github.com/micrometer-metrics/micrometer/issues/3150",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "registry: stackdriver"
+      ],
+      "stacks": [
+        "Java",
+        "Observability"
+      ],
+      "comments": 8,
+      "createdAt": "2022-04-28T14:20:02Z",
+      "updatedAt": "2026-03-04T14:52:04Z",
+      "assignee": null
+    },
+    {
+      "repo": "micrometer-metrics/micrometer",
+      "number": 6404,
+      "title": "Remove @NullUnmarked workaround for NullAway bug on generic types",
+      "url": "https://github.com/micrometer-metrics/micrometer/issues/6404",
+      "labels": [
+        "help wanted",
+        "type: task",
+        "polish",
+        "nullability"
+      ],
+      "stacks": [
+        "Java",
+        "Observability"
+      ],
+      "comments": 4,
+      "createdAt": "2025-06-14T00:09:08Z",
+      "updatedAt": "2026-03-02T09:19:54Z",
+      "assignee": null
+    },
+    {
+      "repo": "micrometer-metrics/micrometer",
+      "number": 4455,
+      "title": "Timer API does not support Kotlin suspend function (coroutines)",
+      "url": "https://github.com/micrometer-metrics/micrometer/issues/4455",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "kotlin"
+      ],
+      "stacks": [
+        "Java",
+        "Observability"
+      ],
+      "comments": 4,
+      "createdAt": "2023-12-07T10:27:46Z",
+      "updatedAt": "2026-01-07T00:43:49Z",
+      "assignee": null
+    },
+    {
+      "repo": "netty/netty",
+      "number": 2646,
+      "title": "Support HTTP Caching",
+      "url": "https://github.com/netty/netty/issues/2646",
+      "labels": [
+        "help wanted"
+      ],
+      "stacks": [
+        "Java",
+        "Networking"
+      ],
+      "comments": 7,
+      "createdAt": "2014-07-08T20:16:18Z",
+      "updatedAt": "2025-07-10T03:30:47Z",
+      "assignee": null
+    },
+    {
+      "repo": "naver/fixture-monkey",
+      "number": 1190,
+      "title": "Add Cursor Rule for Fixture Monkey Test Writing Guidelines",
+      "url": "https://github.com/naver/fixture-monkey/issues/1190",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "documentation"
+      ],
+      "stacks": [
+        "Kotlin",
+        "Java",
+        "Testing"
+      ],
+      "comments": 6,
+      "createdAt": "2025-05-29T04:18:58Z",
+      "updatedAt": "2025-06-08T03:16:04Z",
+      "assignee": null
+    },
+    {
+      "repo": "micrometer-metrics/micrometer",
+      "number": 3911,
+      "title": "Datadog Direct to Datadog API Approach",
+      "url": "https://github.com/micrometer-metrics/micrometer/issues/3911",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "registry: datadog"
+      ],
+      "stacks": [
+        "Java",
+        "Observability"
+      ],
+      "comments": 2,
+      "createdAt": "2023-06-15T21:19:55Z",
+      "updatedAt": "2024-12-23T08:07:46Z",
+      "assignee": null
+    },
+    {
+      "repo": "langchain4j/langchain4j",
+      "number": 1846,
+      "title": "[FEATURE] add vpce bedrock capabilities",
+      "url": "https://github.com/langchain4j/langchain4j/issues/1846",
+      "labels": [
+        "enhancement",
+        "good first issue",
+        "P2",
+        "P3",
+        "AWS Bedrock"
+      ],
+      "stacks": [
+        "Java",
+        "LLM"
+      ],
+      "comments": 5,
+      "createdAt": "2024-09-27T10:20:42Z",
+      "updatedAt": "2024-11-27T10:11:37Z",
+      "assignee": "rndtavares"
+    },
+    {
+      "repo": "resilience4j/resilience4j",
+      "number": 1546,
+      "title": "Memory leak when Circuit Breaker is being opened in reactive WebClient",
+      "url": "https://github.com/resilience4j/resilience4j/issues/1546",
+      "labels": [
+        "help wanted"
+      ],
+      "stacks": [
+        "Java"
+      ],
+      "comments": 6,
+      "createdAt": "2021-09-25T15:15:12Z",
+      "updatedAt": "2024-11-07T20:35:09Z",
+      "assignee": null
+    },
+    {
+      "repo": "micrometer-metrics/micrometer",
+      "number": 5492,
+      "title": "Configure a custom JmsProcessObservationConvention or JmsPublishObservationConvention",
+      "url": "https://github.com/micrometer-metrics/micrometer/issues/5492",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "instrumentation",
+        "module: micrometer-jakarta9"
+      ],
+      "stacks": [
+        "Java",
+        "Observability"
+      ],
+      "comments": 8,
+      "createdAt": "2024-09-27T13:18:56Z",
+      "updatedAt": "2024-10-09T09:22:46Z",
+      "assignee": null
+    },
+    {
+      "repo": "micrometer-metrics/micrometer",
+      "number": 1700,
+      "title": "Cache metrics for http clients",
+      "url": "https://github.com/micrometer-metrics/micrometer/issues/1700",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "waiting for feedback"
+      ],
+      "stacks": [
+        "Java",
+        "Observability"
+      ],
+      "comments": 2,
+      "createdAt": "2019-11-11T00:28:59Z",
+      "updatedAt": "2024-10-09T04:31:23Z",
+      "assignee": null
+    },
+    {
+      "repo": "spring-projects/spring-data-mongodb",
+      "number": 4103,
+      "title": "Use `TypeScanner` to scan for initial entities",
+      "url": "https://github.com/spring-projects/spring-data-mongodb/issues/4103",
+      "labels": [
+        "status: ideal-for-contribution",
+        "type: enhancement"
+      ],
+      "stacks": [
+        "Java",
+        "Spring",
+        "MongoDB"
+      ],
+      "comments": 0,
+      "createdAt": "2022-07-06T13:09:39Z",
+      "updatedAt": "2024-10-02T13:33:31Z",
+      "assignee": "marcingrzejszczak"
+    },
+    {
+      "repo": "spring-projects/spring-data-mongodb",
+      "number": 4471,
+      "title": "Add support for Compound Wildcard Indexes",
+      "url": "https://github.com/spring-projects/spring-data-mongodb/issues/4471",
+      "labels": [
+        "status: ideal-for-contribution",
+        "type: enhancement"
+      ],
+      "stacks": [
+        "Java",
+        "Spring",
+        "MongoDB"
+      ],
+      "comments": 0,
+      "createdAt": "2023-08-16T04:45:22Z",
+      "updatedAt": "2024-09-13T14:24:39Z",
+      "assignee": "marcingrzejszczak"
+    },
+    {
+      "repo": "micrometer-metrics/micrometer",
+      "number": 5469,
+      "title": "Support Datadog HTTP API v2",
+      "url": "https://github.com/micrometer-metrics/micrometer/issues/5469",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "registry: datadog"
+      ],
+      "stacks": [
+        "Java",
+        "Observability"
+      ],
+      "comments": 7,
+      "createdAt": "2024-09-10T02:08:46Z",
+      "updatedAt": "2024-09-13T00:36:18Z",
+      "assignee": null
+    },
+    {
+      "repo": "micrometer-metrics/micrometer",
+      "number": 5297,
+      "title": "Support for removing metrics registered by CaffeineCacheMetrics",
+      "url": "https://github.com/micrometer-metrics/micrometer/issues/5297",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "module: micrometer-core",
+        "instrumentation"
+      ],
+      "stacks": [
+        "Java",
+        "Observability"
+      ],
+      "comments": 12,
+      "createdAt": "2024-07-10T13:54:59Z",
+      "updatedAt": "2024-07-18T07:13:46Z",
+      "assignee": null
+    },
+    {
+      "repo": "resilience4j/resilience4j",
+      "number": 1679,
+      "title": "ContextPropagator is not adding headers to resilience thread",
+      "url": "https://github.com/resilience4j/resilience4j/issues/1679",
+      "labels": [
+        "help wanted"
+      ],
+      "stacks": [
+        "Java"
+      ],
+      "comments": 8,
+      "createdAt": "2022-05-03T20:17:24Z",
+      "updatedAt": "2024-06-07T13:10:53Z",
+      "assignee": null
+    },
+    {
+      "repo": "resilience4j/resilience4j",
+      "number": 2036,
+      "title": "Exception Thrown creating CircuitBreakerRegistry default bean in version 2.1.0",
+      "url": "https://github.com/resilience4j/resilience4j/issues/2036",
+      "labels": [
+        "help wanted"
+      ],
+      "stacks": [
+        "Java"
+      ],
+      "comments": 9,
+      "createdAt": "2023-10-20T16:14:15Z",
+      "updatedAt": "2023-11-18T14:24:45Z",
+      "assignee": null
+    },
+    {
+      "repo": "testcontainers/testcontainers-java",
+      "number": 3827,
+      "title": "Clickhouse via MySQL protocol",
+      "url": "https://github.com/testcontainers/testcontainers-java/issues/3827",
+      "labels": [
+        "help wanted",
+        "modules/clickhouse"
+      ],
+      "stacks": [
+        "Java",
+        "Testing"
+      ],
+      "comments": 3,
+      "createdAt": "2021-02-22T22:13:49Z",
+      "updatedAt": "2023-10-28T01:49:07Z",
+      "assignee": null
+    },
+    {
+      "repo": "resilience4j/resilience4j",
+      "number": 1996,
+      "title": "@Retry annotation does not work with Micrometer",
+      "url": "https://github.com/resilience4j/resilience4j/issues/1996",
+      "labels": [
+        "help wanted"
+      ],
+      "stacks": [
+        "Java"
+      ],
+      "comments": 13,
+      "createdAt": "2023-07-17T22:24:30Z",
+      "updatedAt": "2023-07-26T20:23:16Z",
+      "assignee": null
+    },
+    {
+      "repo": "resilience4j/resilience4j",
+      "number": 1982,
+      "title": "Question on Circuit Breaker: After calling transitionToOpenState(), it still remains at HALF_OPEN state",
+      "url": "https://github.com/resilience4j/resilience4j/issues/1982",
+      "labels": [
+        "help wanted"
+      ],
+      "stacks": [
+        "Java"
+      ],
+      "comments": 1,
+      "createdAt": "2023-06-27T06:54:23Z",
+      "updatedAt": "2023-07-20T12:52:28Z",
+      "assignee": null
+    },
+    {
+      "repo": "naver/fixture-monkey",
+      "number": 663,
+      "title": "support a third-party library or framework type",
+      "url": "https://github.com/naver/fixture-monkey/issues/663",
+      "labels": [
+        "enhancement",
+        "help wanted"
+      ],
+      "stacks": [
+        "Kotlin",
+        "Java",
+        "Testing"
+      ],
+      "comments": 0,
+      "createdAt": "2023-06-09T06:11:04Z",
+      "updatedAt": "2023-06-13T10:41:11Z",
+      "assignee": null
+    },
+    {
+      "repo": "testcontainers/testcontainers-java",
+      "number": 4,
+      "title": "Support custom Docker images in the JDBC URL",
+      "url": "https://github.com/testcontainers/testcontainers-java/issues/4",
+      "labels": [
+        "help wanted"
+      ],
+      "stacks": [
+        "Java",
+        "Testing"
+      ],
+      "comments": 21,
+      "createdAt": "2015-04-29T23:16:06Z",
+      "updatedAt": "2023-01-31T15:40:23Z",
+      "assignee": null
+    },
+    {
+      "repo": "naver/fixture-monkey",
+      "number": 525,
+      "title": "Add a new module supports datafaker",
+      "url": "https://github.com/naver/fixture-monkey/issues/525",
+      "labels": [
+        "enhancement",
+        "good first issue"
+      ],
+      "stacks": [
+        "Kotlin",
+        "Java",
+        "Testing"
+      ],
+      "comments": 8,
+      "createdAt": "2022-12-12T10:26:10Z",
+      "updatedAt": "2023-01-31T06:47:34Z",
+      "assignee": null
+    },
+    {
+      "repo": "naver/fixture-monkey",
+      "number": 529,
+      "title": "Integration with Mockito",
+      "url": "https://github.com/naver/fixture-monkey/issues/529",
+      "labels": [
+        "help wanted"
+      ],
+      "stacks": [
+        "Kotlin",
+        "Java",
+        "Testing"
+      ],
+      "comments": 0,
+      "createdAt": "2022-12-23T08:48:16Z",
+      "updatedAt": "2022-12-23T08:51:44Z",
+      "assignee": null
+    },
+    {
+      "repo": "testcontainers/testcontainers-java",
+      "number": 1523,
+      "title": "Java 9: Please add Automatic-Module-Name attribute to META-INF/MANIFEST.MF",
+      "url": "https://github.com/testcontainers/testcontainers-java/issues/1523",
+      "labels": [
+        "type/bug",
+        "help wanted",
+        "resolution/acknowledged"
+      ],
+      "stacks": [
+        "Java",
+        "Testing"
+      ],
+      "comments": 10,
+      "createdAt": "2019-06-03T15:50:04Z",
+      "updatedAt": "2022-10-28T15:48:20Z",
+      "assignee": null
+    },
+    {
+      "repo": "testcontainers/testcontainers-java",
+      "number": 1824,
+      "title": "Please move static analysis dependencies in compileOnly scope",
+      "url": "https://github.com/testcontainers/testcontainers-java/issues/1824",
+      "labels": [
+        "help wanted",
+        "resolution/somedaymaybe",
+        "type/feature"
+      ],
+      "stacks": [
+        "Java",
+        "Testing"
+      ],
+      "comments": 6,
+      "createdAt": "2019-09-03T18:49:36Z",
+      "updatedAt": "2022-10-04T11:25:22Z",
+      "assignee": null
+    },
+    {
+      "repo": "micrometer-metrics/micrometer",
+      "number": 575,
+      "title": "Support for appdynamics",
+      "url": "https://github.com/micrometer-metrics/micrometer/issues/575",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "spring-boot change"
+      ],
+      "stacks": [
+        "Java",
+        "Observability"
+      ],
+      "comments": 25,
+      "createdAt": "2018-04-24T06:06:55Z",
+      "updatedAt": "2022-10-04T08:47:31Z",
+      "assignee": null
+    },
+    {
+      "repo": "spring-projects/spring-data-mongodb",
+      "number": 3460,
+      "title": "Make ChangeStreamOptionsBuilder support startAtOperationTime  [DATAMONGO-2607]",
+      "url": "https://github.com/spring-projects/spring-data-mongodb/issues/3460",
+      "labels": [
+        "in: core",
+        "status: ideal-for-contribution",
+        "type: enhancement"
+      ],
+      "stacks": [
+        "Java",
+        "Spring",
+        "MongoDB"
+      ],
+      "comments": 6,
+      "createdAt": "2020-08-10T06:11:40Z",
+      "updatedAt": "2022-06-27T14:00:27Z",
+      "assignee": "christophstrobl"
+    },
+    {
+      "repo": "spring-projects/spring-data-mongodb",
+      "number": 3791,
+      "title": "ComparisonOperators.Lte seems to match undefined/null value in switch caseOperator",
+      "url": "https://github.com/spring-projects/spring-data-mongodb/issues/3791",
+      "labels": [
+        "status: ideal-for-contribution",
+        "type: enhancement"
+      ],
+      "stacks": [
+        "Java",
+        "Spring",
+        "MongoDB"
+      ],
+      "comments": 5,
+      "createdAt": "2021-08-30T10:23:41Z",
+      "updatedAt": "2022-05-25T19:18:34Z",
+      "assignee": "christophstrobl"
+    },
+    {
+      "repo": "resilience4j/resilience4j",
+      "number": 1653,
+      "title": "[Circuit Breaker] resilience4j-spring-boot2 - CallNotPermittedException is thrown three times for a single request",
+      "url": "https://github.com/resilience4j/resilience4j/issues/1653",
+      "labels": [
+        "help wanted"
+      ],
+      "stacks": [
+        "Java"
+      ],
+      "comments": 2,
+      "createdAt": "2022-03-26T12:13:00Z",
+      "updatedAt": "2022-04-27T20:57:17Z",
+      "assignee": null
+    },
+    {
+      "repo": "resilience4j/resilience4j",
+      "number": 1343,
+      "title": "puzzling/impredictable behavior of rate limiter",
+      "url": "https://github.com/resilience4j/resilience4j/issues/1343",
+      "labels": [
+        "help wanted"
+      ],
+      "stacks": [
+        "Java"
+      ],
+      "comments": 0,
+      "createdAt": "2021-02-18T15:53:27Z",
+      "updatedAt": "2022-04-26T07:05:45Z",
+      "assignee": null
+    },
+    {
+      "repo": "testcontainers/testcontainers-java",
+      "number": 1160,
+      "title": "New docs: minimal docs for modules that lack them",
+      "url": "https://github.com/testcontainers/testcontainers-java/issues/1160",
+      "labels": [
+        "help wanted",
+        "type/docs",
+        "resolution/acknowledged"
+      ],
+      "stacks": [
+        "Java",
+        "Testing"
+      ],
+      "comments": 2,
+      "createdAt": "2019-01-19T19:35:00Z",
+      "updatedAt": "2022-02-03T13:40:45Z",
+      "assignee": null
+    },
+    {
+      "repo": "resilience4j/resilience4j",
+      "number": 1379,
+      "title": "JVM running out of threads when I use a Time Limiter (circuit breaker + thread pool bulkhead + time limiter)",
+      "url": "https://github.com/resilience4j/resilience4j/issues/1379",
+      "labels": [
+        "help wanted"
+      ],
+      "stacks": [
+        "Java"
+      ],
+      "comments": 15,
+      "createdAt": "2021-03-19T09:15:53Z",
+      "updatedAt": "2021-12-06T22:29:25Z",
+      "assignee": null
+    },
+    {
+      "repo": "spring-projects/spring-data-mongodb",
+      "number": 3490,
+      "title": "Fields and projection API are very inconvenient [DATAMONGO-2637]",
+      "url": "https://github.com/spring-projects/spring-data-mongodb/issues/3490",
+      "labels": [
+        "type: bug",
+        "in: core",
+        "status: ideal-for-contribution"
+      ],
+      "stacks": [
+        "Java",
+        "Spring",
+        "MongoDB"
+      ],
+      "comments": 3,
+      "createdAt": "2020-10-09T08:03:21Z",
+      "updatedAt": "2021-09-27T23:34:34Z",
+      "assignee": null
+    },
+    {
+      "repo": "resilience4j/resilience4j",
+      "number": 1377,
+      "title": "CircuitBreaker advice taking 2s to execute",
+      "url": "https://github.com/resilience4j/resilience4j/issues/1377",
+      "labels": [
+        "help wanted",
+        "needs investigation"
+      ],
+      "stacks": [
+        "Java"
+      ],
+      "comments": 4,
+      "createdAt": "2021-03-18T17:41:50Z",
+      "updatedAt": "2021-04-09T22:10:23Z",
+      "assignee": null
+    },
+    {
+      "repo": "micrometer-metrics/micrometer",
+      "number": 2058,
+      "title": "elastic - allow specifying index life cycle management policy",
+      "url": "https://github.com/micrometer-metrics/micrometer/issues/2058",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "registry: elastic"
+      ],
+      "stacks": [
+        "Java",
+        "Observability"
+      ],
+      "comments": 5,
+      "createdAt": "2020-05-06T05:28:54Z",
+      "updatedAt": "2021-02-26T23:27:46Z",
+      "assignee": null
+    },
+    {
+      "repo": "testcontainers/testcontainers-java",
+      "number": 2516,
+      "title": "HttpWaitStrategy does not retry to re-validate ResponsePredicate",
+      "url": "https://github.com/testcontainers/testcontainers-java/issues/2516",
+      "labels": [
+        "help wanted",
+        "resolution/acknowledged"
+      ],
+      "stacks": [
+        "Java",
+        "Testing"
+      ],
+      "comments": 4,
+      "createdAt": "2020-04-03T09:23:54Z",
+      "updatedAt": "2021-01-31T19:02:35Z",
+      "assignee": null
+    },
+    {
+      "repo": "testcontainers/testcontainers-java",
+      "number": 307,
+      "title": "Improve error messaging when no docker-machine VM exists",
+      "url": "https://github.com/testcontainers/testcontainers-java/issues/307",
+      "labels": [
+        "help wanted",
+        "resolution/somedaymaybe",
+        "client/docker-machine",
+        "type/feature",
+        "resolution/acknowledged"
+      ],
+      "stacks": [
+        "Java",
+        "Testing"
+      ],
+      "comments": 3,
+      "createdAt": "2017-03-03T23:05:02Z",
+      "updatedAt": "2020-09-15T10:11:20Z",
+      "assignee": null
+    },
+    {
+      "repo": "testcontainers/testcontainers-java",
+      "number": 1158,
+      "title": "New docs: Convert inline example code to use codeinclude macro",
+      "url": "https://github.com/testcontainers/testcontainers-java/issues/1158",
+      "labels": [
+        "help wanted",
+        "type/docs",
+        "resolution/acknowledged"
+      ],
+      "stacks": [
+        "Java",
+        "Testing"
+      ],
+      "comments": 2,
+      "createdAt": "2019-01-19T19:29:09Z",
+      "updatedAt": "2020-07-27T14:29:20Z",
+      "assignee": null
+    },
+    {
+      "repo": "micrometer-metrics/micrometer",
+      "number": 1784,
+      "title": "micrometer cloudwatch should publish StatisticSet when any aggregations are done client side.",
+      "url": "https://github.com/micrometer-metrics/micrometer/issues/1784",
+      "labels": [
+        "enhancement",
+        "help wanted",
+        "registry: cloudwatch"
+      ],
+      "stacks": [
+        "Java",
+        "Observability"
+      ],
+      "comments": 3,
+      "createdAt": "2020-01-10T14:11:11Z",
+      "updatedAt": "2020-04-29T10:52:59Z",
+      "assignee": null
+    },
+    {
+      "repo": "testcontainers/testcontainers-java",
+      "number": 1157,
+      "title": "New docs: Startup strategy information/examples",
+      "url": "https://github.com/testcontainers/testcontainers-java/issues/1157",
+      "labels": [
+        "help wanted",
+        "type/docs"
+      ],
+      "stacks": [
+        "Java",
+        "Testing"
+      ],
+      "comments": 5,
+      "createdAt": "2019-01-19T17:09:17Z",
+      "updatedAt": "2020-04-09T12:51:45Z",
+      "assignee": null
+    },
+    {
+      "repo": "testcontainers/testcontainers-java",
+      "number": 1156,
+      "title": "New docs: Improve database container usage examples",
+      "url": "https://github.com/testcontainers/testcontainers-java/issues/1156",
+      "labels": [
+        "help wanted",
+        "type/docs"
+      ],
+      "stacks": [
+        "Java",
+        "Testing"
+      ],
+      "comments": 4,
+      "createdAt": "2019-01-19T17:07:33Z",
+      "updatedAt": "2019-08-03T08:20:09Z",
+      "assignee": null
+    },
+    {
+      "repo": "testcontainers/testcontainers-java",
+      "number": 1164,
+      "title": "New docs: document use of APIs for copying files to/from containers",
+      "url": "https://github.com/testcontainers/testcontainers-java/issues/1164",
+      "labels": [
+        "help wanted",
+        "type/docs",
+        "resolution/acknowledged"
+      ],
+      "stacks": [
+        "Java",
+        "Testing"
+      ],
+      "comments": 1,
+      "createdAt": "2019-01-20T10:57:11Z",
+      "updatedAt": "2019-04-20T11:14:15Z",
+      "assignee": null
+    },
+    {
+      "repo": "testcontainers/testcontainers-java",
+      "number": 239,
+      "title": "Docker Compose support doesn't see local Docker images",
+      "url": "https://github.com/testcontainers/testcontainers-java/issues/239",
+      "labels": [
+        "help wanted",
+        "resolution/acknowledged"
+      ],
+      "stacks": [
+        "Java",
+        "Testing"
+      ],
+      "comments": 6,
+      "createdAt": "2016-10-27T20:23:43Z",
+      "updatedAt": "2018-10-28T07:15:49Z",
+      "assignee": null
+    }
+  ]
+}
