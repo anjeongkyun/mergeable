@@ -19,7 +19,9 @@ const gql = graphql.defaults({ headers: { authorization: `token ${token}` } });
 
 // 마지막 활동(updatedAt)이 이보다 오래된 이슈는 제외 — 방치·stale·이미 처리됐을 가능성.
 // createdAt이 아니라 updatedAt 기준(오래 전 생성돼도 최근 활동하면 유효).
-const MAX_STALE_DAYS = 365;
+// 180d = 업계 스테일봇 기준(무활동 60~90d)의 2~3배 여유. updatedAt은 언급·구독·일괄재라벨에
+// 오염돼 실제보다 신선하게 보일 수 있어(예: yugabyte 이슈 다수가 일괄터치로 ~189d로 튐) 여유를 둠.
+const MAX_STALE_DAYS = 180;
 
 const LABEL_RE = /good.?first.?issue|ideal.for.contribution|help.?wanted|first.?timers|contribution.?welcome/i;
 
