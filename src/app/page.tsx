@@ -35,6 +35,7 @@ export default function Home() {
   const [q, setQ] = useState("");
   const [sort, setSort] = useState<Sort>("score");
   const [onlyMaintainer, setOnlyMaintainer] = useState(false);
+  const [hideAssigned, setHideAssigned] = useState(true);
   const [pinned, setPinned] = useState<string[]>([]);
 
   useEffect(() => {
@@ -77,6 +78,7 @@ export default function Home() {
     if (repo) list = list.filter((i) => i.repo === repo);
     if (tier) list = list.filter((i) => i.tier === tier);
     if (onlyMaintainer) list = list.filter((i) => i.byMaintainer);
+    if (hideAssigned) list = list.filter((i) => !i.assignee);
     if (q.trim()) {
       const t = q.trim().toLowerCase();
       list = list.filter(
@@ -95,7 +97,7 @@ export default function Home() {
       const pb = pinned.includes(keyOf(b)) ? 1 : 0;
       return pb - pa || cmp(a, b);
     });
-  }, [data, stack, repo, tier, onlyMaintainer, q, sort, pinned]);
+  }, [data, stack, repo, tier, onlyMaintainer, hideAssigned, q, sort, pinned]);
 
   const pinnedCount = useMemo(
     () => issues.filter((i) => pinned.includes(keyOf(i))).length,
@@ -167,6 +169,16 @@ export default function Home() {
               <option value="medium">보통</option>
               <option value="low">낮음</option>
             </select>
+            <button
+              onClick={() => setHideAssigned((v) => !v)}
+              className={`text-sm px-3 py-1.5 rounded-md border transition-colors ${
+                hideAssigned
+                  ? "border-indigo-600 text-indigo-600 bg-indigo-50"
+                  : "border-gray-200 text-gray-600 hover:text-gray-900"
+              }`}
+            >
+              미배정만
+            </button>
             <button
               onClick={() => setOnlyMaintainer((v) => !v)}
               className={`text-sm px-3 py-1.5 rounded-md border transition-colors ${
@@ -277,6 +289,11 @@ function IssueCard({
                 머지된 PR 있음(해결됐을 수 있음)
               </span>
             )}
+            {issue.assignee && (
+              <span className="px-1.5 py-0.5 rounded border text-[11px] bg-rose-50 text-rose-600 border-rose-200">
+                배정됨 · {issue.assignee}
+              </span>
+            )}
           </div>
           <a
             href={issue.url}
@@ -301,7 +318,6 @@ function IssueCard({
           <div className="mt-2 flex items-center gap-3 text-xs text-gray-400">
             <span>댓글 {issue.comments}</span>
             <span>{timeAgo(issue.updatedAt)} 갱신</span>
-            {issue.assignee && <span>담당 {issue.assignee}</span>}
           </div>
         </div>
       </div>
