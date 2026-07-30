@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-29T10:57:19.798Z",
+  "generatedAt": "2026-07-30T07:50:45.645Z",
   "repoCount": 57,
-  "issueCount": 246,
+  "issueCount": 110,
   "issues": [
     {
       "repo": "yugabyte/yugabyte-db",
@@ -26,6 +26,7 @@
       "author": "Huqicheng",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 8,
       "tier": "high"
     },
@@ -52,6 +53,7 @@
       "author": "SrivastavaAnubhav",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 8,
       "tier": "high"
     },
@@ -77,6 +79,7 @@
       "author": "krichter722",
       "authorAssociation": "NONE",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 3,
       "tier": "medium"
     },
@@ -103,6 +106,7 @@
       "author": "m-iancu",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 8,
       "tier": "high"
     },
@@ -125,6 +129,7 @@
       "author": "samuelfangjw",
       "authorAssociation": "MEMBER",
       "byMaintainer": true,
+      "hasMergedLinkedPR": true,
       "score": 7,
       "tier": "high"
     },
@@ -147,6 +152,7 @@
       "author": "TobyCyan",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": true,
       "score": 6,
       "tier": "high"
     },
@@ -170,6 +176,7 @@
       "author": "authorjapps",
       "authorAssociation": "OWNER",
       "byMaintainer": true,
+      "hasMergedLinkedPR": false,
       "score": 9,
       "tier": "high"
     },
@@ -193,6 +200,7 @@
       "author": "steghio",
       "authorAssociation": "NONE",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 8,
       "tier": "high"
     },
@@ -216,6 +224,7 @@
       "author": "olegz",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 7,
       "tier": "high"
     },
@@ -243,6 +252,7 @@
       "author": "Huqicheng",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 10,
       "tier": "high"
     },
@@ -266,6 +276,7 @@
       "author": "trustin",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 6,
       "tier": "high"
     },
@@ -292,6 +303,7 @@
       "author": "pao214",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 8,
       "tier": "high"
     },
@@ -318,6 +330,7 @@
       "author": "basavaraj29",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 8,
       "tier": "high"
     },
@@ -344,6 +357,7 @@
       "author": "bsideup",
       "authorAssociation": "MEMBER",
       "byMaintainer": true,
+      "hasMergedLinkedPR": false,
       "score": 10,
       "tier": "high"
     },
@@ -368,6 +382,7 @@
       "author": "rolandgroen",
       "authorAssociation": "NONE",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 5,
       "tier": "high"
     },
@@ -391,30 +406,8 @@
       "author": "shakuzen",
       "authorAssociation": "MEMBER",
       "byMaintainer": true,
+      "hasMergedLinkedPR": false,
       "score": 6,
-      "tier": "high"
-    },
-    {
-      "repo": "micrometer-metrics/micrometer",
-      "number": 4982,
-      "title": "Remove duplicated Spring Boot configuration properties documentation",
-      "url": "https://github.com/micrometer-metrics/micrometer/issues/4982",
-      "labels": [
-        "help wanted",
-        "doc-update"
-      ],
-      "stacks": [
-        "Java",
-        "Observability"
-      ],
-      "comments": 0,
-      "createdAt": "2024-04-22T09:19:42Z",
-      "updatedAt": "2026-06-26T18:18:21Z",
-      "assignee": null,
-      "author": "shakuzen",
-      "authorAssociation": "MEMBER",
-      "byMaintainer": true,
-      "score": 7,
       "tier": "high"
     },
     {
@@ -441,6 +434,7 @@
       "author": "mdbridge",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": true,
       "score": 6,
       "tier": "high"
     },
@@ -468,8 +462,37 @@
       "author": "fritshoogland-yugabyte",
       "authorAssociation": "NONE",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 7,
       "tier": "high"
+    },
+    {
+      "repo": "elastic/elasticsearch",
+      "number": 4227,
+      "title": "Consistency between `_search` and `_msearch`",
+      "url": "https://github.com/elastic/elasticsearch/issues/4227",
+      "labels": [
+        ">bug",
+        "good first issue",
+        "help wanted",
+        "priority:normal",
+        "Team:Search Foundations",
+        ":Search Foundations/Search"
+      ],
+      "stacks": [
+        "Java",
+        "Search"
+      ],
+      "comments": 42,
+      "createdAt": "2013-11-21T17:33:06Z",
+      "updatedAt": "2026-06-17T20:22:07Z",
+      "assignee": null,
+      "author": "ofavre",
+      "authorAssociation": "NONE",
+      "byMaintainer": false,
+      "hasMergedLinkedPR": true,
+      "score": 4,
+      "tier": "medium"
     },
     {
       "repo": "yugabyte/yugabyte-db",
@@ -494,6 +517,7 @@
       "author": "shamanthchandra-yb",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 6,
       "tier": "high"
     },
@@ -521,6 +545,7 @@
       "author": "yugabyte-ci",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 6,
       "tier": "high"
     },
@@ -545,6 +570,7 @@
       "author": "aniketkatkar97",
       "authorAssociation": "MEMBER",
       "byMaintainer": true,
+      "hasMergedLinkedPR": false,
       "score": 6,
       "tier": "high"
     },
@@ -568,6 +594,7 @@
       "author": "ebyhr",
       "authorAssociation": "MEMBER",
       "byMaintainer": true,
+      "hasMergedLinkedPR": false,
       "score": 7,
       "tier": "high"
     },
@@ -592,8 +619,38 @@
       "author": "findepi",
       "authorAssociation": "MEMBER",
       "byMaintainer": true,
+      "hasMergedLinkedPR": false,
       "score": 7,
       "tier": "high"
+    },
+    {
+      "repo": "junit-team/junit5",
+      "number": 938,
+      "title": "Document which classes support inheritance and which do not",
+      "url": "https://github.com/junit-team/junit-framework/issues/938",
+      "labels": [
+        "type: enhancement",
+        "up-for-grabs",
+        "theme: programming model",
+        "theme: documentation",
+        "component: Jupiter",
+        "component: Platform",
+        "component: Vintage"
+      ],
+      "stacks": [
+        "Java",
+        "Testing"
+      ],
+      "comments": 14,
+      "createdAt": "2017-07-11T11:45:53Z",
+      "updatedAt": "2026-06-08T10:31:30Z",
+      "assignee": "swatichauhan814",
+      "author": "jbduncan",
+      "authorAssociation": "CONTRIBUTOR",
+      "byMaintainer": false,
+      "hasMergedLinkedPR": true,
+      "score": -1,
+      "tier": "low"
     },
     {
       "repo": "yugabyte/yugabyte-db",
@@ -618,6 +675,7 @@
       "author": "mbautin",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 6,
       "tier": "high"
     },
@@ -641,6 +699,7 @@
       "author": "alec-heif",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 5,
       "tier": "high"
     },
@@ -665,6 +724,7 @@
       "author": "ebyhr",
       "authorAssociation": "MEMBER",
       "byMaintainer": true,
+      "hasMergedLinkedPR": true,
       "score": 7,
       "tier": "high"
     },
@@ -686,6 +746,7 @@
       "author": "murmur76",
       "authorAssociation": "NONE",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 4,
       "tier": "medium"
     },
@@ -709,6 +770,7 @@
       "author": "ebyhr",
       "authorAssociation": "MEMBER",
       "byMaintainer": true,
+      "hasMergedLinkedPR": true,
       "score": 7,
       "tier": "high"
     },
@@ -733,6 +795,7 @@
       "author": "findepi",
       "authorAssociation": "MEMBER",
       "byMaintainer": true,
+      "hasMergedLinkedPR": false,
       "score": 7,
       "tier": "high"
     },
@@ -761,6 +824,7 @@
       "author": "yugabyte-ci",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 6,
       "tier": "high"
     },
@@ -789,6 +853,7 @@
       "author": "fritshoogland-yugabyte",
       "authorAssociation": "NONE",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 7,
       "tier": "high"
     },
@@ -815,6 +880,7 @@
       "author": "edudar",
       "authorAssociation": "NONE",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 0,
       "tier": "low"
     },
@@ -839,6 +905,7 @@
       "author": "shakuzen",
       "authorAssociation": "MEMBER",
       "byMaintainer": true,
+      "hasMergedLinkedPR": false,
       "score": 5,
       "tier": "high"
     },
@@ -865,6 +932,7 @@
       "author": "mbautin",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 6,
       "tier": "high"
     },
@@ -891,6 +959,7 @@
       "author": "hari90",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 6,
       "tier": "high"
     },
@@ -917,6 +986,7 @@
       "author": "iSignal",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 6,
       "tier": "high"
     },
@@ -943,6 +1013,7 @@
       "author": "pao214",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 6,
       "tier": "high"
     },
@@ -971,6 +1042,7 @@
       "author": "rthallamko3",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 5,
       "tier": "high"
     },
@@ -997,6 +1069,7 @@
       "author": "iSignal",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 6,
       "tier": "high"
     },
@@ -1021,6 +1094,7 @@
       "author": "aelfric",
       "authorAssociation": "NONE",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 5,
       "tier": "high"
     },
@@ -1047,6 +1121,7 @@
       "author": "mbautin",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 6,
       "tier": "high"
     },
@@ -1073,6 +1148,7 @@
       "author": "amitanandaiyer",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 6,
       "tier": "high"
     },
@@ -1099,6 +1175,7 @@
       "author": "mbautin",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 6,
       "tier": "high"
     },
@@ -1125,6 +1202,7 @@
       "author": "teabbs",
       "authorAssociation": "NONE",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 2,
       "tier": "medium"
     },
@@ -1150,6 +1228,7 @@
       "author": "ganeshbabugb",
       "authorAssociation": "NONE",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 4,
       "tier": "medium"
     },
@@ -1173,8 +1252,35 @@
       "author": "PubChimps",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 5,
       "tier": "high"
+    },
+    {
+      "repo": "elastic/elasticsearch",
+      "number": 136533,
+      "title": "ESQL should support a humanize option to quickly render values in human readable way.",
+      "url": "https://github.com/elastic/elasticsearch/issues/136533",
+      "labels": [
+        ">enhancement",
+        "good first issue",
+        "Team:Analytics",
+        ":Analytics/ES|QL"
+      ],
+      "stacks": [
+        "Java",
+        "Search"
+      ],
+      "comments": 17,
+      "createdAt": "2025-10-14T08:29:51Z",
+      "updatedAt": "2026-04-13T19:01:56Z",
+      "assignee": null,
+      "author": "philippkahr",
+      "authorAssociation": "CONTRIBUTOR",
+      "byMaintainer": false,
+      "hasMergedLinkedPR": false,
+      "score": 2,
+      "tier": "medium"
     },
     {
       "repo": "trinodb/trino",
@@ -1197,6 +1303,7 @@
       "author": "ebyhr",
       "authorAssociation": "MEMBER",
       "byMaintainer": true,
+      "hasMergedLinkedPR": false,
       "score": 7,
       "tier": "high"
     },
@@ -1221,6 +1328,7 @@
       "author": "florentm35",
       "authorAssociation": "NONE",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 3,
       "tier": "medium"
     },
@@ -1245,6 +1353,7 @@
       "author": "florentm35",
       "authorAssociation": "NONE",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 5,
       "tier": "high"
     },
@@ -1271,8 +1380,35 @@
       "author": "pao214",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 5,
       "tier": "high"
+    },
+    {
+      "repo": "elastic/elasticsearch",
+      "number": 46641,
+      "title": "Feature Request - query/fetch/scroll failure count stats",
+      "url": "https://github.com/elastic/elasticsearch/issues/46641",
+      "labels": [
+        ">feature",
+        "good first issue",
+        ":Core/Infra/Stats",
+        "Team:Core/Infra"
+      ],
+      "stacks": [
+        "Java",
+        "Search"
+      ],
+      "comments": 15,
+      "createdAt": "2019-09-11T23:46:38Z",
+      "updatedAt": "2026-03-28T08:55:21Z",
+      "assignee": null,
+      "author": "malpani",
+      "authorAssociation": "CONTRIBUTOR",
+      "byMaintainer": false,
+      "hasMergedLinkedPR": false,
+      "score": 1,
+      "tier": "low"
     },
     {
       "repo": "yugabyte/yugabyte-db",
@@ -1297,6 +1433,7 @@
       "author": "hari90",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 3,
       "tier": "medium"
     },
@@ -1323,6 +1460,7 @@
       "author": "mbautin",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 5,
       "tier": "high"
     },
@@ -1349,6 +1487,7 @@
       "author": "pao214",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 5,
       "tier": "high"
     },
@@ -1376,6 +1515,7 @@
       "author": "pao214",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 5,
       "tier": "high"
     },
@@ -1403,6 +1543,7 @@
       "author": "pao214",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 5,
       "tier": "high"
     },
@@ -1429,6 +1570,7 @@
       "author": "dhruva4869",
       "authorAssociation": "NONE",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 5,
       "tier": "high"
     },
@@ -1457,6 +1599,7 @@
       "author": "iSignal",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 5,
       "tier": "high"
     },
@@ -1482,6 +1625,7 @@
       "author": "bdeneuter",
       "authorAssociation": "NONE",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 3,
       "tier": "medium"
     },
@@ -1508,6 +1652,7 @@
       "author": "dhruva4869",
       "authorAssociation": "NONE",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 4,
       "tier": "medium"
     },
@@ -1534,6 +1679,7 @@
       "author": "amunra",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": true,
       "score": 3,
       "tier": "medium"
     },
@@ -1558,6 +1704,7 @@
       "author": "pszymczyk",
       "authorAssociation": "NONE",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 2,
       "tier": "medium"
     },
@@ -1582,6 +1729,7 @@
       "author": "rafal-dudek",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 2,
       "tier": "medium"
     },
@@ -1607,6 +1755,7 @@
       "author": "jonatan-ivanov",
       "authorAssociation": "MEMBER",
       "byMaintainer": true,
+      "hasMergedLinkedPR": true,
       "score": 5,
       "tier": "high"
     },
@@ -1633,6 +1782,7 @@
       "author": "mbautin",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 4,
       "tier": "medium"
     },
@@ -1661,6 +1811,7 @@
       "author": "bmatican",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 7,
       "tier": "high"
     },
@@ -1687,6 +1838,7 @@
       "author": "amitanandaiyer",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 3,
       "tier": "medium"
     },
@@ -1712,6 +1864,7 @@
       "author": "huuhait",
       "authorAssociation": "NONE",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 4,
       "tier": "medium"
     },
@@ -1737,6 +1890,7 @@
       "author": "findepi",
       "authorAssociation": "MEMBER",
       "byMaintainer": true,
+      "hasMergedLinkedPR": false,
       "score": 6,
       "tier": "high"
     },
@@ -1763,6 +1917,7 @@
       "author": "bllewell",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 4,
       "tier": "medium"
     },
@@ -1789,6 +1944,7 @@
       "author": "rkarthik007",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": true,
       "score": 2,
       "tier": "medium"
     },
@@ -1816,6 +1972,7 @@
       "author": "bmatican",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 6,
       "tier": "high"
     },
@@ -1843,6 +2000,7 @@
       "author": "anmalysh-yb",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 7,
       "tier": "high"
     },
@@ -1869,6 +2027,7 @@
       "author": "ndeodhar",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 3,
       "tier": "medium"
     },
@@ -1896,6 +2055,7 @@
       "author": "robertsami",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": true,
       "score": 6,
       "tier": "high"
     },
@@ -1924,6 +2084,7 @@
       "author": "bmatican",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 7,
       "tier": "high"
     },
@@ -1951,6 +2112,7 @@
       "author": "bmatican",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 6,
       "tier": "high"
     },
@@ -1978,6 +2140,7 @@
       "author": "ddorian",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 5,
       "tier": "high"
     },
@@ -2003,6 +2166,7 @@
       "author": "rwinch",
       "authorAssociation": "MEMBER",
       "byMaintainer": true,
+      "hasMergedLinkedPR": true,
       "score": 7,
       "tier": "high"
     },
@@ -2027,6 +2191,7 @@
       "author": "kusaeva",
       "authorAssociation": "NONE",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 2,
       "tier": "medium"
     },
@@ -2051,6 +2216,7 @@
       "author": "redguy666",
       "authorAssociation": "NONE",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 2,
       "tier": "medium"
     },
@@ -2074,6 +2240,7 @@
       "author": "poznachowski",
       "authorAssociation": "NONE",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 3,
       "tier": "medium"
     },
@@ -2098,6 +2265,7 @@
       "author": "AleksanderBrzozowski",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 3,
       "tier": "medium"
     },
@@ -2122,6 +2290,7 @@
       "author": "leniartek",
       "authorAssociation": "NONE",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 4,
       "tier": "medium"
     },
@@ -2145,6 +2314,7 @@
       "author": "tooptoop4",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 4,
       "tier": "medium"
     },
@@ -2169,6 +2339,7 @@
       "author": "AbhishekNew",
       "authorAssociation": "NONE",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 4,
       "tier": "medium"
     },
@@ -2192,6 +2363,7 @@
       "author": "findepi",
       "authorAssociation": "MEMBER",
       "byMaintainer": true,
+      "hasMergedLinkedPR": true,
       "score": 6,
       "tier": "high"
     },
@@ -2215,6 +2387,7 @@
       "author": "pangyifish",
       "authorAssociation": "NONE",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 3,
       "tier": "medium"
     },
@@ -2238,6 +2411,7 @@
       "author": "martint",
       "authorAssociation": "MEMBER",
       "byMaintainer": true,
+      "hasMergedLinkedPR": false,
       "score": 6,
       "tier": "high"
     },
@@ -2261,6 +2435,7 @@
       "author": "wgzhao",
       "authorAssociation": "MEMBER",
       "byMaintainer": true,
+      "hasMergedLinkedPR": false,
       "score": 6,
       "tier": "high"
     },
@@ -2284,6 +2459,7 @@
       "author": "mjlshen",
       "authorAssociation": "NONE",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 4,
       "tier": "medium"
     },
@@ -2310,6 +2486,7 @@
       "author": "bsmth",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 3,
       "tier": "medium"
     },
@@ -2335,6 +2512,7 @@
       "author": "bluestreak01",
       "authorAssociation": "MEMBER",
       "byMaintainer": true,
+      "hasMergedLinkedPR": false,
       "score": 8,
       "tier": "high"
     },
@@ -2361,6 +2539,7 @@
       "author": "gigi",
       "authorAssociation": "NONE",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": -3,
       "tier": "low"
     },
@@ -2384,6 +2563,7 @@
       "author": "findepi",
       "authorAssociation": "MEMBER",
       "byMaintainer": true,
+      "hasMergedLinkedPR": true,
       "score": 6,
       "tier": "high"
     },
@@ -2408,6 +2588,7 @@
       "author": "kokosing",
       "authorAssociation": "MEMBER",
       "byMaintainer": true,
+      "hasMergedLinkedPR": true,
       "score": 3,
       "tier": "medium"
     },
@@ -2432,6 +2613,7 @@
       "author": "frjonsen",
       "authorAssociation": "NONE",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 1,
       "tier": "low"
     },
@@ -2460,6 +2642,7 @@
       "author": "nwoolmer",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": true,
       "score": 3,
       "tier": "medium"
     },
@@ -2485,6 +2668,7 @@
       "author": "bziobrowski",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": true,
       "score": 1,
       "tier": "low"
     },
@@ -2509,6 +2693,7 @@
       "author": "ebyhr",
       "authorAssociation": "MEMBER",
       "byMaintainer": true,
+      "hasMergedLinkedPR": false,
       "score": 5,
       "tier": "high"
     },
@@ -2532,6 +2717,7 @@
       "author": "jonenst",
       "authorAssociation": "NONE",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 5,
       "tier": "high"
     },
@@ -2559,6 +2745,7 @@
       "author": "jasonyb",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 4,
       "tier": "medium"
     },
@@ -2584,6 +2771,7 @@
       "author": "pswu11",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": true,
       "score": 4,
       "tier": "medium"
     },
@@ -2610,6 +2798,7 @@
       "author": "puzpuzpuz",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 4,
       "tier": "medium"
     },
@@ -2636,6 +2825,7 @@
       "author": "FranckPachot",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 3,
       "tier": "medium"
     },
@@ -2660,6 +2850,7 @@
       "author": "ebyhr",
       "authorAssociation": "MEMBER",
       "byMaintainer": true,
+      "hasMergedLinkedPR": false,
       "score": 6,
       "tier": "high"
     },
@@ -2686,3359 +2877,8 @@
       "author": "jasonyb",
       "authorAssociation": "CONTRIBUTOR",
       "byMaintainer": false,
+      "hasMergedLinkedPR": false,
       "score": 4,
-      "tier": "medium"
-    },
-    {
-      "repo": "netty/netty",
-      "number": 2646,
-      "title": "Support HTTP Caching",
-      "url": "https://github.com/netty/netty/issues/2646",
-      "labels": [
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "Networking"
-      ],
-      "comments": 7,
-      "createdAt": "2014-07-08T20:16:18Z",
-      "updatedAt": "2025-07-10T03:30:47Z",
-      "assignee": null,
-      "author": "cskinfill",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 0,
-      "tier": "low"
-    },
-    {
-      "repo": "authorjapps/zerocode",
-      "number": 703,
-      "title": "Integrate LLM or GPT for test scenario description",
-      "url": "https://github.com/authorjapps/zerocode/issues/703",
-      "labels": [
-        "good first issue",
-        "LLM",
-        "GPT",
-        "LANGCHAIN"
-      ],
-      "stacks": [
-        "Java",
-        "Testing",
-        "Kafka"
-      ],
-      "comments": 5,
-      "createdAt": "2025-03-19T20:40:07Z",
-      "updatedAt": "2025-07-04T22:28:46Z",
-      "assignee": null,
-      "author": "mailtoach79",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "authorjapps/zerocode",
-      "number": 420,
-      "title": "[Doc][Wiki]Assertion for various data types",
-      "url": "https://github.com/authorjapps/zerocode/issues/420",
-      "labels": [
-        "good first issue",
-        "documentation"
-      ],
-      "stacks": [
-        "Java",
-        "Testing",
-        "Kafka"
-      ],
-      "comments": 21,
-      "createdAt": "2020-08-05T09:39:26Z",
-      "updatedAt": "2025-06-18T06:32:51Z",
-      "assignee": "mrimland",
-      "author": "authorjapps",
-      "authorAssociation": "OWNER",
-      "byMaintainer": true,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "naver/fixture-monkey",
-      "number": 1190,
-      "title": "Add Cursor Rule for Fixture Monkey Test Writing Guidelines",
-      "url": "https://github.com/naver/fixture-monkey/issues/1190",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "documentation"
-      ],
-      "stacks": [
-        "Kotlin",
-        "Java",
-        "Testing"
-      ],
-      "comments": 6,
-      "createdAt": "2025-05-29T04:18:58Z",
-      "updatedAt": "2025-06-08T03:16:04Z",
-      "assignee": null,
-      "author": "seongahjo",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "yugabyte/yugabyte-db",
-      "number": 27022,
-      "title": "[YSQL] Rename YB type/variable/function names with yb prefix",
-      "url": "https://github.com/yugabyte/yugabyte-db/issues/27022",
-      "labels": [
-        "help wanted",
-        "area/ysql",
-        "status/awaiting-triage"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Database"
-      ],
-      "comments": 0,
-      "createdAt": "2025-05-01T21:12:55Z",
-      "updatedAt": "2025-05-01T21:19:52Z",
-      "assignee": null,
-      "author": "jasonyb",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "trinodb/trino",
-      "number": 22042,
-      "title": "Refactor `testTimestampCoercion*` in Delta Lake connector",
-      "url": "https://github.com/trinodb/trino/issues/22042",
-      "labels": [
-        "good first issue",
-        "delta-lake"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Distributed"
-      ],
-      "comments": 2,
-      "createdAt": "2024-05-21T02:43:26Z",
-      "updatedAt": "2025-04-26T01:17:42Z",
-      "assignee": "danpro1011",
-      "author": "ebyhr",
-      "authorAssociation": "MEMBER",
-      "byMaintainer": true,
-      "score": 4,
-      "tier": "medium"
-    },
-    {
-      "repo": "spring-cloud/spring-cloud-gateway",
-      "number": 2932,
-      "title": "Provide an easy method to disable all secure-headers",
-      "url": "https://github.com/spring-cloud/spring-cloud-gateway/issues/2932",
-      "labels": [
-        "enhancement",
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Gateway"
-      ],
-      "comments": 1,
-      "createdAt": "2023-04-20T12:47:37Z",
-      "updatedAt": "2025-04-21T17:25:12Z",
-      "assignee": null,
-      "author": "abelsromero",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "spring-projects/spring-data-redis",
-      "number": 3110,
-      "title": "Add support for Redis-native JSON operations",
-      "url": "https://github.com/spring-projects/spring-data-redis/issues/3110",
-      "labels": [
-        "status: ideal-for-contribution",
-        "type: enhancement"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Redis"
-      ],
-      "comments": 4,
-      "createdAt": "2025-02-20T08:22:24Z",
-      "updatedAt": "2025-02-24T12:13:46Z",
-      "assignee": "tishun",
-      "author": "samigeorgiev",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "grpc/grpc-java",
-      "number": 8949,
-      "title": "Add support for HAProxy Protocol (\"proxy protocol\")",
-      "url": "https://github.com/grpc/grpc-java/issues/8949",
-      "labels": [
-        "enhancement",
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "gRPC"
-      ],
-      "comments": 12,
-      "createdAt": "2022-02-28T04:35:57Z",
-      "updatedAt": "2025-02-10T10:27:50Z",
-      "assignee": null,
-      "author": "madanrajhari",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 0,
-      "tier": "low"
-    },
-    {
-      "repo": "trinodb/trino",
-      "number": 1723,
-      "title": "Timeout mechanism for file listing",
-      "url": "https://github.com/trinodb/trino/issues/1723",
-      "labels": [
-        "enhancement",
-        "good first issue"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Distributed"
-      ],
-      "comments": 4,
-      "createdAt": "2019-10-11T06:33:41Z",
-      "updatedAt": "2025-01-24T06:24:37Z",
-      "assignee": null,
-      "author": "hustnn",
-      "authorAssociation": "MEMBER",
-      "byMaintainer": true,
-      "score": 4,
-      "tier": "medium"
-    },
-    {
-      "repo": "authorjapps/zerocode",
-      "number": 148,
-      "title": "[TECH-DEBT] - Handle multivalue support for www urlencoded header",
-      "url": "https://github.com/authorjapps/zerocode/issues/148",
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "good first issue"
-      ],
-      "stacks": [
-        "Java",
-        "Testing",
-        "Kafka"
-      ],
-      "comments": 13,
-      "createdAt": "2018-11-02T11:13:24Z",
-      "updatedAt": "2024-12-30T18:52:18Z",
-      "assignee": null,
-      "author": "authorjapps",
-      "authorAssociation": "OWNER",
-      "byMaintainer": true,
-      "score": 3,
-      "tier": "medium"
-    },
-    {
-      "repo": "micrometer-metrics/micrometer",
-      "number": 3911,
-      "title": "Datadog Direct to Datadog API Approach",
-      "url": "https://github.com/micrometer-metrics/micrometer/issues/3911",
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "registry: datadog"
-      ],
-      "stacks": [
-        "Java",
-        "Observability"
-      ],
-      "comments": 2,
-      "createdAt": "2023-06-15T21:19:55Z",
-      "updatedAt": "2024-12-23T08:07:46Z",
-      "assignee": null,
-      "author": "paulohenriqu",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "spring-cloud/spring-cloud-gateway",
-      "number": 2474,
-      "title": "spring-cloud-gateway grpc supports H2C",
-      "url": "https://github.com/spring-cloud/spring-cloud-gateway/issues/2474",
-      "labels": [
-        "enhancement",
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Gateway"
-      ],
-      "comments": 8,
-      "createdAt": "2021-12-27T11:01:50Z",
-      "updatedAt": "2024-12-04T01:33:43Z",
-      "assignee": null,
-      "author": "jianmo1997",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 0,
-      "tier": "low"
-    },
-    {
-      "repo": "langchain4j/langchain4j",
-      "number": 1846,
-      "title": "[FEATURE] add vpce bedrock capabilities",
-      "url": "https://github.com/langchain4j/langchain4j/issues/1846",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "P2",
-        "P3",
-        "AWS Bedrock"
-      ],
-      "stacks": [
-        "Java",
-        "LLM"
-      ],
-      "comments": 5,
-      "createdAt": "2024-09-27T10:20:42Z",
-      "updatedAt": "2024-11-27T10:11:37Z",
-      "assignee": "rndtavares",
-      "author": "troimaclure",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "resilience4j/resilience4j",
-      "number": 1546,
-      "title": "Memory leak when Circuit Breaker is being opened in reactive WebClient",
-      "url": "https://github.com/resilience4j/resilience4j/issues/1546",
-      "labels": [
-        "help wanted"
-      ],
-      "stacks": [
-        "Java"
-      ],
-      "comments": 6,
-      "createdAt": "2021-09-25T15:15:12Z",
-      "updatedAt": "2024-11-07T20:35:09Z",
-      "assignee": null,
-      "author": "ssalamov",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 0,
-      "tier": "low"
-    },
-    {
-      "repo": "sirixdb/sirix",
-      "number": 609,
-      "title": "Fix performance issue in CoroutineDescendantAxis",
-      "url": "https://github.com/sirixdb/sirix/issues/609",
-      "labels": [
-        "good first issue",
-        "help wanted",
-        "Hacktoberfest"
-      ],
-      "stacks": [
-        "Kotlin",
-        "NoSQL",
-        "Database"
-      ],
-      "comments": 7,
-      "createdAt": "2023-05-10T07:09:44Z",
-      "updatedAt": "2024-10-16T15:43:51Z",
-      "assignee": null,
-      "author": "JohannesLichtenberger",
-      "authorAssociation": "MEMBER",
-      "byMaintainer": true,
-      "score": 5,
-      "tier": "high"
-    },
-    {
-      "repo": "micrometer-metrics/micrometer",
-      "number": 5492,
-      "title": "Configure a custom JmsProcessObservationConvention or JmsPublishObservationConvention",
-      "url": "https://github.com/micrometer-metrics/micrometer/issues/5492",
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "instrumentation",
-        "module: micrometer-jakarta9"
-      ],
-      "stacks": [
-        "Java",
-        "Observability"
-      ],
-      "comments": 8,
-      "createdAt": "2024-09-27T13:18:56Z",
-      "updatedAt": "2024-10-09T09:22:46Z",
-      "assignee": null,
-      "author": "mihca",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 0,
-      "tier": "low"
-    },
-    {
-      "repo": "micrometer-metrics/micrometer",
-      "number": 1700,
-      "title": "Cache metrics for http clients",
-      "url": "https://github.com/micrometer-metrics/micrometer/issues/1700",
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "waiting for feedback"
-      ],
-      "stacks": [
-        "Java",
-        "Observability"
-      ],
-      "comments": 2,
-      "createdAt": "2019-11-11T00:28:59Z",
-      "updatedAt": "2024-10-09T04:31:23Z",
-      "assignee": null,
-      "author": "kubamarchwicki",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": -2,
-      "tier": "low"
-    },
-    {
-      "repo": "spring-projects/spring-data-mongodb",
-      "number": 4103,
-      "title": "Use `TypeScanner` to scan for initial entities",
-      "url": "https://github.com/spring-projects/spring-data-mongodb/issues/4103",
-      "labels": [
-        "status: ideal-for-contribution",
-        "type: enhancement"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "MongoDB"
-      ],
-      "comments": 0,
-      "createdAt": "2022-07-06T13:09:39Z",
-      "updatedAt": "2024-10-02T13:33:31Z",
-      "assignee": "marcingrzejszczak",
-      "author": "mp911de",
-      "authorAssociation": "MEMBER",
-      "byMaintainer": true,
-      "score": 5,
-      "tier": "high"
-    },
-    {
-      "repo": "yugabyte/yugabyte-db",
-      "number": 5446,
-      "title": "[DocDB] in yb-master /tablet-servers view summarize read-replica and primary cluster info separately",
-      "url": "https://github.com/yugabyte/yugabyte-db/issues/5446",
-      "labels": [
-        "kind/enhancement",
-        "help wanted",
-        "good first issue",
-        "area/docdb",
-        "priority/medium"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Database"
-      ],
-      "comments": 4,
-      "createdAt": "2020-08-20T01:04:57Z",
-      "updatedAt": "2024-09-25T16:48:09Z",
-      "assignee": null,
-      "author": "kmuthukk",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 4,
-      "tier": "medium"
-    },
-    {
-      "repo": "spring-cloud/spring-cloud-stream",
-      "number": 2965,
-      "title": "Kafka Reactive Binder does not work with multiple bindings",
-      "url": "https://github.com/spring-cloud/spring-cloud-stream/issues/2965",
-      "labels": [
-        "enhancement",
-        "ideal-for-contribution"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Kafka"
-      ],
-      "comments": 1,
-      "createdAt": "2024-06-25T12:10:08Z",
-      "updatedAt": "2024-09-25T15:34:22Z",
-      "assignee": null,
-      "author": "akoufa",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 3,
-      "tier": "medium"
-    },
-    {
-      "repo": "authorjapps/zerocode",
-      "number": 207,
-      "title": "Meta Data section in the scenario JSON",
-      "url": "https://github.com/authorjapps/zerocode/issues/207",
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "good first issue",
-        "feature-request"
-      ],
-      "stacks": [
-        "Java",
-        "Testing",
-        "Kafka"
-      ],
-      "comments": 20,
-      "createdAt": "2019-02-16T15:04:01Z",
-      "updatedAt": "2024-09-23T05:19:30Z",
-      "assignee": null,
-      "author": "authorjapps",
-      "authorAssociation": "OWNER",
-      "byMaintainer": true,
-      "score": 3,
-      "tier": "medium"
-    },
-    {
-      "repo": "spring-projects/spring-data-mongodb",
-      "number": 4471,
-      "title": "Add support for Compound Wildcard Indexes",
-      "url": "https://github.com/spring-projects/spring-data-mongodb/issues/4471",
-      "labels": [
-        "status: ideal-for-contribution",
-        "type: enhancement"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "MongoDB"
-      ],
-      "comments": 0,
-      "createdAt": "2023-08-16T04:45:22Z",
-      "updatedAt": "2024-09-13T14:24:39Z",
-      "assignee": "marcingrzejszczak",
-      "author": "christophstrobl",
-      "authorAssociation": "MEMBER",
-      "byMaintainer": true,
-      "score": 5,
-      "tier": "high"
-    },
-    {
-      "repo": "micrometer-metrics/micrometer",
-      "number": 5469,
-      "title": "Support Datadog HTTP API v2",
-      "url": "https://github.com/micrometer-metrics/micrometer/issues/5469",
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "registry: datadog"
-      ],
-      "stacks": [
-        "Java",
-        "Observability"
-      ],
-      "comments": 7,
-      "createdAt": "2024-09-10T02:08:46Z",
-      "updatedAt": "2024-09-13T00:36:18Z",
-      "assignee": null,
-      "author": "kyungjun-pe",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 0,
-      "tier": "low"
-    },
-    {
-      "repo": "questdb/questdb",
-      "number": 4899,
-      "title": "Geospatial types and GIS support",
-      "url": "https://github.com/questdb/questdb/issues/4899",
-      "labels": [
-        "Enhancement",
-        "Help wanted",
-        "New feature",
-        "SQL"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Database"
-      ],
-      "comments": 1,
-      "createdAt": "2024-08-28T10:23:46Z",
-      "updatedAt": "2024-08-28T10:34:02Z",
-      "assignee": null,
-      "author": "nwoolmer",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "spring-cloud/spring-cloud-gateway",
-      "number": 561,
-      "title": "How can I change the time of DNS Cache",
-      "url": "https://github.com/spring-cloud/spring-cloud-gateway/issues/561",
-      "labels": [
-        "enhancement",
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Gateway"
-      ],
-      "comments": 27,
-      "createdAt": "2018-09-20T03:25:19Z",
-      "updatedAt": "2024-08-26T20:39:17Z",
-      "assignee": null,
-      "author": "libingnan",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": -2,
-      "tier": "low"
-    },
-    {
-      "repo": "spring-projects/spring-session",
-      "number": 2102,
-      "title": "Document SpringSessionRedisConnectionFactory",
-      "url": "https://github.com/spring-projects/spring-session/issues/2102",
-      "labels": [
-        "type: enhancement",
-        "status: ideal-for-contribution",
-        "in: docs"
-      ],
-      "stacks": [
-        "Java",
-        "Spring"
-      ],
-      "comments": 3,
-      "createdAt": "2022-06-23T10:35:10Z",
-      "updatedAt": "2024-08-16T16:34:19Z",
-      "assignee": "marcusdacoregio",
-      "author": "wilkinsona",
-      "authorAssociation": "MEMBER",
-      "byMaintainer": true,
-      "score": 4,
-      "tier": "medium"
-    },
-    {
-      "repo": "trinodb/trino",
-      "number": 17897,
-      "title": "Make UNNEST with JOIN clearer in the documentation.",
-      "url": "https://github.com/trinodb/trino/issues/17897",
-      "labels": [
-        "good first issue",
-        "docs"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Distributed"
-      ],
-      "comments": 10,
-      "createdAt": "2023-06-14T11:43:24Z",
-      "updatedAt": "2024-08-11T14:34:47Z",
-      "assignee": "soumya-ghosh",
-      "author": "bitsondatadev",
-      "authorAssociation": "MEMBER",
-      "byMaintainer": true,
-      "score": 3,
-      "tier": "medium"
-    },
-    {
-      "repo": "spring-cloud/spring-cloud-gateway",
-      "number": 2839,
-      "title": "WebClient Request/Response bug?",
-      "url": "https://github.com/spring-cloud/spring-cloud-gateway/issues/2839",
-      "labels": [
-        "enhancement",
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Gateway"
-      ],
-      "comments": 5,
-      "createdAt": "2023-01-11T11:30:15Z",
-      "updatedAt": "2024-07-24T16:50:35Z",
-      "assignee": null,
-      "author": "mohan-palisetti",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "micrometer-metrics/micrometer",
-      "number": 5297,
-      "title": "Support for removing metrics registered by CaffeineCacheMetrics",
-      "url": "https://github.com/micrometer-metrics/micrometer/issues/5297",
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "module: micrometer-core",
-        "instrumentation"
-      ],
-      "stacks": [
-        "Java",
-        "Observability"
-      ],
-      "comments": 12,
-      "createdAt": "2024-07-10T13:54:59Z",
-      "updatedAt": "2024-07-18T07:13:46Z",
-      "assignee": null,
-      "author": "altaiezior",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 0,
-      "tier": "low"
-    },
-    {
-      "repo": "resilience4j/resilience4j",
-      "number": 1679,
-      "title": "ContextPropagator is not adding headers to resilience thread",
-      "url": "https://github.com/resilience4j/resilience4j/issues/1679",
-      "labels": [
-        "help wanted"
-      ],
-      "stacks": [
-        "Java"
-      ],
-      "comments": 8,
-      "createdAt": "2022-05-03T20:17:24Z",
-      "updatedAt": "2024-06-07T13:10:53Z",
-      "assignee": null,
-      "author": "hemantkakodia",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 0,
-      "tier": "low"
-    },
-    {
-      "repo": "authorjapps/zerocode",
-      "number": 536,
-      "title": "Query Parameter of Log HTTP request not returning 'rawBody' response in Zerocode",
-      "url": "https://github.com/authorjapps/zerocode/issues/536",
-      "labels": [
-        "help wanted",
-        "good first issue",
-        "more-info-requested",
-        "closing-soon-due-to-lack-of-details"
-      ],
-      "stacks": [
-        "Java",
-        "Testing",
-        "Kafka"
-      ],
-      "comments": 16,
-      "createdAt": "2022-09-15T11:18:36Z",
-      "updatedAt": "2024-05-07T15:42:59Z",
-      "assignee": null,
-      "author": "byrnej14",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "yugabyte/yugabyte-db",
-      "number": 22059,
-      "title": "build: gcc11 debug/release centos7 compilation failure",
-      "url": "https://github.com/yugabyte/yugabyte-db/issues/22059",
-      "labels": [
-        "help wanted",
-        "status/awaiting-triage"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Database"
-      ],
-      "comments": 1,
-      "createdAt": "2024-04-18T23:36:19Z",
-      "updatedAt": "2024-04-19T01:28:10Z",
-      "assignee": null,
-      "author": "jasonyb",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "yugabyte/yugabyte-db",
-      "number": 45,
-      "title": "support brew-based install for macOS",
-      "url": "https://github.com/yugabyte/yugabyte-db/issues/45",
-      "labels": [
-        "help wanted",
-        "area/platform"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Database"
-      ],
-      "comments": 0,
-      "createdAt": "2018-02-08T05:46:48Z",
-      "updatedAt": "2024-04-11T01:03:15Z",
-      "assignee": "nbhatia-yb",
-      "author": "schoudhury",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "yugabyte/yugabyte-db",
-      "number": 21824,
-      "title": "[YSQL] flaky test PgIndexBackfillTest.CreateIndexSimultaneously",
-      "url": "https://github.com/yugabyte/yugabyte-db/issues/21824",
-      "labels": [
-        "help wanted",
-        "area/ysql",
-        "kind/failing-test",
-        "priority/medium",
-        "status/awaiting-triage"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Database"
-      ],
-      "comments": 0,
-      "createdAt": "2024-04-04T18:25:40Z",
-      "updatedAt": "2024-04-04T18:25:48Z",
-      "assignee": null,
-      "author": "jasonyb",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "trinodb/trino",
-      "number": 7240,
-      "title": "Add tests to AbstractTestHive to validate columns types for CSV serdes",
-      "url": "https://github.com/trinodb/trino/issues/7240",
-      "labels": [
-        "good first issue"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Distributed"
-      ],
-      "comments": 4,
-      "createdAt": "2021-03-10T14:02:35Z",
-      "updatedAt": "2024-03-16T16:26:28Z",
-      "assignee": null,
-      "author": "rshramz",
-      "authorAssociation": "MEMBER",
-      "byMaintainer": true,
-      "score": 4,
-      "tier": "medium"
-    },
-    {
-      "repo": "spring-cloud/spring-cloud-gateway",
-      "number": 2548,
-      "title": "Request headers can not be modified after request pass through ModifyRequestBodyGatewayFilter",
-      "url": "https://github.com/spring-cloud/spring-cloud-gateway/issues/2548",
-      "labels": [
-        "help wanted",
-        "documentation"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Gateway"
-      ],
-      "comments": 0,
-      "createdAt": "2022-03-11T05:12:42Z",
-      "updatedAt": "2024-03-13T22:15:35Z",
-      "assignee": null,
-      "author": "sspbh",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "spring-cloud/spring-cloud-gateway",
-      "number": 2734,
-      "title": "Unable to access application context in discovery",
-      "url": "https://github.com/spring-cloud/spring-cloud-gateway/issues/2734",
-      "labels": [
-        "enhancement",
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Gateway"
-      ],
-      "comments": 2,
-      "createdAt": "2022-09-26T19:04:40Z",
-      "updatedAt": "2024-03-13T16:26:47Z",
-      "assignee": null,
-      "author": "trajano",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "spring-cloud/spring-cloud-gateway",
-      "number": 3106,
-      "title": "Compute forwarded: header correctly when HTTP2 is enabled",
-      "url": "https://github.com/spring-cloud/spring-cloud-gateway/issues/3106",
-      "labels": [
-        "enhancement",
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Gateway"
-      ],
-      "comments": 1,
-      "createdAt": "2023-10-18T02:13:55Z",
-      "updatedAt": "2024-03-12T00:30:05Z",
-      "assignee": null,
-      "author": "sandipchitale",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "grpc-ecosystem/grpc-spring",
-      "number": 247,
-      "title": "Add support for Reactive Spring Security",
-      "url": "https://github.com/grpc-ecosystem/grpc-spring/issues/247",
-      "labels": [
-        "enhancement",
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "gRPC"
-      ],
-      "comments": 6,
-      "createdAt": "2019-06-28T20:55:07Z",
-      "updatedAt": "2024-03-02T15:29:41Z",
-      "assignee": null,
-      "author": "pluttrell",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 0,
-      "tier": "low"
-    },
-    {
-      "repo": "spring-cloud/spring-cloud-gateway",
-      "number": 2092,
-      "title": "Forward Routing filter doesn't support path parameters for local forwarding",
-      "url": "https://github.com/spring-cloud/spring-cloud-gateway/issues/2092",
-      "labels": [
-        "enhancement",
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Gateway"
-      ],
-      "comments": 14,
-      "createdAt": "2020-12-29T02:46:07Z",
-      "updatedAt": "2024-02-14T16:13:50Z",
-      "assignee": null,
-      "author": "Anmol24",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": -2,
-      "tier": "low"
-    },
-    {
-      "repo": "spring-cloud/spring-cloud-gateway",
-      "number": 672,
-      "title": "More flexible path matching (such as file extensions and logical or)",
-      "url": "https://github.com/spring-cloud/spring-cloud-gateway/issues/672",
-      "labels": [
-        "enhancement",
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Gateway"
-      ],
-      "comments": 13,
-      "createdAt": "2018-11-22T07:27:00Z",
-      "updatedAt": "2024-01-26T19:51:43Z",
-      "assignee": null,
-      "author": "aftersss",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": -2,
-      "tier": "low"
-    },
-    {
-      "repo": "trinodb/trino",
-      "number": 17103,
-      "title": "Make SSL truststore/keystore configuration consistent across connectors",
-      "url": "https://github.com/trinodb/trino/issues/17103",
-      "labels": [
-        "enhancement",
-        "good first issue"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Distributed"
-      ],
-      "comments": 0,
-      "createdAt": "2023-04-18T13:07:41Z",
-      "updatedAt": "2024-01-18T12:05:48Z",
-      "assignee": "abusk",
-      "author": "wendigo",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 3,
-      "tier": "medium"
-    },
-    {
-      "repo": "trinodb/trino",
-      "number": 5429,
-      "title": "DFs received by coordinator are unacked",
-      "url": "https://github.com/trinodb/trino/issues/5429",
-      "labels": [
-        "good first issue"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Distributed"
-      ],
-      "comments": 2,
-      "createdAt": "2020-10-06T12:22:47Z",
-      "updatedAt": "2023-12-19T08:30:50Z",
-      "assignee": null,
-      "author": "sopel39",
-      "authorAssociation": "MEMBER",
-      "byMaintainer": true,
-      "score": 4,
-      "tier": "medium"
-    },
-    {
-      "repo": "questdb/questdb",
-      "number": 285,
-      "title": "Support prepared statements and SQL parameters via HTTP end point",
-      "url": "https://github.com/questdb/questdb/issues/285",
-      "labels": [
-        "New feature",
-        "Good first issue",
-        "hacktoberfest"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Database"
-      ],
-      "comments": 5,
-      "createdAt": "2020-05-14T13:29:03Z",
-      "updatedAt": "2023-12-17T15:48:06Z",
-      "assignee": null,
-      "author": "bluestreak01",
-      "authorAssociation": "MEMBER",
-      "byMaintainer": true,
-      "score": 4,
-      "tier": "medium"
-    },
-    {
-      "repo": "asyncer-io/r2dbc-mysql",
-      "number": 136,
-      "title": "[feature]Add support for rewriteBatchedStatements feature in r2dbc-mysql",
-      "url": "https://github.com/asyncer-io/r2dbc-mysql/issues/136",
-      "labels": [
-        "enhancement",
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "R2DBC",
-        "MySQL"
-      ],
-      "comments": 1,
-      "createdAt": "2023-07-19T13:06:37Z",
-      "updatedAt": "2023-12-13T10:56:52Z",
-      "assignee": null,
-      "author": "jchrys",
-      "authorAssociation": "COLLABORATOR",
-      "byMaintainer": true,
-      "score": 4,
-      "tier": "medium"
-    },
-    {
-      "repo": "yugabyte/yugabyte-db",
-      "number": 18202,
-      "title": "[DocDB] sst_dump Schema packing not found",
-      "url": "https://github.com/yugabyte/yugabyte-db/issues/18202",
-      "labels": [
-        "kind/bug",
-        "help wanted",
-        "good first issue",
-        "area/docdb",
-        "priority/medium"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Database"
-      ],
-      "comments": 5,
-      "createdAt": "2023-07-12T22:40:47Z",
-      "updatedAt": "2023-12-05T22:13:48Z",
-      "assignee": null,
-      "author": "jasonyb",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 4,
-      "tier": "medium"
-    },
-    {
-      "repo": "sirixdb/sirix",
-      "number": 626,
-      "title": "Documentation",
-      "url": "https://github.com/sirixdb/sirix/issues/626",
-      "labels": [
-        "enhancement",
-        "good first issue",
-        "help wanted",
-        "Hacktoberfest"
-      ],
-      "stacks": [
-        "Kotlin",
-        "NoSQL",
-        "Database"
-      ],
-      "comments": 23,
-      "createdAt": "2023-06-19T20:18:46Z",
-      "updatedAt": "2023-11-19T09:52:38Z",
-      "assignee": null,
-      "author": "JohannesLichtenberger",
-      "authorAssociation": "MEMBER",
-      "byMaintainer": true,
-      "score": 3,
-      "tier": "medium"
-    },
-    {
-      "repo": "resilience4j/resilience4j",
-      "number": 2036,
-      "title": "Exception Thrown creating CircuitBreakerRegistry default bean in version 2.1.0",
-      "url": "https://github.com/resilience4j/resilience4j/issues/2036",
-      "labels": [
-        "help wanted"
-      ],
-      "stacks": [
-        "Java"
-      ],
-      "comments": 9,
-      "createdAt": "2023-10-20T16:14:15Z",
-      "updatedAt": "2023-11-18T14:24:45Z",
-      "assignee": null,
-      "author": "thejeff77",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 0,
-      "tier": "low"
-    },
-    {
-      "repo": "trinodb/trino",
-      "number": 18482,
-      "title": "Add test coverage for blackhole connector",
-      "url": "https://github.com/trinodb/trino/issues/18482",
-      "labels": [
-        "good first issue",
-        "test"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Distributed"
-      ],
-      "comments": 6,
-      "createdAt": "2023-08-01T13:16:28Z",
-      "updatedAt": "2023-11-15T13:26:59Z",
-      "assignee": "SakshamGairola",
-      "author": "vlad-lyutenko",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "grpc/grpc-java",
-      "number": 10597,
-      "title": "Support NTCredentials in HttpConnectProxiedSocketAddress",
-      "url": "https://github.com/grpc/grpc-java/issues/10597",
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "P3"
-      ],
-      "stacks": [
-        "Java",
-        "gRPC"
-      ],
-      "comments": 2,
-      "createdAt": "2023-10-05T20:10:40Z",
-      "updatedAt": "2023-11-03T20:15:31Z",
-      "assignee": null,
-      "author": "davidrabinowitz",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "yugabyte/yugabyte-db",
-      "number": 18894,
-      "title": "[DocDB] Spooky warnings during master instance initialization",
-      "url": "https://github.com/yugabyte/yugabyte-db/issues/18894",
-      "labels": [
-        "kind/enhancement",
-        "help wanted",
-        "good first issue",
-        "area/docdb",
-        "priority/medium"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Database"
-      ],
-      "comments": 2,
-      "createdAt": "2023-08-29T17:03:17Z",
-      "updatedAt": "2023-11-02T06:36:39Z",
-      "assignee": null,
-      "author": "dmagda",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 4,
-      "tier": "medium"
-    },
-    {
-      "repo": "trinodb/trino",
-      "number": 11828,
-      "title": "Add Iceberg tests for checking read ability from Trino for Iceberg tables created from static resources",
-      "url": "https://github.com/trinodb/trino/issues/11828",
-      "labels": [
-        "good first issue",
-        "test"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Distributed"
-      ],
-      "comments": 2,
-      "createdAt": "2022-04-06T13:51:37Z",
-      "updatedAt": "2023-11-01T20:38:21Z",
-      "assignee": null,
-      "author": "findinpath",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "testcontainers/testcontainers-java",
-      "number": 3827,
-      "title": "Clickhouse via MySQL protocol",
-      "url": "https://github.com/testcontainers/testcontainers-java/issues/3827",
-      "labels": [
-        "help wanted",
-        "modules/clickhouse"
-      ],
-      "stacks": [
-        "Java",
-        "Testing"
-      ],
-      "comments": 3,
-      "createdAt": "2021-02-22T22:13:49Z",
-      "updatedAt": "2023-10-28T01:49:07Z",
-      "assignee": null,
-      "author": "codepitbull",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "yugabyte/yugabyte-db",
-      "number": 18620,
-      "title": "[YSQL] yb-ctl create then ysqlsh can fail",
-      "url": "https://github.com/yugabyte/yugabyte-db/issues/18620",
-      "labels": [
-        "kind/bug",
-        "help wanted",
-        "area/ysql",
-        "priority/medium",
-        "status/awaiting-triage"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Database"
-      ],
-      "comments": 0,
-      "createdAt": "2023-08-09T02:22:24Z",
-      "updatedAt": "2023-08-09T02:22:32Z",
-      "assignee": null,
-      "author": "jasonyb",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "resilience4j/resilience4j",
-      "number": 1996,
-      "title": "@Retry annotation does not work with Micrometer",
-      "url": "https://github.com/resilience4j/resilience4j/issues/1996",
-      "labels": [
-        "help wanted"
-      ],
-      "stacks": [
-        "Java"
-      ],
-      "comments": 13,
-      "createdAt": "2023-07-17T22:24:30Z",
-      "updatedAt": "2023-07-26T20:23:16Z",
-      "assignee": null,
-      "author": "Eyesun23",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": -2,
-      "tier": "low"
-    },
-    {
-      "repo": "resilience4j/resilience4j",
-      "number": 1982,
-      "title": "Question on Circuit Breaker: After calling transitionToOpenState(), it still remains at HALF_OPEN state",
-      "url": "https://github.com/resilience4j/resilience4j/issues/1982",
-      "labels": [
-        "help wanted"
-      ],
-      "stacks": [
-        "Java"
-      ],
-      "comments": 1,
-      "createdAt": "2023-06-27T06:54:23Z",
-      "updatedAt": "2023-07-20T12:52:28Z",
-      "assignee": null,
-      "author": "suanziliu",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "naver/fixture-monkey",
-      "number": 663,
-      "title": "support a third-party library or framework type",
-      "url": "https://github.com/naver/fixture-monkey/issues/663",
-      "labels": [
-        "enhancement",
-        "help wanted"
-      ],
-      "stacks": [
-        "Kotlin",
-        "Java",
-        "Testing"
-      ],
-      "comments": 0,
-      "createdAt": "2023-06-09T06:11:04Z",
-      "updatedAt": "2023-06-13T10:41:11Z",
-      "assignee": null,
-      "author": "seongahjo",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "spring-projects/spring-session",
-      "number": 2037,
-      "title": "spring-session-jdbc ignores specified MockMvc request session",
-      "url": "https://github.com/spring-projects/spring-session/issues/2037",
-      "labels": [
-        "type: enhancement",
-        "status: ideal-for-contribution",
-        "in: docs"
-      ],
-      "stacks": [
-        "Java",
-        "Spring"
-      ],
-      "comments": 3,
-      "createdAt": "2022-02-24T18:14:18Z",
-      "updatedAt": "2023-04-26T15:32:55Z",
-      "assignee": "marcusdacoregio",
-      "author": "vrish88",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "yugabyte/yugabyte-db",
-      "number": 15998,
-      "title": "[DocDB] Mark all tables in system namespace with TableInfo::is_system_",
-      "url": "https://github.com/yugabyte/yugabyte-db/issues/15998",
-      "labels": [
-        "kind/enhancement",
-        "help wanted",
-        "good first issue",
-        "area/docdb",
-        "priority/low"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Database"
-      ],
-      "comments": 4,
-      "createdAt": "2023-02-07T06:45:10Z",
-      "updatedAt": "2023-04-21T19:54:56Z",
-      "assignee": null,
-      "author": "hari90",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 4,
-      "tier": "medium"
-    },
-    {
-      "repo": "grpc/grpc-java",
-      "number": 9965,
-      "title": "bazel: Support java_export by adding maven_coordinates to targets",
-      "url": "https://github.com/grpc/grpc-java/issues/9965",
-      "labels": [
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "gRPC"
-      ],
-      "comments": 4,
-      "createdAt": "2023-03-20T16:16:26Z",
-      "updatedAt": "2023-04-20T15:29:53Z",
-      "assignee": null,
-      "author": "sfc-gh-kleonhard",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "authorjapps/zerocode",
-      "number": 529,
-      "title": "Maven single test build failure marked as success",
-      "url": "https://github.com/authorjapps/zerocode/issues/529",
-      "labels": [
-        "help wanted",
-        "question",
-        "not-an-issue"
-      ],
-      "stacks": [
-        "Java",
-        "Testing",
-        "Kafka"
-      ],
-      "comments": 0,
-      "createdAt": "2022-06-15T10:27:12Z",
-      "updatedAt": "2023-04-06T15:05:58Z",
-      "assignee": null,
-      "author": "infoShare",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": -1,
-      "tier": "low"
-    },
-    {
-      "repo": "spring-projects/spring-data-commons",
-      "number": 1121,
-      "title": "Consider PageableDefaults and SortDefaults on query methods [DATACMNS-657]",
-      "url": "https://github.com/spring-projects/spring-data-commons/issues/1121",
-      "labels": [
-        "status: ideal-for-contribution",
-        "in: repository",
-        "type: enhancement"
-      ],
-      "stacks": [
-        "Java",
-        "Spring"
-      ],
-      "comments": 2,
-      "createdAt": "2015-03-12T04:17:03Z",
-      "updatedAt": "2023-03-23T11:01:06Z",
-      "assignee": "odrotbohm",
-      "author": "spring-projects-issues",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "spring-cloud/spring-cloud-stream",
-      "number": 1930,
-      "title": "Add a Redis binder implementation",
-      "url": "https://github.com/spring-cloud/spring-cloud-stream/issues/1930",
-      "labels": [
-        "ideal-for-contribution",
-        "waiting-on-feedback"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Kafka"
-      ],
-      "comments": 8,
-      "createdAt": "2020-03-19T18:03:37Z",
-      "updatedAt": "2023-03-21T13:56:07Z",
-      "assignee": null,
-      "author": "akuma8",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "testcontainers/testcontainers-java",
-      "number": 4,
-      "title": "Support custom Docker images in the JDBC URL",
-      "url": "https://github.com/testcontainers/testcontainers-java/issues/4",
-      "labels": [
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "Testing"
-      ],
-      "comments": 21,
-      "createdAt": "2015-04-29T23:16:06Z",
-      "updatedAt": "2023-01-31T15:40:23Z",
-      "assignee": null,
-      "author": "swissarmykirpan",
-      "authorAssociation": "MEMBER",
-      "byMaintainer": true,
-      "score": 0,
-      "tier": "low"
-    },
-    {
-      "repo": "naver/fixture-monkey",
-      "number": 525,
-      "title": "Add a new module supports datafaker",
-      "url": "https://github.com/naver/fixture-monkey/issues/525",
-      "labels": [
-        "enhancement",
-        "good first issue"
-      ],
-      "stacks": [
-        "Kotlin",
-        "Java",
-        "Testing"
-      ],
-      "comments": 8,
-      "createdAt": "2022-12-12T10:26:10Z",
-      "updatedAt": "2023-01-31T06:47:34Z",
-      "assignee": null,
-      "author": "seongahjo",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "yugabyte/yugabyte-db",
-      "number": 1048,
-      "title": "[YCQL] Make it clear that transactions can't be enabled after table creation",
-      "url": "https://github.com/yugabyte/yugabyte-db/issues/1048",
-      "labels": [
-        "kind/enhancement",
-        "help wanted",
-        "priority/medium",
-        "area/ycql"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Database"
-      ],
-      "comments": 3,
-      "createdAt": "2019-03-21T14:15:52Z",
-      "updatedAt": "2023-01-26T16:14:48Z",
-      "assignee": null,
-      "author": "frozenspider",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "grpc-ecosystem/grpc-spring",
-      "number": 759,
-      "title": "`@DirtiesContext` is required on every test",
-      "url": "https://github.com/grpc-ecosystem/grpc-spring/issues/759",
-      "labels": [
-        "bug",
-        "enhancement",
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "gRPC"
-      ],
-      "comments": 6,
-      "createdAt": "2022-10-05T04:12:15Z",
-      "updatedAt": "2023-01-20T06:38:50Z",
-      "assignee": null,
-      "author": "Bwvolleyball",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 0,
-      "tier": "low"
-    },
-    {
-      "repo": "spring-cloud/spring-cloud-stream",
-      "number": 2142,
-      "title": "Better error handling support for reactive functions",
-      "url": "https://github.com/spring-cloud/spring-cloud-stream/issues/2142",
-      "labels": [
-        "ideal-for-contribution"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Kafka"
-      ],
-      "comments": 14,
-      "createdAt": "2021-03-18T10:10:57Z",
-      "updatedAt": "2023-01-04T18:36:58Z",
-      "assignee": null,
-      "author": "tarjanik",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": -1,
-      "tier": "low"
-    },
-    {
-      "repo": "spring-cloud/spring-cloud-stream",
-      "number": 2182,
-      "title": "Add (javax.)Validation Support for functional interface",
-      "url": "https://github.com/spring-cloud/spring-cloud-stream/issues/2182",
-      "labels": [
-        "ideal-for-contribution"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Kafka"
-      ],
-      "comments": 3,
-      "createdAt": "2021-06-03T13:17:37Z",
-      "updatedAt": "2023-01-04T18:30:07Z",
-      "assignee": null,
-      "author": "GreenRover",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "naver/fixture-monkey",
-      "number": 529,
-      "title": "Integration with Mockito",
-      "url": "https://github.com/naver/fixture-monkey/issues/529",
-      "labels": [
-        "help wanted"
-      ],
-      "stacks": [
-        "Kotlin",
-        "Java",
-        "Testing"
-      ],
-      "comments": 0,
-      "createdAt": "2022-12-23T08:48:16Z",
-      "updatedAt": "2022-12-23T08:51:44Z",
-      "assignee": null,
-      "author": "seongahjo",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "grpc-ecosystem/grpc-spring",
-      "number": 577,
-      "title": "Add spring-native support",
-      "url": "https://github.com/grpc-ecosystem/grpc-spring/issues/577",
-      "labels": [
-        "enhancement",
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "gRPC"
-      ],
-      "comments": 6,
-      "createdAt": "2021-08-30T19:59:21Z",
-      "updatedAt": "2022-12-08T13:52:02Z",
-      "assignee": null,
-      "author": "lgklein",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 0,
-      "tier": "low"
-    },
-    {
-      "repo": "questdb/questdb",
-      "number": 2221,
-      "title": "Ability to monitor behavior and statistics of queries",
-      "url": "https://github.com/questdb/questdb/issues/2221",
-      "labels": [
-        "Help wanted",
-        "New feature",
-        "SQL",
-        "integration"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Database"
-      ],
-      "comments": 2,
-      "createdAt": "2022-06-14T08:45:30Z",
-      "updatedAt": "2022-11-21T13:17:53Z",
-      "assignee": null,
-      "author": "postol",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "questdb/questdb",
-      "number": 595,
-      "title": "Test QuestDB SQL engine with SQLancer",
-      "url": "https://github.com/questdb/questdb/issues/595",
-      "labels": [
-        "Help wanted",
-        "New feature"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Database"
-      ],
-      "comments": 2,
-      "createdAt": "2020-09-09T12:37:14Z",
-      "updatedAt": "2022-11-03T08:52:22Z",
-      "assignee": null,
-      "author": "igor-suhorukov",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "testcontainers/testcontainers-java",
-      "number": 1523,
-      "title": "Java 9: Please add Automatic-Module-Name attribute to META-INF/MANIFEST.MF",
-      "url": "https://github.com/testcontainers/testcontainers-java/issues/1523",
-      "labels": [
-        "type/bug",
-        "help wanted",
-        "resolution/acknowledged"
-      ],
-      "stacks": [
-        "Java",
-        "Testing"
-      ],
-      "comments": 10,
-      "createdAt": "2019-06-03T15:50:04Z",
-      "updatedAt": "2022-10-28T15:48:20Z",
-      "assignee": null,
-      "author": "remal",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "yugabyte/yugabyte-db",
-      "number": 1544,
-      "title": "[YCQL] Bulk loader improvements: support other datatypes",
-      "url": "https://github.com/yugabyte/yugabyte-db/issues/1544",
-      "labels": [
-        "kind/enhancement",
-        "help wanted",
-        "area/ysql",
-        "priority/medium"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Database"
-      ],
-      "comments": 0,
-      "createdAt": "2019-06-13T21:48:43Z",
-      "updatedAt": "2022-10-11T18:59:29Z",
-      "assignee": null,
-      "author": "amitanandaiyer",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "spring-cloud/spring-cloud-gateway",
-      "number": 1004,
-      "title": "Document that spring-cloud-gateway-mvc is not compatible with spring-cloud-gateway-core",
-      "url": "https://github.com/spring-cloud/spring-cloud-gateway/issues/1004",
-      "labels": [
-        "help wanted",
-        "documentation"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Gateway"
-      ],
-      "comments": 15,
-      "createdAt": "2019-04-09T15:25:09Z",
-      "updatedAt": "2022-10-11T12:26:50Z",
-      "assignee": null,
-      "author": "mariuszs",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": -2,
-      "tier": "low"
-    },
-    {
-      "repo": "testcontainers/testcontainers-java",
-      "number": 1824,
-      "title": "Please move static analysis dependencies in compileOnly scope",
-      "url": "https://github.com/testcontainers/testcontainers-java/issues/1824",
-      "labels": [
-        "help wanted",
-        "resolution/somedaymaybe",
-        "type/feature"
-      ],
-      "stacks": [
-        "Java",
-        "Testing"
-      ],
-      "comments": 6,
-      "createdAt": "2019-09-03T18:49:36Z",
-      "updatedAt": "2022-10-04T11:25:22Z",
-      "assignee": null,
-      "author": "remal",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": -3,
-      "tier": "low"
-    },
-    {
-      "repo": "micrometer-metrics/micrometer",
-      "number": 575,
-      "title": "Support for appdynamics",
-      "url": "https://github.com/micrometer-metrics/micrometer/issues/575",
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "spring-boot change"
-      ],
-      "stacks": [
-        "Java",
-        "Observability"
-      ],
-      "comments": 25,
-      "createdAt": "2018-04-24T06:06:55Z",
-      "updatedAt": "2022-10-04T08:47:31Z",
-      "assignee": null,
-      "author": "bjartek",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": -2,
-      "tier": "low"
-    },
-    {
-      "repo": "yugabyte/yugabyte-db",
-      "number": 2516,
-      "title": "[YSQL] Support CREATE VIEW WITH CHECK OPTION",
-      "url": "https://github.com/yugabyte/yugabyte-db/issues/2516",
-      "labels": [
-        "kind/enhancement",
-        "help wanted",
-        "good first issue",
-        "area/ysql",
-        "priority/medium"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Database"
-      ],
-      "comments": 0,
-      "createdAt": "2019-10-04T23:22:48Z",
-      "updatedAt": "2022-09-22T22:23:22Z",
-      "assignee": null,
-      "author": "ndeodhar",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 5,
-      "tier": "high"
-    },
-    {
-      "repo": "yugabyte/yugabyte-db",
-      "number": 10263,
-      "title": "ysql: fix uses of parser_ybc_beta_feature",
-      "url": "https://github.com/yugabyte/yugabyte-db/issues/10263",
-      "labels": [
-        "kind/enhancement",
-        "help wanted",
-        "good first issue",
-        "area/ysql",
-        "priority/medium"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Database"
-      ],
-      "comments": 2,
-      "createdAt": "2021-10-12T18:36:20Z",
-      "updatedAt": "2022-09-20T06:23:34Z",
-      "assignee": null,
-      "author": "jaki",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 4,
-      "tier": "medium"
-    },
-    {
-      "repo": "yugabyte/yugabyte-db",
-      "number": 6141,
-      "title": "[YSQL] Add tserver gflag to set postgres process options",
-      "url": "https://github.com/yugabyte/yugabyte-db/issues/6141",
-      "labels": [
-        "kind/enhancement",
-        "help wanted",
-        "good first issue",
-        "kind/improve-ux",
-        "area/ysql",
-        "priority/medium"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Database"
-      ],
-      "comments": 6,
-      "createdAt": "2020-10-24T00:20:14Z",
-      "updatedAt": "2022-09-20T06:23:01Z",
-      "assignee": null,
-      "author": "jaki",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 3,
-      "tier": "medium"
-    },
-    {
-      "repo": "yugabyte/yugabyte-db",
-      "number": 11311,
-      "title": "[DocDB] Assign all \"system_platform\" tables as system tables",
-      "url": "https://github.com/yugabyte/yugabyte-db/issues/11311",
-      "labels": [
-        "kind/enhancement",
-        "help wanted",
-        "good first issue",
-        "area/docdb",
-        "priority/medium"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Database"
-      ],
-      "comments": 2,
-      "createdAt": "2022-02-01T21:44:41Z",
-      "updatedAt": "2022-07-28T19:40:00Z",
-      "assignee": null,
-      "author": "shahrooz1997",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 4,
-      "tier": "medium"
-    },
-    {
-      "repo": "yugabyte/yugabyte-db",
-      "number": 4711,
-      "title": "[docdb] Expose rocksdb background thread debug info in the UIs",
-      "url": "https://github.com/yugabyte/yugabyte-db/issues/4711",
-      "labels": [
-        "kind/enhancement",
-        "help wanted",
-        "good first issue",
-        "area/docdb",
-        "priority/medium"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Database"
-      ],
-      "comments": 1,
-      "createdAt": "2020-06-08T23:24:10Z",
-      "updatedAt": "2022-07-28T19:37:20Z",
-      "assignee": null,
-      "author": "bmatican",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 5,
-      "tier": "high"
-    },
-    {
-      "repo": "yugabyte/yugabyte-db",
-      "number": 5692,
-      "title": " Support multiple comma separated values for webservice_interface. ",
-      "url": "https://github.com/yugabyte/yugabyte-db/issues/5692",
-      "labels": [
-        "kind/enhancement",
-        "help wanted",
-        "good first issue",
-        "area/docdb",
-        "priority/medium"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Database"
-      ],
-      "comments": 5,
-      "createdAt": "2020-09-15T07:20:22Z",
-      "updatedAt": "2022-07-28T19:34:39Z",
-      "assignee": null,
-      "author": "ramsrivatsa",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 4,
-      "tier": "medium"
-    },
-    {
-      "repo": "spring-projects/spring-data-mongodb",
-      "number": 3460,
-      "title": "Make ChangeStreamOptionsBuilder support startAtOperationTime  [DATAMONGO-2607]",
-      "url": "https://github.com/spring-projects/spring-data-mongodb/issues/3460",
-      "labels": [
-        "in: core",
-        "status: ideal-for-contribution",
-        "type: enhancement"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "MongoDB"
-      ],
-      "comments": 6,
-      "createdAt": "2020-08-10T06:11:40Z",
-      "updatedAt": "2022-06-27T14:00:27Z",
-      "assignee": "christophstrobl",
-      "author": "spring-projects-issues",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "spring-projects/spring-data-mongodb",
-      "number": 3791,
-      "title": "ComparisonOperators.Lte seems to match undefined/null value in switch caseOperator",
-      "url": "https://github.com/spring-projects/spring-data-mongodb/issues/3791",
-      "labels": [
-        "status: ideal-for-contribution",
-        "type: enhancement"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "MongoDB"
-      ],
-      "comments": 5,
-      "createdAt": "2021-08-30T10:23:41Z",
-      "updatedAt": "2022-05-25T19:18:34Z",
-      "assignee": "christophstrobl",
-      "author": "Strat1987",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "questdb/questdb",
-      "number": 2139,
-      "title": "Extend ILP to allow to set non-designated timestamp column to current server timestamp",
-      "url": "https://github.com/questdb/questdb/issues/2139",
-      "labels": [
-        "Help wanted",
-        "New feature"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Database"
-      ],
-      "comments": 0,
-      "createdAt": "2022-05-19T14:54:55Z",
-      "updatedAt": "2022-05-19T16:02:40Z",
-      "assignee": null,
-      "author": "ideoma",
-      "authorAssociation": "COLLABORATOR",
-      "byMaintainer": true,
-      "score": 4,
-      "tier": "medium"
-    },
-    {
-      "repo": "pgjdbc/r2dbc-postgresql",
-      "number": 392,
-      "title": "Add Kerberos authentication support",
-      "url": "https://github.com/pgjdbc/r2dbc-postgresql/issues/392",
-      "labels": [
-        "type: enhancement",
-        "status: ideal-for-contribution"
-      ],
-      "stacks": [
-        "Java",
-        "R2DBC",
-        "PostgreSQL"
-      ],
-      "comments": 4,
-      "createdAt": "2021-03-05T12:57:52Z",
-      "updatedAt": "2022-05-17T09:21:12Z",
-      "assignee": null,
-      "author": "akiraly",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "resilience4j/resilience4j",
-      "number": 1653,
-      "title": "[Circuit Breaker] resilience4j-spring-boot2 - CallNotPermittedException is thrown three times for a single request",
-      "url": "https://github.com/resilience4j/resilience4j/issues/1653",
-      "labels": [
-        "help wanted"
-      ],
-      "stacks": [
-        "Java"
-      ],
-      "comments": 2,
-      "createdAt": "2022-03-26T12:13:00Z",
-      "updatedAt": "2022-04-27T20:57:17Z",
-      "assignee": null,
-      "author": "bunty-raghani",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "resilience4j/resilience4j",
-      "number": 1343,
-      "title": "puzzling/impredictable behavior of rate limiter",
-      "url": "https://github.com/resilience4j/resilience4j/issues/1343",
-      "labels": [
-        "help wanted"
-      ],
-      "stacks": [
-        "Java"
-      ],
-      "comments": 0,
-      "createdAt": "2021-02-18T15:53:27Z",
-      "updatedAt": "2022-04-26T07:05:45Z",
-      "assignee": null,
-      "author": "alfonz19",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "spring-cloud/spring-cloud-gateway",
-      "number": 539,
-      "title": "Change HTTP method of request in-flight",
-      "url": "https://github.com/spring-cloud/spring-cloud-gateway/issues/539",
-      "labels": [
-        "enhancement",
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Gateway"
-      ],
-      "comments": 9,
-      "createdAt": "2018-09-11T07:16:43Z",
-      "updatedAt": "2022-04-14T18:08:44Z",
-      "assignee": null,
-      "author": "mmanciop",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 0,
-      "tier": "low"
-    },
-    {
-      "repo": "spring-cloud/spring-cloud-gateway",
-      "number": 2466,
-      "title": "Filter/Predicate validation message are not returned when `management.server.port` is set for actuator",
-      "url": "https://github.com/spring-cloud/spring-cloud-gateway/issues/2466",
-      "labels": [
-        "bug",
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Gateway"
-      ],
-      "comments": 1,
-      "createdAt": "2021-12-17T15:39:14Z",
-      "updatedAt": "2022-03-02T18:45:18Z",
-      "assignee": null,
-      "author": "abelsromero",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "grpc-ecosystem/grpc-spring",
-      "number": 635,
-      "title": "Add Sentry support",
-      "url": "https://github.com/grpc-ecosystem/grpc-spring/issues/635",
-      "labels": [
-        "enhancement",
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "gRPC"
-      ],
-      "comments": 1,
-      "createdAt": "2022-02-09T08:30:12Z",
-      "updatedAt": "2022-02-09T15:54:09Z",
-      "assignee": null,
-      "author": "Evgeny-Mamaev",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "testcontainers/testcontainers-java",
-      "number": 1160,
-      "title": "New docs: minimal docs for modules that lack them",
-      "url": "https://github.com/testcontainers/testcontainers-java/issues/1160",
-      "labels": [
-        "help wanted",
-        "type/docs",
-        "resolution/acknowledged"
-      ],
-      "stacks": [
-        "Java",
-        "Testing"
-      ],
-      "comments": 2,
-      "createdAt": "2019-01-19T19:35:00Z",
-      "updatedAt": "2022-02-03T13:40:45Z",
-      "assignee": null,
-      "author": "rnorth",
-      "authorAssociation": "MEMBER",
-      "byMaintainer": true,
-      "score": 5,
-      "tier": "high"
-    },
-    {
-      "repo": "grpc-ecosystem/grpc-spring",
-      "number": 628,
-      "title": "An Authentication object was not found in the SecurityContext",
-      "url": "https://github.com/grpc-ecosystem/grpc-spring/issues/628",
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "question"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "gRPC"
-      ],
-      "comments": 8,
-      "createdAt": "2022-01-20T09:53:15Z",
-      "updatedAt": "2022-01-26T10:22:12Z",
-      "assignee": null,
-      "author": "TheHett",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": -3,
-      "tier": "low"
-    },
-    {
-      "repo": "spring-cloud/spring-cloud-gateway",
-      "number": 1756,
-      "title": "Add support .jks truststore cert file format",
-      "url": "https://github.com/spring-cloud/spring-cloud-gateway/issues/1756",
-      "labels": [
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Gateway"
-      ],
-      "comments": 10,
-      "createdAt": "2020-06-03T09:47:11Z",
-      "updatedAt": "2022-01-10T16:08:12Z",
-      "assignee": null,
-      "author": "kugaurav594",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 0,
-      "tier": "low"
-    },
-    {
-      "repo": "trinodb/trino",
-      "number": 1491,
-      "title": "Add support for Hive collection.delim table property",
-      "url": "https://github.com/trinodb/trino/issues/1491",
-      "labels": [
-        "enhancement",
-        "good first issue"
-      ],
-      "stacks": [
-        "Java",
-        "SQL",
-        "Distributed"
-      ],
-      "comments": 3,
-      "createdAt": "2019-09-11T11:09:34Z",
-      "updatedAt": "2021-12-08T15:33:18Z",
-      "assignee": null,
-      "author": "kokosing",
-      "authorAssociation": "MEMBER",
-      "byMaintainer": true,
-      "score": 4,
-      "tier": "medium"
-    },
-    {
-      "repo": "resilience4j/resilience4j",
-      "number": 1379,
-      "title": "JVM running out of threads when I use a Time Limiter (circuit breaker + thread pool bulkhead + time limiter)",
-      "url": "https://github.com/resilience4j/resilience4j/issues/1379",
-      "labels": [
-        "help wanted"
-      ],
-      "stacks": [
-        "Java"
-      ],
-      "comments": 15,
-      "createdAt": "2021-03-19T09:15:53Z",
-      "updatedAt": "2021-12-06T22:29:25Z",
-      "assignee": null,
-      "author": "gawallace25",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": -2,
-      "tier": "low"
-    },
-    {
-      "repo": "spring-cloud/spring-cloud-gateway",
-      "number": 2418,
-      "title": "Ability to disable connection pooling on route level",
-      "url": "https://github.com/spring-cloud/spring-cloud-gateway/issues/2418",
-      "labels": [
-        "enhancement",
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Gateway"
-      ],
-      "comments": 2,
-      "createdAt": "2021-10-27T10:27:01Z",
-      "updatedAt": "2021-11-05T21:05:59Z",
-      "assignee": null,
-      "author": "psemeniuk",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "spring-projects/spring-data-mongodb",
-      "number": 3490,
-      "title": "Fields and projection API are very inconvenient [DATAMONGO-2637]",
-      "url": "https://github.com/spring-projects/spring-data-mongodb/issues/3490",
-      "labels": [
-        "type: bug",
-        "in: core",
-        "status: ideal-for-contribution"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "MongoDB"
-      ],
-      "comments": 3,
-      "createdAt": "2020-10-09T08:03:21Z",
-      "updatedAt": "2021-09-27T23:34:34Z",
-      "assignee": null,
-      "author": "spring-projects-issues",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "spring-cloud/spring-cloud-gateway",
-      "number": 2315,
-      "title": "R2DBC route repository implementation",
-      "url": "https://github.com/spring-cloud/spring-cloud-gateway/issues/2315",
-      "labels": [
-        "enhancement",
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Gateway"
-      ],
-      "comments": 3,
-      "createdAt": "2021-07-28T01:37:40Z",
-      "updatedAt": "2021-08-05T02:52:02Z",
-      "assignee": null,
-      "author": "spencergibb",
-      "authorAssociation": "MEMBER",
-      "byMaintainer": true,
-      "score": 3,
-      "tier": "medium"
-    },
-    {
-      "repo": "spring-projects/spring-security",
-      "number": 9823,
-      "title": "i18n the AccessDeniedException message",
-      "url": "https://github.com/spring-projects/spring-security/issues/9823",
-      "labels": [
-        "in: core",
-        "type: enhancement",
-        "status: ideal-for-contribution"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Security"
-      ],
-      "comments": 9,
-      "createdAt": "2021-05-27T09:23:00Z",
-      "updatedAt": "2021-07-19T11:12:20Z",
-      "assignee": "dkodippily",
-      "author": "rubensa",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "spring-cloud/spring-cloud-stream",
-      "number": 1935,
-      "title": "Allow Rabbit Streams binding to use Kotlin lambdas",
-      "url": "https://github.com/spring-cloud/spring-cloud-stream/issues/1935",
-      "labels": [
-        "ideal-for-contribution"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Kafka"
-      ],
-      "comments": 1,
-      "createdAt": "2020-03-24T15:34:33Z",
-      "updatedAt": "2021-07-14T16:07:59Z",
-      "assignee": "olegz",
-      "author": "sabbyanandan",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 3,
-      "tier": "medium"
-    },
-    {
-      "repo": "pgjdbc/r2dbc-postgresql",
-      "number": 315,
-      "title": "Add support for GSS/Kerberos with Postgres 12",
-      "url": "https://github.com/pgjdbc/r2dbc-postgresql/issues/315",
-      "labels": [
-        "type: enhancement",
-        "status: ideal-for-contribution"
-      ],
-      "stacks": [
-        "Java",
-        "R2DBC",
-        "PostgreSQL"
-      ],
-      "comments": 4,
-      "createdAt": "2020-08-13T12:06:32Z",
-      "updatedAt": "2021-07-09T08:58:47Z",
-      "assignee": null,
-      "author": "mp911de",
-      "authorAssociation": "COLLABORATOR",
-      "byMaintainer": true,
-      "score": 4,
-      "tier": "medium"
-    },
-    {
-      "repo": "spring-cloud/spring-cloud-gateway",
-      "number": 131,
-      "title": "Validate route uri",
-      "url": "https://github.com/spring-cloud/spring-cloud-gateway/issues/131",
-      "labels": [
-        "enhancement",
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Gateway"
-      ],
-      "comments": 14,
-      "createdAt": "2017-12-12T23:13:59Z",
-      "updatedAt": "2021-06-03T16:29:13Z",
-      "assignee": null,
-      "author": "RyanBard",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": -2,
-      "tier": "low"
-    },
-    {
-      "repo": "spring-cloud/spring-cloud-gateway",
-      "number": 2138,
-      "title": "response timeout configuration through refresh via config-server",
-      "url": "https://github.com/spring-cloud/spring-cloud-gateway/issues/2138",
-      "labels": [
-        "enhancement",
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Gateway"
-      ],
-      "comments": 2,
-      "createdAt": "2021-02-03T11:36:18Z",
-      "updatedAt": "2021-06-02T22:05:33Z",
-      "assignee": null,
-      "author": "magware-dev",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "spring-cloud/spring-cloud-gateway",
-      "number": 2246,
-      "title": "RedisRateLimiter: Support configuration in Fluent API",
-      "url": "https://github.com/spring-cloud/spring-cloud-gateway/issues/2246",
-      "labels": [
-        "enhancement",
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Gateway"
-      ],
-      "comments": 2,
-      "createdAt": "2021-05-13T13:36:10Z",
-      "updatedAt": "2021-06-02T21:31:44Z",
-      "assignee": null,
-      "author": "workmanw",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "spring-cloud/spring-cloud-gateway",
-      "number": 2185,
-      "title": "MVC ProxyExchange should support request body for GET requests",
-      "url": "https://github.com/spring-cloud/spring-cloud-gateway/issues/2185",
-      "labels": [
-        "enhancement",
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Gateway"
-      ],
-      "comments": 3,
-      "createdAt": "2021-03-18T12:50:48Z",
-      "updatedAt": "2021-05-17T19:40:07Z",
-      "assignee": null,
-      "author": "masch712",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "spring-projects/spring-data-rest",
-      "number": 2004,
-      "title": "Update documentation to HAL Explorer",
-      "url": "https://github.com/spring-projects/spring-data-rest/issues/2004",
-      "labels": [
-        "type: documentation",
-        "status: ideal-for-contribution"
-      ],
-      "stacks": [
-        "Java",
-        "Spring"
-      ],
-      "comments": 2,
-      "createdAt": "2021-04-24T10:13:31Z",
-      "updatedAt": "2021-04-26T18:36:09Z",
-      "assignee": null,
-      "author": "toedter",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "resilience4j/resilience4j",
-      "number": 1377,
-      "title": "CircuitBreaker advice taking 2s to execute",
-      "url": "https://github.com/resilience4j/resilience4j/issues/1377",
-      "labels": [
-        "help wanted",
-        "needs investigation"
-      ],
-      "stacks": [
-        "Java"
-      ],
-      "comments": 4,
-      "createdAt": "2021-03-18T17:41:50Z",
-      "updatedAt": "2021-04-09T22:10:23Z",
-      "assignee": null,
-      "author": "devdatto",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": -2,
-      "tier": "low"
-    },
-    {
-      "repo": "spring-cloud/spring-cloud-stream",
-      "number": 2079,
-      "title": "TestChannelBinderConfiguration does not respect auto restart configuration for bindings",
-      "url": "https://github.com/spring-cloud/spring-cloud-stream/issues/2079",
-      "labels": [
-        "ideal-for-contribution"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Kafka"
-      ],
-      "comments": 3,
-      "createdAt": "2021-01-13T14:50:43Z",
-      "updatedAt": "2021-04-06T14:15:34Z",
-      "assignee": null,
-      "author": "tobske",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "spring-cloud/spring-cloud-gateway",
-      "number": 2079,
-      "title": "Allow setting the refresh token clock skew",
-      "url": "https://github.com/spring-cloud/spring-cloud-gateway/issues/2079",
-      "labels": [
-        "enhancement",
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Gateway"
-      ],
-      "comments": 1,
-      "createdAt": "2020-12-15T11:47:25Z",
-      "updatedAt": "2021-03-31T20:49:07Z",
-      "assignee": null,
-      "author": "dgempiuc",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "grpc/grpc-java",
-      "number": 7974,
-      "title": "Support for ppc64le",
-      "url": "https://github.com/grpc/grpc-java/issues/7974",
-      "labels": [
-        "enhancement",
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "gRPC"
-      ],
-      "comments": 4,
-      "createdAt": "2021-03-16T05:43:57Z",
-      "updatedAt": "2021-03-31T12:06:20Z",
-      "assignee": null,
-      "author": "gururajrkatti",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "authorjapps/zerocode",
-      "number": 58,
-      "title": "Configure GitHub Actions YAML for code-coverage report",
-      "url": "https://github.com/authorjapps/zerocode/issues/58",
-      "labels": [
-        "enhancement",
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "Testing",
-        "Kafka"
-      ],
-      "comments": 6,
-      "createdAt": "2018-03-25T14:00:21Z",
-      "updatedAt": "2021-03-03T11:50:23Z",
-      "assignee": null,
-      "author": "authorjapps",
-      "authorAssociation": "OWNER",
-      "byMaintainer": true,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "micrometer-metrics/micrometer",
-      "number": 2058,
-      "title": "elastic - allow specifying index life cycle management policy",
-      "url": "https://github.com/micrometer-metrics/micrometer/issues/2058",
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "registry: elastic"
-      ],
-      "stacks": [
-        "Java",
-        "Observability"
-      ],
-      "comments": 5,
-      "createdAt": "2020-05-06T05:28:54Z",
-      "updatedAt": "2021-02-26T23:27:46Z",
-      "assignee": null,
-      "author": "assaf79",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "spring-cloud/spring-cloud-stream",
-      "number": 2091,
-      "title": "MessageChannelBinder support for futures",
-      "url": "https://github.com/spring-cloud/spring-cloud-stream/issues/2091",
-      "labels": [
-        "ideal-for-contribution"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "Kafka"
-      ],
-      "comments": 3,
-      "createdAt": "2021-01-21T14:08:48Z",
-      "updatedAt": "2021-02-12T02:37:32Z",
-      "assignee": null,
-      "author": "GreenRover",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "testcontainers/testcontainers-java",
-      "number": 2516,
-      "title": "HttpWaitStrategy does not retry to re-validate ResponsePredicate",
-      "url": "https://github.com/testcontainers/testcontainers-java/issues/2516",
-      "labels": [
-        "help wanted",
-        "resolution/acknowledged"
-      ],
-      "stacks": [
-        "Java",
-        "Testing"
-      ],
-      "comments": 4,
-      "createdAt": "2020-04-03T09:23:54Z",
-      "updatedAt": "2021-01-31T19:02:35Z",
-      "assignee": null,
-      "author": "kirmandi",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 3,
-      "tier": "medium"
-    },
-    {
-      "repo": "grpc-ecosystem/grpc-spring",
-      "number": 389,
-      "title": "Clarify Sleuth support",
-      "url": "https://github.com/grpc-ecosystem/grpc-spring/issues/389",
-      "labels": [
-        "help wanted",
-        "documentation"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "gRPC"
-      ],
-      "comments": 10,
-      "createdAt": "2020-07-21T08:33:42Z",
-      "updatedAt": "2020-12-12T17:43:17Z",
-      "assignee": null,
-      "author": "asarkar",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 0,
-      "tier": "low"
-    },
-    {
-      "repo": "spring-projects/spring-data-commons",
-      "number": 1029,
-      "title": "EvaluationContextExtension should have access to original properties [DATACMNS-560]",
-      "url": "https://github.com/spring-projects/spring-data-commons/issues/1029",
-      "labels": [
-        "status: ideal-for-contribution",
-        "in: repository",
-        "type: enhancement"
-      ],
-      "stacks": [
-        "Java",
-        "Spring"
-      ],
-      "comments": 1,
-      "createdAt": "2014-08-11T07:22:13Z",
-      "updatedAt": "2020-09-23T13:00:53Z",
-      "assignee": null,
-      "author": "spring-projects-issues",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 3,
-      "tier": "medium"
-    },
-    {
-      "repo": "testcontainers/testcontainers-java",
-      "number": 307,
-      "title": "Improve error messaging when no docker-machine VM exists",
-      "url": "https://github.com/testcontainers/testcontainers-java/issues/307",
-      "labels": [
-        "help wanted",
-        "resolution/somedaymaybe",
-        "client/docker-machine",
-        "type/feature",
-        "resolution/acknowledged"
-      ],
-      "stacks": [
-        "Java",
-        "Testing"
-      ],
-      "comments": 3,
-      "createdAt": "2017-03-03T23:05:02Z",
-      "updatedAt": "2020-09-15T10:11:20Z",
-      "assignee": null,
-      "author": "rnorth",
-      "authorAssociation": "MEMBER",
-      "byMaintainer": true,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "testcontainers/testcontainers-java",
-      "number": 1158,
-      "title": "New docs: Convert inline example code to use codeinclude macro",
-      "url": "https://github.com/testcontainers/testcontainers-java/issues/1158",
-      "labels": [
-        "help wanted",
-        "type/docs",
-        "resolution/acknowledged"
-      ],
-      "stacks": [
-        "Java",
-        "Testing"
-      ],
-      "comments": 2,
-      "createdAt": "2019-01-19T19:29:09Z",
-      "updatedAt": "2020-07-27T14:29:20Z",
-      "assignee": null,
-      "author": "rnorth",
-      "authorAssociation": "MEMBER",
-      "byMaintainer": true,
-      "score": 5,
-      "tier": "high"
-    },
-    {
-      "repo": "grpc-ecosystem/grpc-spring",
-      "number": 236,
-      "title": "Integration with open census for observability",
-      "url": "https://github.com/grpc-ecosystem/grpc-spring/issues/236",
-      "labels": [
-        "help wanted",
-        "examples"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "gRPC"
-      ],
-      "comments": 2,
-      "createdAt": "2019-06-04T15:19:34Z",
-      "updatedAt": "2020-06-13T13:05:05Z",
-      "assignee": null,
-      "author": "chandresh-pancholi",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "grpc-ecosystem/grpc-spring",
-      "number": 263,
-      "title": "Add metrics for the Netty internals",
-      "url": "https://github.com/grpc-ecosystem/grpc-spring/issues/263",
-      "labels": [
-        "enhancement",
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "gRPC"
-      ],
-      "comments": 10,
-      "createdAt": "2019-08-01T22:40:54Z",
-      "updatedAt": "2020-06-13T13:04:58Z",
-      "assignee": null,
-      "author": "asarkar",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 0,
-      "tier": "low"
-    },
-    {
-      "repo": "micrometer-metrics/micrometer",
-      "number": 1784,
-      "title": "micrometer cloudwatch should publish StatisticSet when any aggregations are done client side.",
-      "url": "https://github.com/micrometer-metrics/micrometer/issues/1784",
-      "labels": [
-        "enhancement",
-        "help wanted",
-        "registry: cloudwatch"
-      ],
-      "stacks": [
-        "Java",
-        "Observability"
-      ],
-      "comments": 3,
-      "createdAt": "2020-01-10T14:11:11Z",
-      "updatedAt": "2020-04-29T10:52:59Z",
-      "assignee": null,
-      "author": null,
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "testcontainers/testcontainers-java",
-      "number": 1157,
-      "title": "New docs: Startup strategy information/examples",
-      "url": "https://github.com/testcontainers/testcontainers-java/issues/1157",
-      "labels": [
-        "help wanted",
-        "type/docs"
-      ],
-      "stacks": [
-        "Java",
-        "Testing"
-      ],
-      "comments": 5,
-      "createdAt": "2019-01-19T17:09:17Z",
-      "updatedAt": "2020-04-09T12:51:45Z",
-      "assignee": null,
-      "author": "rnorth",
-      "authorAssociation": "MEMBER",
-      "byMaintainer": true,
-      "score": 3,
-      "tier": "medium"
-    },
-    {
-      "repo": "pgjdbc/r2dbc-postgresql",
-      "number": 255,
-      "title": "LargeObject support via OID",
-      "url": "https://github.com/pgjdbc/r2dbc-postgresql/issues/255",
-      "labels": [
-        "type: enhancement",
-        "status: ideal-for-contribution"
-      ],
-      "stacks": [
-        "Java",
-        "R2DBC",
-        "PostgreSQL"
-      ],
-      "comments": 18,
-      "createdAt": "2020-03-05T14:25:56Z",
-      "updatedAt": "2020-03-14T15:53:42Z",
-      "assignee": null,
-      "author": "fzoli",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": -1,
-      "tier": "low"
-    },
-    {
-      "repo": "authorjapps/zerocode",
-      "number": 215,
-      "title": "Github damianszczepanik cucumber-reporting integration poc",
-      "url": "https://github.com/authorjapps/zerocode/issues/215",
-      "labels": [
-        "help wanted",
-        "good first issue",
-        "feature-request"
-      ],
-      "stacks": [
-        "Java",
-        "Testing",
-        "Kafka"
-      ],
-      "comments": 6,
-      "createdAt": "2019-02-28T06:39:26Z",
-      "updatedAt": "2020-02-02T14:13:51Z",
-      "assignee": null,
-      "author": "authorjapps",
-      "authorAssociation": "OWNER",
-      "byMaintainer": true,
-      "score": 5,
-      "tier": "high"
-    },
-    {
-      "repo": "testcontainers/testcontainers-java",
-      "number": 1156,
-      "title": "New docs: Improve database container usage examples",
-      "url": "https://github.com/testcontainers/testcontainers-java/issues/1156",
-      "labels": [
-        "help wanted",
-        "type/docs"
-      ],
-      "stacks": [
-        "Java",
-        "Testing"
-      ],
-      "comments": 4,
-      "createdAt": "2019-01-19T17:07:33Z",
-      "updatedAt": "2019-08-03T08:20:09Z",
-      "assignee": null,
-      "author": "rnorth",
-      "authorAssociation": "MEMBER",
-      "byMaintainer": true,
-      "score": 3,
-      "tier": "medium"
-    },
-    {
-      "repo": "testcontainers/testcontainers-java",
-      "number": 1164,
-      "title": "New docs: document use of APIs for copying files to/from containers",
-      "url": "https://github.com/testcontainers/testcontainers-java/issues/1164",
-      "labels": [
-        "help wanted",
-        "type/docs",
-        "resolution/acknowledged"
-      ],
-      "stacks": [
-        "Java",
-        "Testing"
-      ],
-      "comments": 1,
-      "createdAt": "2019-01-20T10:57:11Z",
-      "updatedAt": "2019-04-20T11:14:15Z",
-      "assignee": null,
-      "author": "rnorth",
-      "authorAssociation": "MEMBER",
-      "byMaintainer": true,
-      "score": 6,
-      "tier": "high"
-    },
-    {
-      "repo": "authorjapps/zerocode",
-      "number": 206,
-      "title": "Draw feature comparisons",
-      "url": "https://github.com/authorjapps/zerocode/issues/206",
-      "labels": [
-        "good first issue",
-        "in-progress"
-      ],
-      "stacks": [
-        "Java",
-        "Testing",
-        "Kafka"
-      ],
-      "comments": 1,
-      "createdAt": "2019-02-16T14:27:26Z",
-      "updatedAt": "2019-04-05T13:36:40Z",
-      "assignee": null,
-      "author": "authorjapps",
-      "authorAssociation": "OWNER",
-      "byMaintainer": true,
-      "score": 5,
-      "tier": "high"
-    },
-    {
-      "repo": "testcontainers/testcontainers-java",
-      "number": 239,
-      "title": "Docker Compose support doesn't see local Docker images",
-      "url": "https://github.com/testcontainers/testcontainers-java/issues/239",
-      "labels": [
-        "help wanted",
-        "resolution/acknowledged"
-      ],
-      "stacks": [
-        "Java",
-        "Testing"
-      ],
-      "comments": 6,
-      "createdAt": "2016-10-27T20:23:43Z",
-      "updatedAt": "2018-10-28T07:15:49Z",
-      "assignee": null,
-      "author": "ldcasillas-progreso",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "grpc/grpc-java",
-      "number": 2984,
-      "title": "Scala: Context propagation and async interceptors",
-      "url": "https://github.com/grpc/grpc-java/issues/2984",
-      "labels": [
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "gRPC"
-      ],
-      "comments": 5,
-      "createdAt": "2017-05-08T07:25:13Z",
-      "updatedAt": "2018-06-18T07:41:32Z",
-      "assignee": null,
-      "author": "ostronom",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "grpc/grpc-java",
-      "number": 617,
-      "title": "Recommended IntelliJ code style settings are out of date",
-      "url": "https://github.com/grpc/grpc-java/issues/617",
-      "labels": [
-        "help wanted"
-      ],
-      "stacks": [
-        "Java",
-        "gRPC"
-      ],
-      "comments": 5,
-      "createdAt": "2015-07-10T14:38:04Z",
-      "updatedAt": "2017-11-20T11:58:13Z",
-      "assignee": null,
-      "author": "johnbcoughlin",
-      "authorAssociation": "CONTRIBUTOR",
-      "byMaintainer": false,
-      "score": 1,
-      "tier": "low"
-    },
-    {
-      "repo": "spring-projects/spring-data-commons",
-      "number": 1136,
-      "title": "ProxyingHandlerMethodArgumentResolver does not work with MultipartFile [DATACMNS-668]",
-      "url": "https://github.com/spring-projects/spring-data-commons/issues/1136",
-      "labels": [
-        "status: ideal-for-contribution",
-        "type: enhancement"
-      ],
-      "stacks": [
-        "Java",
-        "Spring"
-      ],
-      "comments": 1,
-      "createdAt": "2015-03-29T22:53:12Z",
-      "updatedAt": "2017-06-18T13:45:24Z",
-      "assignee": null,
-      "author": "spring-projects-issues",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 3,
-      "tier": "medium"
-    },
-    {
-      "repo": "spring-projects/spring-data-commons",
-      "number": 1040,
-      "title": "@EnableSpringDataWebSupport  and Spring 4.1 mvcUrl JSP tag are difficult to combine [DATACMNS-573]",
-      "url": "https://github.com/spring-projects/spring-data-commons/issues/1040",
-      "labels": [
-        "in: core",
-        "status: ideal-for-contribution",
-        "type: enhancement"
-      ],
-      "stacks": [
-        "Java",
-        "Spring"
-      ],
-      "comments": 3,
-      "createdAt": "2014-09-12T06:18:14Z",
-      "updatedAt": "2017-06-08T05:30:43Z",
-      "assignee": null,
-      "author": "spring-projects-issues",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 2,
-      "tier": "medium"
-    },
-    {
-      "repo": "spring-projects/spring-data-commons",
-      "number": 865,
-      "title": "Repository Populator support for referenced objects [DATACMNS-396]",
-      "url": "https://github.com/spring-projects/spring-data-commons/issues/865",
-      "labels": [
-        "status: ideal-for-contribution",
-        "type: enhancement"
-      ],
-      "stacks": [
-        "Java",
-        "Spring"
-      ],
-      "comments": 0,
-      "createdAt": "2013-11-12T10:16:28Z",
-      "updatedAt": "2017-06-06T08:07:51Z",
-      "assignee": null,
-      "author": "spring-projects-issues",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 3,
-      "tier": "medium"
-    },
-    {
-      "repo": "spring-projects/spring-data-commons",
-      "number": 844,
-      "title": "Check for type compatibility of parameter types with their corresponding entity properties [DATACMNS-372]",
-      "url": "https://github.com/spring-projects/spring-data-commons/issues/844",
-      "labels": [
-        "in: core",
-        "status: ideal-for-contribution",
-        "type: enhancement"
-      ],
-      "stacks": [
-        "Java",
-        "Spring"
-      ],
-      "comments": 0,
-      "createdAt": "2013-09-18T02:20:30Z",
-      "updatedAt": "2017-06-06T08:07:51Z",
-      "assignee": null,
-      "author": "spring-projects-issues",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 3,
-      "tier": "medium"
-    },
-    {
-      "repo": "spring-projects/spring-data-commons",
-      "number": 594,
-      "title": "Support usage of distinct on properties [DATACMNS-115]",
-      "url": "https://github.com/spring-projects/spring-data-commons/issues/594",
-      "labels": [
-        "status: ideal-for-contribution",
-        "in: repository",
-        "type: enhancement"
-      ],
-      "stacks": [
-        "Java",
-        "Spring"
-      ],
-      "comments": 5,
-      "createdAt": "2011-12-20T03:22:37Z",
-      "updatedAt": "2017-06-06T08:07:51Z",
-      "assignee": null,
-      "author": "spring-projects-issues",
-      "authorAssociation": "NONE",
-      "byMaintainer": false,
-      "score": 2,
       "tier": "medium"
     }
   ]

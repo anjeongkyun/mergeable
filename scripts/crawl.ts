@@ -17,6 +17,10 @@ if (!token) {
 
 const gql = graphql.defaults({ headers: { authorization: `token ${token}` } });
 
+// 마지막 활동(updatedAt)이 이보다 오래된 이슈는 제외 — 방치·stale·이미 처리됐을 가능성.
+// createdAt이 아니라 updatedAt 기준(오래 전 생성돼도 최근 활동하면 유효).
+const MAX_STALE_DAYS = 365;
+
 const LABEL_RE = /good.?first.?issue|ideal.for.contribution|help.?wanted|first.?timers|contribution.?welcome/i;
 
 const ISSUES_QUERY = `
@@ -56,6 +60,14 @@ async function resolveLabels(cfg: RepoConfig, owner: string, name: string): Prom
 
 function hasOpenLinkedPR(node: any): boolean {
   return node.timelineItems.nodes.some((t: any) => t?.source?.state === "OPEN");
+}
+
+function hasMergedLinkedPR(node: any): boolean {
+  return node.timelineItems.nodes.some((t: any) => t?.source?.state === "MERGED");
+}
+
+function staleDays(updatedAt: string): number {
+  return (Date.now() - new Date(updatedAt).getTime()) / 86400000;
 }
 
 // 기여 가능성 스코어링. 신호: 라벨 감성 · 신선도(메인테이너 활동) · 크라우딩(댓글).
@@ -112,6 +124,7 @@ async function crawlRepo(cfg: RepoConfig, into: Map<string, Issue>) {
     }
     for (const n of r.repository?.issues?.nodes ?? []) {
       if (hasOpenLinkedPR(n)) continue; // 이미 점유
+      if (staleDays(n.updatedAt) > MAX_STALE_DAYS) continue; // 방치·stale
       const key = `${cfg.repo}#${n.number}`;
       if (into.has(key)) continue;
       const labelNames = n.labels.nodes.map((l: any) => l.name);
@@ -131,6 +144,7 @@ async function crawlRepo(cfg: RepoConfig, into: Map<string, Issue>) {
         author: n.author?.login ?? null,
         authorAssociation: association,
         byMaintainer: MAINTAINER.has(association),
+        hasMergedLinkedPR: hasMergedLinkedPR(n),
         score,
         tier,
       });

@@ -272,6 +272,11 @@ function IssueCard({
                 </span>
               )
             )}
+            {issue.hasMergedLinkedPR && (
+              <span className="px-1.5 py-0.5 rounded border text-[11px] bg-amber-50 text-amber-700 border-amber-200">
+                머지된 PR 있음(해결됐을 수 있음)
+              </span>
+            )}
           </div>
           <a
             href={issue.url}
