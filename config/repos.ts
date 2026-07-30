@@ -78,7 +78,7 @@ export const REPOS: RepoConfig[] = [
   { repo: "open-metadata/OpenMetadata", stacks: ["Java", "Backend", "Data"] },
   { repo: "TEAMMATES/teammates", stacks: ["Java", "Backend"] },
   { repo: "sirixdb/sirix", stacks: ["Kotlin", "NoSQL", "Database"] },
-  { repo: "junit-team/junit5", stacks: ["Java", "Testing"], labels: ["good first issue", "up-for-grabs"] },
+  { repo: "junit-team/junit-framework", stacks: ["Java", "Testing"] },
   { repo: "mockito/mockito", stacks: ["Java", "Testing"] },
   { repo: "authorjapps/zerocode", stacks: ["Java", "Testing", "Kafka"] },
 ];

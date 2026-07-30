@@ -23,7 +23,7 @@ const gql = graphql.defaults({ headers: { authorization: `token ${token}` } });
 // 오염돼 실제보다 신선하게 보일 수 있어(예: yugabyte 이슈 다수가 일괄터치로 ~189d로 튐) 여유를 둠.
 const MAX_STALE_DAYS = 180;
 
-const LABEL_RE = /good.?first.?issue|ideal.for.contribution|help.?wanted|first.?timers|contribution.?welcome/i;
+const LABEL_RE = /good.?first.?issue|ideal.for.contribution|help.?wanted|first.?timers|contribution.?welcome|up.?for.?grabs/i;
 
 const ISSUES_QUERY = `
 query($owner:String!, $name:String!, $label:String!) {
