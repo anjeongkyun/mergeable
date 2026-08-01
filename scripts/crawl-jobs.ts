@@ -24,6 +24,30 @@ const epochDate = (ms: unknown): string => {
   const d = new Date(n);
   return Number.isNaN(d.getTime()) ? "" : d.toISOString().slice(0, 10);
 };
+// 본문 텍스트에서 기술 스택 추출(파생 사실 — 본문은 저장 안 함).
+const STACK_DICT = [
+  "Java", "Kotlin", "Spring Boot", "Spring", "JPA", "Querydsl", "Hibernate", "MySQL", "PostgreSQL",
+  "MariaDB", "MongoDB", "Redis", "Elasticsearch", "Kafka", "RabbitMQ", "AWS", "GCP", "Azure",
+  "Docker", "Kubernetes", "Terraform", "Python", "Django", "FastAPI", "Node.js", "NestJS", "Express",
+  "TypeScript", "Go", "Golang", "Rust", "gRPC", "GraphQL", "Nginx", "Linux", "Jenkins", "MSA",
+];
+function extractStacks(text: string): string[] {
+  const found: string[] = [];
+  for (const s of STACK_DICT) {
+    const esc = s.replace(/[.+]/g, "\\$&");
+    if (new RegExp(`(?<![A-Za-z])${esc}(?![A-Za-z])`, "i").test(text)) found.push(s === "Golang" ? "Go" : s);
+  }
+  return [...new Set(found)].slice(0, 8);
+}
+function employmentOf(text: string): string {
+  if (/인턴|intern/i.test(text)) return "인턴";
+  if (/계약직|contract/i.test(text)) return "계약직";
+  if (/파견/.test(text)) return "파견";
+  if (/프리랜서|freelance/i.test(text)) return "프리랜서";
+  if (/정규직/.test(text)) return "정규직";
+  return "";
+}
+
 // 동시성 제한 map (상세 fetch용).
 async function mapLimit<T>(items: T[], limit: number, fn: (t: T) => Promise<void>): Promise<void> {
   let i = 0;
@@ -108,9 +132,26 @@ async function wanted(): Promise<Job[]> {
         location: d.address?.location ?? "",
         closeAt: isoDate(d.due_time),
         postedAt: "",
+        employment: "",
       });
     }
   }
+  // 원티드 상세: 본문(requirements/main_tasks 등)에서 스택·고용형태 파생(본문 미저장).
+  await mapLimit(out, 8, async (j) => {
+    const id = j.url.match(/wd\/(\d+)/)?.[1];
+    if (!id) return;
+    try {
+      const r = await fetch(`https://www.wanted.co.kr/api/v4/jobs/${id}`, { headers: H });
+      if (!r.ok) return;
+      const dj: any = await r.json();
+      const dt = dj.job?.detail ?? {};
+      const body = [dt.main_tasks, dt.requirements, dt.preferred_points, dt.intro, dt.benefits]
+        .filter(Boolean)
+        .join("\n");
+      j.stacks = extractStacks(body);
+      j.employment = employmentOf(`${j.title}\n${body}`);
+    } catch {}
+  });
   return out;
 }
 
@@ -144,6 +185,7 @@ async function jumpit(): Promise<Job[]> {
         location: Array.isArray(p.locations) ? p.locations[0] ?? "" : "",
         closeAt: isoDate(p.closedAt),
         postedAt: "",
+        employment: employmentOf(p.title ?? ""),
       });
     }
   }
@@ -199,6 +241,13 @@ async function linkareer(): Promise<Job[]> {
       const jt = (a.jobTypes ?? []).join(" ");
       const tags = levelTags(`${title} ${jt}`);
       if (/INTERN/i.test(jt) && !tags.includes("인턴")) tags.push("인턴");
+      const employment = /CONTRACT/i.test(jt)
+        ? "계약직"
+        : /INTERN/i.test(jt)
+          ? "인턴"
+          : /NEW|EXPERIENCED/i.test(jt)
+            ? "정규직"
+            : "";
       out.push({
         source: "linkareer",
         company: String(a.organizationName),
@@ -209,6 +258,7 @@ async function linkareer(): Promise<Job[]> {
         location: "",
         closeAt: epochDate(a.recruitCloseAt),
         postedAt: "",
+        employment,
       });
     }
   }
@@ -250,6 +300,7 @@ async function saramin(): Promise<Job[]> {
         location: "",
         closeAt: "",
         postedAt: "",
+        employment: employmentOf(raw),
       });
     });
   }
@@ -296,6 +347,7 @@ async function jobkorea(): Promise<Job[]> {
         location: "",
         closeAt: "",
         postedAt: "",
+        employment: employmentOf(title),
       });
     }
   }

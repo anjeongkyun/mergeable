@@ -228,6 +228,11 @@ export default function Jobs() {
                               {t}
                             </span>
                           ))}
+                          {j.employment && (
+                            <span className="text-[11px] px-1.5 py-0.5 rounded bg-blue-50 text-blue-600">
+                              {j.employment}
+                            </span>
+                          )}
                           {j.stacks.slice(0, 4).map((s) => (
                             <span
                               key={s}
