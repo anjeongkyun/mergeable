@@ -1,5 +1,11 @@
+"use client";
+
+import { useRef } from "react";
 import Link from "next/link";
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
 import { BRAND, Wordmark } from "./brand";
+import BrandBackdrop from "./BrandBackdrop";
 
 type Card = {
   href: string;
@@ -32,14 +38,38 @@ const CARDS: Card[] = [
 ];
 
 export default function Home() {
+  const root = useRef<HTMLDivElement>(null);
+
+  useGSAP(
+    () => {
+      const mm = gsap.matchMedia();
+      mm.add("(prefers-reduced-motion: no-preference)", () => {
+        const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
+        tl.from(".hero-mark", { y: 10, opacity: 0, duration: 0.5 })
+          .from(".hero-line", { y: 14, opacity: 0, duration: 0.5, stagger: 0.08 }, "-=0.25")
+          .from(".nav-card", { y: 20, opacity: 0, duration: 0.55, stagger: 0.09 }, "-=0.2");
+      });
+    },
+    { scope: root },
+  );
+
+  // 호버 시 화살표가 살짝 미끄러지는 마이크로인터랙션
+  const onEnter = (e: React.MouseEvent<HTMLElement>) =>
+    gsap.to(e.currentTarget.querySelector(".arrow"), { x: 4, duration: 0.2, ease: "power2.out" });
+  const onLeave = (e: React.MouseEvent<HTMLElement>) =>
+    gsap.to(e.currentTarget.querySelector(".arrow"), { x: 0, duration: 0.2, ease: "power2.out" });
+
   return (
-    <div className="min-h-screen">
-      <header className="max-w-4xl mx-auto px-5 pt-20 pb-10 animate-rise">
-        <Wordmark size="text-2xl" />
-        <h1 className="mt-5 text-[26px] sm:text-3xl font-semibold tracking-tight text-zinc-100">
+    <div ref={root} className="min-h-screen">
+      <BrandBackdrop />
+      <header className="max-w-4xl mx-auto px-5 pt-20 pb-10">
+        <div className="hero-mark">
+          <Wordmark size="text-2xl" />
+        </div>
+        <h1 className="hero-line mt-5 text-[26px] sm:text-3xl font-semibold tracking-tight text-zinc-100">
           {BRAND.tagline}
         </h1>
-        <p className="mt-2 text-sm text-zinc-400">
+        <p className="hero-line mt-2 text-sm text-zinc-400">
           {BRAND.parent} {BRAND.kind}. 기여·학습·지원을 한곳에서.
         </p>
       </header>
@@ -52,20 +82,28 @@ export default function Home() {
                 <h2 className="text-[15px] font-medium text-zinc-100 group-hover:text-white transition-colors">
                   {c.title}
                 </h2>
-                <span className="text-zinc-600 group-hover:text-indigo-400 transition-colors">→</span>
+                <span className="arrow text-zinc-600 group-hover:text-indigo-400 transition-colors">→</span>
               </div>
               <p className="mt-2 text-[13px] leading-relaxed text-zinc-400">{c.desc}</p>
               <span className="mt-4 block text-[11px] text-zinc-500">{c.meta}</span>
             </>
           );
           const cls =
-            "group block rounded-2xl border border-zinc-800 bg-zinc-900/40 p-5 hover:border-indigo-500/50 hover:bg-zinc-900/70 transition-colors";
+            "nav-card group block rounded-2xl border border-zinc-800 bg-zinc-900/40 backdrop-blur-sm p-5 hover:border-indigo-500/50 hover:bg-zinc-900/70 hover:-translate-y-0.5 transition-all duration-200";
           return c.external ? (
-            <a key={c.href} href={c.href} target="_blank" rel="noreferrer noopener" className={cls}>
+            <a
+              key={c.href}
+              href={c.href}
+              target="_blank"
+              rel="noreferrer noopener"
+              className={cls}
+              onMouseEnter={onEnter}
+              onMouseLeave={onLeave}
+            >
               {inner}
             </a>
           ) : (
-            <Link key={c.href} href={c.href} className={cls}>
+            <Link key={c.href} href={c.href} className={cls} onMouseEnter={onEnter} onMouseLeave={onLeave}>
               {inner}
             </Link>
           );

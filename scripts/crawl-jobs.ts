@@ -142,8 +142,9 @@ function levelTags(title: string, from?: number | null, to?: number | null): str
 // --- 원티드: years 필터 없이 전체 페이지네이션 ---
 async function wanted(): Promise<Job[]> {
   const out: Job[] = [];
-  for (let offset = 0; offset < 400; offset += 20) {
-    const url = `https://www.wanted.co.kr/api/v4/jobs?country=kr&job_sort=job.latest_order&locations=all&query=${encodeURIComponent(Q)}&limit=20&offset=${offset}`;
+  // 키워드 검색은 영문 제목("Backend 개발자")을 놓침(250건). 직군 태그 872=백엔드 개발자로 전량 수집(606+건).
+  for (let offset = 0; offset < 800; offset += 100) {
+    const url = `https://www.wanted.co.kr/api/v4/jobs?country=kr&tag_type_ids=872&years=-1&job_sort=job.latest_order&locations=all&limit=100&offset=${offset}`;
     let j: any;
     try {
       const r = await fetch(url, { headers: H });
@@ -418,12 +419,15 @@ async function main() {
     console.log(`${names[i]}: +${jobs.length}${r.status === "rejected" ? " (실패)" : ""}`);
   });
 
-  // 관련성 필터: 제목에 백엔드/서버 신호가 없는 공고 제외(사람인/잡코리아 검색이 본문·키워드로도
-  // 매칭돼 "경기청년 매치업" 같은 비백엔드가 섞임). + 회사명 미상 제외 + url 중복 제거.
+  // 관련성 필터: 제목에 백엔드/서버 신호가 없는 공고 제외 — **사람인/잡코리아에만** 적용.
+  // (그들의 HTML 검색은 본문·키워드로도 매칭돼 "경기청년 매치업" 같은 비백엔드가 섞임.)
+  // 원티드(직군 872 카테고리)·점핏(백엔드 키워드 API)·링커리어(함수 내 필터)는 이미 백엔드로 확정 →
+  // 제목 신호가 없어도(예: "로보어드바이저 IRP 시스템 개발") 정당한 백엔드라 필터 제외.
   const BACKEND_RE = /백[\s]?엔[\s]?드|back[\s.-]?end|서버|server/i;
+  const NOISY = new Set(["saramin", "jobkorea"]);
   const seen = new Set<string>();
   const jobs = all.filter((j) => {
-    if (!BACKEND_RE.test(j.title)) return false;
+    if (NOISY.has(j.source) && !BACKEND_RE.test(j.title)) return false;
     if (!j.company || j.company === "?") return false;
     if (seen.has(j.url)) return false;
     seen.add(j.url);

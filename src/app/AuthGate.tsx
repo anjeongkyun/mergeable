@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { BRAND, Wordmark } from "./brand";
+import BrandBackdrop from "./BrandBackdrop";
 
 // 접근 코드의 SHA-256 해시만 보관(리터럴 코드는 소스에 없음). 정적 게이트 — 완전한 보안 아님.
 const HASH = "94ee059335e587e501cc4bf90613e0814f00a7b08bc7c648fd865a2af6a22cc2";
@@ -42,6 +43,7 @@ export default function AuthGate({ children }: { children: React.ReactNode }) {
 
   return (
     <div className="min-h-screen flex items-center justify-center px-4">
+      <BrandBackdrop />
       <div className="w-full max-w-sm animate-rise">
         <div className="flex flex-col items-center text-center">
           <Wordmark size="text-2xl" />
