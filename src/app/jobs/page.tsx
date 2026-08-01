@@ -33,11 +33,20 @@ function timeAgo(iso: string): string {
 
 export default function Jobs() {
   const [data, setData] = useState<JobsData | null>(null);
-  const [source, setSource] = useState("");
-  const [level, setLevel] = useState("");
+  const [sources, setSources] = useState<string[]>([]);
+  const [levels, setLevels] = useState<string[]>([]);
   const [q, setQ] = useState("");
   const [view, setView] = useState<"jobs" | "companies">("jobs");
   const [copied, setCopied] = useState(false);
+
+  const toggle = (setter: (fn: (p: string[]) => string[]) => void, v: string) =>
+    setter((p) => (p.includes(v) ? p.filter((x) => x !== v) : [...p, v]));
+  const chip = (on: boolean) =>
+    `text-sm px-2.5 py-1 rounded-full border transition-colors ${
+      on
+        ? "border-indigo-600 text-indigo-600 bg-indigo-50"
+        : "border-gray-200 text-gray-500 hover:text-gray-900"
+    }`;
 
   useEffect(() => {
     fetch("/jobs.json")
@@ -59,9 +68,11 @@ export default function Jobs() {
   const groups = useMemo(() => {
     if (!data) return [];
     let list = data.jobs;
-    if (source) list = list.filter((j) => j.source === source);
-    if (level)
-      list = list.filter((j) => (level === "미표기" ? j.tags.length === 0 : j.tags.includes(level)));
+    if (sources.length) list = list.filter((j) => sources.includes(j.source));
+    if (levels.length)
+      list = list.filter((j) =>
+        levels.some((lv) => (lv === "미표기" ? j.tags.length === 0 : j.tags.includes(lv))),
+      );
     if (q.trim()) {
       const t = q.trim().toLowerCase();
       list = list.filter(
@@ -75,7 +86,7 @@ export default function Jobs() {
       map.set(j.company, arr);
     }
     return [...map.entries()].sort((a, b) => a[0].localeCompare(b[0], "ko"));
-  }, [data, source, level, q]);
+  }, [data, sources, levels, q]);
 
   const shownJobs = groups.reduce((n, [, js]) => n + js.length, 0);
 
@@ -98,32 +109,23 @@ export default function Jobs() {
       </header>
 
       <div className="sticky top-0 z-10 bg-white/90 backdrop-blur border-b border-gray-200">
-        <div className="max-w-5xl mx-auto px-4 py-3 flex flex-wrap items-center gap-2">
-          <select
-            value={source}
-            onChange={(e) => setSource(e.target.value)}
-            className="text-sm px-2.5 py-1.5 rounded-md border border-gray-200 bg-white text-gray-700 focus:border-indigo-600 focus:outline-none"
-          >
-            <option value="">모든 출처</option>
+        <div className="max-w-5xl mx-auto px-4 py-3 space-y-2">
+          <div className="flex flex-wrap items-center gap-1.5">
+            <span className="text-xs text-gray-400 mr-0.5">출처</span>
             {Object.entries(SRC).map(([k, v]) => (
-              <option key={k} value={k}>
+              <button key={k} onClick={() => toggle(setSources, k)} className={chip(sources.includes(k))}>
                 {v}
-              </option>
+              </button>
             ))}
-          </select>
-          <select
-            value={level}
-            onChange={(e) => setLevel(e.target.value)}
-            className="text-sm px-2.5 py-1.5 rounded-md border border-gray-200 bg-white text-gray-700 focus:border-indigo-600 focus:outline-none"
-          >
-            <option value="">모든 레벨</option>
-            {LEVELS.map((t) => (
-              <option key={t} value={t}>
-                {t}
-                {levelCounts[t] ? ` (${levelCounts[t]})` : ""}
-              </option>
+            <span className="text-xs text-gray-400 mx-1">레벨</span>
+            {LEVELS.map((lv) => (
+              <button key={lv} onClick={() => toggle(setLevels, lv)} className={chip(levels.includes(lv))}>
+                {lv}
+                {levelCounts[lv] ? ` ${levelCounts[lv]}` : ""}
+              </button>
             ))}
-          </select>
+          </div>
+          <div className="flex flex-wrap items-center gap-2">
           <input
             value={q}
             onChange={(e) => setQ(e.target.value)}
@@ -148,6 +150,7 @@ export default function Jobs() {
           <span className="text-xs text-gray-400">
             {groups.length}개 회사 · {shownJobs}건
           </span>
+          </div>
         </div>
       </div>
 

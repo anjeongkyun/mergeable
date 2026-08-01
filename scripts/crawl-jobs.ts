@@ -99,7 +99,7 @@ function levelTags(title: string, from?: number | null, to?: number | null): str
 
   if (anyLevel) ["신입", "주니어", "경력"].forEach((x) => tags.add(x));
   else if (yF !== null) structLevels(yF, yT).forEach((x) => tags.add(x));
-  else if (senior) tags.add("경력");
+  else if (senior || /경력/.test(title)) tags.add("경력"); // 단독 "경력 채용"도 경력으로
   else if (entry) tags.add("신입");
   else structLevels(from ?? null, to ?? null).forEach((x) => tags.add(x));
 
@@ -366,8 +366,14 @@ async function main() {
     console.log(`${names[i]}: +${jobs.length}${r.status === "rejected" ? " (실패)" : ""}`);
   });
 
+  // 회사명 미상(로고 없어 추출 실패 등)은 제외 — "?" 표출 방지. url 중복도 제거.
   const seen = new Set<string>();
-  const jobs = all.filter((j) => (seen.has(j.url) ? false : seen.add(j.url)));
+  const jobs = all.filter((j) => {
+    if (!j.company || j.company === "?") return false;
+    if (seen.has(j.url)) return false;
+    seen.add(j.url);
+    return true;
+  });
   jobs.sort((a, b) => a.company.localeCompare(b.company, "ko"));
 
   const data: JobsData = {
