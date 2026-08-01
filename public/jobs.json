@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T13:44:39.338Z",
+  "generatedAt": "2026-08-01T13:50:55.401Z",
   "sourceCounts": {
     "wanted": 250,
     "jumpit": 400,
@@ -1516,6 +1516,22 @@
     {
       "source": "jumpit",
       "company": "리보틱스",
+      "title": "SLAM Engineer(경력)",
+      "url": "https://www.jumpit.co.kr/position/54378653",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "stacks": [
+        "C++",
+        "GitHub",
+        "Python"
+      ],
+      "location": "경기 시흥시"
+    },
+    {
+      "source": "jumpit",
+      "company": "리보틱스",
       "title": "[전문연구요원] Robot Engineer",
       "url": "https://www.jumpit.co.kr/position/54378713",
       "tags": [
@@ -1529,22 +1545,6 @@
         "Linux",
         "Python",
         "TensorFlow"
-      ],
-      "location": "경기 시흥시"
-    },
-    {
-      "source": "jumpit",
-      "company": "리보틱스",
-      "title": "SLAM Engineer(경력)",
-      "url": "https://www.jumpit.co.kr/position/54378653",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "stacks": [
-        "C++",
-        "GitHub",
-        "Python"
       ],
       "location": "경기 시흥시"
     },
