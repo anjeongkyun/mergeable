@@ -235,23 +235,34 @@ function IssueCard({ issue, pinned, onPin }: { issue: Issue; pinned: boolean; on
   const t = TIER[issue.tier];
   return (
     <li
-      className={`bg-zinc-900/40 border rounded-lg p-4 transition ${
+      className={`group/row relative bg-zinc-900/40 border rounded-lg p-4 transition-colors ${
         pinned
           ? "border-indigo-500/50 ring-1 ring-indigo-500/20"
-          : "border-zinc-800 hover:border-zinc-700"
+          : "border-zinc-800 hover:border-zinc-700 hover:bg-zinc-800/30"
       }`}
     >
+      {/* 카드 전체를 덮는 링크(제목뿐 아니라 카드 어디든 클릭 → 이슈 열림). 별표만 z-10로 독립 */}
+      <a
+        href={issue.url}
+        target="_blank"
+        rel="noreferrer noopener"
+        aria-label={`${issue.repo} #${issue.number} 이슈 열기`}
+        className="absolute inset-0 z-0 rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/50"
+      />
+      <span className="absolute top-4 right-4 z-10 text-indigo-400 text-sm opacity-0 -translate-x-1 group-hover/row:opacity-100 group-hover/row:translate-x-0 transition-all duration-200 pointer-events-none">
+        ↗
+      </span>
       <div className="flex items-start gap-3">
         <button
           onClick={onPin}
           aria-label={pinned ? "고정 해제" : "상단 고정"}
-          className={`mt-0.5 text-lg leading-none transition-colors ${
+          className={`relative z-10 mt-0.5 text-lg leading-none transition-colors ${
             pinned ? "text-indigo-400" : "text-zinc-600 hover:text-zinc-400"
           }`}
         >
           {pinned ? "★" : "☆"}
         </button>
-        <div className="min-w-0 flex-1">
+        <div className="relative z-10 min-w-0 flex-1 pointer-events-none">
           <div className="flex items-center gap-2 text-xs text-zinc-500">
             <span className="font-medium text-zinc-400">{issue.repo}</span>
             <span>#{issue.number}</span>
@@ -278,14 +289,9 @@ function IssueCard({ issue, pinned, onPin }: { issue: Issue; pinned: boolean; on
               </span>
             )}
           </div>
-          <a
-            href={issue.url}
-            target="_blank"
-            rel="noreferrer noopener"
-            className="mt-1 block text-[15px] font-medium text-zinc-100 hover:text-indigo-300 transition-colors"
-          >
+          <span className="mt-1 block text-[15px] font-medium text-zinc-100 group-hover/row:text-indigo-300 transition-colors">
             {issue.title}
-          </a>
+          </span>
           <div className="mt-2 flex flex-wrap items-center gap-1.5">
             {issue.stacks.map((s) => (
               <span key={s} className="text-xs px-2 py-0.5 rounded bg-indigo-500/10 text-indigo-300">
