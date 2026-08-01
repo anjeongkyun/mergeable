@@ -4794,10 +4794,9 @@
     {
       "source": "jumpit",
       "company": "스페이스맵",
-      "title": "백엔드 개발자 (경력 1년 이상)",
-      "url": "https://www.jumpit.co.kr/position/54557173",
+      "title": "백엔드 개발자 (경력 5년 이상)",
+      "url": "https://www.jumpit.co.kr/position/54557161",
       "tags": [
-        "주니어",
         "경력"
       ],
       "categories": [],
@@ -4817,9 +4816,10 @@
     {
       "source": "jumpit",
       "company": "스페이스맵",
-      "title": "백엔드 개발자 (경력 5년 이상)",
-      "url": "https://www.jumpit.co.kr/position/54557161",
+      "title": "백엔드 개발자 (경력 1년 이상)",
+      "url": "https://www.jumpit.co.kr/position/54557173",
       "tags": [
+        "주니어",
         "경력"
       ],
       "categories": [],
@@ -6353,6 +6353,23 @@
       "employment": ""
     },
     {
+      "source": "jumpit",
+      "company": "웅진",
+      "title": "[경력] 인프라 TA(서버∙가상화∙구축∙운영)모집",
+      "url": "https://www.jumpit.co.kr/position/54521676",
+      "tags": [
+        "경력"
+      ],
+      "stacks": [
+        "Linux",
+        "Windows"
+      ],
+      "location": "서울 중구",
+      "closeAt": "2026-08-19",
+      "postedAt": "2026-07-21",
+      "employment": ""
+    },
+    {
       "source": "wanted",
       "company": "원프레딕트(onepredict)",
       "title": "Backend Developer(백엔드 개발자)",
@@ -6632,9 +6649,10 @@
     {
       "source": "jumpit",
       "company": "이너버스",
-      "title": "백엔드 개발자 (시니어)",
-      "url": "https://www.jumpit.co.kr/position/54586069",
+      "title": "백엔드 개발자 (주니어)",
+      "url": "https://www.jumpit.co.kr/position/54586036",
       "tags": [
+        "주니어",
         "경력"
       ],
       "categories": [],
@@ -9054,6 +9072,27 @@
       "employment": ""
     },
     {
+      "source": "jumpit",
+      "company": "퓨쳐스콜레",
+      "title": "Back-End Engineer",
+      "url": "https://www.jumpit.co.kr/position/54470897",
+      "tags": [
+        "경력"
+      ],
+      "stacks": [
+        "Java",
+        "JavaScript",
+        "MariaDB",
+        "Spring Framework",
+        "REST API",
+        "AWS"
+      ],
+      "location": "서울 성동구",
+      "closeAt": "2026-08-13",
+      "postedAt": "2026-07-15",
+      "employment": ""
+    },
+    {
       "source": "wanted",
       "company": "프리즘제이",
       "title": "백엔드 리드 (CTO 트랙) — Spring/AWS, 7년차 이상",
@@ -9265,6 +9304,22 @@
       "location": "경기",
       "closeAt": "2026-08-20",
       "postedAt": "",
+      "employment": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "필라테크",
+      "title": "서버 및 가상화 인프라 구축/운영 채용",
+      "url": "https://www.jumpit.co.kr/position/54604679",
+      "tags": [
+        "경력"
+      ],
+      "stacks": [
+        "ASIC"
+      ],
+      "location": "서울 강남구",
+      "closeAt": "2026-08-28",
+      "postedAt": "2026-07-30",
       "employment": ""
     },
     {
