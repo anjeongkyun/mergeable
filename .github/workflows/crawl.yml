@@ -31,7 +31,7 @@ jobs:
       - name: build
         run: npm run build
       - name: deploy
-        run: npx wrangler pages deploy out --project-name=mergeable --branch=main --commit-dirty=true
+        run: npx wrangler pages deploy out --project-name=leveragelabs-mergeable --branch=main --commit-dirty=true
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
