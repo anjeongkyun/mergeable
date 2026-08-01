@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T16:52:27.305Z",
+  "generatedAt": "2026-08-01T17:17:11.532Z",
   "sourceCounts": {
     "wanted": 250,
     "jumpit": 400,
@@ -7,8 +7,8 @@
     "saramin": 120,
     "jobkorea": 65
   },
-  "companyCount": 373,
-  "jobCount": 465,
+  "companyCount": 376,
+  "jobCount": 468,
   "jobs": [
     {
       "source": "saramin",
@@ -550,6 +550,18 @@
       "employment": "정규직"
     },
     {
+      "source": "jobkorea",
+      "company": "㈜서브원",
+      "title": "Backend Server Developer",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49694094",
+      "tags": [],
+      "stacks": [],
+      "location": "",
+      "closeAt": "",
+      "postedAt": "",
+      "employment": ""
+    },
+    {
       "source": "saramin",
       "company": "(주)세르딕",
       "title": "[세르딕] 백엔드 개발자 채용",
@@ -966,20 +978,6 @@
       "closeAt": "",
       "postedAt": "",
       "employment": "정규직"
-    },
-    {
-      "source": "jobkorea",
-      "company": "㈜유알피",
-      "title": "㈜유알피 AI 응용/ 백엔드 개발 포지션 신입&amp;경력 채용",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49617389",
-      "tags": [
-        "경력"
-      ],
-      "stacks": [],
-      "location": "",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": ""
     },
     {
       "source": "saramin",
@@ -1445,6 +1443,27 @@
       "employment": ""
     },
     {
+      "source": "jumpit",
+      "company": "26도라인",
+      "title": "서버 개발자 경력직 채용",
+      "url": "https://www.jumpit.co.kr/position/54332459",
+      "tags": [
+        "경력"
+      ],
+      "stacks": [
+        "Docker",
+        "GitHub",
+        "GraphQL",
+        "Kubernetes",
+        "AWS",
+        "AZURE"
+      ],
+      "location": "경기 광주시",
+      "closeAt": "2026-08-04",
+      "postedAt": "2026-07-06",
+      "employment": ""
+    },
+    {
       "source": "wanted",
       "company": "가이아코퍼레이션",
       "title": "[가이아랩스] 백엔드 개발자",
@@ -1889,8 +1908,8 @@
     {
       "source": "jobkorea",
       "company": "넥스트증권㈜",
-      "title": "Backend Engineer (Service Platform)",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49685462",
+      "title": "Backend Engineer (Trading Core)",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49685852",
       "tags": [],
       "stacks": [],
       "location": "",
@@ -1901,8 +1920,8 @@
     {
       "source": "jobkorea",
       "company": "넥스트증권㈜",
-      "title": "Backend Engineer (Trading Core)",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49685852",
+      "title": "Backend Engineer (Service Platform)",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49685462",
       "tags": [],
       "stacks": [],
       "location": "",
@@ -2369,6 +2388,27 @@
       "location": "서울 강남구",
       "closeAt": "2026-08-21",
       "postedAt": "2026-07-23",
+      "employment": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "드림어스컴퍼니",
+      "title": "콘텐츠 플랫폼 백엔드 개발(Junior)",
+      "url": "https://www.jumpit.co.kr/position/54419201",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [
+        "Elasticsearch",
+        "Java",
+        "Kafka",
+        "Kotlin",
+        "MongoDB",
+        "MySQL"
+      ],
+      "location": "서울 강남구",
+      "closeAt": "2026-08-07",
+      "postedAt": "2026-07-09",
       "employment": ""
     },
     {
@@ -4309,10 +4349,9 @@
     {
       "source": "jumpit",
       "company": "스페이스맵",
-      "title": "백엔드 개발자 (경력 1년 이상)",
-      "url": "https://www.jumpit.co.kr/position/54557173",
+      "title": "백엔드 개발자 (경력 5년 이상)",
+      "url": "https://www.jumpit.co.kr/position/54557161",
       "tags": [
-        "주니어",
         "경력"
       ],
       "stacks": [
@@ -4331,9 +4370,10 @@
     {
       "source": "jumpit",
       "company": "스페이스맵",
-      "title": "백엔드 개발자 (경력 5년 이상)",
-      "url": "https://www.jumpit.co.kr/position/54557161",
+      "title": "백엔드 개발자 (경력 1년 이상)",
+      "url": "https://www.jumpit.co.kr/position/54557173",
       "tags": [
+        "주니어",
         "경력"
       ],
       "stacks": [
@@ -4932,10 +4972,10 @@
     {
       "source": "jumpit",
       "company": "에스피코리아",
-      "title": "백엔드 개발자(7년 이상)",
-      "url": "https://www.jumpit.co.kr/position/54552131",
+      "title": "백엔드 개발자(1~3년)",
+      "url": "https://www.jumpit.co.kr/position/54552121",
       "tags": [
-        "경력"
+        "주니어"
       ],
       "stacks": [
         "AWS CloudFormation",
@@ -4974,10 +5014,10 @@
     {
       "source": "jumpit",
       "company": "에스피코리아",
-      "title": "백엔드 개발자(1~3년)",
-      "url": "https://www.jumpit.co.kr/position/54552121",
+      "title": "백엔드 개발자(7년 이상)",
+      "url": "https://www.jumpit.co.kr/position/54552131",
       "tags": [
-        "주니어"
+        "경력"
       ],
       "stacks": [
         "AWS CloudFormation",
@@ -5724,6 +5764,23 @@
       "employment": ""
     },
     {
+      "source": "jumpit",
+      "company": "웅진",
+      "title": "[경력] 인프라 TA(서버∙가상화∙구축∙운영)모집",
+      "url": "https://www.jumpit.co.kr/position/54521676",
+      "tags": [
+        "경력"
+      ],
+      "stacks": [
+        "Linux",
+        "Windows"
+      ],
+      "location": "서울 중구",
+      "closeAt": "2026-08-19",
+      "postedAt": "2026-07-21",
+      "employment": ""
+    },
+    {
       "source": "wanted",
       "company": "원프레딕트(onepredict)",
       "title": "Backend Developer(백엔드 개발자)",
@@ -5978,9 +6035,10 @@
     {
       "source": "jumpit",
       "company": "이너버스",
-      "title": "백엔드 개발자 (시니어)",
-      "url": "https://www.jumpit.co.kr/position/54586069",
+      "title": "백엔드 개발자 (주니어)",
+      "url": "https://www.jumpit.co.kr/position/54586036",
       "tags": [
+        "주니어",
         "경력"
       ],
       "stacks": [
@@ -5999,31 +6057,9 @@
     {
       "source": "jumpit",
       "company": "이너버스",
-      "title": "백엔드 개발자 (신입)",
-      "url": "https://www.jumpit.co.kr/position/54586009",
+      "title": "백엔드 개발자 (시니어)",
+      "url": "https://www.jumpit.co.kr/position/54586069",
       "tags": [
-        "신입"
-      ],
-      "stacks": [
-        "Docker",
-        "Elasticsearch",
-        "Gradle",
-        "Java",
-        "Linux",
-        "Python"
-      ],
-      "location": "서울 영등포구",
-      "closeAt": "2026-08-26",
-      "postedAt": "2026-07-28",
-      "employment": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "이너버스",
-      "title": "백엔드 개발자 (주니어)",
-      "url": "https://www.jumpit.co.kr/position/54586036",
-      "tags": [
-        "주니어",
         "경력"
       ],
       "stacks": [
@@ -6531,27 +6567,6 @@
       "employment": ""
     },
     {
-      "source": "jumpit",
-      "company": "주본",
-      "title": "서버, 스토리지 시스템 엔지니어 모집 (신입)",
-      "url": "https://www.jumpit.co.kr/position/54554220",
-      "tags": [
-        "신입"
-      ],
-      "stacks": [
-        "CentOS",
-        "Docker",
-        "Kubernetes",
-        "Linux",
-        "MSSQL",
-        "MySQL"
-      ],
-      "location": "서울 송파구",
-      "closeAt": "2026-08-23",
-      "postedAt": "2026-07-25",
-      "employment": ""
-    },
-    {
       "source": "saramin",
       "company": "주식회사 띵동",
       "title": "[주식회사 띵동] 신입 백엔드 개발자 모집",
@@ -7042,27 +7057,6 @@
       "location": "서울",
       "closeAt": "",
       "postedAt": "",
-      "employment": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "코그넥스코리아",
-      "title": "AI Product Back-end Engineer",
-      "url": "https://www.jumpit.co.kr/position/54585301",
-      "tags": [
-        "경력"
-      ],
-      "stacks": [
-        "Docker",
-        "Kubernetes",
-        "PostgreSQL",
-        "Python",
-        "Redis",
-        "Sass"
-      ],
-      "location": "서울 서초구",
-      "closeAt": "2026-08-26",
-      "postedAt": "2026-07-28",
       "employment": ""
     },
     {
@@ -7618,6 +7612,24 @@
     {
       "source": "jumpit",
       "company": "텐빌리언",
+      "title": "백엔드 경력 채용 (6~9년)",
+      "url": "https://www.jumpit.co.kr/position/54510032",
+      "tags": [
+        "경력"
+      ],
+      "stacks": [
+        "Git",
+        "Spring Boot",
+        "DB"
+      ],
+      "location": "서울 구로구",
+      "closeAt": "2026-08-18",
+      "postedAt": "2026-07-20",
+      "employment": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "텐빌리언",
       "title": "백엔드 경력 채용 (2~5년)",
       "url": "https://www.jumpit.co.kr/position/54510048",
       "tags": [
@@ -7639,24 +7651,6 @@
       "company": "텐빌리언",
       "title": "백엔드 경력 채용 (10년 이상)",
       "url": "https://www.jumpit.co.kr/position/54510019",
-      "tags": [
-        "경력"
-      ],
-      "stacks": [
-        "Git",
-        "Spring Boot",
-        "DB"
-      ],
-      "location": "서울 구로구",
-      "closeAt": "2026-08-18",
-      "postedAt": "2026-07-20",
-      "employment": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "텐빌리언",
-      "title": "백엔드 경력 채용 (6~9년)",
-      "url": "https://www.jumpit.co.kr/position/54510032",
       "tags": [
         "경력"
       ],
@@ -7727,6 +7721,23 @@
       "location": "서울",
       "closeAt": "",
       "postedAt": "",
+      "employment": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "트루엔",
+      "title": "서버 개발자 (경력 11년↑)",
+      "url": "https://www.jumpit.co.kr/position/54508712",
+      "tags": [
+        "경력"
+      ],
+      "stacks": [
+        "REST API",
+        "Golang"
+      ],
+      "location": "서울 구로구",
+      "closeAt": "2026-08-18",
+      "postedAt": "2026-07-20",
       "employment": ""
     },
     {
@@ -7811,6 +7822,38 @@
     {
       "source": "jumpit",
       "company": "티투엘",
+      "title": "중급 백엔드 개발자 (5~7년)",
+      "url": "https://www.jumpit.co.kr/position/54593396",
+      "tags": [
+        "경력"
+      ],
+      "stacks": [
+        "Java"
+      ],
+      "location": "경기 고양시",
+      "closeAt": "2026-08-27",
+      "postedAt": "2026-07-29",
+      "employment": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "티투엘",
+      "title": "고급 백엔드 설계 개발자(10~12년)",
+      "url": "https://www.jumpit.co.kr/position/54593414",
+      "tags": [
+        "경력"
+      ],
+      "stacks": [
+        "Java"
+      ],
+      "location": "경기 고양시",
+      "closeAt": "2026-08-27",
+      "postedAt": "2026-07-29",
+      "employment": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "티투엘",
       "title": "고급 백엔드 설계 개발자(16~18년)",
       "url": "https://www.jumpit.co.kr/position/54593427",
       "tags": [
@@ -7845,38 +7888,6 @@
       "company": "티투엘",
       "title": "중급 백엔드 개발자 (8~10년)",
       "url": "https://www.jumpit.co.kr/position/54593410",
-      "tags": [
-        "경력"
-      ],
-      "stacks": [
-        "Java"
-      ],
-      "location": "경기 고양시",
-      "closeAt": "2026-08-27",
-      "postedAt": "2026-07-29",
-      "employment": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "티투엘",
-      "title": "고급 백엔드 설계 개발자(10~12년)",
-      "url": "https://www.jumpit.co.kr/position/54593414",
-      "tags": [
-        "경력"
-      ],
-      "stacks": [
-        "Java"
-      ],
-      "location": "경기 고양시",
-      "closeAt": "2026-08-27",
-      "postedAt": "2026-07-29",
-      "employment": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "티투엘",
-      "title": "중급 백엔드 개발자 (5~7년)",
-      "url": "https://www.jumpit.co.kr/position/54593396",
       "tags": [
         "경력"
       ],
@@ -8206,6 +8217,27 @@
       "employment": ""
     },
     {
+      "source": "jumpit",
+      "company": "퓨쳐스콜레",
+      "title": "Back-End Engineer",
+      "url": "https://www.jumpit.co.kr/position/54470897",
+      "tags": [
+        "경력"
+      ],
+      "stacks": [
+        "Java",
+        "JavaScript",
+        "MariaDB",
+        "Spring Framework",
+        "REST API",
+        "AWS"
+      ],
+      "location": "서울 성동구",
+      "closeAt": "2026-08-13",
+      "postedAt": "2026-07-15",
+      "employment": ""
+    },
+    {
       "source": "wanted",
       "company": "프리즘제이",
       "title": "백엔드 리드 (CTO 트랙) — Spring/AWS, 7년차 이상",
@@ -8394,6 +8426,22 @@
       "location": "경기",
       "closeAt": "2026-08-20",
       "postedAt": "",
+      "employment": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "필라테크",
+      "title": "서버 및 가상화 인프라 구축/운영 채용",
+      "url": "https://www.jumpit.co.kr/position/54604679",
+      "tags": [
+        "경력"
+      ],
+      "stacks": [
+        "ASIC"
+      ],
+      "location": "서울 강남구",
+      "closeAt": "2026-08-28",
+      "postedAt": "2026-07-30",
       "employment": ""
     },
     {
