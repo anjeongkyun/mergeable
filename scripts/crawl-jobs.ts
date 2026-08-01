@@ -23,6 +23,20 @@ function titleLevels(text: string): string[] {
   return [...t];
 }
 
+const uniq = (a: string[]) => [...new Set(a)];
+
+// 구조화 경력(from~to년 범위)이 어떤 레벨 버킷과 겹치는지로 태깅. from만 있으면 to=from.
+// 예: 0~0=신입 / 0~10=신입·주니어·경력(무관) / 3~7=주니어·경력 / 5~=경력.
+function structLevels(from?: number | null, to?: number | null): string[] {
+  if (typeof from !== "number") return [];
+  const T = typeof to === "number" ? to : from;
+  const t: string[] = [];
+  if (from <= 0) t.push("신입");
+  if (from <= 3 && T >= 1) t.push("주니어");
+  if (T >= 4) t.push("경력");
+  return t;
+}
+
 // --- 원티드: years 필터 없이 전체 페이지네이션 ---
 async function wanted(): Promise<Job[]> {
   const out: Job[] = [];
@@ -44,7 +58,7 @@ async function wanted(): Promise<Job[]> {
         company: d.company?.name ?? "?",
         title: strip(d.position ?? "?"),
         url: `https://www.wanted.co.kr/wd/${d.id}`,
-        tags: titleLevels(d.position ?? ""),
+        tags: uniq([...titleLevels(d.position ?? ""), ...structLevels(d.annual_from, d.annual_to)]),
         stacks: [],
         location: d.address?.location ?? "",
       });
@@ -69,19 +83,17 @@ async function jumpit(): Promise<Job[]> {
     const positions: any[] = j.result?.positions ?? [];
     if (!positions.length) break;
     for (const p of positions) {
-      const t = new Set<string>(titleLevels(p.title ?? ""));
-      if (p.newcomer) t.add("신입");
-      if (typeof p.minCareer === "number") {
-        if (p.minCareer === 0) t.add("신입");
-        else if (p.minCareer <= 3) t.add("주니어");
-        if (p.minCareer >= 4 || (typeof p.maxCareer === "number" && p.maxCareer >= 4)) t.add("경력");
-      }
+      const tags = uniq([
+        ...titleLevels(p.title ?? ""),
+        ...structLevels(p.minCareer, p.maxCareer),
+        ...(p.newcomer ? ["신입"] : []),
+      ]);
       out.push({
         source: "jumpit",
         company: p.companyName ?? "?",
         title: strip(p.title ?? "?"),
         url: `https://www.jumpit.co.kr/position/${p.id}`,
-        tags: [...t],
+        tags,
         stacks: Array.isArray(p.techStacks) ? p.techStacks.slice(0, 6) : [],
         location: Array.isArray(p.locations) ? p.locations[0] ?? "" : "",
       });
@@ -93,43 +105,50 @@ async function jumpit(): Promise<Job[]> {
 // --- 링커리어: 검색 페이지 __NEXT_DATA__ Apollo 캐시의 Activity ---
 async function linkareer(): Promise<Job[]> {
   const out: Job[] = [];
-  let html: string;
-  try {
-    const r = await fetch(`https://linkareer.com/list/recruit?q=${encodeURIComponent(Q)}`, {
-      headers: H,
-    });
-    if (!r.ok) return out;
-    html = await r.text();
-  } catch {
-    return out;
-  }
-  const m = html.match(/id="__NEXT_DATA__"[^>]*>(\{.*?\})<\/script>/s);
-  if (!m) return out;
-  let apollo: Record<string, any>;
-  try {
-    apollo = JSON.parse(m[1]).props?.pageProps?.__APOLLO_STATE__ ?? {};
-  } catch {
-    return out;
-  }
-  for (const [key, v] of Object.entries(apollo)) {
-    if (!key.startsWith("Activity:") || !v || typeof v !== "object") continue;
-    const a = v as any;
-    if (!a.title || !a.organizationName) continue;
-    const title = strip(String(a.title));
-    if (!/백엔드|backend|서버|server/i.test(title)) continue;
-    const id = String(a.id ?? key.split(":")[1]);
-    const jt = (a.jobTypes ?? []).join(" ");
-    const tags = titleLevels(`${title} ${jt}`);
-    if (/INTERN/i.test(jt) && !tags.includes("인턴")) tags.push("인턴");
-    out.push({
-      source: "linkareer",
-      company: String(a.organizationName),
-      title,
-      url: `https://linkareer.com/activity/${id}`,
-      tags,
-      stacks: [],
-      location: "",
-    });
+  const seen = new Set<string>();
+  // recruit는 활동 단위라 백엔드 밀도가 낮음 → 키워드 여러 개로 긁어 합침.
+  for (const kw of ["백엔드", "서버 개발자", "서버개발", "백엔드 개발자"]) {
+    let html: string;
+    try {
+      const r = await fetch(`https://linkareer.com/list/recruit?q=${encodeURIComponent(kw)}`, {
+        headers: H,
+      });
+      if (!r.ok) continue;
+      html = await r.text();
+    } catch {
+      continue;
+    }
+    const m = html.match(/id="__NEXT_DATA__"[^>]*>(\{.*?\})<\/script>/s);
+    if (!m) continue;
+    let apollo: Record<string, any>;
+    try {
+      apollo = JSON.parse(m[1]).props?.pageProps?.__APOLLO_STATE__ ?? {};
+    } catch {
+      continue;
+    }
+    for (const [key, v] of Object.entries(apollo)) {
+      if (!key.startsWith("Activity:") || !v || typeof v !== "object") continue;
+      const a = v as any;
+      if (!a.title || !a.organizationName) continue;
+      const title = strip(String(a.title));
+      if (!/백엔드|back.?end|서버|server/i.test(title)) continue; // 백엔드/서버 계열만
+      const id = String(a.id ?? key.split(":")[1]);
+      const url = `https://linkareer.com/activity/${id}`;
+      if (seen.has(url)) continue;
+      seen.add(url);
+      const jt = (a.jobTypes ?? []).join(" ");
+      const tags = titleLevels(`${title} ${jt}`);
+      if (/INTERN/i.test(jt) && !tags.includes("인턴")) tags.push("인턴");
+      out.push({
+        source: "linkareer",
+        company: String(a.organizationName),
+        title,
+        url,
+        tags,
+        stacks: [],
+        location: "",
+      });
+    }
   }
   return out;
 }
