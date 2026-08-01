@@ -252,11 +252,22 @@ export default function Jobs() {
                 </div>
                 <ul className="mt-2 divide-y divide-zinc-800/70">
                   {jobs.map((j) => (
-                    <li key={j.url} className="py-2 flex items-start gap-2">
+                    <li
+                      key={j.url}
+                      className="group/row relative flex items-start gap-2 py-2 px-2 -mx-2 rounded-lg hover:bg-zinc-800/40 transition-colors"
+                    >
+                      {/* 행 전체를 덮는 링크(제목뿐 아니라 컴포넌트 어디든 클릭 → 공고 열림) */}
+                      <a
+                        href={j.url}
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        aria-label={`${j.company} ${j.title} 공고 열기`}
+                        className="absolute inset-0 z-0 rounded-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/50"
+                      />
                       <button
                         onClick={() => toggleBm(j.url)}
                         title="즐겨찾기"
-                        className={`shrink-0 mt-0.5 text-base leading-none transition-colors ${
+                        className={`relative z-10 shrink-0 mt-0.5 text-base leading-none transition-colors ${
                           bookmarks.includes(j.url)
                             ? "text-amber-400"
                             : "text-zinc-600 hover:text-amber-300"
@@ -264,15 +275,10 @@ export default function Jobs() {
                       >
                         {bookmarks.includes(j.url) ? "★" : "☆"}
                       </button>
-                      <div className="min-w-0 flex-1">
-                        <a
-                          href={j.url}
-                          target="_blank"
-                          rel="noreferrer noopener"
-                          className="text-sm text-zinc-200 hover:text-indigo-300 transition-colors"
-                        >
+                      <div className="relative z-10 min-w-0 flex-1 pointer-events-none">
+                        <span className="text-sm text-zinc-200 group-hover/row:text-indigo-300 transition-colors">
                           {j.title}
-                        </a>
+                        </span>
                         <div className="mt-1 flex flex-wrap items-center gap-1.5">
                           {j.tags.length === 0 && (
                             <span className="text-[11px] px-1.5 py-0.5 rounded bg-zinc-800 text-zinc-500">
@@ -317,7 +323,12 @@ export default function Jobs() {
                           </div>
                         )}
                       </div>
-                      <span className="text-[11px] text-zinc-500 shrink-0">{SRC[j.source]}</span>
+                      <div className="relative z-10 flex items-center gap-1 shrink-0 pointer-events-none">
+                        <span className="text-[11px] text-zinc-500">{SRC[j.source]}</span>
+                        <span className="text-indigo-400 text-xs opacity-0 -translate-x-1 group-hover/row:opacity-100 group-hover/row:translate-x-0 transition-all duration-200">
+                          ↗
+                        </span>
+                      </div>
                     </li>
                   ))}
                 </ul>
