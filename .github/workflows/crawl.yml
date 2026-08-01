@@ -25,9 +25,9 @@ jobs:
         run: npm run crawl
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: crawl jobs
-        run: npm run crawl:jobs
-        continue-on-error: true # 채용 소스가 Actions IP를 차단하면 기존 jobs.json 유지
+      # jobs.json은 Actions에서 크롤하지 않는다 — 채용 소스가 Actions 데이터센터 IP를 스로틀해
+      # 결과가 급감(예: 607→15)하기 때문. 로컬/주거 IP에서 `npm run crawl:jobs` 후 커밋하고,
+      # Actions는 커밋된 public/jobs.json을 그대로 빌드·배포만 한다.
       - name: build
         run: npm run build
       - name: deploy
