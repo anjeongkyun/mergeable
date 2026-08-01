@@ -35,6 +35,8 @@ export interface Job {
   tags: string[]; // 신입/주니어/인턴 등
   stacks: string[]; // 기술 스택(있으면)
   location: string; // 근무지(있으면)
+  closeAt: string; // 마감일(YYYY-MM-DD) 또는 라벨(상시/D-7 등). 없으면 ""
+  postedAt: string; // 게시일(YYYY-MM-DD). 점핏만 제공, 그 외 ""
 }
 
 export interface JobsData {

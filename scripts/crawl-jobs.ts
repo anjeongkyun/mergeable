@@ -13,6 +13,27 @@ const Q = "백엔드";
 const H = { "User-Agent": UA };
 const strip = (s: string) => s.replace(/<[^>]+>/g, "").trim();
 
+// 날짜 정규화. "2026-08-07 23:59:59"·"2026.08.07" → "2026-08-07". epoch(ms) → ISO date.
+const isoDate = (s: unknown): string => {
+  const m = String(s ?? "").match(/(\d{4})[-.](\d{2})[-.](\d{2})/);
+  return m ? `${m[1]}-${m[2]}-${m[3]}` : "";
+};
+const epochDate = (ms: unknown): string => {
+  const n = Number(ms);
+  if (!n || Number.isNaN(n)) return "";
+  const d = new Date(n);
+  return Number.isNaN(d.getTime()) ? "" : d.toISOString().slice(0, 10);
+};
+// 동시성 제한 map (상세 fetch용).
+async function mapLimit<T>(items: T[], limit: number, fn: (t: T) => Promise<void>): Promise<void> {
+  let i = 0;
+  await Promise.all(
+    Array.from({ length: Math.min(limit, items.length) }, async () => {
+      while (i < items.length) await fn(items[i++]);
+    }),
+  );
+}
+
 // 구조화 경력(from~to년 범위)이 어떤 레벨 버킷과 겹치는지로 태깅. from만 있으면 to=from.
 // 예: 0~0=신입 / 0~10=신입·주니어·경력(무관) / 3~7=주니어·경력 / 5~=경력.
 function structLevels(from?: number | null, to?: number | null): string[] {
@@ -85,6 +106,8 @@ async function wanted(): Promise<Job[]> {
         tags: levelTags(d.position ?? "", d.annual_from, d.annual_to),
         stacks: [],
         location: d.address?.location ?? "",
+        closeAt: isoDate(d.due_time),
+        postedAt: "",
       });
     }
   }
@@ -119,9 +142,23 @@ async function jumpit(): Promise<Job[]> {
         tags,
         stacks: Array.isArray(p.techStacks) ? p.techStacks.slice(0, 6) : [],
         location: Array.isArray(p.locations) ? p.locations[0] ?? "" : "",
+        closeAt: isoDate(p.closedAt),
+        postedAt: "",
       });
     }
   }
+  // 점핏 게시일: 공고당 상세(publishedAt). 동시성 8로 제한.
+  await mapLimit(out, 8, async (j) => {
+    const id = j.url.match(/position\/(\d+)/)?.[1];
+    if (!id) return;
+    try {
+      const r = await fetch(`https://jumpit-api.saramin.co.kr/api/position/${id}`, { headers: H });
+      if (!r.ok) return;
+      const dj: any = await r.json();
+      j.postedAt = isoDate(dj.result?.publishedAt);
+      if (!j.closeAt) j.closeAt = isoDate(dj.result?.closedAt);
+    } catch {}
+  });
   return out;
 }
 
@@ -170,6 +207,8 @@ async function linkareer(): Promise<Job[]> {
         tags,
         stacks: [],
         location: "",
+        closeAt: epochDate(a.recruitCloseAt),
+        postedAt: "",
       });
     }
   }
@@ -209,6 +248,8 @@ async function saramin(): Promise<Job[]> {
         tags: levelTags(raw),
         stacks: [],
         location: "",
+        closeAt: "",
+        postedAt: "",
       });
     });
   }
@@ -253,6 +294,8 @@ async function jobkorea(): Promise<Job[]> {
         tags: levelTags(title),
         stacks: [],
         location: "",
+        closeAt: "",
+        postedAt: "",
       });
     }
   }

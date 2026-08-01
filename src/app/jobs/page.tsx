@@ -14,6 +14,14 @@ const SRC: Record<string, string> = {
 
 const LEVELS = ["신입", "주니어", "인턴", "경력", "미표기"];
 
+function dday(iso: string): string {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(iso)) return iso; // 라벨(상시 등)
+  const days = Math.ceil((new Date(iso + "T23:59:59").getTime() - Date.now()) / 86400000);
+  if (days < 0) return "마감";
+  if (days === 0) return "오늘 마감";
+  return `D-${days}`;
+}
+
 function timeAgo(iso: string): string {
   if (!iso) return "";
   const d = Date.now() - new Date(iso).getTime();
@@ -232,6 +240,12 @@ export default function Jobs() {
                             <span className="text-[11px] text-gray-400">{j.location}</span>
                           )}
                         </div>
+                        {(j.postedAt || j.closeAt) && (
+                          <div className="mt-1 flex items-center gap-2 text-[11px] text-gray-400">
+                            {j.postedAt && <span>게시 {j.postedAt}</span>}
+                            {j.closeAt && <span className="text-gray-500">마감 {dday(j.closeAt)}</span>}
+                          </div>
+                        )}
                       </div>
                       <span className="text-[11px] text-gray-400 shrink-0">{SRC[j.source]}</span>
                     </li>
