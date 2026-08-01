@@ -8,6 +8,8 @@ const SRC: Record<string, string> = {
   wanted: "원티드",
   jumpit: "점핏",
   linkareer: "링커리어",
+  saramin: "사람인",
+  jobkorea: "잡코리아",
 };
 
 const LEVELS = ["신입", "주니어", "인턴", "경력", "미표기"];

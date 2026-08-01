@@ -176,9 +176,92 @@ async function linkareer(): Promise<Job[]> {
   return out;
 }
 
+// --- 사람인: 검색 HTML (job_tit 앵커 + corp_name). ⚠️ 판례 소스 — 회사명·링크만, 로컬 크론 전용 ---
+async function saramin(): Promise<Job[]> {
+  const out: Job[] = [];
+  for (let page = 1; page <= 3; page++) {
+    const url = `https://www.saramin.co.kr/zf_user/search/recruit?searchword=${encodeURIComponent(Q)}&recruitSort=relation&recruitPage=${page}`;
+    let html: string;
+    try {
+      const r = await fetch(url, { headers: H });
+      if (!r.ok) break;
+      html = await r.text();
+    } catch {
+      break;
+    }
+    const items = [
+      ...html.matchAll(/<h2 class="job_tit">[\s\S]*?<a[^>]*title="([^"]+)"[^>]*href="([^"]*rec_idx=(\d+)[^"]*)"/g),
+    ];
+    const corps = [...html.matchAll(/<strong class="corp_name">[\s\S]*?<a[^>]*>\s*([^<]+?)\s*<\/a>/g)].map(
+      (m) => m[1].replace(/\s+/g, " ").trim(),
+    );
+    if (!items.length) break;
+    items.forEach((m, i) => {
+      const raw = m[1].replace(/\s+/g, " ").trim();
+      const company = corps[i] || "?";
+      let title = raw;
+      if (company !== "?" && title.startsWith(company)) title = title.slice(company.length).trim();
+      out.push({
+        source: "saramin",
+        company,
+        title: title || raw,
+        url: `https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=${m[3]}`,
+        tags: levelTags(raw),
+        stacks: [],
+        location: "",
+      });
+    });
+  }
+  return out;
+}
+
+// --- 잡코리아: 검색 HTML의 CardJob(회사 로고 alt + 제목 앵커). ⚠️ 판례 소스 — 회사명·링크만, 로컬 전용 ---
+async function jobkorea(): Promise<Job[]> {
+  const out: Job[] = [];
+  const seen = new Set<string>();
+  for (let page = 1; page <= 3; page++) {
+    const url = `https://www.jobkorea.co.kr/Search/?stext=${encodeURIComponent(Q)}&tabType=recruit&Page_No=${page}`;
+    let html: string;
+    try {
+      const r = await fetch(url, { headers: H });
+      if (!r.ok) break;
+      html = await r.text();
+    } catch {
+      break;
+    }
+    const cards = html.split('data-sentry-component="CardJob"').slice(1);
+    if (!cards.length) break;
+    for (const card of cards) {
+      let id = "",
+        title = "";
+      for (const a of card.matchAll(/href="[^"]*GI_Read\/(\d+)[^"]*"[^>]*>([\s\S]*?)<\/a>/g)) {
+        const txt = a[2].replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim();
+        if (txt.length >= 4 && !/로고/.test(txt)) {
+          id = a[1];
+          title = txt;
+          break;
+        }
+      }
+      if (!id || !title || seen.has(id)) continue;
+      seen.add(id);
+      const cm = card.match(/alt="([^"]+?)\s*로고"/);
+      out.push({
+        source: "jobkorea",
+        company: cm ? cm[1].trim() : "?",
+        title,
+        url: `https://www.jobkorea.co.kr/Recruit/GI_Read/${id}`,
+        tags: levelTags(title),
+        stacks: [],
+        location: "",
+      });
+    }
+  }
+  return out;
+}
+
 async function main() {
-  const results = await Promise.allSettled([wanted(), jumpit(), linkareer()]);
-  const names = ["wanted", "jumpit", "linkareer"];
+  const results = await Promise.allSettled([wanted(), jumpit(), linkareer(), saramin(), jobkorea()]);
+  const names = ["wanted", "jumpit", "linkareer", "saramin", "jobkorea"];
   const all: Job[] = [];
   const sourceCounts: Record<string, number> = {};
   results.forEach((r, i) => {

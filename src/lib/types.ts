@@ -28,7 +28,7 @@ export interface Data {
 
 // --- 채용 공고 (jobs.json) ---
 export interface Job {
-  source: "wanted" | "jumpit" | "linkareer";
+  source: "wanted" | "jumpit" | "linkareer" | "saramin" | "jobkorea";
   company: string;
   title: string;
   url: string;
