@@ -13,16 +13,6 @@ const Q = "백엔드";
 const H = { "User-Agent": UA };
 const strip = (s: string) => s.replace(/<[^>]+>/g, "").trim();
 
-// 제목 등 텍스트에서 레벨 추정(복수 가능). 비면 "미표기".
-function titleLevels(text: string): string[] {
-  const t = new Set<string>();
-  if (/인턴|intern/i.test(text)) t.add("인턴");
-  if (/신입|엔트리|entry|졸업|0년|경력\s*무관|경력무관|무관/i.test(text)) t.add("신입");
-  if (/주니어|junior|저연차|1년|2년|3년|1~3|1-3/i.test(text)) t.add("주니어");
-  if (/시니어|senior|리드|lead|[4-9]\s*년|경력\s*[4-9]|이상/i.test(text)) t.add("경력");
-  return [...t];
-}
-
 const uniq = (a: string[]) => [...new Set(a)];
 
 // 구조화 경력(from~to년 범위)이 어떤 레벨 버킷과 겹치는지로 태깅. from만 있으면 to=from.
@@ -35,6 +25,42 @@ function structLevels(from?: number | null, to?: number | null): string[] {
   if (from <= 3 && T >= 1) t.push("주니어");
   if (T >= 4) t.push("경력");
   return t;
+}
+
+// 레벨 태깅. ⚠️ 구조화 경력 필드(annual/minCareer)는 회사가 부정확 입력하는 경우가 많다
+// (테크리드인데 minCareer=1, 5~10년인데 annual_from=0) → 제목의 강한 신호를 우선한다.
+// 우선순위: 경력무관 > 제목 명시연차 > 제목 시니어키워드 > 제목 신입키워드 > 구조화필드.
+function levelTags(title: string, from?: number | null, to?: number | null): string[] {
+  const tags = new Set<string>();
+  if (/인턴|intern/i.test(title)) tags.add("인턴"); // 인턴은 독립적으로 병기
+
+  const anyLevel = /경력\s*무관|경력무관|신입\s*[·\/]\s*경력|경력\s*[·\/]\s*신입/i.test(title);
+  const senior =
+    /시니어|senior|staff|principal|테크\s*리드|tech\s*lead|\blead\b|리드|수석|책임|팀장|team\s*lead|매니저|manager|\bhead\b/i.test(
+      title,
+    );
+  let yF: number | null = null,
+    yT: number | null = null;
+  let m = title.match(/(\d{1,2})\s*[~∼\-–]\s*(\d{1,2})\s*년/); // 5~10년
+  if (m) {
+    yF = +m[1];
+    yT = +m[2];
+  } else if ((m = title.match(/경력\s*(\d{1,2})\s*년?\s*이상/)) || (m = title.match(/(\d{1,2})\s*년\s*이상/))) {
+    yF = +m[1];
+    yT = 99;
+  } else if ((m = title.match(/경력\s*(\d{1,2})/))) {
+    yF = +m[1];
+    yT = +m[1];
+  }
+  const entry = /신입|엔트리|entry|졸업|0\s*년|초급/i.test(title);
+
+  if (anyLevel) ["신입", "주니어", "경력"].forEach((x) => tags.add(x));
+  else if (yF !== null) structLevels(yF, yT).forEach((x) => tags.add(x));
+  else if (senior) tags.add("경력");
+  else if (entry) tags.add("신입");
+  else structLevels(from ?? null, to ?? null).forEach((x) => tags.add(x));
+
+  return [...tags];
 }
 
 // --- 원티드: years 필터 없이 전체 페이지네이션 ---
@@ -58,7 +84,7 @@ async function wanted(): Promise<Job[]> {
         company: d.company?.name ?? "?",
         title: strip(d.position ?? "?"),
         url: `https://www.wanted.co.kr/wd/${d.id}`,
-        tags: uniq([...titleLevels(d.position ?? ""), ...structLevels(d.annual_from, d.annual_to)]),
+        tags: levelTags(d.position ?? "", d.annual_from, d.annual_to),
         stacks: [],
         location: d.address?.location ?? "",
       });
@@ -83,11 +109,10 @@ async function jumpit(): Promise<Job[]> {
     const positions: any[] = j.result?.positions ?? [];
     if (!positions.length) break;
     for (const p of positions) {
-      const tags = uniq([
-        ...titleLevels(p.title ?? ""),
-        ...structLevels(p.minCareer, p.maxCareer),
-        ...(p.newcomer ? ["신입"] : []),
-      ]);
+      const tags = levelTags(p.title ?? "", p.minCareer, p.maxCareer);
+      // 점핏 newcomer 플래그는 명시적 신입 토글이라 신뢰(제목이 시니어 강신호가 아닐 때).
+      if (p.newcomer && !/시니어|senior|리드|lead/i.test(p.title ?? "") && !tags.includes("신입"))
+        tags.push("신입");
       out.push({
         source: "jumpit",
         company: p.companyName ?? "?",
@@ -137,7 +162,7 @@ async function linkareer(): Promise<Job[]> {
       if (seen.has(url)) continue;
       seen.add(url);
       const jt = (a.jobTypes ?? []).join(" ");
-      const tags = titleLevels(`${title} ${jt}`);
+      const tags = levelTags(`${title} ${jt}`);
       if (/INTERN/i.test(jt) && !tags.includes("인턴")) tags.push("인턴");
       out.push({
         source: "linkareer",
