@@ -1,9 +1,7 @@
 "use client";
 
-import { useRef } from "react";
 import Link from "next/link";
 import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
 import { BRAND, Wordmark } from "./brand";
 import BrandBackdrop from "./BrandBackdrop";
 
@@ -37,45 +35,33 @@ const CARDS: Card[] = [
   },
 ];
 
+// 등장은 CSS animate-rise(항상 opacity 1로 끝남 — 안 보이는 버그 방지). GSAP은 호버 마이크로인터랙션에만.
 export default function Home() {
-  const root = useRef<HTMLDivElement>(null);
-
-  useGSAP(
-    () => {
-      const mm = gsap.matchMedia();
-      mm.add("(prefers-reduced-motion: no-preference)", () => {
-        const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
-        tl.from(".hero-mark", { y: 10, opacity: 0, duration: 0.5 })
-          .from(".hero-line", { y: 14, opacity: 0, duration: 0.5, stagger: 0.08 }, "-=0.25")
-          .from(".nav-card", { y: 20, opacity: 0, duration: 0.55, stagger: 0.09 }, "-=0.2");
-      });
-    },
-    { scope: root },
-  );
-
-  // 호버 시 화살표가 살짝 미끄러지는 마이크로인터랙션
   const onEnter = (e: React.MouseEvent<HTMLElement>) =>
     gsap.to(e.currentTarget.querySelector(".arrow"), { x: 4, duration: 0.2, ease: "power2.out" });
   const onLeave = (e: React.MouseEvent<HTMLElement>) =>
     gsap.to(e.currentTarget.querySelector(".arrow"), { x: 0, duration: 0.2, ease: "power2.out" });
 
   return (
-    <div ref={root} className="min-h-screen">
+    <div className="min-h-screen">
       <BrandBackdrop />
       <header className="max-w-4xl mx-auto px-5 pt-20 pb-10">
-        <div className="hero-mark">
+        <div className="animate-rise">
           <Wordmark size="text-2xl" />
         </div>
-        <h1 className="hero-line mt-5 text-[26px] sm:text-3xl font-semibold tracking-tight text-zinc-100">
+        <h1
+          className="animate-rise mt-5 text-[26px] sm:text-3xl font-semibold tracking-tight text-zinc-100"
+          style={{ animationDelay: "0.06s" }}
+        >
           {BRAND.tagline}
         </h1>
-        <p className="hero-line mt-2 text-sm text-zinc-400">
+        <p className="animate-rise mt-2 text-sm text-zinc-400" style={{ animationDelay: "0.12s" }}>
           {BRAND.parent} {BRAND.kind}. 기여·학습·지원을 한곳에서.
         </p>
       </header>
 
       <main className="max-w-4xl mx-auto px-5 grid gap-4 sm:grid-cols-3">
-        {CARDS.map((c) => {
+        {CARDS.map((c, i) => {
           const inner = (
             <>
               <div className="flex items-center justify-between">
@@ -89,7 +75,8 @@ export default function Home() {
             </>
           );
           const cls =
-            "nav-card group block rounded-2xl border border-zinc-800 bg-zinc-900/40 backdrop-blur-sm p-5 hover:border-indigo-500/50 hover:bg-zinc-900/70 hover:-translate-y-0.5 transition-all duration-200";
+            "animate-rise group block rounded-2xl border border-zinc-800 bg-zinc-900/40 backdrop-blur-sm p-5 hover:border-indigo-500/50 hover:bg-zinc-900/70 hover:-translate-y-0.5 transition-all duration-200";
+          const style = { animationDelay: `${0.2 + i * 0.08}s` };
           return c.external ? (
             <a
               key={c.href}
@@ -97,13 +84,21 @@ export default function Home() {
               target="_blank"
               rel="noreferrer noopener"
               className={cls}
+              style={style}
               onMouseEnter={onEnter}
               onMouseLeave={onLeave}
             >
               {inner}
             </a>
           ) : (
-            <Link key={c.href} href={c.href} className={cls} onMouseEnter={onEnter} onMouseLeave={onLeave}>
+            <Link
+              key={c.href}
+              href={c.href}
+              className={cls}
+              style={style}
+              onMouseEnter={onEnter}
+              onMouseLeave={onLeave}
+            >
               {inner}
             </Link>
           );
