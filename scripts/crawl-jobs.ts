@@ -48,6 +48,36 @@ function employmentOf(text: string): string {
   return "";
 }
 
+// 대기업 큐레이션 사전(공백·괄호·㈜ 제거 후 부분일치). 규모(중소/중견)는 JD로 판별 불가라 미표기.
+const BIG_COMPANIES = [
+  "네이버", "카카오", "쿠팡", "토스", "비바리퍼블리카", "우아한형제들", "배달의민족", "당근마켓", "당근",
+  "라인", "넥슨", "엔씨소프트", "크래프톤", "삼성전자", "삼성", "LG전자", "LG유플러스", "LG", "SK텔레콤",
+  "SK하이닉스", "SK", "KT", "현대자동차", "현대", "롯데", "신한", "KB국민", "하나은행", "우리은행", "NHN",
+  "야놀자", "무신사", "컬리", "마켓컬리", "직방", "리디", "하이퍼커넥트", "센드버드", "몰로코", "안랩",
+  "11번가", "지마켓", "여기어때", "오늘의집", "버킷플레이스", "두나무", "업비트", "빗썸", "쏘카", "티맵",
+  "카카오뱅크", "카카오페이", "네이버파이낸셜", "라인플러스", "한글과컴퓨터", "넷마블", "스마일게이트",
+  "배민", "지그재그", "카카오모빌리티", "카카오엔터프라이즈", "네이버클라우드",
+];
+// 회사 유형(성격) 태그. 제목+회사명+(가능하면)JD 텍스트로 추정. 정밀도 우선(느슨하게 붙이지 않음).
+function companyTags(title: string, company: string, text = ""): string[] {
+  const c: string[] = [];
+  const t = `${title} ${text}`;
+  const nameOnly = company.replace(/[()（）㈜주식회사\s]/g, "");
+  if (BIG_COMPANIES.some((b) => nameOnly.includes(b))) c.push("대기업");
+  if (/스타트업|startup|시리즈\s*[A-Da-dＡ-Ｄ]|시드\s*투자|유니콘|초기\s*멤버|얼리\s*스테이지|투자\s*유치/i.test(t))
+    c.push("스타트업");
+  // SI/SM: 파견·상주·고객사·시스템 통합·구축 프로젝트 등 강한 신호만(맨몸 SI/SM은 한글 경계 오매칭이라 제외)
+  if (/SI\s*(?:\/\s*SM)?\s*(?:프로젝트|개발|업체|기업|구축|사업)|system\s*integration|시스템\s*통합|고객사\s*(?:상주|파견)|상주\s*근무|파견\s*근무|구축\s*프로젝트|프로젝트\s*투입|SM\s*운영/i.test(t))
+    c.push("SI");
+  // 솔루션: 맨몸 '솔루션'은 흔해서 제외, 자사솔루션·패키지SW·그룹웨어·ERP 등 강신호만
+  if (/자사\s*솔루션|솔루션\s*(?:기업|회사|전문|개발\s*전문)|패키지\s*(?:소프트웨어|솔루션)|그룹웨어|\bERP\b/i.test(t))
+    c.push("솔루션");
+  // 플랫폼: 회사명/제목의 '플랫폼' 또는 JD의 '플랫폼 운영/기업/서비스'(맨몸 '플랫폼 개발'만으론 안 붙임)
+  if (/플랫폼/.test(`${title} ${company}`) || /플랫폼\s*(?:을\s*)?(?:운영|기업|서비스|비즈니스)/.test(text))
+    c.push("플랫폼");
+  return [...new Set(c)];
+}
+
 // 동시성 제한 map (상세 fetch용).
 async function mapLimit<T>(items: T[], limit: number, fn: (t: T) => Promise<void>): Promise<void> {
   let i = 0;
@@ -88,7 +118,10 @@ function levelTags(title: string, from?: number | null, to?: number | null): str
   if (m) {
     yF = +m[1];
     yT = +m[2];
-  } else if ((m = title.match(/경력\s*(\d{1,2})\s*년?\s*이상/)) || (m = title.match(/(\d{1,2})\s*년\s*이상/))) {
+  } else if (
+    (m = title.match(/경력\s*(\d{1,2})\s*년?\s*(?:이상|↑|\+)/)) ||
+    (m = title.match(/(\d{1,2})\s*년\s*(?:이상|↑|\+)/))
+  ) {
     yF = +m[1];
     yT = 99;
   } else if ((m = title.match(/경력\s*(\d{1,2})/))) {
@@ -128,6 +161,7 @@ async function wanted(): Promise<Job[]> {
         title: strip(d.position ?? "?"),
         url: `https://www.wanted.co.kr/wd/${d.id}`,
         tags: levelTags(d.position ?? "", d.annual_from, d.annual_to),
+        categories: companyTags(strip(d.position ?? ""), d.company?.name ?? ""),
         stacks: [],
         location: d.address?.location ?? "",
         closeAt: isoDate(d.due_time),
@@ -136,7 +170,7 @@ async function wanted(): Promise<Job[]> {
       });
     }
   }
-  // 원티드 상세: 본문(requirements/main_tasks 등)에서 스택·고용형태 파생(본문 미저장).
+  // 원티드 상세: 본문(requirements/main_tasks 등)에서 스택·고용형태·회사유형 파생(본문 미저장).
   await mapLimit(out, 8, async (j) => {
     const id = j.url.match(/wd\/(\d+)/)?.[1];
     if (!id) return;
@@ -150,6 +184,7 @@ async function wanted(): Promise<Job[]> {
         .join("\n");
       j.stacks = extractStacks(body);
       j.employment = employmentOf(`${j.title}\n${body}`);
+      j.categories = companyTags(j.title, j.company, body);
     } catch {}
   });
   return out;
@@ -181,6 +216,7 @@ async function jumpit(): Promise<Job[]> {
         title: strip(p.title ?? "?"),
         url: `https://www.jumpit.co.kr/position/${p.id}`,
         tags,
+        categories: companyTags(strip(p.title ?? ""), p.companyName ?? ""),
         stacks: Array.isArray(p.techStacks) ? p.techStacks.slice(0, 6) : [],
         location: Array.isArray(p.locations) ? p.locations[0] ?? "" : "",
         closeAt: isoDate(p.closedAt),
@@ -254,6 +290,7 @@ async function linkareer(): Promise<Job[]> {
         title,
         url,
         tags,
+        categories: companyTags(title, String(a.organizationName), jt),
         stacks: [],
         location: "",
         closeAt: epochDate(a.recruitCloseAt),
@@ -303,6 +340,7 @@ async function saramin(): Promise<Job[]> {
         title: title || raw,
         url: `https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=${m[3]}`,
         tags: levelTags(`${raw} ${cond}`), // 조건의 '신입·경력' 등 반영 → 미표기 감소
+        categories: companyTags(title || raw, company, cond),
         stacks: [],
         location: cond.match(region)?.[0]?.trim() ?? "",
         closeAt: "",
@@ -344,17 +382,24 @@ async function jobkorea(): Promise<Job[]> {
       if (!id || !title || seen.has(id)) continue;
       seen.add(id);
       const cm = card.match(/alt="([^"]+?)\s*로고"/);
+      const company = cm ? cm[1].trim() : "?";
+      // 카드 텍스트(회사·지역·직종·연봉·"경력5년↑"·정규직 등) → 레벨·고용형태·지역 파생.
+      // 조건이 카드 하단(~4KB)에 있어 카드 전체를 본다. split이 카드 경계로 잘라 다음 카드는 안 섞임.
+      const cardText = strip(card.slice(0, 9000)).replace(/\s+/g, " ");
+      const region =
+        /(서울|경기|인천|부산|대구|대전|광주|울산|세종|강원|충북|충남|전북|전남|경북|경남|제주)\s?\S{0,4}/;
       out.push({
         source: "jobkorea",
-        company: cm ? cm[1].trim() : "?",
+        company,
         title,
         url: `https://www.jobkorea.co.kr/Recruit/GI_Read/${id}`,
-        tags: levelTags(title),
+        tags: levelTags(`${title} ${cardText}`), // 카드의 '경력5년↑'·신입 등 반영
+        categories: companyTags(title, company), // 성격은 제목·회사명만(카드 본문 노이즈 차단)
         stacks: [],
-        location: "",
+        location: cardText.match(region)?.[0]?.trim() ?? "",
         closeAt: "",
         postedAt: "",
-        employment: employmentOf(title),
+        employment: employmentOf(cardText),
       });
     }
   }
@@ -397,7 +442,9 @@ async function main() {
 
   const lv: Record<string, number> = {};
   jobs.forEach((j) => (j.tags.length ? j.tags : ["미표기"]).forEach((t) => (lv[t] = (lv[t] ?? 0) + 1)));
-  console.log(`\n공고 ${jobs.length}건 / 회사 ${data.companyCount}곳 · 레벨분포`, lv);
+  const cat: Record<string, number> = {};
+  jobs.forEach((j) => j.categories.forEach((t) => (cat[t] = (cat[t] ?? 0) + 1)));
+  console.log(`\n공고 ${jobs.length}건 / 회사 ${data.companyCount}곳 · 레벨분포`, lv, "· 유형분포", cat);
 }
 
 main().catch((e) => {

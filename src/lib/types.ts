@@ -32,7 +32,8 @@ export interface Job {
   company: string;
   title: string;
   url: string;
-  tags: string[]; // 신입/주니어/인턴 등
+  tags: string[]; // 신입/주니어/인턴 등 (레벨)
+  categories: string[]; // 회사 유형(스타트업/SI/솔루션/플랫폼/대기업) — 제목·JD 키워드 추정
   stacks: string[]; // 기술 스택(있으면)
   location: string; // 근무지(있으면)
   closeAt: string; // 마감일(YYYY-MM-DD) 또는 라벨(상시/D-7 등). 없으면 ""

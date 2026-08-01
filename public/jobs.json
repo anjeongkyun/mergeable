@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T16:52:27.305Z",
+  "generatedAt": "2026-08-01T17:19:57.173Z",
   "sourceCounts": {
     "wanted": 250,
     "jumpit": 400,
@@ -7,8 +7,8 @@
     "saramin": 120,
     "jobkorea": 65
   },
-  "companyCount": 373,
-  "jobCount": 465,
+  "companyCount": 374,
+  "jobCount": 464,
   "jobs": [
     {
       "source": "saramin",
@@ -16,8 +16,10 @@
       "title": "[스마트올리브(올리브식권)] 백엔드 개발자",
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54566201",
       "tags": [
-        "주니어"
+        "주니어",
+        "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강서구",
       "closeAt": "",
@@ -34,6 +36,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 마포구",
       "closeAt": "",
@@ -50,6 +53,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -66,6 +70,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -80,6 +85,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -94,6 +100,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -109,6 +116,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "플랫폼"
+      ],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -122,6 +132,9 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54383007",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "플랫폼"
       ],
       "stacks": [],
       "location": "경기 성남시",
@@ -140,6 +153,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -154,8 +168,9 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "서울 마포구포",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -169,6 +184,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "플랫폼"
+      ],
       "stacks": [],
       "location": "경기 성남시",
       "closeAt": "",
@@ -181,8 +199,10 @@
       "title": "[유연/재택근무 가능] AI 백엔드 개발자 채용",
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54553735",
       "tags": [
-        "주니어"
+        "주니어",
+        "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "대전 유성구",
       "closeAt": "",
@@ -194,9 +214,12 @@
       "company": "㈜동화세상에듀코",
       "title": "백엔드 개발자 채용",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49618139",
-      "tags": [],
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "서울 동대문구",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -210,6 +233,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -225,6 +249,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "플랫폼"
+      ],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -238,6 +265,9 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54419201",
       "tags": [
         "신입"
+      ],
+      "categories": [
+        "플랫폼"
       ],
       "stacks": [],
       "location": "서울 강남구",
@@ -254,6 +284,7 @@
         "인턴",
         "신입"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -269,6 +300,9 @@
         "신입",
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "플랫폼"
       ],
       "stacks": [],
       "location": "부산전체",
@@ -286,6 +320,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -301,6 +336,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강서구",
       "closeAt": "",
@@ -313,10 +349,12 @@
       "title": "㈜디지캡 [백엔드 개발 경력 사원] 모집 - 마곡 본사",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49641244",
       "tags": [
+        "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "서울 강서구솔",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -331,6 +369,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "부산 중구",
       "closeAt": "",
@@ -345,6 +384,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강서구",
       "closeAt": "",
@@ -360,6 +400,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -374,6 +415,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -386,8 +428,10 @@
       "title": "JAVA 백엔드 개발자 경력 채용 공고입니다",
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54580103",
       "tags": [
-        "주니어"
+        "주니어",
+        "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 서초구",
       "closeAt": "",
@@ -404,6 +448,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "경기 파주시",
       "closeAt": "",
@@ -415,9 +460,14 @@
       "company": "㈜무브인터렉티브",
       "title": "[무브인터렉티브] 앱 개발 백엔드 파트 담당자 채용",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49666279",
-      "tags": [],
+      "tags": [
+        "신입",
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "경기 파주시게",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -430,8 +480,9 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "서울 강남구포",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -442,8 +493,10 @@
       "title": "헬스케어/의료기기 AI·생체 데이터 백엔드 개발자 채용",
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54593342",
       "tags": [
-        "주니어"
+        "주니어",
+        "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 금천구",
       "closeAt": "",
@@ -460,6 +513,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "경기 성남시",
       "closeAt": "",
@@ -471,9 +525,14 @@
       "company": "㈜비상교육",
       "title": "Backend 및 AI 플랫폼 개발자",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49443434",
-      "tags": [],
+      "tags": [
+        "경력"
+      ],
+      "categories": [
+        "플랫폼"
+      ],
       "stacks": [],
-      "location": "",
+      "location": "경기 과천시학",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -483,9 +542,12 @@
       "company": "㈜비상교육",
       "title": "Backend 개발자(AI Speak)",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49442998",
-      "tags": [],
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "경기 과천시학",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -498,6 +560,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "대구 동구",
       "closeAt": "",
@@ -514,6 +577,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "플랫폼"
+      ],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -528,6 +594,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 영등포구",
       "closeAt": "",
@@ -543,11 +610,27 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
       "postedAt": "",
       "employment": "정규직"
+    },
+    {
+      "source": "jobkorea",
+      "company": "㈜서브원",
+      "title": "Backend Server Developer",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49694094",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [],
+      "location": "서울 종로구백",
+      "closeAt": "",
+      "postedAt": "",
+      "employment": ""
     },
     {
       "source": "saramin",
@@ -559,6 +642,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -573,6 +657,7 @@
       "tags": [
         "주니어"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -587,6 +672,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 송파구",
       "closeAt": "",
@@ -598,9 +684,12 @@
       "company": "㈜솔트룩스",
       "title": "[수행본부] AI서비스 백엔드 운영 엔지니어(상주/ 계약직)",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49613448",
-      "tags": [],
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "서울 영등포구",
       "closeAt": "",
       "postedAt": "",
       "employment": "계약직"
@@ -615,8 +704,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "서울 송파구",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -631,6 +721,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -642,9 +733,12 @@
       "company": "㈜슈프리마",
       "title": "[슈프리마] Backend Software Engineer 모집",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49386022",
-      "tags": [],
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "경기 성남시전",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -659,6 +753,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "부산 해운대구",
       "closeAt": "",
@@ -671,8 +766,10 @@
       "title": "에서 헬스케어 앱·백엔드 개발자 모셔요",
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54448797",
       "tags": [
-        "주니어"
+        "주니어",
+        "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "경기 광명시",
       "closeAt": "",
@@ -687,6 +784,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "대전 유성구",
       "closeAt": "",
@@ -701,6 +799,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "경기 성남시",
       "closeAt": "",
@@ -716,6 +815,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -730,6 +830,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 금천구",
       "closeAt": "",
@@ -744,6 +845,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "경기 수원시",
       "closeAt": "",
@@ -759,6 +861,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 영등포구",
       "closeAt": "",
@@ -775,6 +878,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 구로구",
       "closeAt": "",
@@ -787,8 +891,10 @@
       "title": "[ST UNITAS] 백엔드개발(계약) 인재 채용",
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54570822",
       "tags": [
-        "주니어"
+        "주니어",
+        "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 구로구",
       "closeAt": "",
@@ -803,6 +909,7 @@
       "tags": [
         "주니어"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강서구",
       "closeAt": "",
@@ -817,6 +924,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강서구",
       "closeAt": "",
@@ -831,6 +939,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강서구",
       "closeAt": "",
@@ -846,6 +955,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 서초구",
       "closeAt": "",
@@ -862,6 +972,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 영등포구",
       "closeAt": "",
@@ -877,6 +988,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 마포구",
       "closeAt": "",
@@ -891,6 +1003,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -905,6 +1018,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -921,6 +1035,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "경기 성남시",
       "closeAt": "",
@@ -935,6 +1050,9 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "플랫폼"
+      ],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -946,9 +1064,13 @@
       "company": "㈜유라클",
       "title": "[Leading the AI] 유라클 AI Agentic Framework 및 백엔드 엔지니어 모집",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49597106",
-      "tags": [],
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "서울 서초구솔",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -961,25 +1083,12 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 구로구",
       "closeAt": "",
       "postedAt": "",
       "employment": "정규직"
-    },
-    {
-      "source": "jobkorea",
-      "company": "㈜유알피",
-      "title": "㈜유알피 AI 응용/ 백엔드 개발 포지션 신입&amp;경력 채용",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49617389",
-      "tags": [
-        "경력"
-      ],
-      "stacks": [],
-      "location": "",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": ""
     },
     {
       "source": "saramin",
@@ -989,6 +1098,7 @@
       "tags": [
         "신입"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 영등포구",
       "closeAt": "",
@@ -1004,6 +1114,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 영등포구",
       "closeAt": "",
@@ -1015,9 +1126,12 @@
       "company": "㈜이도",
       "title": "이도에스테이트(주) IT사업팀 백엔드/ 웹 개발 채용 (단기 계약직)",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49643448",
-      "tags": [],
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "서울 중구솔루",
       "closeAt": "",
       "postedAt": "",
       "employment": "계약직"
@@ -1030,8 +1144,9 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "서울 구로구솔",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -1045,6 +1160,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 영등포구",
       "closeAt": "",
@@ -1059,6 +1175,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -1071,8 +1188,10 @@
       "title": "[경력] JAVA 웹/앱 백엔드 개발자 모집",
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54216999",
       "tags": [
-        "주니어"
+        "주니어",
+        "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "경기 과천시",
       "closeAt": "",
@@ -1089,6 +1208,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 광진구",
       "closeAt": "",
@@ -1103,6 +1223,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -1114,9 +1235,14 @@
       "company": "㈜카카오스타일",
       "title": "백엔드 개발자 (물류 시스템)",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49530013",
-      "tags": [],
+      "tags": [
+        "경력"
+      ],
+      "categories": [
+        "대기업"
+      ],
       "stacks": [],
-      "location": "",
+      "location": "경기 성남시모",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -1129,6 +1255,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -1143,6 +1270,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -1156,6 +1284,9 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54407754",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "플랫폼"
       ],
       "stacks": [],
       "location": "서울 금천구",
@@ -1171,8 +1302,11 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "플랫폼"
+      ],
       "stacks": [],
-      "location": "",
+      "location": "서울 금천구",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -1184,6 +1318,9 @@
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54485629",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "플랫폼"
       ],
       "stacks": [],
       "location": "서울 중구",
@@ -1199,6 +1336,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강서구",
       "closeAt": "",
@@ -1210,9 +1348,12 @@
       "company": "㈜코콤",
       "title": "백엔드 개발자(PHP/C++/Linux) 채용",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49494079",
-      "tags": [],
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "서울 강서구전",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -1222,9 +1363,12 @@
       "company": "㈜코콤",
       "title": "스마트홈 서버 백엔드 설계 및 개발자 채용 건",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49637342",
-      "tags": [],
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "서울 강서구전",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -1237,6 +1381,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 성동구",
       "closeAt": "",
@@ -1252,6 +1397,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -1266,6 +1412,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -1281,6 +1428,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -1297,6 +1445,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -1313,6 +1462,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "플랫폼"
+      ],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -1327,6 +1479,7 @@
       "tags": [
         "신입"
       ],
+      "categories": [],
       "stacks": [],
       "location": "부산 부산진구",
       "closeAt": "",
@@ -1343,6 +1496,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 마포구",
       "closeAt": "",
@@ -1357,6 +1511,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "경기 성남시",
       "closeAt": "",
@@ -1371,6 +1526,7 @@
       "tags": [
         "주니어"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 송파구",
       "closeAt": "",
@@ -1383,8 +1539,10 @@
       "title": "[백엔드/프론트엔드 개발자] 경력직 채용",
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54605686",
       "tags": [
-        "주니어"
+        "주니어",
+        "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 용산구",
       "closeAt": "",
@@ -1399,6 +1557,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -1414,6 +1573,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [],
       "location": "경기 시흥시",
       "closeAt": "",
@@ -1425,9 +1587,12 @@
       "company": "㈜휴먼코아",
       "title": "대기업 헬스케어 백엔드 개발자 채용",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49645989",
-      "tags": [],
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "서울 강남구콜",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -1437,11 +1602,39 @@
       "company": "㈜NE능률",
       "title": "[NE능률] 백엔드 개발자 채용 (Back-end Engineer)",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49529119",
-      "tags": [],
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "서울 마포구학",
       "closeAt": "",
       "postedAt": "",
+      "employment": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "26도라인",
+      "title": "서버 개발자 경력직 채용",
+      "url": "https://www.jumpit.co.kr/position/54332459",
+      "tags": [
+        "경력"
+      ],
+      "categories": [
+        "대기업"
+      ],
+      "stacks": [
+        "Docker",
+        "GitHub",
+        "GraphQL",
+        "Kubernetes",
+        "AWS",
+        "AZURE"
+      ],
+      "location": "경기 광주시",
+      "closeAt": "2026-08-04",
+      "postedAt": "2026-07-06",
       "employment": ""
     },
     {
@@ -1451,6 +1644,9 @@
       "url": "https://www.wanted.co.kr/wd/374927",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "솔루션"
       ],
       "stacks": [
         "Java",
@@ -1472,6 +1668,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "경기 화성시",
       "closeAt": "",
@@ -1486,6 +1683,10 @@
       "tags": [
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "스타트업",
+        "솔루션"
       ],
       "stacks": [
         "MySQL",
@@ -1508,6 +1709,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "AWS",
         "GCP",
@@ -1528,6 +1730,9 @@
       "tags": [
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "플랫폼"
       ],
       "stacks": [
         "PostgreSQL",
@@ -1552,6 +1757,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kotlin",
@@ -1575,6 +1781,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kotlin",
@@ -1599,6 +1806,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "AWS",
         "GCP",
@@ -1618,6 +1828,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Python",
@@ -1640,6 +1851,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 영등포구",
       "closeAt": "",
@@ -1655,6 +1867,9 @@
         "인턴",
         "신입",
         "주니어"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "AWS",
@@ -1675,6 +1890,7 @@
         "인턴",
         "신입"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -1687,8 +1903,10 @@
       "title": "[캐시워크] 백엔드/서버 개발자",
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54117460",
       "tags": [
-        "주니어"
+        "주니어",
+        "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -1705,6 +1923,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -1719,6 +1938,9 @@
       "tags": [
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "AWS",
@@ -1739,6 +1961,9 @@
       "tags": [
         "신입",
         "주니어"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "MySQL",
@@ -1762,6 +1987,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Linux",
         "Python",
@@ -1783,6 +2009,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "AWS",
@@ -1806,6 +2033,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 중구",
       "closeAt": "",
@@ -1820,8 +2048,11 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "플랫폼"
+      ],
       "stacks": [],
-      "location": "",
+      "location": "서울 중구포털",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -1833,6 +2064,9 @@
       "url": "https://www.wanted.co.kr/wd/376331",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "Java",
@@ -1859,6 +2093,7 @@
         "신입",
         "주니어"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Spring",
@@ -1879,21 +2114,12 @@
       "company": "넥스트증권㈜",
       "title": "Backend Engineer(Singapore)",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49685896",
-      "tags": [],
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
       "stacks": [],
-      "location": "",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": ""
-    },
-    {
-      "source": "jobkorea",
-      "company": "넥스트증권㈜",
-      "title": "Backend Engineer (Service Platform)",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49685462",
-      "tags": [],
-      "stacks": [],
-      "location": "",
+      "location": "서울 영등포구",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -1903,9 +2129,27 @@
       "company": "넥스트증권㈜",
       "title": "Backend Engineer (Trading Core)",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49685852",
-      "tags": [],
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "서울 영등포구",
+      "closeAt": "",
+      "postedAt": "",
+      "employment": ""
+    },
+    {
+      "source": "jobkorea",
+      "company": "넥스트증권㈜",
+      "title": "Backend Engineer (Service Platform)",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49685462",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [],
+      "location": "서울 영등포구",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -1919,6 +2163,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "MySQL",
         "Redis",
@@ -1940,6 +2185,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Spring Boot",
@@ -1959,6 +2205,9 @@
       "url": "https://www.wanted.co.kr/wd/376543",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "SI"
       ],
       "stacks": [
         "AWS",
@@ -1982,6 +2231,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Spring",
@@ -2005,6 +2255,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Spring",
         "AWS",
@@ -2024,6 +2275,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Kotlin",
         "Spring",
@@ -2045,6 +2297,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Spring"
@@ -2062,6 +2315,9 @@
       "tags": [
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "PostgreSQL",
@@ -2082,6 +2338,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kafka",
@@ -2101,6 +2358,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kafka",
@@ -2119,6 +2377,9 @@
       "url": "https://www.wanted.co.kr/wd/377873",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "Kotlin",
@@ -2140,6 +2401,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "AWS",
         "Docker",
@@ -2160,6 +2422,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -2175,6 +2438,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "MySQL",
         "AWS",
@@ -2198,6 +2462,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "MySQL",
         "PostgreSQL",
@@ -2218,6 +2483,10 @@
       "tags": [
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "스타트업",
+        "플랫폼"
       ],
       "stacks": [
         "PostgreSQL",
@@ -2240,6 +2509,9 @@
       "tags": [
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "플랫폼"
       ],
       "stacks": [
         "Java",
@@ -2265,6 +2537,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kotlin",
@@ -2289,6 +2562,9 @@
         "신입",
         "주니어"
       ],
+      "categories": [
+        "플랫폼"
+      ],
       "stacks": [
         "Java",
         "Kotlin",
@@ -2311,6 +2587,9 @@
       "url": "https://www.wanted.co.kr/wd/373760",
       "tags": [
         "신입"
+      ],
+      "categories": [
+        "플랫폼"
       ],
       "stacks": [
         "Java",
@@ -2336,6 +2615,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kafka",
@@ -2358,6 +2638,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "플랫폼"
+      ],
       "stacks": [
         "Docker",
         "Elasticsearch",
@@ -2372,6 +2655,30 @@
       "employment": ""
     },
     {
+      "source": "jumpit",
+      "company": "드림어스컴퍼니",
+      "title": "콘텐츠 플랫폼 백엔드 개발(Junior)",
+      "url": "https://www.jumpit.co.kr/position/54419201",
+      "tags": [
+        "신입"
+      ],
+      "categories": [
+        "플랫폼"
+      ],
+      "stacks": [
+        "Elasticsearch",
+        "Java",
+        "Kafka",
+        "Kotlin",
+        "MongoDB",
+        "MySQL"
+      ],
+      "location": "서울 강남구",
+      "closeAt": "2026-08-07",
+      "postedAt": "2026-07-09",
+      "employment": ""
+    },
+    {
       "source": "wanted",
       "company": "디써클",
       "title": "[인턴] [Node.js/Kotlin/Python] 백엔드 엔지니어",
@@ -2380,6 +2687,9 @@
         "인턴",
         "신입",
         "주니어"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "Java",
@@ -2405,6 +2715,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "Java",
         "Kotlin",
@@ -2429,6 +2742,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "솔루션"
+      ],
       "stacks": [
         "PostgreSQL",
         "Redis",
@@ -2452,6 +2768,9 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "MongoDB",
         "Redis",
@@ -2471,6 +2790,9 @@
       "url": "https://www.wanted.co.kr/wd/377473",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "Spring Boot",
@@ -2492,6 +2814,9 @@
         "신입",
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "AWS",
@@ -2515,6 +2840,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "MongoDB",
         "Node.js",
@@ -2534,6 +2860,9 @@
       "tags": [
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "SI"
       ],
       "stacks": [
         "Java",
@@ -2558,6 +2887,9 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "Java",
         "Spring Boot",
@@ -2581,6 +2913,10 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "스타트업",
+        "솔루션"
+      ],
       "stacks": [
         "Java",
         "Spring Boot",
@@ -2603,6 +2939,9 @@
       "url": "https://www.wanted.co.kr/wd/375357",
       "tags": [
         "신입"
+      ],
+      "categories": [
+        "플랫폼"
       ],
       "stacks": [
         "PostgreSQL",
@@ -2628,6 +2967,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "MySQL",
         "PostgreSQL",
@@ -2653,6 +2993,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강동구",
       "closeAt": "",
@@ -2666,6 +3007,9 @@
       "url": "https://www.wanted.co.kr/wd/317565",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "플랫폼"
       ],
       "stacks": [
         "Spring Boot",
@@ -2689,6 +3033,9 @@
       "url": "https://www.wanted.co.kr/wd/373999",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "PostgreSQL",
@@ -2714,6 +3061,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "PostgreSQL",
         "AWS",
@@ -2735,6 +3083,9 @@
       "url": "https://www.wanted.co.kr/wd/367926",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "솔루션"
       ],
       "stacks": [
         "PostgreSQL",
@@ -2759,6 +3110,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "PostgreSQL",
@@ -2781,6 +3133,9 @@
       "url": "https://www.wanted.co.kr/wd/365319",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "PostgreSQL",
@@ -2805,6 +3160,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Amazon Aurora",
         "Git",
@@ -2825,6 +3181,9 @@
       "url": "https://www.wanted.co.kr/wd/374410",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "Java",
@@ -2849,6 +3208,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Node.js",
         "TypeScript",
@@ -2868,6 +3228,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 서초구",
       "closeAt": "",
@@ -2882,6 +3243,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "MongoDB",
         "Redis",
@@ -2905,6 +3267,7 @@
       "tags": [
         "주니어"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Spring Boot",
@@ -2926,7 +3289,11 @@
       "title": "AI 플랫폼 백엔드개발자 채용",
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54621955",
       "tags": [
-        "주니어"
+        "주니어",
+        "경력"
+      ],
+      "categories": [
+        "플랫폼"
       ],
       "stacks": [],
       "location": "서울 서초구",
@@ -2942,6 +3309,9 @@
       "tags": [
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "AWS",
@@ -2962,6 +3332,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Redis",
@@ -2986,6 +3357,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -3000,6 +3372,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "PostgreSQL",
         "AWS",
@@ -3019,9 +3392,13 @@
       "company": "메가스터디교육㈜",
       "title": "웹서비스(백엔드) 개발자",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49550404",
-      "tags": [],
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "서울 서초구",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -3031,9 +3408,15 @@
       "company": "메가존클라우드㈜",
       "title": "[AIR Platform] Backend Developer, 플랫폼 기획 채용",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49656849",
-      "tags": [],
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [
+        "플랫폼"
+      ],
       "stacks": [],
-      "location": "",
+      "location": "경기 과천시솔",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -3043,9 +3426,13 @@
       "company": "메가존클라우드㈜",
       "title": "Backend Developer / AI Research Engineer 엔지니어 채용",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49657175",
-      "tags": [],
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "경기 과천시솔",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -3059,6 +3446,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Kotlin",
         "Spring",
@@ -3083,6 +3471,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "PostgreSQL",
         "AWS",
@@ -3103,6 +3494,9 @@
       "tags": [
         "주니어"
       ],
+      "categories": [
+        "솔루션"
+      ],
       "stacks": [
         "Java",
         "AWS",
@@ -3120,6 +3514,9 @@
       "url": "https://www.wanted.co.kr/wd/375320",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "솔루션"
       ],
       "stacks": [
         "Java",
@@ -3140,6 +3537,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Spring",
         "MySQL",
@@ -3158,6 +3556,9 @@
       "url": "https://www.wanted.co.kr/wd/278395",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "대기업"
       ],
       "stacks": [
         "Java",
@@ -3182,6 +3583,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kubernetes"
@@ -3198,6 +3600,9 @@
       "url": "https://www.wanted.co.kr/wd/376698",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "MySQL",
@@ -3223,6 +3628,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Python",
         "FastAPI"
@@ -3239,6 +3645,9 @@
       "url": "https://www.wanted.co.kr/wd/348612",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "MySQL",
@@ -3263,6 +3672,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "AWS",
         "Python"
@@ -3280,6 +3690,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Python",
         "REST API",
@@ -3298,6 +3709,9 @@
       "tags": [
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "PostgreSQL",
@@ -3321,6 +3735,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Spring",
@@ -3345,6 +3760,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "MySQL",
         "Redis",
@@ -3368,6 +3784,9 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "MongoDB",
         "Redis",
@@ -3389,6 +3808,9 @@
       "url": "https://www.wanted.co.kr/wd/206209",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "PostgreSQL",
@@ -3414,6 +3836,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Angular 2",
         "Git",
@@ -3434,6 +3857,9 @@
       "url": "https://www.wanted.co.kr/wd/375407",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "플랫폼"
       ],
       "stacks": [
         "Redis",
@@ -3456,6 +3882,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "MySQL",
         "PostgreSQL",
@@ -3478,6 +3905,9 @@
       "url": "https://www.wanted.co.kr/wd/351647",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "플랫폼"
       ],
       "stacks": [
         "Java",
@@ -3502,6 +3932,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Spring Boot",
@@ -3526,6 +3957,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Spring",
@@ -3548,6 +3980,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "AWS"
       ],
@@ -3564,6 +3997,9 @@
       "tags": [
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "MySQL",
@@ -3584,6 +4020,9 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "MySQL",
         "AWS",
@@ -3603,6 +4042,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kotlin",
@@ -3628,6 +4068,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 성동구",
       "closeAt": "",
@@ -3642,6 +4083,9 @@
       "tags": [
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "Java",
@@ -3667,6 +4111,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Docker",
         "GitHub",
@@ -3690,6 +4135,7 @@
         "신입",
         "주니어"
       ],
+      "categories": [],
       "stacks": [
         "AWS",
         "Azure"
@@ -3707,6 +4153,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "REST API",
         "AWS"
@@ -3723,6 +4170,9 @@
       "url": "https://www.wanted.co.kr/wd/367981",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "SI"
       ],
       "stacks": [
         "Java",
@@ -3748,6 +4198,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "Java",
         "Spring",
@@ -3771,6 +4224,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Git",
         "Linux",
@@ -3791,6 +4245,9 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "AWS"
       ],
@@ -3808,6 +4265,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "Node.js",
         "TypeScript"
@@ -3824,6 +4284,9 @@
       "url": "https://www.wanted.co.kr/wd/377074",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "Spring Boot",
@@ -3849,6 +4312,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "Spring Boot",
         "Spring",
@@ -3872,6 +4338,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "MySQL",
         "PostgreSQL",
@@ -3896,6 +4363,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "AWS",
         "Docker",
@@ -3917,6 +4387,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Django",
         "Docker",
@@ -3939,6 +4410,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kotlin",
@@ -3955,27 +4427,6 @@
       "employment": "인턴"
     },
     {
-      "source": "jumpit",
-      "company": "서울거래",
-      "title": "백엔드 시니어 개발자 채용",
-      "url": "https://www.jumpit.co.kr/position/54483587",
-      "tags": [
-        "경력"
-      ],
-      "stacks": [
-        "CSS 3",
-        "Django",
-        "Git",
-        "HTML5",
-        "Java",
-        "PostgreSQL"
-      ],
-      "location": "서울 영등포구",
-      "closeAt": "2026-08-15",
-      "postedAt": "2026-07-17",
-      "employment": ""
-    },
-    {
       "source": "wanted",
       "company": "세로본능",
       "title": "백엔드 개발자",
@@ -3983,6 +4434,10 @@
       "tags": [
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "스타트업",
+        "플랫폼"
       ],
       "stacks": [
         "Java",
@@ -4002,6 +4457,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Confluence",
         "Docker",
@@ -4023,6 +4479,9 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "Java",
         "Kafka",
@@ -4042,6 +4501,9 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "Java",
         "Go",
@@ -4060,6 +4522,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kotlin",
@@ -4083,6 +4546,9 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "Java",
         "Kotlin",
@@ -4105,6 +4571,9 @@
       "url": "https://www.wanted.co.kr/wd/370414",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "Java",
@@ -4130,6 +4599,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kotlin",
@@ -4154,6 +4624,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kotlin",
@@ -4179,6 +4650,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "PostgreSQL",
         "AWS",
@@ -4200,6 +4674,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Kotlin",
         "Spring Boot",
@@ -4223,6 +4698,9 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "Java",
         "Spring Boot",
@@ -4245,6 +4723,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Elasticsearch",
         "AWS",
@@ -4266,6 +4745,9 @@
       "url": "https://www.wanted.co.kr/wd/373795",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "MySQL",
@@ -4291,6 +4773,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "MySQL",
         "PostgreSQL",
@@ -4315,6 +4800,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "JavaScript",
         "MongoDB",
@@ -4336,6 +4822,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "JavaScript",
         "MongoDB",
@@ -4350,6 +4837,26 @@
       "employment": ""
     },
     {
+      "source": "jumpit",
+      "company": "스페이스맵",
+      "title": "웹 서버 개발 PM (프로젝트 매니저)",
+      "url": "https://www.jumpit.co.kr/position/54434609",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Confluence",
+        "Jira",
+        "Slack",
+        "Notion"
+      ],
+      "location": "서울 성동구",
+      "closeAt": "2026-08-10",
+      "postedAt": "2026-07-12",
+      "employment": ""
+    },
+    {
       "source": "saramin",
       "company": "스페이스맵(주)",
       "title": "백엔드 개발자 (경력 1년 이상)",
@@ -4358,6 +4865,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 성동구",
       "closeAt": "",
@@ -4372,6 +4880,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Kafka",
         "Docker",
@@ -4390,6 +4899,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "MySQL",
         "PostgreSQL",
@@ -4415,6 +4925,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "경남 창원시",
       "closeAt": "",
@@ -4430,6 +4941,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kotlin",
@@ -4446,12 +4958,35 @@
     },
     {
       "source": "jumpit",
+      "company": "씨메스",
+      "title": "Backend (Python) 개발자",
+      "url": "https://www.jumpit.co.kr/position/54616506",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C++",
+        "JavaScript",
+        "Python",
+        "React",
+        "FastAPI"
+      ],
+      "location": "서울 강남구",
+      "closeAt": "2026-08-31",
+      "postedAt": "2026-08-02",
+      "employment": ""
+    },
+    {
+      "source": "jumpit",
       "company": "씨앤유글로벌",
       "title": "백엔드 개발자 (5년 이상)",
       "url": "https://www.jumpit.co.kr/position/54365034",
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "MariaDB",
@@ -4471,6 +5006,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Spring Boot",
@@ -4492,6 +5028,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "AWS",
         "Node.js",
@@ -4510,6 +5047,9 @@
       "tags": [
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "Java",
@@ -4530,6 +5070,10 @@
       "url": "https://www.wanted.co.kr/wd/322056",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "SI",
+        "솔루션"
       ],
       "stacks": [
         "Java",
@@ -4555,6 +5099,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "솔루션"
+      ],
       "stacks": [
         "Java",
         "Spring Boot",
@@ -4579,6 +5126,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Git",
         "Java",
@@ -4601,6 +5149,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Spring Boot",
@@ -4623,6 +5172,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "Docker",
         "Python",
@@ -4641,6 +5193,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kotlin",
@@ -4664,6 +5217,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "GitHub",
         "Java",
@@ -4685,6 +5239,9 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "플랫폼"
+      ],
       "stacks": [
         "Java",
         "Spring Boot",
@@ -4705,6 +5262,9 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "플랫폼"
+      ],
       "stacks": [
         "Java",
         "Spring Boot",
@@ -4724,6 +5284,9 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "플랫폼"
+      ],
       "stacks": [
         "Java",
         "Spring Boot",
@@ -4742,6 +5305,11 @@
       "url": "https://www.wanted.co.kr/wd/371685",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "SI",
+        "솔루션",
+        "플랫폼"
       ],
       "stacks": [
         "Java",
@@ -4765,6 +5333,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "AWS",
@@ -4784,6 +5353,9 @@
       "url": "https://www.wanted.co.kr/wd/378144",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "Java",
@@ -4809,6 +5381,10 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "스타트업",
+        "플랫폼"
+      ],
       "stacks": [
         "Java",
         "Spring",
@@ -4830,6 +5406,9 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "AWS",
         "GCP",
@@ -4848,6 +5427,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         ".NET",
         "Azure DevOps",
@@ -4868,6 +5448,9 @@
       "url": "https://www.wanted.co.kr/wd/376688",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "SI"
       ],
       "stacks": [
         "Java",
@@ -4890,6 +5473,9 @@
       "tags": [
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "플랫폼"
       ],
       "stacks": [
         "MySQL",
@@ -4914,6 +5500,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "플랫폼"
+      ],
       "stacks": [
         "Java",
         "Spring Boot",
@@ -4932,32 +5521,12 @@
     {
       "source": "jumpit",
       "company": "에스피코리아",
-      "title": "백엔드 개발자(7년 이상)",
-      "url": "https://www.jumpit.co.kr/position/54552131",
-      "tags": [
-        "경력"
-      ],
-      "stacks": [
-        "AWS CloudFormation",
-        "Java",
-        "Jenkins",
-        "Kotlin",
-        "MySQL",
-        "NGINX"
-      ],
-      "location": "서울 강서구",
-      "closeAt": "2026-08-24",
-      "postedAt": "2026-07-26",
-      "employment": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "에스피코리아",
       "title": "백엔드 개발자(4~6년)",
       "url": "https://www.jumpit.co.kr/position/54552128",
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "AWS CloudFormation",
         "Java",
@@ -4974,11 +5543,12 @@
     {
       "source": "jumpit",
       "company": "에스피코리아",
-      "title": "백엔드 개발자(1~3년)",
-      "url": "https://www.jumpit.co.kr/position/54552121",
+      "title": "백엔드 개발자(7년 이상)",
+      "url": "https://www.jumpit.co.kr/position/54552131",
       "tags": [
-        "주니어"
+        "경력"
       ],
+      "categories": [],
       "stacks": [
         "AWS CloudFormation",
         "Java",
@@ -4999,6 +5569,9 @@
       "url": "https://www.wanted.co.kr/wd/331639",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "AWS",
@@ -5021,6 +5594,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "PostgreSQL",
         "Redis",
@@ -5041,6 +5617,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "MySQL",
         "PostgreSQL",
@@ -5061,6 +5638,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "MySQL",
         "PostgreSQL",
@@ -5081,6 +5659,10 @@
       "tags": [
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "스타트업",
+        "플랫폼"
       ],
       "stacks": [
         "Kotlin",
@@ -5105,6 +5687,10 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "스타트업",
+        "플랫폼"
+      ],
       "stacks": [
         "Kotlin",
         "Spring",
@@ -5128,6 +5714,9 @@
       "tags": [
         "주니어"
       ],
+      "categories": [
+        "플랫폼"
+      ],
       "stacks": [
         "Java",
         "PostgreSQL",
@@ -5149,6 +5738,10 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "스타트업",
+        "솔루션"
+      ],
       "stacks": [
         "AWS",
         "GCP",
@@ -5167,6 +5760,9 @@
       "url": "https://www.wanted.co.kr/wd/374443",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "PostgreSQL",
@@ -5187,6 +5783,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 중구",
       "closeAt": "",
@@ -5202,6 +5799,9 @@
         "신입",
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "PostgreSQL",
@@ -5228,6 +5828,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "솔루션"
+      ],
       "stacks": [
         "Java",
         "Spring Boot",
@@ -5250,6 +5853,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Spring",
         "Kafka",
@@ -5271,6 +5875,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Kotlin",
         "Spring Boot",
@@ -5291,6 +5896,9 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "솔루션"
+      ],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -5305,6 +5913,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "경기 성남시",
       "closeAt": "",
@@ -5319,6 +5928,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "경기 성남시",
       "closeAt": "",
@@ -5330,9 +5940,12 @@
       "company": "엔에이치엔두레이㈜",
       "title": "백엔드개발",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49579772",
-      "tags": [],
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "경기 성남시포",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -5345,6 +5958,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 구로구",
       "closeAt": "",
@@ -5356,9 +5970,13 @@
       "company": "엔에이치엔케이씨피㈜",
       "title": "[NHN KCP] Java 백엔드 웹개발 담당",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49566980",
-      "tags": [],
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "서울 구로구솔",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -5368,9 +5986,12 @@
       "company": "엔에이치엔클라우드",
       "title": "PaaS 백엔드 개발",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49407827",
-      "tags": [],
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "경기 성남시네",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -5383,6 +6004,10 @@
       "tags": [
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "스타트업",
+        "솔루션"
       ],
       "stacks": [
         "MongoDB",
@@ -5405,6 +6030,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Kafka",
         "RabbitMQ",
@@ -5430,6 +6056,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "PostgreSQL",
         "Redis",
@@ -5453,6 +6080,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 서초구",
       "closeAt": "",
@@ -5466,6 +6094,9 @@
       "url": "https://www.wanted.co.kr/wd/327545",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "플랫폼"
       ],
       "stacks": [
         "MySQL"
@@ -5483,6 +6114,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kotlin",
@@ -5506,6 +6138,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Spring Boot",
@@ -5528,6 +6161,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Elasticsearch",
         "Laravel",
@@ -5549,6 +6183,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "AWS",
@@ -5569,6 +6204,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Django",
         "Java",
@@ -5590,6 +6226,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Spring Boot",
@@ -5613,6 +6250,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Spring Boot",
@@ -5632,9 +6270,13 @@
       "company": "와디즈㈜",
       "title": "Java 백엔드 개발자 - 회원 개발",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49607779",
-      "tags": [],
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "경기 성남시쇼",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -5646,6 +6288,9 @@
       "url": "https://www.wanted.co.kr/wd/372230",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "Java",
@@ -5663,34 +6308,15 @@
       "employment": ""
     },
     {
-      "source": "jumpit",
-      "company": "와탭랩스",
-      "title": "백엔드 개발자",
-      "url": "https://www.jumpit.co.kr/position/54621079",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "stacks": [
-        "Grafana",
-        "Java",
-        "Kubernetes",
-        "Netty",
-        "Prometheus",
-        "Spring Framework"
-      ],
-      "location": "서울 서초구",
-      "closeAt": "2026-08-10",
-      "postedAt": "2026-07-12",
-      "employment": ""
-    },
-    {
       "source": "wanted",
       "company": "와탭랩스(WhaTapLabs)",
       "title": "백엔드 개발자",
       "url": "https://www.wanted.co.kr/wd/300610",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "Spring",
@@ -5710,6 +6336,9 @@
       "tags": [
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "MySQL",
@@ -5732,6 +6361,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Kafka",
         "RabbitMQ",
@@ -5753,6 +6383,9 @@
       "url": "https://www.wanted.co.kr/wd/231846",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "플랫폼"
       ],
       "stacks": [
         "Java",
@@ -5778,6 +6411,10 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "스타트업",
+        "플랫폼"
+      ],
       "stacks": [
         "Spring Boot",
         "Spring",
@@ -5801,6 +6438,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kotlin",
@@ -5823,6 +6461,10 @@
       "url": "https://www.wanted.co.kr/wd/360131",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업",
+        "솔루션"
       ],
       "stacks": [
         "Java",
@@ -5847,6 +6489,10 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "스타트업",
+        "솔루션"
+      ],
       "stacks": [
         "Java",
         "Spring Boot",
@@ -5870,6 +6516,9 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "솔루션"
+      ],
       "stacks": [],
       "location": "서울",
       "closeAt": "",
@@ -5885,6 +6534,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "MySQL",
         "Redis",
@@ -5909,6 +6559,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "JavaScript",
         "Kafka",
@@ -5930,6 +6581,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "JavaScript",
@@ -5951,6 +6603,7 @@
       "tags": [
         "신입"
       ],
+      "categories": [],
       "stacks": [
         "Linux"
       ],
@@ -5967,6 +6620,7 @@
       "tags": [
         "주니어"
       ],
+      "categories": [],
       "stacks": [
         "Linux"
       ],
@@ -5983,49 +6637,7 @@
       "tags": [
         "경력"
       ],
-      "stacks": [
-        "Docker",
-        "Elasticsearch",
-        "Gradle",
-        "Java",
-        "Linux",
-        "Python"
-      ],
-      "location": "서울 영등포구",
-      "closeAt": "2026-08-26",
-      "postedAt": "2026-07-28",
-      "employment": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "이너버스",
-      "title": "백엔드 개발자 (신입)",
-      "url": "https://www.jumpit.co.kr/position/54586009",
-      "tags": [
-        "신입"
-      ],
-      "stacks": [
-        "Docker",
-        "Elasticsearch",
-        "Gradle",
-        "Java",
-        "Linux",
-        "Python"
-      ],
-      "location": "서울 영등포구",
-      "closeAt": "2026-08-26",
-      "postedAt": "2026-07-28",
-      "employment": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "이너버스",
-      "title": "백엔드 개발자 (주니어)",
-      "url": "https://www.jumpit.co.kr/position/54586036",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
+      "categories": [],
       "stacks": [
         "Docker",
         "Elasticsearch",
@@ -6048,6 +6660,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Amazon CloudFront",
         "Amazon RDS",
@@ -6069,6 +6682,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 중구",
       "closeAt": "",
@@ -6083,6 +6697,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "MySQL",
         "PostgreSQL",
@@ -6097,27 +6712,6 @@
       "employment": ""
     },
     {
-      "source": "jumpit",
-      "company": "이스트시큐리티",
-      "title": "리눅스 백엔드 서버 개발자 채용",
-      "url": "https://www.jumpit.co.kr/position/54461267",
-      "tags": [
-        "경력"
-      ],
-      "stacks": [
-        "C++",
-        "Linux",
-        "MariaDB",
-        "MySQL",
-        "PostgreSQL",
-        "Python"
-      ],
-      "location": "서울 서초구",
-      "closeAt": "2026-08-12",
-      "postedAt": "2026-07-14",
-      "employment": ""
-    },
-    {
       "source": "wanted",
       "company": "이자",
       "title": "백엔드 개발자",
@@ -6125,6 +6719,9 @@
       "tags": [
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "MySQL",
@@ -6150,6 +6747,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "솔루션"
+      ],
       "stacks": [
         "Java",
         "Spring Boot",
@@ -6170,6 +6770,9 @@
       "tags": [
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "MySQL",
@@ -6195,6 +6798,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "PostgreSQL",
         "MongoDB",
@@ -6215,6 +6821,9 @@
       "tags": [
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "Java",
@@ -6240,6 +6849,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Spring Boot",
@@ -6264,6 +6874,9 @@
         "신입",
         "주니어"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "PostgreSQL",
         "Node.js",
@@ -6283,6 +6896,9 @@
       "url": "https://www.wanted.co.kr/wd/376850",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "PostgreSQL",
@@ -6306,6 +6922,9 @@
         "신입",
         "주니어"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "PostgreSQL",
         "Node.js",
@@ -6324,6 +6943,9 @@
       "tags": [
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "PostgreSQL",
@@ -6348,6 +6970,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "MySQL",
         "Redis",
@@ -6369,6 +6994,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Kafka",
         "AWS",
@@ -6387,6 +7013,7 @@
       "title": "[잉카인터넷] NOS 풀스택 개발자 (Frontend, Backend / 외근가능)",
       "url": "https://linkareer.com/activity/339553",
       "tags": [],
+      "categories": [],
       "stacks": [],
       "location": "",
       "closeAt": "2026-08-30",
@@ -6403,6 +7030,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "부산 남구",
       "closeAt": "",
@@ -6418,6 +7046,7 @@
         "신입",
         "주니어"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울",
       "closeAt": "",
@@ -6432,6 +7061,9 @@
       "tags": [
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "Java",
@@ -6452,6 +7084,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Linux",
@@ -6472,6 +7105,9 @@
       "url": "https://www.wanted.co.kr/wd/364093",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "MySQL",
@@ -6496,6 +7132,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Elasticsearch",
         "AWS",
@@ -6519,6 +7156,9 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "Java",
         "Kafka",
@@ -6538,6 +7178,7 @@
       "tags": [
         "신입"
       ],
+      "categories": [],
       "stacks": [
         "CentOS",
         "Docker",
@@ -6561,6 +7202,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "대전 서구",
       "closeAt": "",
@@ -6573,8 +7215,10 @@
       "title": "[VIRNECT] 백엔드 개발자 채용(3년차이상)",
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54352654",
       "tags": [
-        "주니어"
+        "주니어",
+        "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 용산구",
       "closeAt": "",
@@ -6586,9 +7230,16 @@
       "company": "주식회사 빗썸",
       "title": "[빗썸] Staking Backend Engineer (블록체인)",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49648033",
-      "tags": [],
+      "tags": [
+        "신입",
+        "주니어",
+        "경력"
+      ],
+      "categories": [
+        "대기업"
+      ],
       "stacks": [],
-      "location": "",
+      "location": "서울 강남구포",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -6602,6 +7253,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 금천구",
       "closeAt": "",
@@ -6613,9 +7265,12 @@
       "company": "주식회사 솔트룩스",
       "title": "[AI서비스사업본부] 블록체인·스테이블코인 백엔드 개발자 채용",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49691381",
-      "tags": [],
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "서울 송파구",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -6626,8 +7281,10 @@
       "title": "함께하실 Backend(백엔드)개발자 모집합니다.",
       "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54503019",
       "tags": [
-        "주니어"
+        "주니어",
+        "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 영등포구",
       "closeAt": "",
@@ -6642,6 +7299,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 금천구",
       "closeAt": "",
@@ -6659,6 +7317,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "부산 해운대구",
       "closeAt": "",
@@ -6673,6 +7332,9 @@
       "tags": [
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "PostgreSQL",
@@ -6697,6 +7359,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Spring",
@@ -6719,6 +7382,10 @@
       "url": "https://www.wanted.co.kr/wd/230402",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업",
+        "플랫폼"
       ],
       "stacks": [
         "Java",
@@ -6744,6 +7411,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 영등포구",
       "closeAt": "",
@@ -6760,6 +7428,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 영등포구",
       "closeAt": "",
@@ -6773,6 +7442,10 @@
       "url": "https://www.wanted.co.kr/wd/355001",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업",
+        "플랫폼"
       ],
       "stacks": [
         "Java",
@@ -6798,6 +7471,10 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "스타트업",
+        "플랫폼"
+      ],
       "stacks": [
         "Spring Boot",
         "Spring",
@@ -6820,6 +7497,10 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "대기업",
+        "플랫폼"
+      ],
       "stacks": [
         "Java",
         "Kotlin",
@@ -6838,9 +7519,14 @@
       "company": "카카오뱅크",
       "title": "블록체인 서비스 백엔드 개발자",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49646197",
-      "tags": [],
+      "tags": [
+        "경력"
+      ],
+      "categories": [
+        "대기업"
+      ],
       "stacks": [],
-      "location": "",
+      "location": "경기 성남시은",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -6852,6 +7538,10 @@
       "url": "https://www.wanted.co.kr/wd/377076",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "대기업",
+        "플랫폼"
       ],
       "stacks": [
         "Java",
@@ -6872,6 +7562,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kotlin",
@@ -6896,6 +7587,10 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "스타트업",
+        "플랫폼"
+      ],
       "stacks": [
         "PostgreSQL",
         "Redis",
@@ -6917,6 +7612,9 @@
       "url": "https://www.wanted.co.kr/wd/338214",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "대기업"
       ],
       "stacks": [
         "Java",
@@ -6940,6 +7638,10 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "대기업",
+        "솔루션"
+      ],
       "stacks": [
         "Java",
         "Kotlin",
@@ -6959,6 +7661,9 @@
       "url": "https://www.wanted.co.kr/wd/325490",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "대기업"
       ],
       "stacks": [
         "Java",
@@ -6983,6 +7688,9 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "대기업"
+      ],
       "stacks": [
         "Java",
         "Kotlin",
@@ -7005,6 +7713,9 @@
       "url": "https://www.wanted.co.kr/wd/365203",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "플랫폼"
       ],
       "stacks": [
         "Kotlin",
@@ -7029,6 +7740,9 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "플랫폼"
+      ],
       "stacks": [
         "Kotlin",
         "Spring",
@@ -7052,6 +7766,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Docker",
         "Kubernetes",
@@ -7073,6 +7788,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "MySQL",
@@ -7091,6 +7807,9 @@
       "tags": [
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "Java",
@@ -7116,6 +7835,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "Java",
         "Kotlin",
@@ -7140,6 +7862,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "MySQL",
         "AWS",
@@ -7163,6 +7886,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "AWS",
         "Docker",
@@ -7184,6 +7908,10 @@
       "url": "https://www.wanted.co.kr/wd/262804",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업",
+        "솔루션"
       ],
       "stacks": [
         "Kotlin",
@@ -7208,6 +7936,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kotlin",
@@ -7230,6 +7959,10 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "스타트업",
+        "솔루션"
+      ],
       "stacks": [
         "Java",
         "AWS",
@@ -7246,15 +7979,39 @@
       "employment": ""
     },
     {
+      "source": "jumpit",
+      "company": "콜로세움코퍼레이션",
+      "title": "Backend Engineer(5년 이상)",
+      "url": "https://www.jumpit.co.kr/position/54381582",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Amazon RDS",
+        "Gradle",
+        "Java",
+        "Kotlin",
+        "MySQL",
+        "QueryDSL"
+      ],
+      "location": "서울 강남구",
+      "closeAt": "2026-08-04",
+      "postedAt": "2026-07-06",
+      "employment": ""
+    },
+    {
       "source": "jobkorea",
       "company": "쿠도커뮤니케이션㈜",
       "title": "[쿠도커뮤니케이션] AX사업부 AX엔지니어링팀 백엔드개발자 경력 채용",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49525340",
       "tags": [
+        "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "경기 과천시솔",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -7266,6 +8023,10 @@
       "url": "https://www.wanted.co.kr/wd/372725",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "대기업",
+        "스타트업"
       ],
       "stacks": [
         "JPA",
@@ -7284,6 +8045,10 @@
       "url": "https://www.wanted.co.kr/wd/367805",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "대기업",
+        "스타트업"
       ],
       "stacks": [
         "Java",
@@ -7306,6 +8071,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "대기업"
+      ],
       "stacks": [
         "Java",
         "Kotlin",
@@ -7325,6 +8093,9 @@
       "tags": [
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "MySQL",
@@ -7349,6 +8120,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "MySQL",
         "PostgreSQL",
@@ -7370,6 +8142,9 @@
       "tags": [
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "Java",
@@ -7393,6 +8168,9 @@
       "url": "https://www.wanted.co.kr/wd/356935",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "Java",
@@ -7418,6 +8196,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "PostgreSQL",
         "Kafka",
@@ -7438,6 +8219,9 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "플랫폼"
+      ],
       "stacks": [
         "Java",
         "Elasticsearch",
@@ -7455,9 +8239,12 @@
       "company": "크림(주)",
       "title": "Partner Backend 개발자 모집",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49342567",
-      "tags": [],
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "경기 성남시네",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -7467,9 +8254,12 @@
       "company": "크림(주)",
       "title": "Service Backend 개발자 모집",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49342457",
-      "tags": [],
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "경기 성남시네",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -7483,6 +8273,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kotlin",
@@ -7506,6 +8297,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kotlin",
@@ -7529,6 +8321,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kotlin",
@@ -7548,6 +8341,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "AWS",
         "GCP",
@@ -7571,6 +8365,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 중구",
       "closeAt": "",
@@ -7583,10 +8378,13 @@
       "title": "킨코스코리아㈜ 백엔드 개발자 / 디자인그룹 경력 및 신입사원 모집",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49684889",
       "tags": [
+        "신입",
+        "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "서울 서초구",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -7600,6 +8398,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "MySQL",
         "PostgreSQL",
@@ -7618,12 +8417,32 @@
     {
       "source": "jumpit",
       "company": "텐빌리언",
+      "title": "백엔드 경력 채용 (6~9년)",
+      "url": "https://www.jumpit.co.kr/position/54510032",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Git",
+        "Spring Boot",
+        "DB"
+      ],
+      "location": "서울 구로구",
+      "closeAt": "2026-08-18",
+      "postedAt": "2026-07-20",
+      "employment": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "텐빌리언",
       "title": "백엔드 경력 채용 (2~5년)",
       "url": "https://www.jumpit.co.kr/position/54510048",
       "tags": [
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Git",
         "Spring Boot",
@@ -7642,24 +8461,7 @@
       "tags": [
         "경력"
       ],
-      "stacks": [
-        "Git",
-        "Spring Boot",
-        "DB"
-      ],
-      "location": "서울 구로구",
-      "closeAt": "2026-08-18",
-      "postedAt": "2026-07-20",
-      "employment": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "텐빌리언",
-      "title": "백엔드 경력 채용 (6~9년)",
-      "url": "https://www.jumpit.co.kr/position/54510032",
-      "tags": [
-        "경력"
-      ],
+      "categories": [],
       "stacks": [
         "Git",
         "Spring Boot",
@@ -7679,6 +8481,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 서초구",
       "closeAt": "",
@@ -7692,6 +8495,9 @@
       "url": "https://www.jumpit.co.kr/position/54575509",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "플랫폼"
       ],
       "stacks": [
         "Java",
@@ -7714,6 +8520,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kotlin",
@@ -7730,6 +8537,24 @@
       "employment": ""
     },
     {
+      "source": "jumpit",
+      "company": "트루엔",
+      "title": "서버 개발자 (경력 8년↑)",
+      "url": "https://www.jumpit.co.kr/position/54508724",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "REST API",
+        "Golang"
+      ],
+      "location": "서울 구로구",
+      "closeAt": "2026-08-18",
+      "postedAt": "2026-07-20",
+      "employment": ""
+    },
+    {
       "source": "wanted",
       "company": "트립비토즈(tripbtoz)",
       "title": "B2C 백엔드 개발자",
@@ -7738,6 +8563,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Spring",
@@ -7757,6 +8583,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Amazon EMR",
         "Cassandra",
@@ -7779,6 +8606,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "경기 성남시",
       "closeAt": "",
@@ -7792,6 +8620,9 @@
       "url": "https://www.wanted.co.kr/wd/320729",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "Java",
@@ -7811,11 +8642,29 @@
     {
       "source": "jumpit",
       "company": "티투엘",
+      "title": "고급 백엔드 설계 개발자(10~12년)",
+      "url": "https://www.jumpit.co.kr/position/54593414",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Java"
+      ],
+      "location": "경기 고양시",
+      "closeAt": "2026-08-27",
+      "postedAt": "2026-07-29",
+      "employment": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "티투엘",
       "title": "고급 백엔드 설계 개발자(16~18년)",
       "url": "https://www.jumpit.co.kr/position/54593427",
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java"
       ],
@@ -7832,6 +8681,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java"
       ],
@@ -7848,38 +8698,7 @@
       "tags": [
         "경력"
       ],
-      "stacks": [
-        "Java"
-      ],
-      "location": "경기 고양시",
-      "closeAt": "2026-08-27",
-      "postedAt": "2026-07-29",
-      "employment": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "티투엘",
-      "title": "고급 백엔드 설계 개발자(10~12년)",
-      "url": "https://www.jumpit.co.kr/position/54593414",
-      "tags": [
-        "경력"
-      ],
-      "stacks": [
-        "Java"
-      ],
-      "location": "경기 고양시",
-      "closeAt": "2026-08-27",
-      "postedAt": "2026-07-29",
-      "employment": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "티투엘",
-      "title": "중급 백엔드 개발자 (5~7년)",
-      "url": "https://www.jumpit.co.kr/position/54593396",
-      "tags": [
-        "경력"
-      ],
+      "categories": [],
       "stacks": [
         "Java"
       ],
@@ -7896,6 +8715,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "경기 고양시",
       "closeAt": "",
@@ -7911,6 +8731,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "AWS",
         "GCP",
@@ -7933,6 +8754,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "플랫폼"
+      ],
       "stacks": [
         "Java",
         "AWS",
@@ -7952,6 +8776,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Docker",
         "Java",
@@ -7972,6 +8797,10 @@
       "url": "https://www.wanted.co.kr/wd/328033",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업",
+        "플랫폼"
       ],
       "stacks": [
         "Java",
@@ -7996,6 +8825,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -8010,6 +8840,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "MySQL",
         "MariaDB",
@@ -8032,6 +8863,9 @@
       "url": "https://www.wanted.co.kr/wd/361096",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "플랫폼"
       ],
       "stacks": [
         "MySQL",
@@ -8058,6 +8892,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -8072,6 +8907,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kotlin",
@@ -8094,6 +8930,9 @@
       "url": "https://www.wanted.co.kr/wd/375056",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "Java",
@@ -8120,8 +8959,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "서울 영등포구",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -8134,6 +8974,7 @@
       "tags": [
         "주니어"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 영등포구",
       "closeAt": "",
@@ -8148,6 +8989,9 @@
       "tags": [
         "주니어",
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "PostgreSQL",
@@ -8171,6 +9015,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "PostgreSQL",
         "MongoDB",
@@ -8192,6 +9039,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "MySQL",
         "Redis",
@@ -8213,6 +9061,9 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "Java",
         "Spring Boot",
@@ -8233,6 +9084,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kotlin",
@@ -8257,6 +9109,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "SI"
+      ],
       "stacks": [
         "MySQL",
         "Python",
@@ -8278,6 +9133,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 서초구",
       "closeAt": "",
@@ -8291,6 +9147,9 @@
       "url": "https://www.wanted.co.kr/wd/374614",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "Kotlin",
@@ -8314,6 +9173,9 @@
       "url": "https://www.wanted.co.kr/wd/336443",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "Kotlin",
@@ -8339,6 +9201,9 @@
         "주니어",
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "Python",
         "Django",
@@ -8357,6 +9222,9 @@
       "url": "https://www.wanted.co.kr/wd/375115",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "Kotlin",
@@ -8380,6 +9248,9 @@
       "url": "https://www.wanted.co.kr/wd/375612",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "솔루션"
       ],
       "stacks": [
         "Kotlin",
@@ -8405,6 +9276,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Docker",
         "Python",
@@ -8426,6 +9298,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Git",
         "Java",
@@ -8448,6 +9321,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Kotlin",
         "AWS",
@@ -8468,6 +9342,9 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "Java",
         "Spring Boot",
@@ -8485,9 +9362,14 @@
       "company": "한국ICT인재개발원",
       "title": "[국비지원IT취업교육]인공지능/풀스택/웹앱/JAVA파이썬/프론트엔드/백엔드/빅데이터 외 취업과정",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49662654",
-      "tags": [],
+      "tags": [
+        "신입",
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "서울 마포구",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -8499,6 +9381,9 @@
       "url": "https://www.wanted.co.kr/wd/51700",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "Java",
@@ -8523,6 +9408,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kotlin",
@@ -8546,6 +9432,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kotlin",
@@ -8566,9 +9453,12 @@
       "company": "헤리트",
       "title": "[헤리트] 백엔드 개발자 채용",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49524932",
-      "tags": [],
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "경기 성남시솔",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -8580,6 +9470,9 @@
       "url": "https://www.wanted.co.kr/wd/373159",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "플랫폼"
       ],
       "stacks": [
         "Java",
@@ -8605,6 +9498,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Spring",
         "MySQL",
@@ -8628,6 +9522,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Apache Tomcat",
         "C#",
@@ -8648,6 +9543,9 @@
       "url": "https://www.wanted.co.kr/wd/355839",
       "tags": [
         "경력"
+      ],
+      "categories": [
+        "스타트업"
       ],
       "stacks": [
         "MySQL",
@@ -8673,6 +9571,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kotlin",
@@ -8696,6 +9595,9 @@
       "tags": [
         "경력"
       ],
+      "categories": [
+        "스타트업"
+      ],
       "stacks": [
         "AWS",
         "Node.js"
@@ -8715,6 +9617,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 강남구",
       "closeAt": "",
@@ -8730,6 +9633,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Java",
         "Kotlin",
@@ -8753,8 +9657,9 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "서울 강남구섬",
       "closeAt": "",
       "postedAt": "",
       "employment": ""
@@ -8769,6 +9674,7 @@
         "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
       "location": "서울 송파구",
       "closeAt": "",
@@ -8783,6 +9689,7 @@
       "tags": [
         "경력"
       ],
+      "categories": [],
       "stacks": [
         "Redis",
         "Kafka",
@@ -8803,10 +9710,12 @@
       "title": "2026년 NICE 정보통신 상시 인재 영입(백엔드 서버개발자 경력직)",
       "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49317720",
       "tags": [
+        "주니어",
         "경력"
       ],
+      "categories": [],
       "stacks": [],
-      "location": "",
+      "location": "서울 영등포구",
       "closeAt": "",
       "postedAt": "",
       "employment": ""

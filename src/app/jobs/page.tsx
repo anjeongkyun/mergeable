@@ -13,6 +13,8 @@ const SRC: Record<string, string> = {
 };
 
 const LEVELS = ["신입", "주니어", "인턴", "경력", "미표기"];
+const CATS = ["스타트업", "대기업", "플랫폼", "솔루션", "SI"];
+const BM_KEY = "mergeable:jobs:bookmarks";
 
 function dday(iso: string): string {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(iso)) return iso; // 라벨(상시 등)
@@ -35,9 +37,26 @@ export default function Jobs() {
   const [data, setData] = useState<JobsData | null>(null);
   const [sources, setSources] = useState<string[]>(Object.keys(SRC)); // 기본 전체 선택
   const [levels, setLevels] = useState<string[]>([]);
+  const [cats, setCats] = useState<string[]>([]);
   const [q, setQ] = useState("");
   const [view, setView] = useState<"jobs" | "companies">("jobs");
   const [copied, setCopied] = useState(false);
+  const [bookmarks, setBookmarks] = useState<string[]>([]);
+  const [onlyBm, setOnlyBm] = useState(false);
+
+  useEffect(() => {
+    try {
+      setBookmarks(JSON.parse(localStorage.getItem(BM_KEY) ?? "[]"));
+    } catch {}
+  }, []);
+  const toggleBm = (url: string) =>
+    setBookmarks((p) => {
+      const next = p.includes(url) ? p.filter((u) => u !== url) : [...p, url];
+      try {
+        localStorage.setItem(BM_KEY, JSON.stringify(next));
+      } catch {}
+      return next;
+    });
 
   const toggle = (setter: (fn: (p: string[]) => string[]) => void, v: string) =>
     setter((p) => (p.includes(v) ? p.filter((x) => x !== v) : [...p, v]));
@@ -57,10 +76,11 @@ export default function Jobs() {
       );
   }, []);
 
-  // 선택된 출처(+검색)로 좁힌 집합 — 레벨 카운트·목록의 공통 베이스
+  // 선택된 출처(+검색+즐겨찾기)로 좁힌 집합 — 레벨·유형 카운트·목록의 공통 베이스
   const base = useMemo(() => {
     if (!data) return [];
     let list = data.jobs.filter((j) => sources.includes(j.source));
+    if (onlyBm) list = list.filter((j) => bookmarks.includes(j.url));
     if (q.trim()) {
       const t = q.trim().toLowerCase();
       list = list.filter(
@@ -68,12 +88,18 @@ export default function Jobs() {
       );
     }
     return list;
-  }, [data, sources, q]);
+  }, [data, sources, q, onlyBm, bookmarks]);
 
   const levelCounts = useMemo(() => {
     const c: Record<string, number> = {};
     for (const j of base)
       (j.tags.length ? j.tags : ["미표기"]).forEach((t) => (c[t] = (c[t] ?? 0) + 1));
+    return c;
+  }, [base]);
+
+  const catCounts = useMemo(() => {
+    const c: Record<string, number> = {};
+    for (const j of base) (j.categories ?? []).forEach((t) => (c[t] = (c[t] ?? 0) + 1));
     return c;
   }, [base]);
 
@@ -83,6 +109,7 @@ export default function Jobs() {
       list = list.filter((j) =>
         levels.some((lv) => (lv === "미표기" ? j.tags.length === 0 : j.tags.includes(lv))),
       );
+    if (cats.length) list = list.filter((j) => cats.some((c) => (j.categories ?? []).includes(c)));
     const map = new Map<string, Job[]>();
     for (const j of list) {
       const arr = map.get(j.company) ?? [];
@@ -128,6 +155,13 @@ export default function Jobs() {
                 {levelCounts[lv] ? ` ${levelCounts[lv]}` : ""}
               </button>
             ))}
+            <span className="text-xs text-gray-400 mx-1">유형</span>
+            {CATS.map((c) => (
+              <button key={c} onClick={() => toggle(setCats, c)} className={chip(cats.includes(c))}>
+                {c}
+                {catCounts[c] ? ` ${catCounts[c]}` : ""}
+              </button>
+            ))}
           </div>
           <div className="flex flex-wrap items-center gap-2">
           <input
@@ -136,6 +170,13 @@ export default function Jobs() {
             placeholder="회사·공고 검색"
             className="text-sm px-3 py-1.5 rounded-md border border-gray-200 focus:border-indigo-600 focus:outline-none w-44"
           />
+          <button
+            onClick={() => setOnlyBm((v) => !v)}
+            className={chip(onlyBm)}
+            title="북마크한 공고만 보기"
+          >
+            ★ 즐겨찾기{bookmarks.length ? ` ${bookmarks.length}` : ""}
+          </button>
           <div className="grow" />
           <div className="flex rounded-md border border-gray-200 overflow-hidden text-sm">
             <button
@@ -212,6 +253,17 @@ export default function Jobs() {
                 <ul className="mt-2 divide-y divide-gray-100">
                   {jobs.map((j) => (
                     <li key={j.url} className="py-2 flex items-start gap-2">
+                      <button
+                        onClick={() => toggleBm(j.url)}
+                        title="즐겨찾기"
+                        className={`shrink-0 mt-0.5 text-base leading-none transition-colors ${
+                          bookmarks.includes(j.url)
+                            ? "text-amber-400"
+                            : "text-gray-300 hover:text-amber-300"
+                        }`}
+                      >
+                        {bookmarks.includes(j.url) ? "★" : "☆"}
+                      </button>
                       <div className="min-w-0 flex-1">
                         <a
                           href={j.url}
@@ -233,6 +285,14 @@ export default function Jobs() {
                               className="text-[11px] px-1.5 py-0.5 rounded bg-emerald-50 text-emerald-700"
                             >
                               {t}
+                            </span>
+                          ))}
+                          {(j.categories ?? []).map((c) => (
+                            <span
+                              key={c}
+                              className="text-[11px] px-1.5 py-0.5 rounded bg-violet-50 text-violet-700"
+                            >
+                              {c}
                             </span>
                           ))}
                           {j.employment && (
