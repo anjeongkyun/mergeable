@@ -7,6 +7,7 @@ export PATH="/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 cd "$(dirname "$0")/.." || exit 1
 
 echo "==== $(date) crawl:jobs ===="
+git pull --rebase --autostash origin main >/dev/null 2>&1 || true
 npm run crawl:jobs || { echo "crawl 실패"; exit 1; }
 
 if git diff --quiet -- public/jobs.json; then
