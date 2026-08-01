@@ -13,8 +13,6 @@ const Q = "백엔드";
 const H = { "User-Agent": UA };
 const strip = (s: string) => s.replace(/<[^>]+>/g, "").trim();
 
-const uniq = (a: string[]) => [...new Set(a)];
-
 // 구조화 경력(from~to년 범위)이 어떤 레벨 버킷과 겹치는지로 태깅. from만 있으면 to=from.
 // 예: 0~0=신입 / 0~10=신입·주니어·경력(무관) / 3~7=주니어·경력 / 5~=경력.
 function structLevels(from?: number | null, to?: number | null): string[] {

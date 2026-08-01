@@ -26,6 +26,8 @@ export default function Jobs() {
   const [source, setSource] = useState("");
   const [level, setLevel] = useState("");
   const [q, setQ] = useState("");
+  const [view, setView] = useState<"jobs" | "companies">("jobs");
+  const [copied, setCopied] = useState(false);
 
   useEffect(() => {
     fetch("/jobs.json")
@@ -119,6 +121,20 @@ export default function Jobs() {
             className="text-sm px-3 py-1.5 rounded-md border border-gray-200 focus:border-indigo-600 focus:outline-none w-44"
           />
           <div className="grow" />
+          <div className="flex rounded-md border border-gray-200 overflow-hidden text-sm">
+            <button
+              onClick={() => setView("jobs")}
+              className={`px-3 py-1.5 transition-colors ${view === "jobs" ? "bg-indigo-600 text-white" : "text-gray-600 hover:text-gray-900"}`}
+            >
+              공고
+            </button>
+            <button
+              onClick={() => setView("companies")}
+              className={`px-3 py-1.5 transition-colors ${view === "companies" ? "bg-indigo-600 text-white" : "text-gray-600 hover:text-gray-900"}`}
+            >
+              회사
+            </button>
+          </div>
           <span className="text-xs text-gray-400">
             {groups.length}개 회사 · {shownJobs}건
           </span>
@@ -130,6 +146,44 @@ export default function Jobs() {
           <p className="text-sm text-gray-400 py-16 text-center">불러오는 중…</p>
         ) : groups.length === 0 ? (
           <p className="text-sm text-gray-400 py-16 text-center">조건에 맞는 공고가 없습니다.</p>
+        ) : view === "companies" ? (
+          <div>
+            <div className="mb-3 flex items-center gap-3">
+              <button
+                onClick={() => {
+                  navigator.clipboard
+                    ?.writeText(groups.map(([c]) => c).join("\n"))
+                    .then(() => {
+                      setCopied(true);
+                      setTimeout(() => setCopied(false), 1500);
+                    })
+                    .catch(() => {});
+                }}
+                className="text-sm px-3 py-1.5 rounded-md border border-gray-200 text-gray-600 hover:text-gray-900 transition-colors"
+              >
+                {copied ? "복사됨" : "회사명 전체 복사"}
+              </button>
+              <span className="text-xs text-gray-400">
+                중복 제거 {groups.length}개 회사 · 클릭하면 해당 회사 공고
+              </span>
+            </div>
+            <ul className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+              {groups.map(([company, jobs]) => (
+                <li key={company}>
+                  <button
+                    onClick={() => {
+                      setQ(company);
+                      setView("jobs");
+                    }}
+                    className="w-full text-left bg-white border border-gray-200 rounded-lg px-3 py-2 hover:border-indigo-300 transition flex items-center justify-between gap-2"
+                  >
+                    <span className="text-sm text-gray-800 truncate">{company}</span>
+                    <span className="text-xs text-gray-400 shrink-0">{jobs.length}</span>
+                  </button>
+                </li>
+              ))}
+            </ul>
+          </div>
         ) : (
           <ul className="space-y-4">
             {groups.map(([company, jobs]) => (
