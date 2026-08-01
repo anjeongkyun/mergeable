@@ -29,10 +29,10 @@ export default function Home() {
           className="group block bg-white border border-gray-200 rounded-xl p-6 hover:border-indigo-300 hover:shadow-sm transition"
         >
           <h2 className="text-lg font-medium group-hover:text-indigo-600 transition-colors">
-            백엔드 신입 공고
+            백엔드 채용 공고
           </h2>
           <p className="mt-2 text-sm text-gray-500 leading-relaxed">
-            원티드·점핏·링커리어의 신입·주니어·인턴 백엔드 공고를 회사별로.
+            원티드·점핏·링커리어의 백엔드 공고를 회사별로. 신입·주니어·경력까지 레벨로 드릴다운.
           </p>
           <span className="mt-4 inline-block text-sm text-indigo-600">들어가기 →</span>
         </Link>

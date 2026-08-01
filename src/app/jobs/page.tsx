@@ -10,6 +10,8 @@ const SRC: Record<string, string> = {
   linkareer: "링커리어",
 };
 
+const LEVELS = ["신입", "주니어", "인턴", "경력", "미표기"];
+
 function timeAgo(iso: string): string {
   if (!iso) return "";
   const d = Date.now() - new Date(iso).getTime();
@@ -22,7 +24,7 @@ function timeAgo(iso: string): string {
 export default function Jobs() {
   const [data, setData] = useState<JobsData | null>(null);
   const [source, setSource] = useState("");
-  const [tag, setTag] = useState("");
+  const [level, setLevel] = useState("");
   const [q, setQ] = useState("");
 
   useEffect(() => {
@@ -34,16 +36,20 @@ export default function Jobs() {
       );
   }, []);
 
-  const tags = useMemo(() => {
-    if (!data) return [];
-    return [...new Set(data.jobs.flatMap((j) => j.tags))].sort();
+  const levelCounts = useMemo(() => {
+    const c: Record<string, number> = {};
+    if (data)
+      for (const j of data.jobs)
+        (j.tags.length ? j.tags : ["미표기"]).forEach((t) => (c[t] = (c[t] ?? 0) + 1));
+    return c;
   }, [data]);
 
   const groups = useMemo(() => {
     if (!data) return [];
     let list = data.jobs;
     if (source) list = list.filter((j) => j.source === source);
-    if (tag) list = list.filter((j) => j.tags.includes(tag));
+    if (level)
+      list = list.filter((j) => (level === "미표기" ? j.tags.length === 0 : j.tags.includes(level)));
     if (q.trim()) {
       const t = q.trim().toLowerCase();
       list = list.filter(
@@ -57,7 +63,7 @@ export default function Jobs() {
       map.set(j.company, arr);
     }
     return [...map.entries()].sort((a, b) => a[0].localeCompare(b[0], "ko"));
-  }, [data, source, tag, q]);
+  }, [data, source, level, q]);
 
   const shownJobs = groups.reduce((n, [, js]) => n + js.length, 0);
 
@@ -67,9 +73,10 @@ export default function Jobs() {
         <Link href="/" className="text-xs text-gray-400 hover:text-gray-900 transition-colors">
           ← 홈
         </Link>
-        <h1 className="mt-2 text-2xl font-semibold tracking-tight">백엔드 신입 공고</h1>
+        <h1 className="mt-2 text-2xl font-semibold tracking-tight">백엔드 채용 공고</h1>
         <p className="mt-1 text-sm text-gray-500">
-          원티드·점핏·링커리어의 신입·주니어·인턴 백엔드 공고를 회사별로 모았습니다.
+          원티드·점핏·링커리어의 백엔드 공고를 전부 모아, 레벨(신입·주니어·인턴·경력) 태그로 골라 봅니다.
+          레벨은 제목·경력 정보로 추정한 값이라 정확하지 않을 수 있어요.
         </p>
         {data && data.generatedAt && (
           <p className="mt-3 text-xs text-gray-400">
@@ -93,14 +100,15 @@ export default function Jobs() {
             ))}
           </select>
           <select
-            value={tag}
-            onChange={(e) => setTag(e.target.value)}
+            value={level}
+            onChange={(e) => setLevel(e.target.value)}
             className="text-sm px-2.5 py-1.5 rounded-md border border-gray-200 bg-white text-gray-700 focus:border-indigo-600 focus:outline-none"
           >
-            <option value="">모든 구분</option>
-            {tags.map((t) => (
+            <option value="">모든 레벨</option>
+            {LEVELS.map((t) => (
               <option key={t} value={t}>
                 {t}
+                {levelCounts[t] ? ` (${levelCounts[t]})` : ""}
               </option>
             ))}
           </select>
@@ -143,6 +151,11 @@ export default function Jobs() {
                           {j.title}
                         </a>
                         <div className="mt-1 flex flex-wrap items-center gap-1.5">
+                          {j.tags.length === 0 && (
+                            <span className="text-[11px] px-1.5 py-0.5 rounded bg-gray-100 text-gray-400">
+                              미표기
+                            </span>
+                          )}
                           {j.tags.map((t) => (
                             <span
                               key={t}
