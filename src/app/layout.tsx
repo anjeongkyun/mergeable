@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import AuthGate from "./AuthGate";
 
 export const metadata: Metadata = {
   title: "mergeable — 지금 기여 가능한 오픈소스 이슈",
@@ -12,7 +13,9 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="ko">
-      <body className="antialiased bg-gray-50 text-gray-900">{children}</body>
+      <body className="antialiased bg-gray-50 text-gray-900">
+        <AuthGate>{children}</AuthGate>
+      </body>
     </html>
   );
 }

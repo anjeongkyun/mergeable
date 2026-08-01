@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "crawl": "tsx scripts/crawl.ts"
+    "crawl": "tsx scripts/crawl.ts",
+    "crawl:jobs": "tsx scripts/crawl-jobs.ts"
   },
   "dependencies": {
     "next": "^16.2.12",

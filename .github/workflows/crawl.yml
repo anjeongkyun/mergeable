@@ -25,6 +25,9 @@ jobs:
         run: npm run crawl
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: crawl jobs
+        run: npm run crawl:jobs
+        continue-on-error: true # 채용 소스가 Actions IP를 차단하면 기존 jobs.json 유지
       - name: build
         run: npm run build
       - name: deploy

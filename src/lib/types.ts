@@ -25,3 +25,22 @@ export interface Data {
   issueCount: number;
   issues: Issue[]; // 전부 미점유(연결된 열린 PR 없음)
 }
+
+// --- 채용 공고 (jobs.json) ---
+export interface Job {
+  source: "wanted" | "jumpit" | "linkareer";
+  company: string;
+  title: string;
+  url: string;
+  tags: string[]; // 신입/주니어/인턴 등
+  stacks: string[]; // 기술 스택(있으면)
+  location: string; // 근무지(있으면)
+}
+
+export interface JobsData {
+  generatedAt: string; // ISO
+  sourceCounts: Record<string, number>;
+  companyCount: number;
+  jobCount: number;
+  jobs: Job[];
+}

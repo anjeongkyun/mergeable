@@ -1,0 +1,803 @@
+{
+  "generatedAt": "2026-08-01T10:16:31.583Z",
+  "sourceCounts": {
+    "wanted": 98,
+    "jumpit": 11,
+    "linkareer": 1
+  },
+  "companyCount": 59,
+  "jobCount": 66,
+  "jobs": [
+    {
+      "source": "wanted",
+      "company": "공간의가치",
+      "title": "백엔드 엔지니어",
+      "url": "https://www.wanted.co.kr/wd/374393",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "낭만상회",
+      "title": "[인턴] 백엔드 개발자(Node.js)",
+      "url": "https://www.wanted.co.kr/wd/320301",
+      "tags": [
+        "인턴"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "넛지헬스케어(캐시워크)",
+      "title": "[병역특례 현역/보충역] 백엔드 개발자(Node.js)",
+      "url": "https://www.wanted.co.kr/wd/85836",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "넥스트그라운드",
+      "title": "[인턴] 백엔드 개발자",
+      "url": "https://www.wanted.co.kr/wd/376863",
+      "tags": [
+        "인턴"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "누아",
+      "title": "웹(Web) 백엔드 개발자",
+      "url": "https://www.wanted.co.kr/wd/118971",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "데이콘",
+      "title": "백엔드 개발자",
+      "url": "https://www.wanted.co.kr/wd/307457",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "도도랩스",
+      "title": "백엔드 개발자",
+      "url": "https://www.wanted.co.kr/wd/307027",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "경기"
+    },
+    {
+      "source": "wanted",
+      "company": "드랩",
+      "title": "AI 이미지 생성 플랫폼 백엔드 개발자",
+      "url": "https://www.wanted.co.kr/wd/370975",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "드림어스컴퍼니",
+      "title": "[인턴]콘텐츠 플랫폼 백엔드 개발",
+      "url": "https://www.wanted.co.kr/wd/375356",
+      "tags": [
+        "인턴"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "드림어스컴퍼니",
+      "title": "콘텐츠 플랫폼 백엔드 개발(신입)",
+      "url": "https://www.wanted.co.kr/wd/373760",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "jumpit",
+      "company": "드림어스컴퍼니",
+      "title": "콘텐츠 플랫폼 백엔드 개발(Junior)",
+      "url": "https://www.jumpit.co.kr/position/54419201",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [
+        "Elasticsearch",
+        "Java",
+        "Kafka",
+        "Kotlin",
+        "MongoDB",
+        "MySQL"
+      ],
+      "location": "서울 강남구"
+    },
+    {
+      "source": "wanted",
+      "company": "디써클",
+      "title": "[인턴] [Node.js/Kotlin/Python] 백엔드 엔지니어",
+      "url": "https://www.wanted.co.kr/wd/369979",
+      "tags": [
+        "인턴"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "디써클",
+      "title": "[Node.js/Kotlin/Python] 백엔드 엔지니어",
+      "url": "https://www.wanted.co.kr/wd/367980",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "디자이노블",
+      "title": "주니어 백엔드/AI 애플리케이션 개발자",
+      "url": "https://www.wanted.co.kr/wd/370980",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "딥그로브",
+      "title": "백엔드 엔지니어",
+      "url": "https://www.wanted.co.kr/wd/365175",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "똑똑한개발자",
+      "title": "Java 백엔드 개발자 (Product Builder로 성장)",
+      "url": "https://www.wanted.co.kr/wd/354205",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "러쉬에잇(RushEight)",
+      "title": "[웹 개발] 클래식 메이플스토리 백엔드 담당자 (신입)",
+      "url": "https://www.wanted.co.kr/wd/375357",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "마인드허브",
+      "title": "백엔드 개발자",
+      "url": "https://www.wanted.co.kr/wd/313335",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "경기"
+    },
+    {
+      "source": "wanted",
+      "company": "매도왕",
+      "title": "백엔드 개발자",
+      "url": "https://www.wanted.co.kr/wd/362776",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "매드업",
+      "title": "[개발 본부] 주니어 백엔드 개발자 (전문연구요원 가능)",
+      "url": "https://www.wanted.co.kr/wd/222550",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "모멘티",
+      "title": "백엔드 개발자 (1~3년) [역삼역]",
+      "url": "https://www.wanted.co.kr/wd/375321",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "미켈로로보틱스",
+      "title": "백엔드 개발자",
+      "url": "https://www.wanted.co.kr/wd/343902",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "바이언스",
+      "title": "백엔드 개발자 2~5년",
+      "url": "https://www.wanted.co.kr/wd/342610",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "jumpit",
+      "company": "베스텔라랩",
+      "title": "백엔드·인프라 풀스택 엔지니어",
+      "url": "https://www.jumpit.co.kr/position/54350608",
+      "tags": [
+        "주니어"
+      ],
+      "stacks": [
+        "Angular 2",
+        "Git",
+        "React",
+        "Spring Boot",
+        "Vue.js",
+        "REST API"
+      ],
+      "location": "경기 안양시 동안구"
+    },
+    {
+      "source": "wanted",
+      "company": "뷰리드 강남오피스",
+      "title": "백엔드 개발자 (3년 이상)",
+      "url": "https://www.wanted.co.kr/wd/341067",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "비모소프트",
+      "title": "[인턴] 백엔드 개발자",
+      "url": "https://www.wanted.co.kr/wd/376122",
+      "tags": [
+        "인턴"
+      ],
+      "stacks": [],
+      "location": "경기"
+    },
+    {
+      "source": "wanted",
+      "company": "사줘",
+      "title": "백엔드_Ops Automation 분야(5년이하)",
+      "url": "https://www.wanted.co.kr/wd/377078",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "경기"
+    },
+    {
+      "source": "wanted",
+      "company": "샤플앤컴퍼니",
+      "title": "샤플(Shopl) 백엔드 개발자",
+      "url": "https://www.wanted.co.kr/wd/377565",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "스콘에이아이(SconAI)",
+      "title": "AI서비스 백엔드 개발자(주니어)",
+      "url": "https://www.wanted.co.kr/wd/320743",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "스키프",
+      "title": "풀스택 개발자 (백엔드·인프라 중심 / 0~5년)",
+      "url": "https://www.wanted.co.kr/wd/378046",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "스페이스맵",
+      "title": "백엔드 개발자 (1년 이상)",
+      "url": "https://www.wanted.co.kr/wd/373794",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "jumpit",
+      "company": "스페이스맵",
+      "title": "백엔드 개발자 (경력 1년 이상)",
+      "url": "https://www.jumpit.co.kr/position/54557173",
+      "tags": [
+        "주니어"
+      ],
+      "stacks": [
+        "JavaScript",
+        "MongoDB",
+        "MySQL",
+        "NestJS",
+        "PostgreSQL",
+        "Python"
+      ],
+      "location": "서울 성동구"
+    },
+    {
+      "source": "wanted",
+      "company": "씨드로닉스",
+      "title": "백엔드 엔지니어",
+      "url": "https://www.wanted.co.kr/wd/366934",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "아드리엘(Adriel)",
+      "title": "[B2B SaaS] Jr. 백엔드 개발자",
+      "url": "https://www.wanted.co.kr/wd/359700",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "아이에이클라우드",
+      "title": "[연구개발] AI·Cloud 스토리지 백엔드 개발자",
+      "url": "https://www.wanted.co.kr/wd/376357",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "경기"
+    },
+    {
+      "source": "jumpit",
+      "company": "아이엔마케팅",
+      "title": "웹 개발자 채용 (경력)",
+      "url": "https://www.jumpit.co.kr/position/54605172",
+      "tags": [
+        "주니어"
+      ],
+      "stacks": [
+        "CSS 3",
+        "Google Analytics",
+        "HTML5",
+        "JavaScript",
+        "Node.js",
+        "React"
+      ],
+      "location": "경기 파주시"
+    },
+    {
+      "source": "wanted",
+      "company": "아타드(ATAD)",
+      "title": "백엔드 개발자",
+      "url": "https://www.wanted.co.kr/wd/346637",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "jumpit",
+      "company": "에스피코리아",
+      "title": "백엔드 개발자(1~3년)",
+      "url": "https://www.jumpit.co.kr/position/54552121",
+      "tags": [
+        "주니어"
+      ],
+      "stacks": [
+        "AWS CloudFormation",
+        "Java",
+        "Jenkins",
+        "Kotlin",
+        "MySQL",
+        "NGINX"
+      ],
+      "location": "서울 강서구"
+    },
+    {
+      "source": "wanted",
+      "company": "에이아이구루",
+      "title": "백엔드 엔지니어",
+      "url": "https://www.wanted.co.kr/wd/367438",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "에이티씨아이",
+      "title": "백엔드 엔지니어 (Python + Go)",
+      "url": "https://www.wanted.co.kr/wd/310318",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "에프앤에프(F&F)",
+      "title": "디지털본부 Java/Spring 백엔드 개발(ERP/AI시스템)",
+      "url": "https://www.wanted.co.kr/wd/376984",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "엔비티(NBT)",
+      "title": "[제품길드] 애디슨 오퍼월 백엔드 엔지니어",
+      "url": "https://www.wanted.co.kr/wd/324713",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "엘리스",
+      "title": "백엔드 엔지니어 (Python)",
+      "url": "https://www.wanted.co.kr/wd/57878",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "jumpit",
+      "company": "위드네트웍스",
+      "title": "보안 연구소 솔루션 개발자(신입)",
+      "url": "https://www.jumpit.co.kr/position/54585037",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [
+        "Java",
+        "JavaScript",
+        "Spring",
+        "Spring Boot",
+        "Vue.js"
+      ],
+      "location": "서울 강서구"
+    },
+    {
+      "source": "jumpit",
+      "company": "위드네트웍스",
+      "title": "보안 연구소 솔루션 개발자(경력)",
+      "url": "https://www.jumpit.co.kr/position/54585273",
+      "tags": [
+        "주니어"
+      ],
+      "stacks": [
+        "Java",
+        "JavaScript",
+        "Spring",
+        "Spring Boot",
+        "Vue.js"
+      ],
+      "location": "서울 강서구"
+    },
+    {
+      "source": "wanted",
+      "company": "위밋모빌리티",
+      "title": "AI FM 모델 개발 · MLOps 백엔드/플랫폼 엔지니어",
+      "url": "https://www.wanted.co.kr/wd/373719",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "이글로벌시스템",
+      "title": "[신입] 백엔드/서버 개발자",
+      "url": "https://www.wanted.co.kr/wd/182714",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "이글로벌시스템",
+      "title": "백엔드/서버 개발자",
+      "url": "https://www.wanted.co.kr/wd/99189",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "jumpit",
+      "company": "이너버스",
+      "title": "백엔드 개발자 (주니어)",
+      "url": "https://www.jumpit.co.kr/position/54586036",
+      "tags": [
+        "주니어"
+      ],
+      "stacks": [
+        "Docker",
+        "Elasticsearch",
+        "Gradle",
+        "Java",
+        "Linux",
+        "Python"
+      ],
+      "location": "서울 영등포구"
+    },
+    {
+      "source": "wanted",
+      "company": "인티그레이션(메디스트림)",
+      "title": "[인턴] EMR,CRM 솔루션 백엔드 엔지니어",
+      "url": "https://www.wanted.co.kr/wd/378211",
+      "tags": [
+        "인턴"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "인티그레이션(메디스트림)",
+      "title": "[인턴] [AX] 백엔드 개발자",
+      "url": "https://www.wanted.co.kr/wd/363084",
+      "tags": [
+        "인턴"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "인플루엔셜(윌라)",
+      "title": "백엔드 개발자",
+      "url": "https://www.wanted.co.kr/wd/362373",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "linkareer",
+      "company": "잉카인터넷",
+      "title": "[잉카인터넷] NOS 풀스택 개발자 (Frontend, Backend / 외근가능)",
+      "url": "https://linkareer.com/activity/339553",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": ""
+    },
+    {
+      "source": "wanted",
+      "company": "제너러티브랩",
+      "title": "백엔드 엔지니어",
+      "url": "https://www.wanted.co.kr/wd/364367",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "제네시스네스트",
+      "title": "Java 백엔드 개발자 (1년~8년)",
+      "url": "https://www.wanted.co.kr/wd/314893",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "경기"
+    },
+    {
+      "source": "wanted",
+      "company": "지로",
+      "title": "백엔드 개발자",
+      "url": "https://www.wanted.co.kr/wd/371583",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "칸코드",
+      "title": "[AX연구팀] 영상분석 플랫폼 백엔드 개발자",
+      "url": "https://www.wanted.co.kr/wd/362473",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "경기"
+    },
+    {
+      "source": "wanted",
+      "company": "코드잇(codeit)",
+      "title": "(산업기능요원) 백엔드 엔지니어",
+      "url": "https://www.wanted.co.kr/wd/347561",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "코딧(CODITCorp.)",
+      "title": "백엔드 개발자 (Node.js, 2년 이상)",
+      "url": "https://www.wanted.co.kr/wd/199386",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "jumpit",
+      "company": "텐빌리언",
+      "title": "백엔드 경력 채용 (2~5년)",
+      "url": "https://www.jumpit.co.kr/position/54510048",
+      "tags": [
+        "주니어"
+      ],
+      "stacks": [
+        "Git",
+        "Spring Boot",
+        "DB"
+      ],
+      "location": "서울 구로구"
+    },
+    {
+      "source": "wanted",
+      "company": "트립비토즈(tripbtoz)",
+      "title": "B2C 백엔드 개발자",
+      "url": "https://www.wanted.co.kr/wd/300693",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "팀워크",
+      "title": "백엔드 엔지니어 (Back-End Engineer), 2년 이상",
+      "url": "https://www.wanted.co.kr/wd/366123",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "피처링(FeaturingCorp.)",
+      "title": "[프로덕트] 백엔드 개발 엔지니어",
+      "url": "https://www.wanted.co.kr/wd/346800",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "jumpit",
+      "company": "하마랩",
+      "title": "AI 영상 분석 백엔드 엔지니어",
+      "url": "https://www.jumpit.co.kr/position/54558917",
+      "tags": [
+        "주니어"
+      ],
+      "stacks": [
+        "Docker",
+        "Python",
+        "OpenCV",
+        "AI/인공지능",
+        "CUDA",
+        "Embedded Linux"
+      ],
+      "location": "경기 성남시"
+    },
+    {
+      "source": "wanted",
+      "company": "헬스커넥트",
+      "title": "[인바이츠생태계] 백엔드",
+      "url": "https://www.wanted.co.kr/wd/370083",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    },
+    {
+      "source": "wanted",
+      "company": "힐링페이퍼(강남언니)",
+      "title": "[병원 운영 솔루션] 백엔드 개발자 (B2B SaaS)",
+      "url": "https://www.wanted.co.kr/wd/281357",
+      "tags": [
+        "신입"
+      ],
+      "stacks": [],
+      "location": "서울"
+    }
+  ]
+}
