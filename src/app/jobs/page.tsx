@@ -33,7 +33,7 @@ function timeAgo(iso: string): string {
 
 export default function Jobs() {
   const [data, setData] = useState<JobsData | null>(null);
-  const [sources, setSources] = useState<string[]>([]);
+  const [sources, setSources] = useState<string[]>(Object.keys(SRC)); // 기본 전체 선택
   const [levels, setLevels] = useState<string[]>([]);
   const [q, setQ] = useState("");
   const [view, setView] = useState<"jobs" | "companies">("jobs");
@@ -57,28 +57,32 @@ export default function Jobs() {
       );
   }, []);
 
-  const levelCounts = useMemo(() => {
-    const c: Record<string, number> = {};
-    if (data)
-      for (const j of data.jobs)
-        (j.tags.length ? j.tags : ["미표기"]).forEach((t) => (c[t] = (c[t] ?? 0) + 1));
-    return c;
-  }, [data]);
-
-  const groups = useMemo(() => {
+  // 선택된 출처(+검색)로 좁힌 집합 — 레벨 카운트·목록의 공통 베이스
+  const base = useMemo(() => {
     if (!data) return [];
-    let list = data.jobs;
-    if (sources.length) list = list.filter((j) => sources.includes(j.source));
-    if (levels.length)
-      list = list.filter((j) =>
-        levels.some((lv) => (lv === "미표기" ? j.tags.length === 0 : j.tags.includes(lv))),
-      );
+    let list = data.jobs.filter((j) => sources.includes(j.source));
     if (q.trim()) {
       const t = q.trim().toLowerCase();
       list = list.filter(
         (j) => j.company.toLowerCase().includes(t) || j.title.toLowerCase().includes(t),
       );
     }
+    return list;
+  }, [data, sources, q]);
+
+  const levelCounts = useMemo(() => {
+    const c: Record<string, number> = {};
+    for (const j of base)
+      (j.tags.length ? j.tags : ["미표기"]).forEach((t) => (c[t] = (c[t] ?? 0) + 1));
+    return c;
+  }, [base]);
+
+  const groups = useMemo(() => {
+    let list = base;
+    if (levels.length)
+      list = list.filter((j) =>
+        levels.some((lv) => (lv === "미표기" ? j.tags.length === 0 : j.tags.includes(lv))),
+      );
     const map = new Map<string, Job[]>();
     for (const j of list) {
       const arr = map.get(j.company) ?? [];
@@ -86,7 +90,7 @@ export default function Jobs() {
       map.set(j.company, arr);
     }
     return [...map.entries()].sort((a, b) => a[0].localeCompare(b[0], "ko"));
-  }, [data, sources, levels, q]);
+  }, [base, levels]);
 
   const shownJobs = groups.reduce((n, [, js]) => n + js.length, 0);
 
@@ -98,7 +102,7 @@ export default function Jobs() {
         </Link>
         <h1 className="mt-2 text-2xl font-semibold tracking-tight">백엔드 채용 공고</h1>
         <p className="mt-1 text-sm text-gray-500">
-          원티드·점핏·링커리어의 백엔드 공고를 전부 모아, 레벨(신입·주니어·인턴·경력) 태그로 골라 봅니다.
+          원티드·점핏·링커리어·사람인·잡코리아의 백엔드 공고를 모아, 레벨(신입·주니어·인턴·경력) 태그로 골라 봅니다.
           레벨은 제목·경력 정보로 추정한 값이라 정확하지 않을 수 있어요.
         </p>
         {data && data.generatedAt && (

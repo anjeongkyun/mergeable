@@ -84,7 +84,7 @@ function levelTags(title: string, from?: number | null, to?: number | null): str
     );
   let yF: number | null = null,
     yT: number | null = null;
-  let m = title.match(/(\d{1,2})\s*[~∼\-–]\s*(\d{1,2})\s*년/); // 5~10년
+  let m = title.match(/(\d{1,2})\s*년?\s*[~∼\-–]\s*(\d{1,2})\s*년/); // 3년~10년 / 5~10년
   if (m) {
     yF = +m[1];
     yT = +m[2];
@@ -284,10 +284,17 @@ async function saramin(): Promise<Job[]> {
     const corps = [...html.matchAll(/<strong class="corp_name">[\s\S]*?<a[^>]*>\s*([^<]+?)\s*<\/a>/g)].map(
       (m) => m[1].replace(/\s+/g, " ").trim(),
     );
+    // 각 공고의 조건 영역: "지역 · 신입·경력 · 학력 · 근무형태"
+    const conds = [...html.matchAll(/<div class="job_condition">([\s\S]*?)<\/div>/g)].map((m) =>
+      m[1].replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim(),
+    );
+    const region =
+      /(서울|경기|인천|부산|대구|대전|광주|울산|세종|강원|충북|충남|전북|전남|경북|경남|제주)\s?\S{0,4}/;
     if (!items.length) break;
     items.forEach((m, i) => {
       const raw = m[1].replace(/\s+/g, " ").trim();
       const company = corps[i] || "?";
+      const cond = conds[i] || "";
       let title = raw;
       if (company !== "?" && title.startsWith(company)) title = title.slice(company.length).trim();
       out.push({
@@ -295,12 +302,12 @@ async function saramin(): Promise<Job[]> {
         company,
         title: title || raw,
         url: `https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=${m[3]}`,
-        tags: levelTags(raw),
+        tags: levelTags(`${raw} ${cond}`), // 조건의 '신입·경력' 등 반영 → 미표기 감소
         stacks: [],
-        location: "",
+        location: cond.match(region)?.[0]?.trim() ?? "",
         closeAt: "",
         postedAt: "",
-        employment: employmentOf(raw),
+        employment: employmentOf(cond) || employmentOf(raw),
       });
     });
   }
@@ -366,9 +373,12 @@ async function main() {
     console.log(`${names[i]}: +${jobs.length}${r.status === "rejected" ? " (실패)" : ""}`);
   });
 
-  // 회사명 미상(로고 없어 추출 실패 등)은 제외 — "?" 표출 방지. url 중복도 제거.
+  // 관련성 필터: 제목에 백엔드/서버 신호가 없는 공고 제외(사람인/잡코리아 검색이 본문·키워드로도
+  // 매칭돼 "경기청년 매치업" 같은 비백엔드가 섞임). + 회사명 미상 제외 + url 중복 제거.
+  const BACKEND_RE = /백[\s]?엔[\s]?드|back[\s.-]?end|서버|server/i;
   const seen = new Set<string>();
   const jobs = all.filter((j) => {
+    if (!BACKEND_RE.test(j.title)) return false;
     if (!j.company || j.company === "?") return false;
     if (seen.has(j.url)) return false;
     seen.add(j.url);
