@@ -1,9 +1,35 @@
 @import "tailwindcss";
 
 :root {
-  color-scheme: light;
+  color-scheme: dark;
 }
 
 html {
   -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background: #0a0b0f;
+  color: #e4e4e7;
+}
+
+/* 은은한 상단 글로우(브랜드 앰비언스) */
+.bg-ambient {
+  background:
+    radial-gradient(60rem 40rem at 50% -10%, rgba(99, 102, 241, 0.12), transparent 60%),
+    radial-gradient(40rem 30rem at 90% 0%, rgba(139, 92, 246, 0.08), transparent 55%);
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-rise {
+  animation: rise 0.5s cubic-bezier(0.2, 0.7, 0.2, 1) both;
 }

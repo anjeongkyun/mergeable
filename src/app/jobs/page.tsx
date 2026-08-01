@@ -3,6 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import type { JobsData, Job } from "@/lib/types";
+import { Wordmark } from "../brand";
 
 const SRC: Record<string, string> = {
   wanted: "원티드",
@@ -63,8 +64,8 @@ export default function Jobs() {
   const chip = (on: boolean) =>
     `text-sm px-2.5 py-1 rounded-full border transition-colors ${
       on
-        ? "border-indigo-600 text-indigo-600 bg-indigo-50"
-        : "border-gray-200 text-gray-500 hover:text-gray-900"
+        ? "border-indigo-400/60 text-indigo-300 bg-indigo-500/10"
+        : "border-zinc-800 text-zinc-500 hover:text-zinc-200 hover:border-zinc-700"
     }`;
 
   useEffect(() => {
@@ -117,45 +118,48 @@ export default function Jobs() {
       map.set(j.company, arr);
     }
     return [...map.entries()].sort((a, b) => a[0].localeCompare(b[0], "ko"));
-  }, [base, levels]);
+  }, [base, levels, cats]);
 
   const shownJobs = groups.reduce((n, [, js]) => n + js.length, 0);
 
   return (
     <div className="min-h-screen">
       <header className="max-w-5xl mx-auto px-4 pt-8 pb-4">
-        <Link href="/" className="text-xs text-gray-400 hover:text-gray-900 transition-colors">
-          ← 홈
+        <Link
+          href="/"
+          className="inline-flex items-center gap-1.5 text-xs text-zinc-500 hover:text-zinc-200 transition-colors"
+        >
+          ← <Wordmark size="text-xs" />
         </Link>
-        <h1 className="mt-2 text-2xl font-semibold tracking-tight">백엔드 채용 공고</h1>
-        <p className="mt-1 text-sm text-gray-500">
-          원티드·점핏·링커리어·사람인·잡코리아의 백엔드 공고를 모아, 레벨(신입·주니어·인턴·경력) 태그로 골라 봅니다.
-          레벨은 제목·경력 정보로 추정한 값이라 정확하지 않을 수 있어요.
+        <h1 className="mt-3 text-2xl font-semibold tracking-tight text-zinc-100">백엔드 채용 공고</h1>
+        <p className="mt-1 text-sm text-zinc-400">
+          원티드·점핏·링커리어·사람인·잡코리아의 백엔드 공고를 모아, 레벨·유형 태그로 골라 봅니다.
+          레벨·유형은 제목·공고 정보로 추정한 값이라 정확하지 않을 수 있어요.
         </p>
         {data && data.generatedAt && (
-          <p className="mt-3 text-xs text-gray-400">
+          <p className="mt-3 text-xs text-zinc-500">
             {data.companyCount}개 회사 · 공고 {data.jobCount}건 · {timeAgo(data.generatedAt)} 갱신
           </p>
         )}
       </header>
 
-      <div className="sticky top-0 z-10 bg-white/90 backdrop-blur border-b border-gray-200">
+      <div className="sticky top-0 z-10 bg-[#0a0b0f]/85 backdrop-blur border-b border-zinc-800">
         <div className="max-w-5xl mx-auto px-4 py-3 space-y-2">
           <div className="flex flex-wrap items-center gap-1.5">
-            <span className="text-xs text-gray-400 mr-0.5">출처</span>
+            <span className="text-xs text-zinc-500 mr-0.5">출처</span>
             {Object.entries(SRC).map(([k, v]) => (
               <button key={k} onClick={() => toggle(setSources, k)} className={chip(sources.includes(k))}>
                 {v}
               </button>
             ))}
-            <span className="text-xs text-gray-400 mx-1">레벨</span>
+            <span className="text-xs text-zinc-500 mx-1">레벨</span>
             {LEVELS.map((lv) => (
               <button key={lv} onClick={() => toggle(setLevels, lv)} className={chip(levels.includes(lv))}>
                 {lv}
                 {levelCounts[lv] ? ` ${levelCounts[lv]}` : ""}
               </button>
             ))}
-            <span className="text-xs text-gray-400 mx-1">유형</span>
+            <span className="text-xs text-zinc-500 mx-1">유형</span>
             {CATS.map((c) => (
               <button key={c} onClick={() => toggle(setCats, c)} className={chip(cats.includes(c))}>
                 {c}
@@ -164,46 +168,42 @@ export default function Jobs() {
             ))}
           </div>
           <div className="flex flex-wrap items-center gap-2">
-          <input
-            value={q}
-            onChange={(e) => setQ(e.target.value)}
-            placeholder="회사·공고 검색"
-            className="text-sm px-3 py-1.5 rounded-md border border-gray-200 focus:border-indigo-600 focus:outline-none w-44"
-          />
-          <button
-            onClick={() => setOnlyBm((v) => !v)}
-            className={chip(onlyBm)}
-            title="북마크한 공고만 보기"
-          >
-            ★ 즐겨찾기{bookmarks.length ? ` ${bookmarks.length}` : ""}
-          </button>
-          <div className="grow" />
-          <div className="flex rounded-md border border-gray-200 overflow-hidden text-sm">
-            <button
-              onClick={() => setView("jobs")}
-              className={`px-3 py-1.5 transition-colors ${view === "jobs" ? "bg-indigo-600 text-white" : "text-gray-600 hover:text-gray-900"}`}
-            >
-              공고
+            <input
+              value={q}
+              onChange={(e) => setQ(e.target.value)}
+              placeholder="회사·공고 검색"
+              className="text-sm px-3 py-1.5 rounded-md bg-zinc-950/70 border border-zinc-800 text-zinc-100 placeholder:text-zinc-600 focus:border-indigo-400 focus:outline-none w-44"
+            />
+            <button onClick={() => setOnlyBm((v) => !v)} className={chip(onlyBm)} title="북마크한 공고만 보기">
+              ★ 즐겨찾기{bookmarks.length ? ` ${bookmarks.length}` : ""}
             </button>
-            <button
-              onClick={() => setView("companies")}
-              className={`px-3 py-1.5 transition-colors ${view === "companies" ? "bg-indigo-600 text-white" : "text-gray-600 hover:text-gray-900"}`}
-            >
-              회사
-            </button>
-          </div>
-          <span className="text-xs text-gray-400">
-            {groups.length}개 회사 · {shownJobs}건
-          </span>
+            <div className="grow" />
+            <div className="flex rounded-md border border-zinc-800 overflow-hidden text-sm">
+              <button
+                onClick={() => setView("jobs")}
+                className={`px-3 py-1.5 transition-colors ${view === "jobs" ? "bg-indigo-500 text-white" : "text-zinc-400 hover:text-zinc-100"}`}
+              >
+                공고
+              </button>
+              <button
+                onClick={() => setView("companies")}
+                className={`px-3 py-1.5 transition-colors ${view === "companies" ? "bg-indigo-500 text-white" : "text-zinc-400 hover:text-zinc-100"}`}
+              >
+                회사
+              </button>
+            </div>
+            <span className="text-xs text-zinc-500">
+              {groups.length}개 회사 · {shownJobs}건
+            </span>
           </div>
         </div>
       </div>
 
       <main className="max-w-5xl mx-auto px-4 py-6">
         {!data ? (
-          <p className="text-sm text-gray-400 py-16 text-center">불러오는 중…</p>
+          <p className="text-sm text-zinc-500 py-16 text-center">불러오는 중…</p>
         ) : groups.length === 0 ? (
-          <p className="text-sm text-gray-400 py-16 text-center">조건에 맞는 공고가 없습니다.</p>
+          <p className="text-sm text-zinc-500 py-16 text-center">조건에 맞는 공고가 없습니다.</p>
         ) : view === "companies" ? (
           <div>
             <div className="mb-3 flex items-center gap-3">
@@ -217,11 +217,11 @@ export default function Jobs() {
                     })
                     .catch(() => {});
                 }}
-                className="text-sm px-3 py-1.5 rounded-md border border-gray-200 text-gray-600 hover:text-gray-900 transition-colors"
+                className="text-sm px-3 py-1.5 rounded-md border border-zinc-800 text-zinc-400 hover:text-zinc-100 hover:border-zinc-700 transition-colors"
               >
                 {copied ? "복사됨" : "회사명 전체 복사"}
               </button>
-              <span className="text-xs text-gray-400">
+              <span className="text-xs text-zinc-500">
                 중복 제거 {groups.length}개 회사 · 클릭하면 해당 회사 공고
               </span>
             </div>
@@ -233,10 +233,10 @@ export default function Jobs() {
                       setQ(company);
                       setView("jobs");
                     }}
-                    className="w-full text-left bg-white border border-gray-200 rounded-lg px-3 py-2 hover:border-indigo-300 transition flex items-center justify-between gap-2"
+                    className="w-full text-left bg-zinc-900/40 border border-zinc-800 rounded-lg px-3 py-2 hover:border-indigo-500/50 hover:bg-zinc-900/70 transition flex items-center justify-between gap-2"
                   >
-                    <span className="text-sm text-gray-800 truncate">{company}</span>
-                    <span className="text-xs text-gray-400 shrink-0">{jobs.length}</span>
+                    <span className="text-sm text-zinc-200 truncate">{company}</span>
+                    <span className="text-xs text-zinc-500 shrink-0">{jobs.length}</span>
                   </button>
                 </li>
               ))}
@@ -245,12 +245,12 @@ export default function Jobs() {
         ) : (
           <ul className="space-y-4">
             {groups.map(([company, jobs]) => (
-              <li key={company} className="bg-white border border-gray-200 rounded-lg p-4">
+              <li key={company} className="bg-zinc-900/40 border border-zinc-800 rounded-lg p-4">
                 <div className="flex items-baseline justify-between">
-                  <h2 className="text-[15px] font-semibold text-gray-900">{company}</h2>
-                  <span className="text-xs text-gray-400">{jobs.length}건</span>
+                  <h2 className="text-[15px] font-semibold text-zinc-100">{company}</h2>
+                  <span className="text-xs text-zinc-500">{jobs.length}건</span>
                 </div>
-                <ul className="mt-2 divide-y divide-gray-100">
+                <ul className="mt-2 divide-y divide-zinc-800/70">
                   {jobs.map((j) => (
                     <li key={j.url} className="py-2 flex items-start gap-2">
                       <button
@@ -259,7 +259,7 @@ export default function Jobs() {
                         className={`shrink-0 mt-0.5 text-base leading-none transition-colors ${
                           bookmarks.includes(j.url)
                             ? "text-amber-400"
-                            : "text-gray-300 hover:text-amber-300"
+                            : "text-zinc-600 hover:text-amber-300"
                         }`}
                       >
                         {bookmarks.includes(j.url) ? "★" : "☆"}
@@ -269,20 +269,20 @@ export default function Jobs() {
                           href={j.url}
                           target="_blank"
                           rel="noreferrer noopener"
-                          className="text-sm text-gray-800 hover:text-indigo-600 transition-colors"
+                          className="text-sm text-zinc-200 hover:text-indigo-300 transition-colors"
                         >
                           {j.title}
                         </a>
                         <div className="mt-1 flex flex-wrap items-center gap-1.5">
                           {j.tags.length === 0 && (
-                            <span className="text-[11px] px-1.5 py-0.5 rounded bg-gray-100 text-gray-400">
+                            <span className="text-[11px] px-1.5 py-0.5 rounded bg-zinc-800 text-zinc-500">
                               미표기
                             </span>
                           )}
                           {j.tags.map((t) => (
                             <span
                               key={t}
-                              className="text-[11px] px-1.5 py-0.5 rounded bg-emerald-50 text-emerald-700"
+                              className="text-[11px] px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-300"
                             >
                               {t}
                             </span>
@@ -290,36 +290,34 @@ export default function Jobs() {
                           {(j.categories ?? []).map((c) => (
                             <span
                               key={c}
-                              className="text-[11px] px-1.5 py-0.5 rounded bg-violet-50 text-violet-700"
+                              className="text-[11px] px-1.5 py-0.5 rounded bg-violet-500/10 text-violet-300"
                             >
                               {c}
                             </span>
                           ))}
                           {j.employment && (
-                            <span className="text-[11px] px-1.5 py-0.5 rounded bg-blue-50 text-blue-600">
+                            <span className="text-[11px] px-1.5 py-0.5 rounded bg-sky-500/10 text-sky-300">
                               {j.employment}
                             </span>
                           )}
                           {j.stacks.slice(0, 4).map((s) => (
                             <span
                               key={s}
-                              className="text-[11px] px-1.5 py-0.5 rounded bg-gray-100 text-gray-500"
+                              className="text-[11px] px-1.5 py-0.5 rounded bg-zinc-800 text-zinc-400"
                             >
                               {s}
                             </span>
                           ))}
-                          {j.location && (
-                            <span className="text-[11px] text-gray-400">{j.location}</span>
-                          )}
+                          {j.location && <span className="text-[11px] text-zinc-500">{j.location}</span>}
                         </div>
                         {(j.postedAt || j.closeAt) && (
-                          <div className="mt-1 flex items-center gap-2 text-[11px] text-gray-400">
+                          <div className="mt-1 flex items-center gap-2 text-[11px] text-zinc-500">
                             {j.postedAt && <span>게시 {j.postedAt}</span>}
-                            {j.closeAt && <span className="text-gray-500">마감 {dday(j.closeAt)}</span>}
+                            {j.closeAt && <span className="text-zinc-400">마감 {dday(j.closeAt)}</span>}
                           </div>
                         )}
                       </div>
-                      <span className="text-[11px] text-gray-400 shrink-0">{SRC[j.source]}</span>
+                      <span className="text-[11px] text-zinc-500 shrink-0">{SRC[j.source]}</span>
                     </li>
                   ))}
                 </ul>
@@ -329,7 +327,7 @@ export default function Jobs() {
         )}
       </main>
 
-      <footer className="max-w-5xl mx-auto px-4 py-10 text-xs text-gray-400">
+      <footer className="max-w-5xl mx-auto px-4 py-10 text-xs text-zinc-600">
         출처 링크로 이동해 공고 원문·마감일을 확인하세요. 회사명·링크만 취합하며 공고 본문은 저장하지 않습니다.
       </footer>
     </div>
