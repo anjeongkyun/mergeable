@@ -41,6 +41,8 @@ export default function Jobs() {
   const [cats, setCats] = useState<string[]>([]);
   const [q, setQ] = useState("");
   const [view, setView] = useState<"jobs" | "companies">("jobs");
+  const [companySort, setCompanySort] = useState<"name" | "count">("name");
+  const [companyGroup, setCompanyGroup] = useState(false);
   const [copied, setCopied] = useState(false);
   const [bookmarks, setBookmarks] = useState<string[]>([]);
   const [onlyBm, setOnlyBm] = useState(false);
@@ -122,6 +124,74 @@ export default function Jobs() {
 
   const shownJobs = groups.reduce((n, [, js]) => n + js.length, 0);
 
+  // 회사 단위 집계 — 소속 공고들의 유형·레벨·연봉을 합쳐 회사 카드에 노출(링크드인 타깃 분석용).
+  type Co = { company: string; jobs: Job[]; cats: string[]; levels: string[]; salary: string };
+  const companies = useMemo<Co[]>(() => {
+    const arr: Co[] = groups.map(([company, jobs]) => ({
+      company,
+      jobs,
+      cats: CATS.filter((c) => jobs.some((j) => (j.categories ?? []).includes(c))),
+      levels: LEVELS.filter((lv) =>
+        lv === "미표기"
+          ? jobs.some((j) => j.tags.length === 0)
+          : jobs.some((j) => j.tags.includes(lv)),
+      ),
+      salary: jobs.map((j) => j.salary).find(Boolean) ?? "",
+    }));
+    arr.sort((a, b) =>
+      companySort === "count"
+        ? b.jobs.length - a.jobs.length || a.company.localeCompare(b.company, "ko")
+        : a.company.localeCompare(b.company, "ko"),
+    );
+    return arr;
+  }, [groups, companySort]);
+
+  // 유형별 그룹핑(대시보드): 각 유형 아래 해당 유형 공고가 있는 회사들. 미분류 별도.
+  const companySections = useMemo<[string, Co[]][]>(() => {
+    const secs: [string, Co[]][] = CATS.map((c) => [c, companies.filter((co) => co.cats.includes(c))]);
+    const none = companies.filter((co) => co.cats.length === 0);
+    if (none.length) secs.push(["유형 미분류", none]);
+    return secs.filter(([, list]) => list.length);
+  }, [companies]);
+
+  const coCard = (co: Co) => (
+    <li key={co.company}>
+      <button
+        onClick={() => {
+          setQ(co.company);
+          setView("jobs");
+        }}
+        className="w-full text-left bg-zinc-900/40 border border-zinc-800 rounded-lg px-3 py-2.5 hover:border-indigo-500/50 hover:bg-zinc-900/70 transition"
+      >
+        <div className="flex items-center justify-between gap-2">
+          <span className="text-sm text-zinc-200 truncate">{co.company}</span>
+          <span className="text-xs text-zinc-500 shrink-0">{co.jobs.length}건</span>
+        </div>
+        {(co.cats.length > 0 || co.levels.some((l) => l !== "미표기") || co.salary) && (
+          <div className="mt-1.5 flex flex-wrap items-center gap-1">
+            {co.cats.map((c) => (
+              <span key={c} className="text-[11px] px-1.5 py-0.5 rounded bg-violet-500/10 text-violet-300">
+                {c}
+              </span>
+            ))}
+            {co.levels
+              .filter((l) => l !== "미표기")
+              .map((l) => (
+                <span key={l} className="text-[11px] px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-300">
+                  {l}
+                </span>
+              ))}
+            {co.salary && (
+              <span className="text-[11px] px-1.5 py-0.5 rounded bg-amber-500/10 text-amber-300">
+                {co.salary}
+              </span>
+            )}
+          </div>
+        )}
+      </button>
+    </li>
+  );
+
   return (
     <div className="min-h-screen">
       <header className="max-w-5xl mx-auto px-4 pt-8 pb-4">
@@ -143,7 +213,7 @@ export default function Jobs() {
         )}
       </header>
 
-      <div className="sticky top-0 z-10 bg-[#0a0b0f]/85 backdrop-blur border-b border-zinc-800">
+      <div className="sticky top-0 z-20 bg-[#0a0b0f] border-b border-zinc-800">
         <div className="max-w-5xl mx-auto px-4 py-3 space-y-2">
           <div className="flex flex-wrap items-center gap-1.5">
             <span className="text-xs text-zinc-500 mr-0.5">출처</span>
@@ -206,11 +276,11 @@ export default function Jobs() {
           <p className="text-sm text-zinc-500 py-16 text-center">조건에 맞는 공고가 없습니다.</p>
         ) : view === "companies" ? (
           <div>
-            <div className="mb-3 flex items-center gap-3">
+            <div className="mb-4 flex flex-wrap items-center gap-2">
               <button
                 onClick={() => {
                   navigator.clipboard
-                    ?.writeText(groups.map(([c]) => c).join("\n"))
+                    ?.writeText(companies.map((c) => c.company).join("\n"))
                     .then(() => {
                       setCopied(true);
                       setTimeout(() => setCopied(false), 1500);
@@ -221,26 +291,37 @@ export default function Jobs() {
               >
                 {copied ? "복사됨" : "회사명 전체 복사"}
               </button>
-              <span className="text-xs text-zinc-500">
-                중복 제거 {groups.length}개 회사 · 클릭하면 해당 회사 공고
-              </span>
+              <button onClick={() => setCompanyGroup((v) => !v)} className={chip(companyGroup)}>
+                유형별 그룹핑
+              </button>
+              <div className="grow" />
+              <span className="text-xs text-zinc-500">정렬</span>
+              <button onClick={() => setCompanySort("name")} className={chip(companySort === "name")}>
+                가나다
+              </button>
+              <button onClick={() => setCompanySort("count")} className={chip(companySort === "count")}>
+                공고 많은 순
+              </button>
             </div>
-            <ul className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-              {groups.map(([company, jobs]) => (
-                <li key={company}>
-                  <button
-                    onClick={() => {
-                      setQ(company);
-                      setView("jobs");
-                    }}
-                    className="w-full text-left bg-zinc-900/40 border border-zinc-800 rounded-lg px-3 py-2 hover:border-indigo-500/50 hover:bg-zinc-900/70 transition flex items-center justify-between gap-2"
-                  >
-                    <span className="text-sm text-zinc-200 truncate">{company}</span>
-                    <span className="text-xs text-zinc-500 shrink-0">{jobs.length}</span>
-                  </button>
-                </li>
-              ))}
-            </ul>
+            <p className="mb-3 text-xs text-zinc-500">
+              중복 제거 {companies.length}개 회사 · 카드에 유형·경력·연봉 · 클릭하면 해당 회사 공고
+            </p>
+            {companyGroup ? (
+              <div className="space-y-7">
+                {companySections.map(([cat, list]) => (
+                  <section key={cat}>
+                    <h3 className="mb-2 flex items-center gap-2 text-sm font-semibold text-zinc-200">
+                      <span className="inline-block w-1.5 h-1.5 rounded-full bg-violet-400" />
+                      {cat}
+                      <span className="text-xs font-normal text-zinc-500">{list.length}곳</span>
+                    </h3>
+                    <ul className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">{list.map(coCard)}</ul>
+                  </section>
+                ))}
+              </div>
+            ) : (
+              <ul className="grid gap-2 sm:grid-cols-2 lg:grid-cols-3">{companies.map(coCard)}</ul>
+            )}
           </div>
         ) : (
           <ul className="space-y-4">
@@ -304,6 +385,11 @@ export default function Jobs() {
                           {j.employment && (
                             <span className="text-[11px] px-1.5 py-0.5 rounded bg-sky-500/10 text-sky-300">
                               {j.employment}
+                            </span>
+                          )}
+                          {j.salary && (
+                            <span className="text-[11px] px-1.5 py-0.5 rounded bg-amber-500/10 text-amber-300">
+                              {j.salary}
                             </span>
                           )}
                           {j.stacks.slice(0, 4).map((s) => (

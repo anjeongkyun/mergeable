@@ -136,7 +136,7 @@ export default function Home() {
         ) : null}
       </header>
 
-      <div className="sticky top-0 z-10 bg-[#0a0b0f]/85 backdrop-blur border-b border-zinc-800">
+      <div className="sticky top-0 z-20 bg-[#0a0b0f] border-b border-zinc-800">
         <div className="max-w-5xl mx-auto px-4 py-3 space-y-2">
           <div className="flex flex-wrap items-center gap-2">
             <button

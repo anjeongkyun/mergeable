@@ -39,6 +39,7 @@ export interface Job {
   closeAt: string; // 마감일(YYYY-MM-DD) 또는 라벨(상시/D-7 등). 없으면 ""
   postedAt: string; // 게시일(YYYY-MM-DD). 점핏만 제공, 그 외 ""
   employment: string; // 고용형태(정규직/계약직/인턴/파견 등). 없으면 ""
+  salary: string; // 연봉(예: "5,000~6,000만원"). 노출하는 소스(잡코리아 등)만. 없으면 ""
 }
 
 export interface JobsData {

@@ -2,7 +2,9 @@ name: refresh
 
 on:
   schedule:
-    - cron: "*/10 * * * *" # 목표 10분 (스케줄러 부하 시 지연될 수 있음)
+    # 하루 2회(UTC 02:23, 14:23 = KST 11:23, 23:23). OSS 크롤+빌드+배포.
+    # jobs.json은 로컬 크론이 하루 1회(자정) 커밋 → 이 배포가 실어나름.
+    - cron: "23 2,14 * * *"
   workflow_dispatch:
 
 permissions:

@@ -47,6 +47,11 @@ function employmentOf(text: string): string {
   if (/정규직/.test(text)) return "정규직";
   return "";
 }
+// 연봉 추출(노출하는 소스만 — 잡코리아 카드 "연봉 5,000~6,000만원"). 숫자 없으면 "".
+function salaryOf(text: string): string {
+  const m = text.match(/연봉\s*([\d,]+\s*[~∼]\s*[\d,]+\s*만원|[\d,]+\s*만원\s*이상|[\d,]+\s*만원)/);
+  return m ? m[1].replace(/\s+/g, "") : "";
+}
 
 // 대기업 큐레이션 사전(공백·괄호·㈜ 제거 후 부분일치). 규모(중소/중견)는 JD로 판별 불가라 미표기.
 const BIG_COMPANIES = [
@@ -168,6 +173,7 @@ async function wanted(): Promise<Job[]> {
         closeAt: isoDate(d.due_time),
         postedAt: "",
         employment: "",
+        salary: "",
       });
     }
   }
@@ -223,6 +229,7 @@ async function jumpit(): Promise<Job[]> {
         closeAt: isoDate(p.closedAt),
         postedAt: "",
         employment: employmentOf(p.title ?? ""),
+        salary: "",
       });
     }
   }
@@ -297,6 +304,7 @@ async function linkareer(): Promise<Job[]> {
         closeAt: epochDate(a.recruitCloseAt),
         postedAt: "",
         employment,
+        salary: "",
       });
     }
   }
@@ -347,6 +355,7 @@ async function saramin(): Promise<Job[]> {
         closeAt: "",
         postedAt: "",
         employment: employmentOf(cond) || employmentOf(raw),
+        salary: "",
       });
     });
   }
@@ -401,6 +410,7 @@ async function jobkorea(): Promise<Job[]> {
         closeAt: "",
         postedAt: "",
         employment: employmentOf(cardText),
+        salary: salaryOf(cardText),
       });
     }
   }
