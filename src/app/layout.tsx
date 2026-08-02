@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import AuthGate from "./AuthGate";
 
@@ -9,6 +9,11 @@ export const metadata: Metadata = {
   // 링크 클릭 시 목적지(채용 플랫폼 등) 유입분석에 mergeable URL이 남지 않도록.
   referrer: "no-referrer",
   icons: { icon: "/favicon.svg" },
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0a0b0f", // 모바일 브라우저 크롬(주소창)도 다크로
+  colorScheme: "dark",
 };
 
 export default function RootLayout({
