@@ -1,159 +1,15 @@
 {
-  "generatedAt": "2026-08-04T15:07:36.704Z",
+  "generatedAt": "2026-08-05T03:27:58.184Z",
   "sourceCounts": {
-    "wanted": 622,
+    "wanted": 615,
     "jumpit": 400,
     "linkareer": 0,
-    "saramin": 120,
-    "jobkorea": 65
+    "saramin": 0,
+    "jobkorea": 66
   },
-  "companyCount": 748,
-  "jobCount": 1184,
+  "companyCount": 628,
+  "jobCount": 1057,
   "jobs": [
-    {
-      "source": "saramin",
-      "company": "(재)아름다운가게",
-      "title": "[아름다운가게] 플랫폼사업팀 백엔드개발 단기 채용 (3개월)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54635190",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [
-        "플랫폼"
-      ],
-      "stacks": [],
-      "location": "서울 중구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "계약직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)21앤",
-      "title": "[마포구 합정역] 병원 마케팅 AI·자동화 백엔드 엔지니어",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54598336",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 마포구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "계약직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)게임엔",
-      "title": "[산업기능요원/병역특례] 백엔드(python) 개발자 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54614642",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "계약직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)게임엔",
-      "title": "백엔드(python) 개발자 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54614645",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "계약직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)골든플래닛",
-      "title": "AX전략운영,시스템 아키텍처 분석,AI백엔드개발,Salesforce PM",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54325613",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)굿닥",
-      "title": "백엔드 엔지니어 (Java)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54571707",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)네오비에이치",
-      "title": "자사 플랫폼 개발 백엔드 경력 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54214400",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [
-        "플랫폼"
-      ],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)넥스트그라운드",
-      "title": "백엔드 개발자 (전환형 인턴)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54555461",
-      "tags": [
-        "인턴",
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "인턴",
-      "salary": ""
-    },
     {
       "source": "jobkorea",
       "company": "㈜누리미디어",
@@ -171,76 +27,6 @@
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "㈜다날",
-      "title": "[다날] Payment 정산 플랫폼 백엔드 개발자",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54237765",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [
-        "플랫폼"
-      ],
-      "stacks": [],
-      "location": "경기 성남시",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)대영아이오티",
-      "title": "(주)대영IoT 2026년도 기술연구소 CTO 및 웹 백엔드 개발자 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54630536",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 송파구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)더스윙",
-      "title": "백엔드 개발자 (5-10년)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54637764",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 종로구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)데이터메이커",
-      "title": "[유연/재택근무 가능] AI 백엔드 개발자 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54553735",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "대전 유성구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
       "source": "jobkorea",
       "company": "㈜동화세상에듀코",
       "title": "백엔드 개발자 채용",
@@ -254,132 +40,6 @@
       "closeAt": "",
       "postedAt": "",
       "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)드림어스컴퍼니",
-      "title": "음악 서비스 백엔드 서버 개발자 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54546766",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)드림어스컴퍼니",
-      "title": "콘텐츠 플랫폼 백엔드 개발(3년 이상)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54546753",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [
-        "플랫폼"
-      ],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)드림어스컴퍼니",
-      "title": "콘텐츠 플랫폼 백엔드 개발(Junior)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54419201",
-      "tags": [
-        "신입"
-      ],
-      "categories": [
-        "플랫폼"
-      ],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)디써클",
-      "title": "[Kotlin/Python] 백엔드 엔지니어 전환형 인턴",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54433302",
-      "tags": [
-        "인턴",
-        "신입"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "인턴",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)디엑스솔루션즈",
-      "title": "R&amp;D본부 플랫폼팀 백엔드 개발자 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54599124",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [
-        "플랫폼"
-      ],
-      "stacks": [],
-      "location": "부산전체",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)디자이노블",
-      "title": "[디자이노블] 주니어 백엔드/AI 애플리케이션 개발자",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54290379",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "계약직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)디지캡",
-      "title": "백엔드 개발 경력사원 모집",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54547207",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강서구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
       "salary": ""
     },
     {
@@ -400,140 +60,6 @@
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "(주)라임컴퍼니",
-      "title": "Java React.JS 기반 백엔드, 프론트엔드 SI 웹 개발자 모집",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54643306",
-      "tags": [
-        "신입"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 구로구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)레이풀시스템",
-      "title": "JAVA 백엔드 개발자 채용 공고(경력)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54585512",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강서구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)레인보우로보틱스",
-      "title": "web 백엔드 개발",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54650330",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "세종특별자치",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)리마커블랩스",
-      "title": "[리마커블랩스] 백엔드 프로덕트 엔지니어 채용 (1년차)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54646895",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 서초구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)메가젠임플란트",
-      "title": "[메가젠임플란트] 백엔드(서버)개발자",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54487166",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)메인",
-      "title": "JAVA 백엔드 개발자 경력 채용 공고입니다",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54580103",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 서초구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)무브인터렉티브",
-      "title": "[무브인터렉티브] 앱 개발 백엔드 담당자 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54582771",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "경기 파주시",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "계약직",
-      "salary": ""
-    },
-    {
-      "source": "jobkorea",
-      "company": "㈜무브인터렉티브",
-      "title": "[무브인터렉티브] 앱 개발 백엔드 파트 담당자 채용",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49666279",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "경기 파주시게",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "",
-      "salary": ""
-    },
-    {
       "source": "jobkorea",
       "company": "㈜미니게이트",
       "title": "백엔드개발자 모집(경력7년이상)",
@@ -547,93 +73,6 @@
       "closeAt": "",
       "postedAt": "",
       "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)베스텔라랩",
-      "title": "백엔드·인프라 풀스택 엔지니어",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54621453",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "경기 안양시",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)브레인벤쳐스",
-      "title": "백엔드 개발자 채용 공고",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54395525",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "경기 성남시",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "계약직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)브릭슨코퍼레이션",
-      "title": "에서 백엔드 엔지니어로 함께 성장해요",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54647523",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 마포구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)블랙라임",
-      "title": "고(故)팀장 백엔드 개발자 채용 (경력 3년 이상)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54648548",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강서구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)블룸에이아이",
-      "title": "콜브릿지(상담콜) 백엔드 개발자 경력직 채용 (2-7년)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54633112",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 중구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
       "salary": ""
     },
     {
@@ -668,122 +107,6 @@
       "closeAt": "",
       "postedAt": "",
       "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)비트플래닛",
-      "title": "[코스닥 상장사] 대구지사 백엔드/웹개발 개발자 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54583814",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "대구 동구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)빅링크에이아이",
-      "title": "생성형 AI 빅데이터 마케팅 플랫폼 백엔드(JAVA) 개발자 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54484826",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [
-        "플랫폼"
-      ],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)사람인에이치에스",
-      "title": "[상장사/AI전문기업] 금융사 프론트/백엔드 경력직 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54255317",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 영등포구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)산타",
-      "title": "[산타] AI 활용 백엔드 개발자 (부산, 시니어급)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54634668",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "부산 해운대구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)셀러허브",
-      "title": "[셀러허브] 식스샵 기술지원팀 백엔드개발자 채용(1~3년)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54409768",
-      "tags": [
-        "주니어"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)솔트룩스",
-      "title": "[수행본부] AI서비스 백엔드 엔지니어(상주/계약직)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54636077",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 영등포구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "계약직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)솔트룩스",
-      "title": "[AI서비스사업본부] 블록체인·스테이블코인 백엔드 개발자",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54617565",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 송파구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "계약직",
       "salary": ""
     },
     {
@@ -837,24 +160,6 @@
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "(주)수산아이앤티",
-      "title": "[수산그룹]수산INT 개발직군 채용(백엔드/서비스기획/QA엔지니어 등)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=53930400",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
       "source": "jobkorea",
       "company": "㈜슈프리마",
       "title": "[슈프리마] Backend Software Engineer 모집",
@@ -871,287 +176,36 @@
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "(주)스마트엠투엠",
-      "title": "백엔드 서비스 개발 및 유지보수 인력 채용(신입/경력)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54541308",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "부산 해운대구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)슬리밍고그룹",
-      "title": "에서 헬스케어 앱·백엔드 개발자 모셔요",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54448797",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "경기 광명시",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)시큐리온",
-      "title": "Back-end(백엔드) 개발자 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54628954",
+      "source": "jobkorea",
+      "company": "㈜씨어스",
+      "title": "[경력] 백엔드 개발자",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49712063",
       "tags": [
         "경력"
       ],
       "categories": [],
       "stacks": [],
-      "location": "서울 송파구",
+      "location": "경기 성남시제",
       "closeAt": "",
       "postedAt": "",
-      "employment": "정규직",
+      "employment": "",
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "(주)신테카바이오",
-      "title": "[코스닥상장사] 신테카바이오 시스템 백엔드 개발자",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54471626",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "대전 유성구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)쏜다",
-      "title": "원격 모니터링 시스템 프론트, 백엔드 개발자 모집",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54629398",
+      "source": "jobkorea",
+      "company": "㈜에이피알",
+      "title": "[IT] 백엔드 개발자 경력사원 모집",
+      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49716061",
       "tags": [
         "주니어",
         "경력"
       ],
       "categories": [],
       "stacks": [],
-      "location": "인천 연수구",
+      "location": "서울 송파구생",
       "closeAt": "",
       "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)씨어스",
-      "title": "백엔드 개발자 경력 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54570841",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "경기 성남시",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)아이엘케이코리아",
-      "title": "[개발] Java 백엔드 개발자 채용 (경력 1~5년)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54583490",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)아이젝스",
-      "title": "[경력] 백엔드 / 프론트엔드 개발자 채용 공고",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54619430",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 금천구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)아이티원",
-      "title": "백엔드 개발자(경력자) 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54599713",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "경기 수원시",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)애드포러스",
-      "title": "백엔드 개발자 (7년 이상) PHP/ Java / 다양한 언어 환영",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54351264",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)업사이트",
-      "title": "[경력] 백엔드(Back-End) 개발자 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54639030",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 마포구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)에스에스지페이먼츠",
-      "title": "[SSG페이먼츠] 백엔드 개발자 모집 (경력)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54557054",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 영등포구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)에스티유니타스",
-      "title": "[ST UNITAS] STack TF 백엔드 개발자 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54483243",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 구로구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)에스티유니타스",
-      "title": "[ST UNITAS] 백엔드개발(계약) 인재 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54570822",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 구로구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "계약직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)에스피코리아",
-      "title": "백엔드 개발자(1~3년)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54552121",
-      "tags": [
-        "주니어"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강서구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)에스피코리아",
-      "title": "백엔드 개발자(4~6년)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54552128",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강서구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)에코마케팅",
-      "title": "백엔드 개발자(Java) 인턴/신입 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54635306",
-      "tags": [
-        "인턴",
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 송파구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "인턴",
+      "employment": "",
       "salary": ""
     },
     {
@@ -1169,57 +223,6 @@
       "closeAt": "",
       "postedAt": "",
       "employment": "인턴",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)엠원소프트",
-      "title": "IT개발·데이터(백엔드/서버개발 외 3개 부문) 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54643255",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 종로구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)와탭랩스",
-      "title": "백엔드 개발자",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54621079",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 서초구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)월급날",
-      "title": "프론트/백엔드 개발자 채용 (신입/경력)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54618697",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 영등포구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
       "salary": ""
     },
     {
@@ -1246,90 +249,6 @@
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "(주)위엠비",
-      "title": "기술연구소 백엔드 개발 경력 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54528709",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 마포구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)유니유니",
-      "title": "에서 JAVA 백엔드 개발자를 찾고 있어요",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54588746",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "경기 성남시",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)유비온",
-      "title": "AI백엔드 개발 경력",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54504032",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 구로구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)이너버스",
-      "title": "백엔드 개발자 (신입)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54586009",
-      "tags": [
-        "신입"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 영등포구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)이너버스",
-      "title": "백엔드 개발자 (주니어)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54586036",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 영등포구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
       "source": "jobkorea",
       "company": "㈜인라이플",
       "title": "[모비소프트] Backend Engineer (JAVA) 팀장급",
@@ -1343,73 +262,6 @@
       "closeAt": "",
       "postedAt": "",
       "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)인피닉",
-      "title": "[인피닉]AI연구소 백엔드 구축 개발자 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54398618",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "계약직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)제너러티브랩",
-      "title": "졸업 &amp; 스펙 필요 없습니다. - 백엔드 엔지니어 (신입 가능)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54628093",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 성북구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)젝토",
-      "title": "백엔드 개발자 (Java / Spring Boot) 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54554210",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 광진구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)지비소프트",
-      "title": "[지비소프트] 백엔드 개발자(경력) 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54101309",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
       "salary": ""
     },
     {
@@ -1431,56 +283,6 @@
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "(주)캐롯아이",
-      "title": "백엔드 개발자 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54294804",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)케이비헬스케어",
-      "title": "[KB금융그룹 계열] KB헬스케어 백엔드 개발자 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54459459",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)케이앤웍스",
-      "title": "[경력] 광고 플랫폼 및 운영 시스템 백엔드 개발자 (보훈대상자 우대)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54407754",
-      "tags": [
-        "경력"
-      ],
-      "categories": [
-        "플랫폼"
-      ],
-      "stacks": [],
-      "location": "서울 금천구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
       "source": "jobkorea",
       "company": "㈜케이앤웍스",
       "title": "[경력] 광고 플랫폼 및 운영 시스템 백엔드 개발자 (보훈대상자 우대)",
@@ -1499,19 +301,28 @@
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "(주)코콤",
-      "title": "에서 백엔드 개발자(PHP/C++/Linux)로 함께 성장해요",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54338322",
+      "source": "jumpit",
+      "company": "(주)코이스토리",
+      "title": "풀스택 개발자(4~6년)-인플루언서 여행플랫폼",
+      "url": "https://www.jumpit.co.kr/position/54655831",
       "tags": [
         "경력"
       ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강서구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "프리랜서",
+      "categories": [
+        "플랫폼"
+      ],
+      "stacks": [
+        "Amazon RDS",
+        "C",
+        "C#",
+        "C++",
+        "XML",
+        "REST API"
+      ],
+      "location": "서울 강남구",
+      "closeAt": "2026-09-03",
+      "postedAt": "2026-08-05",
+      "employment": "",
       "salary": ""
     },
     {
@@ -1547,249 +358,6 @@
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "(주)키다리스튜디오",
-      "title": "[다우키움 계열사] AI 활용 시스템 백엔드 개발자 (4년 이상)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54407866",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 성동구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)테크랩스",
-      "title": "백엔드 개발자 팀원",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54225341",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)트윔",
-      "title": "AI 플랫폼 백엔드 개발자(전문연구요원 가능)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54628715",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [
-        "플랫폼"
-      ],
-      "stacks": [],
-      "location": "경기 화성시",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)팀제로코드",
-      "title": "[팀제로코드] 백엔드 개발자 채용 (실시간 AI 통역 서비스 개발)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54627975",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 관악구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)퍼즐데이터",
-      "title": "[퍼즐데이터] 자사제품 개발자 (백엔드 개발 업무)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54541576",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "㈜폴리큐브",
-      "title": "웹/앱 프런트 및 백엔드 프로그래머를 모십니다.",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54566660",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "계약직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)플레이웍스",
-      "title": "AI 및 라이브 기반 반려동물 양육 플랫폼 백엔드 개발자 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54484939",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [
-        "플랫폼"
-      ],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)플렉스데이",
-      "title": "JAVA 백엔드 개발자",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54258532",
-      "tags": [
-        "신입"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "부산 부산진구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)플렉스솔루션",
-      "title": "[dotory.ai] 설치형 AI 업무 콘솔 백엔드 개발자 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54637122",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)한국공동주택교육진흥원",
-      "title": "프론트/백엔드 개발자 채용 공고",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54650175",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "경기 수원시",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)헤리트",
-      "title": "[헤리트] 백엔드개발자 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54383715",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "경기 성남시",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)화이트스캔",
-      "title": "[백엔드/프론트엔드 개발자] 경력직 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54605686",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 용산구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)휴먼코아",
-      "title": "[대기업 금융그룹 헬스케어] 백엔드 개발자 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54518840",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "파견",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)휴먼코아",
-      "title": "[정규직]유망 전기차충전 스타트업 영업관리·운영·백엔드 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54535768",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [
-        "스타트업"
-      ],
-      "stacks": [],
-      "location": "경기 시흥시",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
       "source": "jobkorea",
       "company": "㈜휴먼코아",
       "title": "대기업 헬스케어 백엔드 개발자 채용",
@@ -1803,23 +371,6 @@
       "closeAt": "",
       "postedAt": "",
       "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "(주)NE능률",
-      "title": "[NE능률] 백엔드 개발자 채용 (Back-end Engineer)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54629080",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 마포구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
       "salary": ""
     },
     {
@@ -1864,8 +415,8 @@
     {
       "source": "jumpit",
       "company": "26도라인",
-      "title": "클라우드 엔지니어 경력직 채용",
-      "url": "https://www.jumpit.co.kr/position/54620518",
+      "title": "PHP 개발자 경력직 채용",
+      "url": "https://www.jumpit.co.kr/position/54620625",
       "tags": [
         "경력"
       ],
@@ -1873,12 +424,9 @@
         "대기업"
       ],
       "stacks": [
-        "Elasticsearch",
-        "MySQL",
-        "Python",
-        "Redis",
-        "AWS",
-        "MachineLearning"
+        "JavaScript",
+        "Node.js",
+        "PHP"
       ],
       "location": "경기 광주시",
       "closeAt": "2026-09-03",
@@ -1889,8 +437,8 @@
     {
       "source": "jumpit",
       "company": "26도라인",
-      "title": "임베디드 개발자 경력직 채용",
-      "url": "https://www.jumpit.co.kr/position/54620653",
+      "title": "node.js 개발자 경력직 채용",
+      "url": "https://www.jumpit.co.kr/position/54620601",
       "tags": [
         "경력"
       ],
@@ -1898,12 +446,9 @@
         "대기업"
       ],
       "stacks": [
-        "C",
-        "C++",
-        "Python",
-        "HW",
-        "FW",
-        "RTOS"
+        "Node.js",
+        "REST API",
+        "AWS"
       ],
       "location": "경기 광주시",
       "closeAt": "2026-09-03",
@@ -1914,8 +459,8 @@
     {
       "source": "jumpit",
       "company": "26도라인",
-      "title": "소프트웨어 개발자 경력직 채용",
-      "url": "https://www.jumpit.co.kr/position/54620698",
+      "title": "풀스택 AI 엔지니어 채용",
+      "url": "https://www.jumpit.co.kr/position/54620718",
       "tags": [
         "경력"
       ],
@@ -1923,57 +468,16 @@
         "대기업"
       ],
       "stacks": [
-        "FW",
-        "Embedded",
-        "SW"
+        "Dart",
+        "JavaScript",
+        "Python",
+        "PyTorch",
+        "Rust",
+        "NoSql"
       ],
       "location": "경기 광주시",
       "closeAt": "2026-09-03",
       "postedAt": "2026-08-05",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "가스디엔에이",
-      "title": "펌웨어 개발 및 전자회로 설계 신입",
-      "url": "https://www.jumpit.co.kr/position/54521127",
-      "tags": [
-        "신입"
-      ],
-      "categories": [],
-      "stacks": [
-        "C",
-        "Orcad",
-        "FW",
-        "Analog",
-        "MCU"
-      ],
-      "location": "인천",
-      "closeAt": "2026-08-20",
-      "postedAt": "2026-07-22",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "가스디엔에이",
-      "title": "펌웨어 개발 및 전자회로 설계 경력",
-      "url": "https://www.jumpit.co.kr/position/54521111",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "C",
-        "Orcad",
-        "FW",
-        "Analog",
-        "MCU"
-      ],
-      "location": "인천",
-      "closeAt": "2026-08-20",
-      "postedAt": "2026-07-22",
       "employment": "",
       "salary": ""
     },
@@ -2001,21 +505,26 @@
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "개츠소프트",
-      "title": "[재택근무] AI · 백엔드 개발자",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54277020",
+      "source": "jumpit",
+      "company": "건강누리",
+      "title": "펌웨어 개발자 채용[과장]",
+      "url": "https://www.jumpit.co.kr/position/54620440",
       "tags": [
-        "신입",
-        "주니어",
         "경력"
       ],
       "categories": [],
-      "stacks": [],
-      "location": "경기 화성시",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "프리랜서",
+      "stacks": [
+        "C",
+        "C#",
+        "C++",
+        "HW",
+        "FW",
+        "SW"
+      ],
+      "location": "서울 영등포구",
+      "closeAt": "2026-08-29",
+      "postedAt": "2026-07-31",
+      "employment": "",
       "salary": ""
     },
     {
@@ -2070,30 +579,6 @@
       "url": "https://www.jumpit.co.kr/position/54620406",
       "tags": [
         "신입"
-      ],
-      "categories": [],
-      "stacks": [
-        "C",
-        "C#",
-        "C++",
-        "HW",
-        "FW",
-        "SW"
-      ],
-      "location": "서울 영등포구",
-      "closeAt": "2026-08-29",
-      "postedAt": "2026-07-31",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "건강누리",
-      "title": "펌웨어 개발자 채용[대리]",
-      "url": "https://www.jumpit.co.kr/position/54620436",
-      "tags": [
-        "주니어",
-        "경력"
       ],
       "categories": [],
       "stacks": [
@@ -2205,6 +690,31 @@
     {
       "source": "wanted",
       "company": "굿닥(goodoc)",
+      "title": "풀스택 엔지니어 (7년 이상)",
+      "url": "https://www.wanted.co.kr/wd/378913",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "MySQL",
+        "Redis",
+        "Elasticsearch",
+        "AWS",
+        "Kubernetes",
+        "Node.js",
+        "NestJS",
+        "TypeScript"
+      ],
+      "location": "서울",
+      "closeAt": "2026-08-31",
+      "postedAt": "",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "wanted",
+      "company": "굿닥(goodoc)",
       "title": "시니어 백엔드 엔지니어 (Java, 10년 이상)",
       "url": "https://www.wanted.co.kr/wd/375606",
       "tags": [
@@ -2254,31 +764,6 @@
     },
     {
       "source": "wanted",
-      "company": "굿닥(goodoc)",
-      "title": "풀스택 엔지니어 (5년 이상)",
-      "url": "https://www.wanted.co.kr/wd/373279",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "MySQL",
-        "Redis",
-        "Elasticsearch",
-        "AWS",
-        "Kubernetes",
-        "Node.js",
-        "NestJS",
-        "TypeScript"
-      ],
-      "location": "서울",
-      "closeAt": "2026-08-31",
-      "postedAt": "",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "wanted",
       "company": "그루매틱",
       "title": "백엔드 개발자 (클라우드)",
       "url": "https://www.wanted.co.kr/wd/198604",
@@ -2298,28 +783,6 @@
       "location": "경기",
       "closeAt": "",
       "postedAt": "",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "그리드큐어",
-      "title": "신호 측정·HW 검증 엔지니어",
-      "url": "https://www.jumpit.co.kr/position/54551787",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "NumPy",
-        "Python",
-        "PCB",
-        "SciPy"
-      ],
-      "location": "경기 성남시 수정구",
-      "closeAt": "2026-08-23",
-      "postedAt": "2026-07-25",
       "employment": "",
       "salary": ""
     },
@@ -2526,23 +989,6 @@
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "나이스정보통신(주)",
-      "title": "[NICE정보통신] 백엔드 서버 개발자(경력)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54305605",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 영등포구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
       "source": "wanted",
       "company": "나인닷츠컨설팅",
       "title": "AI Agent Engineer (M365 & Automation)",
@@ -2632,53 +1078,6 @@
     {
       "source": "jumpit",
       "company": "네비웍스",
-      "title": "웹 어플리케이션 개발자",
-      "url": "https://www.jumpit.co.kr/position/54643177",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "ES6",
-        "Java",
-        "JavaScript",
-        "React",
-        "TypeScript",
-        "MSA"
-      ],
-      "location": "경기",
-      "closeAt": "2026-09-02",
-      "postedAt": "2026-08-04",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "네비웍스",
-      "title": "SW 개발자(경력)",
-      "url": "https://www.jumpit.co.kr/position/54643238",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        ".NET",
-        "C",
-        "C#",
-        "C++",
-        "Docker",
-        "Java"
-      ],
-      "location": "경기 안양시",
-      "closeAt": "2026-09-03",
-      "postedAt": "2026-08-05",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "네비웍스",
       "title": "IT 보안 인프라 경력",
       "url": "https://www.jumpit.co.kr/position/54529981",
       "tags": [
@@ -2717,6 +1116,30 @@
         "Mfc"
       ],
       "location": "경기 안양시",
+      "closeAt": "2026-09-02",
+      "postedAt": "2026-08-04",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "네비웍스",
+      "title": "웹 어플리케이션 개발자",
+      "url": "https://www.jumpit.co.kr/position/54643177",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "ES6",
+        "Java",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "MSA"
+      ],
+      "location": "경기",
       "closeAt": "2026-09-02",
       "postedAt": "2026-08-04",
       "employment": "",
@@ -2776,25 +1199,6 @@
       "location": "서울",
       "closeAt": "2026-08-06",
       "postedAt": "2026-07-08",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "넥서스커뮤니티",
-      "title": "PBX 개발자 채용",
-      "url": "https://www.jumpit.co.kr/position/54582408",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "C++",
-        "WebRTC"
-      ],
-      "location": "서울",
-      "closeAt": "2026-08-29",
-      "postedAt": "2026-07-31",
       "employment": "",
       "salary": ""
     },
@@ -2938,52 +1342,6 @@
     },
     {
       "source": "wanted",
-      "company": "넵튠(Neptune)",
-      "title": "엔플라이유닛(무한의 계단) 백엔드개발자",
-      "url": "https://www.wanted.co.kr/wd/375989",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "MySQL",
-        "Redis",
-        "AWS",
-        "Docker",
-        "Go",
-        "Linux"
-      ],
-      "location": "서울",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "계약직",
-      "salary": ""
-    },
-    {
-      "source": "wanted",
-      "company": "넵튠(Neptune)",
-      "title": "글로벌사업실 백엔드개발자",
-      "url": "https://www.wanted.co.kr/wd/375985",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Java",
-        "Spring Boot",
-        "Spring",
-        "AWS",
-        "Go"
-      ],
-      "location": "서울",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "계약직",
-      "salary": ""
-    },
-    {
-      "source": "wanted",
       "company": "노드인프라",
       "title": "DevOps 엔지니어",
       "url": "https://www.wanted.co.kr/wd/249829",
@@ -3029,29 +1387,6 @@
     {
       "source": "jumpit",
       "company": "노아시스템즈",
-      "title": "네트워크 제어/관리 시스템 개발",
-      "url": "https://www.jumpit.co.kr/position/54472357",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Docker",
-        "Git",
-        "jQuery",
-        "Kubernetes",
-        "Linux",
-        "Netty"
-      ],
-      "location": "서울 성동구",
-      "closeAt": "2026-08-15",
-      "postedAt": "2026-07-17",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "노아시스템즈",
       "title": "네트워크 트래픽 관제 시스템 개발",
       "url": "https://www.jumpit.co.kr/position/54613929",
       "tags": [
@@ -3069,6 +1404,29 @@
       "location": "서울 성동구",
       "closeAt": "2026-08-30",
       "postedAt": "2026-08-01",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "노아시스템즈",
+      "title": "네트워크 제어/관리 시스템 개발",
+      "url": "https://www.jumpit.co.kr/position/54472357",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Docker",
+        "Git",
+        "jQuery",
+        "Kubernetes",
+        "Linux",
+        "Netty"
+      ],
+      "location": "서울 성동구",
+      "closeAt": "2026-08-15",
+      "postedAt": "2026-07-17",
       "employment": "",
       "salary": ""
     },
@@ -3153,26 +1511,6 @@
     },
     {
       "source": "wanted",
-      "company": "뉴런소프트",
-      "title": "[풀잇] 웹서비스 풀스택 개발자",
-      "url": "https://www.wanted.co.kr/wd/378215",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [
-        "스타트업"
-      ],
-      "stacks": [],
-      "location": "서울",
-      "closeAt": "2026-08-31",
-      "postedAt": "",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "wanted",
       "company": "니즈",
       "title": "풀스택 개발자",
       "url": "https://www.wanted.co.kr/wd/325797",
@@ -3214,6 +1552,25 @@
       "location": "서울",
       "closeAt": "",
       "postedAt": "",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "대진정보통신",
+      "title": "PIA자격/개인정보보호컨설팅(4~7년)",
+      "url": "https://www.jumpit.co.kr/position/54582382",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "ISMS",
+        "CPPG"
+      ],
+      "location": "서울 관악구",
+      "closeAt": "2026-08-28",
+      "postedAt": "2026-07-30",
       "employment": "",
       "salary": ""
     },
@@ -3388,24 +1745,6 @@
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "데이터플로",
-      "title": "에서 JAVA 백엔드 개발자 채용해요",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54385214",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "계약직",
-      "salary": ""
-    },
-    {
       "source": "wanted",
       "company": "데일리펀딩",
       "title": "백엔드 개발자",
@@ -3489,6 +1828,28 @@
         "MVVM",
         "MSSQL",
         "MySQL"
+      ],
+      "location": "경기 수원시 영통구",
+      "closeAt": "2026-08-19",
+      "postedAt": "2026-07-21",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "덴티움",
+      "title": "Dental CT HW개발",
+      "url": "https://www.jumpit.co.kr/position/54515291",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C",
+        "Orcad",
+        "FPGA",
+        "Pads"
       ],
       "location": "경기 수원시 영통구",
       "closeAt": "2026-08-19",
@@ -3611,6 +1972,24 @@
     {
       "source": "jumpit",
       "company": "드림디엔엠",
+      "title": "인천 IDC운영 신입 채용",
+      "url": "https://www.jumpit.co.kr/position/54572671",
+      "tags": [
+        "신입"
+      ],
+      "categories": [],
+      "stacks": [
+        "Network"
+      ],
+      "location": "인천",
+      "closeAt": "2026-08-25",
+      "postedAt": "2026-07-27",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "드림디엔엠",
       "title": "네트워크 인프라 운영 신입 채용",
       "url": "https://www.jumpit.co.kr/position/54572593",
       "tags": [
@@ -3622,24 +2001,6 @@
         "Infra"
       ],
       "location": "서울 송파구",
-      "closeAt": "2026-08-25",
-      "postedAt": "2026-07-27",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "드림디엔엠",
-      "title": "인천 IDC운영 신입 채용",
-      "url": "https://www.jumpit.co.kr/position/54572671",
-      "tags": [
-        "신입"
-      ],
-      "categories": [],
-      "stacks": [
-        "Network"
-      ],
-      "location": "인천",
       "closeAt": "2026-08-25",
       "postedAt": "2026-07-27",
       "employment": "",
@@ -4777,24 +3138,6 @@
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "레데브",
-      "title": "IT개발·데이터(백엔드/서버개발 외 2개 부문) 채용 공고",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54613682",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강동구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
       "source": "wanted",
       "company": "레드블루",
       "title": "[바디코디] Backend Engineer (신입·주니어)",
@@ -5103,6 +3446,28 @@
       "location": "경기",
       "closeAt": "",
       "postedAt": "",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "로이드케이",
+      "title": "빅데이터 솔루션 데이터 엔지니어 (경력)",
+      "url": "https://www.jumpit.co.kr/position/54567870",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Linux",
+        "Python",
+        "AWS",
+        "GCP",
+        "AZURE"
+      ],
+      "location": "경기 성남시 수정구",
+      "closeAt": "2026-08-25",
+      "postedAt": "2026-07-27",
       "employment": "",
       "salary": ""
     },
@@ -5421,40 +3786,18 @@
     {
       "source": "jumpit",
       "company": "리보틱스",
-      "title": "SLAM Engineer(경력)",
-      "url": "https://www.jumpit.co.kr/position/54378653",
+      "title": "Embedded Control ​Engineer(경력)",
+      "url": "https://www.jumpit.co.kr/position/54378665",
       "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "C++",
-        "GitHub",
-        "Python"
-      ],
-      "location": "경기 시흥시",
-      "closeAt": "2026-08-08",
-      "postedAt": "2026-07-10",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "리보틱스",
-      "title": "[전문연구요원] Robot Engineer",
-      "url": "https://www.jumpit.co.kr/position/54378713",
-      "tags": [
-        "주니어",
         "경력"
       ],
       "categories": [],
       "stacks": [
         "C",
         "C++",
-        "Git",
         "Linux",
-        "Python",
-        "TensorFlow"
+        "Embedded",
+        "PLC"
       ],
       "location": "경기 시흥시",
       "closeAt": "2026-08-08",
@@ -5488,8 +3831,8 @@
     {
       "source": "jumpit",
       "company": "리보틱스",
-      "title": "Embedded Control ​Engineer(경력)",
-      "url": "https://www.jumpit.co.kr/position/54378665",
+      "title": "Robot Behavior Engineer(경력)",
+      "url": "https://www.jumpit.co.kr/position/54378709",
       "tags": [
         "경력"
       ],
@@ -5497,9 +3840,8 @@
       "stacks": [
         "C",
         "C++",
-        "Linux",
-        "Embedded",
-        "PLC"
+        "Git",
+        "Linux"
       ],
       "location": "경기 시흥시",
       "closeAt": "2026-08-08",
@@ -5509,25 +3851,68 @@
     },
     {
       "source": "jumpit",
-      "company": "리브스메드",
-      "title": "로봇 제어 Engineer (주임-과장급)",
-      "url": "https://www.jumpit.co.kr/position/54642959",
+      "company": "리보틱스",
+      "title": "Robot Platform ​Engineer(경력)",
+      "url": "https://www.jumpit.co.kr/position/54378681",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C",
+        "C++",
+        "Git",
+        "Linux",
+        "Embedded",
+        "ROS"
+      ],
+      "location": "경기 시흥시",
+      "closeAt": "2026-08-08",
+      "postedAt": "2026-07-10",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "리보틱스",
+      "title": "Robot Planning & Control Engineer(경력)",
+      "url": "https://www.jumpit.co.kr/position/54378693",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C",
+        "C++",
+        "Git",
+        "Linux",
+        "ROS"
+      ],
+      "location": "경기 시흥시",
+      "closeAt": "2026-08-08",
+      "postedAt": "2026-07-10",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "wanted",
+      "company": "리브리티 (Libryty)",
+      "title": "백엔드 개발자 (3년 이상)",
+      "url": "https://www.wanted.co.kr/wd/378867",
       "tags": [
         "주니어",
         "경력"
       ],
       "categories": [],
       "stacks": [
-        "C++",
-        "Git",
-        "Jira",
-        "Linux",
-        "Python",
-        "DeepLearning"
+        "Java",
+        "Kotlin",
+        "Spring",
+        "AWS"
       ],
-      "location": "경기 성남시",
-      "closeAt": "2026-09-02",
-      "postedAt": "2026-08-04",
+      "location": "서울",
+      "closeAt": "",
+      "postedAt": "",
       "employment": "",
       "salary": ""
     },
@@ -5683,25 +4068,6 @@
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "마인즈그라운드(주)",
-      "title": "AI 플랫폼 백엔드개발자 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54621955",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [
-        "플랫폼"
-      ],
-      "stacks": [],
-      "location": "서울 서초구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
       "source": "jumpit",
       "company": "마카롱팩토리",
       "title": "프론트엔드 개발 (3년 이상)",
@@ -5808,26 +4174,6 @@
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "망고카(주)",
-      "title": "[망고카] 글로벌 플랫폼 백엔드 개발자",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54630227",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [
-        "플랫폼"
-      ],
-      "stacks": [],
-      "location": "서울 영등포구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
       "source": "wanted",
       "company": "매도왕",
       "title": "Python 개발자",
@@ -5922,23 +4268,6 @@
       "closeAt": "2026-08-31",
       "postedAt": "",
       "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "매드업",
-      "title": "[개발 본부] 백엔드 개발자 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54616301",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
       "salary": ""
     },
     {
@@ -6038,53 +4367,6 @@
       "stacks": [
         "AWS",
         "GCP"
-      ],
-      "location": "서울",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "메디쿼터스",
-      "title": "Wi-Fi S/W 개발(3~6년)",
-      "url": "https://www.jumpit.co.kr/position/54516589",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "C",
-        "L2",
-        "Embedded Linux"
-      ],
-      "location": "경기 안양시 동안구",
-      "closeAt": "2026-08-20",
-      "postedAt": "2026-07-22",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "wanted",
-      "company": "메딜리티",
-      "title": "Software Engineer (백엔드/파이썬)",
-      "url": "https://www.wanted.co.kr/wd/361321",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Kotlin",
-        "Spring",
-        "MySQL",
-        "AWS",
-        "Docker",
-        "Kubernetes",
-        "Terraform",
-        "Python"
       ],
       "location": "서울",
       "closeAt": "",
@@ -6283,24 +4565,21 @@
     },
     {
       "source": "jumpit",
-      "company": "모비루스",
-      "title": "[판교] AI 소프트웨어 개발자(경력)",
-      "url": "https://www.jumpit.co.kr/position/54396940",
+      "company": "메타넷엑스",
+      "title": "보안솔루션 SIEM, SOAR 전문가 (경력)",
+      "url": "https://www.jumpit.co.kr/position/54481940",
       "tags": [
         "경력"
       ],
       "categories": [],
       "stacks": [
-        "C",
-        "C++",
-        "Python",
-        "AI/인공지능",
-        "SW",
-        "Embedded Linux"
+        "AWS WAF",
+        "AWS",
+        "IPS"
       ],
-      "location": "경기 성남시 수정구",
-      "closeAt": "2026-08-05",
-      "postedAt": "2026-07-07",
+      "location": "서울 종로구",
+      "closeAt": "2026-08-19",
+      "postedAt": "2026-07-21",
       "employment": "",
       "salary": ""
     },
@@ -6387,6 +4666,29 @@
         "TensorFlow"
       ],
       "location": "대구 동구",
+      "closeAt": "2026-08-05",
+      "postedAt": "2026-07-07",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "모비루스",
+      "title": "[판교] AI 소프트웨어 개발자(경력)",
+      "url": "https://www.jumpit.co.kr/position/54396940",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C",
+        "C++",
+        "Python",
+        "AI/인공지능",
+        "SW",
+        "Embedded Linux"
+      ],
+      "location": "경기 성남시 수정구",
       "closeAt": "2026-08-05",
       "postedAt": "2026-07-07",
       "employment": "",
@@ -7006,6 +5308,28 @@
       "salary": ""
     },
     {
+      "source": "jumpit",
+      "company": "반프",
+      "title": "소프트웨어 엔지니어",
+      "url": "https://www.jumpit.co.kr/position/54637320",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C",
+        "C++",
+        "Linux",
+        "REST API",
+        "ethernet"
+      ],
+      "location": "서울 강남구",
+      "closeAt": "2026-09-01",
+      "postedAt": "2026-08-03",
+      "employment": "",
+      "salary": ""
+    },
+    {
       "source": "wanted",
       "company": "백패커",
       "title": "[아이디어스] 백엔드 개발자 (Java)",
@@ -7287,6 +5611,77 @@
     {
       "source": "jumpit",
       "company": "베스텔라랩",
+      "title": "영상AI 연구/개발(전문연구요원가능)",
+      "url": "https://www.jumpit.co.kr/position/54384676",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C",
+        "C#",
+        "C++",
+        "Java",
+        "Python",
+        "OpenCV"
+      ],
+      "location": "경기 안양시 동안구",
+      "closeAt": "2026-08-05",
+      "postedAt": "2026-07-07",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "베스텔라랩",
+      "title": "자율주행 연구원(전문연구요원가능)",
+      "url": "https://www.jumpit.co.kr/position/54464254",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C++",
+        "Git",
+        "iOS",
+        "Python",
+        "Spring Framework",
+        "R"
+      ],
+      "location": "경기 안양시 동안구",
+      "closeAt": "2026-08-13",
+      "postedAt": "2026-07-15",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "베스텔라랩",
+      "title": "연구개발 팀장",
+      "url": "https://www.jumpit.co.kr/position/54464309",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C",
+        "C#",
+        "C++",
+        "Java",
+        "Linux",
+        "Python"
+      ],
+      "location": "경기 안양시 동안구",
+      "closeAt": "2026-08-13",
+      "postedAt": "2026-07-15",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "베스텔라랩",
       "title": "App(React Native) 개발자(전문연구요원가능)",
       "url": "https://www.jumpit.co.kr/position/54464279",
       "tags": [
@@ -7349,77 +5744,6 @@
         "PHP",
         "Python",
         "React"
-      ],
-      "location": "경기 안양시 동안구",
-      "closeAt": "2026-08-13",
-      "postedAt": "2026-07-15",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "베스텔라랩",
-      "title": "영상AI 연구/개발(전문연구요원가능)",
-      "url": "https://www.jumpit.co.kr/position/54384676",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "C",
-        "C#",
-        "C++",
-        "Java",
-        "Python",
-        "OpenCV"
-      ],
-      "location": "경기 안양시 동안구",
-      "closeAt": "2026-08-05",
-      "postedAt": "2026-07-07",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "베스텔라랩",
-      "title": "자율주행 연구원(전문연구요원가능)",
-      "url": "https://www.jumpit.co.kr/position/54464254",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "C++",
-        "Git",
-        "iOS",
-        "Python",
-        "Spring Framework",
-        "R"
-      ],
-      "location": "경기 안양시 동안구",
-      "closeAt": "2026-08-13",
-      "postedAt": "2026-07-15",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "베스텔라랩",
-      "title": "연구개발 팀장",
-      "url": "https://www.jumpit.co.kr/position/54464309",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "C",
-        "C#",
-        "C++",
-        "Java",
-        "Linux",
-        "Python"
       ],
       "location": "경기 안양시 동안구",
       "closeAt": "2026-08-13",
@@ -7605,6 +5929,28 @@
     {
       "source": "jumpit",
       "company": "보스반도체",
+      "title": "ML Systems Runtime Engineer [경력]",
+      "url": "https://www.jumpit.co.kr/position/54409547",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Android OS",
+        "Linux",
+        "DeepLearning",
+        "AI/인공지능",
+        "Transformers"
+      ],
+      "location": "경기 성남시 분당구",
+      "closeAt": "2026-08-07",
+      "postedAt": "2026-07-09",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "보스반도체",
       "title": "ML Systems Runtime Engineer [신입]",
       "url": "https://www.jumpit.co.kr/position/54409529",
       "tags": [
@@ -7663,28 +6009,6 @@
         "GitHub",
         "Jenkins",
         "Linux"
-      ],
-      "location": "경기 성남시 분당구",
-      "closeAt": "2026-08-07",
-      "postedAt": "2026-07-09",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "보스반도체",
-      "title": "ML Systems Runtime Engineer [경력]",
-      "url": "https://www.jumpit.co.kr/position/54409547",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Android OS",
-        "Linux",
-        "DeepLearning",
-        "AI/인공지능",
-        "Transformers"
       ],
       "location": "경기 성남시 분당구",
       "closeAt": "2026-08-07",
@@ -7834,24 +6158,6 @@
       "closeAt": "2026-08-11",
       "postedAt": "2026-07-13",
       "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "브레인즈컴퍼니(주)",
-      "title": "[상장사/성수역/대졸신입 초봉4천] 백엔드 개발자 (신입/경력)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54487301",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 성동구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
       "salary": ""
     },
     {
@@ -8191,6 +6497,27 @@
     {
       "source": "jumpit",
       "company": "블루개러지",
+      "title": "AI Artist / LLM Engineer(9년~)",
+      "url": "https://www.jumpit.co.kr/position/54608926",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Pandas",
+        "PostgreSQL",
+        "Python",
+        "PyTorch"
+      ],
+      "location": "서울 강동구",
+      "closeAt": "2026-08-28",
+      "postedAt": "2026-07-30",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "블루개러지",
       "title": "프론트엔드 개발자(5~7년)",
       "url": "https://www.jumpit.co.kr/position/54608903",
       "tags": [
@@ -8225,27 +6552,6 @@
         "React",
         "React Native",
         "TypeScript"
-      ],
-      "location": "서울 강동구",
-      "closeAt": "2026-08-28",
-      "postedAt": "2026-07-30",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "블루개러지",
-      "title": "AI Artist / LLM Engineer(6~8년)",
-      "url": "https://www.jumpit.co.kr/position/54608915",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Pandas",
-        "PostgreSQL",
-        "Python",
-        "PyTorch"
       ],
       "location": "서울 강동구",
       "closeAt": "2026-08-28",
@@ -8680,28 +6986,6 @@
     {
       "source": "jumpit",
       "company": "비스텔리젼스",
-      "title": "AI Engineer (경력)",
-      "url": "https://www.jumpit.co.kr/position/54556289",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Git",
-        "NumPy",
-        "Pandas",
-        "Python",
-        "SQL"
-      ],
-      "location": "서울 서초구",
-      "closeAt": "2026-08-22",
-      "postedAt": "2026-07-24",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "비스텔리젼스",
       "title": "AI Engineer (신입)",
       "url": "https://www.jumpit.co.kr/position/54556241",
       "tags": [
@@ -8723,47 +7007,23 @@
     },
     {
       "source": "jumpit",
-      "company": "비에이치에스티",
-      "title": "머신비전 SW 개발자 신입 채용",
-      "url": "https://www.jumpit.co.kr/position/54599312",
-      "tags": [
-        "신입"
-      ],
-      "categories": [],
-      "stacks": [
-        "C",
-        "C++",
-        "Git",
-        "Visual Studio",
-        "OpenCV",
-        "Mfc"
-      ],
-      "location": "충남 아산시",
-      "closeAt": "2026-08-28",
-      "postedAt": "2026-07-30",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "비에이치에스티",
-      "title": "머신비전 SW 개발자 경력 채용",
-      "url": "https://www.jumpit.co.kr/position/54599406",
+      "company": "비스텔리젼스",
+      "title": "AI Engineer (경력)",
+      "url": "https://www.jumpit.co.kr/position/54556289",
       "tags": [
         "경력"
       ],
       "categories": [],
       "stacks": [
-        "C",
-        "C++",
         "Git",
-        "Visual Studio",
-        "OpenCV",
-        "Mfc"
+        "NumPy",
+        "Pandas",
+        "Python",
+        "SQL"
       ],
-      "location": "충남 아산시",
-      "closeAt": "2026-08-28",
-      "postedAt": "2026-07-30",
+      "location": "서울 서초구",
+      "closeAt": "2026-08-22",
+      "postedAt": "2026-07-24",
       "employment": "",
       "salary": ""
     },
@@ -8829,6 +7089,74 @@
       "location": "충남 아산시",
       "closeAt": "2026-08-16",
       "postedAt": "2026-07-18",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "비에이치에스티",
+      "title": "자동화설비 PC제어 경력 채용",
+      "url": "https://www.jumpit.co.kr/position/54485283",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C",
+        "C++",
+        "SW",
+        "Mfc",
+        "PLC"
+      ],
+      "location": "충남 아산시",
+      "closeAt": "2026-08-16",
+      "postedAt": "2026-07-18",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "비에이치에스티",
+      "title": "머신비전 SW 개발자 신입 채용",
+      "url": "https://www.jumpit.co.kr/position/54599312",
+      "tags": [
+        "신입"
+      ],
+      "categories": [],
+      "stacks": [
+        "C",
+        "C++",
+        "Git",
+        "Visual Studio",
+        "OpenCV",
+        "Mfc"
+      ],
+      "location": "충남 아산시",
+      "closeAt": "2026-08-28",
+      "postedAt": "2026-07-30",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "비에이치에스티",
+      "title": "머신비전 SW 개발자 경력 채용",
+      "url": "https://www.jumpit.co.kr/position/54599406",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C",
+        "C++",
+        "Git",
+        "Visual Studio",
+        "OpenCV",
+        "Mfc"
+      ],
+      "location": "충남 아산시",
+      "closeAt": "2026-08-28",
+      "postedAt": "2026-07-30",
       "employment": "",
       "salary": ""
     },
@@ -9743,25 +8071,6 @@
       "salary": ""
     },
     {
-      "source": "jumpit",
-      "company": "서울거래",
-      "title": "서비스개발 총괄매니저 채용",
-      "url": "https://www.jumpit.co.kr/position/54483580",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Flutter",
-        "Python"
-      ],
-      "location": "서울 영등포구",
-      "closeAt": "2026-08-15",
-      "postedAt": "2026-07-17",
-      "employment": "",
-      "salary": ""
-    },
-    {
       "source": "wanted",
       "company": "서치독",
       "title": "AI/ML 개발자 3년 이상 (AI 기반 건설/제조 등 도면 분석)",
@@ -9943,6 +8252,92 @@
       "salary": ""
     },
     {
+      "source": "jumpit",
+      "company": "세미파이브",
+      "title": "SoC Design Engineer",
+      "url": "https://www.jumpit.co.kr/position/54618254",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Verilog",
+        "ASIC",
+        "ARM"
+      ],
+      "location": "경기 성남시 분당구",
+      "closeAt": "2026-08-29",
+      "postedAt": "2026-07-31",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "세미파이브",
+      "title": "SoC Generator Design(Scala/Chisel) Engineer",
+      "url": "https://www.jumpit.co.kr/position/54618226",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C",
+        "Git",
+        "Java",
+        "Linux",
+        "Perforce",
+        "Scala"
+      ],
+      "location": "경기 성남시 분당구",
+      "closeAt": "2026-08-29",
+      "postedAt": "2026-07-31",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "세미파이브",
+      "title": "SoC/System Architect",
+      "url": "https://www.jumpit.co.kr/position/54618204",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Git",
+        "Perl",
+        "Python",
+        "HW",
+        "Shell"
+      ],
+      "location": "경기 성남시 분당구",
+      "closeAt": "2026-08-29",
+      "postedAt": "2026-07-31",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "세미파이브",
+      "title": "DFT Engineer",
+      "url": "https://www.jumpit.co.kr/position/54618166",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "HW",
+        "Embedded",
+        "Verilog"
+      ],
+      "location": "경기 성남시 분당구",
+      "closeAt": "2026-08-29",
+      "postedAt": "2026-07-31",
+      "employment": "",
+      "salary": ""
+    },
+    {
       "source": "wanted",
       "company": "세븐픽쳐스",
       "title": "[동행클럽(구 넷플연가)·동행] 프로덕트 엔지니어 (풀스택, 1년 이상)",
@@ -9968,9 +8363,10 @@
     {
       "source": "jumpit",
       "company": "세코어로보틱스",
-      "title": "[로봇/AI] 3D vision Engineer (경력)",
-      "url": "https://www.jumpit.co.kr/position/54633886",
+      "title": "[로봇/AI] SLAM Engineer",
+      "url": "https://www.jumpit.co.kr/position/54633868",
       "tags": [
+        "주니어",
         "경력"
       ],
       "categories": [],
@@ -9987,10 +8383,9 @@
     {
       "source": "jumpit",
       "company": "세코어로보틱스",
-      "title": "[로봇/AI] SLAM Engineer",
-      "url": "https://www.jumpit.co.kr/position/54633868",
+      "title": "[로봇/AI] 3D vision Engineer (경력)",
+      "url": "https://www.jumpit.co.kr/position/54633886",
       "tags": [
-        "주니어",
         "경력"
       ],
       "categories": [],
@@ -10400,22 +8795,6 @@
       "closeAt": "2026-09-01",
       "postedAt": "2026-08-03",
       "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "송암시스콤(주)",
-      "title": "Java 기반 백엔드/서버개발자 경력",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54638934",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "전남광주",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
       "salary": ""
     },
     {
@@ -10888,6 +9267,27 @@
     {
       "source": "jumpit",
       "company": "스페이스맵",
+      "title": "웹 서버 개발 PM (프로젝트 매니저)",
+      "url": "https://www.jumpit.co.kr/position/54434609",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Confluence",
+        "Jira",
+        "Slack",
+        "Notion"
+      ],
+      "location": "서울 성동구",
+      "closeAt": "2026-08-10",
+      "postedAt": "2026-07-12",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "스페이스맵",
       "title": "개발 PM 채용",
       "url": "https://www.jumpit.co.kr/position/54557190",
       "tags": [
@@ -10904,27 +9304,6 @@
       "location": "서울 성동구",
       "closeAt": "2026-08-25",
       "postedAt": "2026-07-27",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "스페이스맵",
-      "title": "웹 서버 개발 PM (프로젝트 매니저)",
-      "url": "https://www.jumpit.co.kr/position/54434609",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Confluence",
-        "Jira",
-        "Slack",
-        "Notion"
-      ],
-      "location": "서울 성동구",
-      "closeAt": "2026-08-10",
-      "postedAt": "2026-07-12",
       "employment": "",
       "salary": ""
     },
@@ -11043,24 +9422,6 @@
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "신성델타테크(주)",
-      "title": "(서울)로봇센터 백엔드 개발자 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54131836",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "경남 창원시",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
       "source": "jumpit",
       "company": "싸이버로지텍",
       "title": "IT솔루션 ITO업무 및 차세대 솔루션 도입/API개발",
@@ -11081,6 +9442,25 @@
       "location": "서울 마포구",
       "closeAt": "2026-08-15",
       "postedAt": "2026-07-17",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "싸이버로지텍",
+      "title": "해운 IT 솔루션 ITO IM(PMO)",
+      "url": "https://www.jumpit.co.kr/position/54531913",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Jira"
+      ],
+      "location": "서울 마포구",
+      "closeAt": "2026-08-20",
+      "postedAt": "2026-07-22",
       "employment": "",
       "salary": ""
     },
@@ -11125,44 +9505,6 @@
     },
     {
       "source": "jumpit",
-      "company": "싸이버로지텍",
-      "title": "해운 IT 솔루션 ITO IM(PMO)",
-      "url": "https://www.jumpit.co.kr/position/54531913",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Jira"
-      ],
-      "location": "서울 마포구",
-      "closeAt": "2026-08-20",
-      "postedAt": "2026-07-22",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "쏠리드윈텍",
-      "title": "전자광학 개발자(EO) 모집",
-      "url": "https://www.jumpit.co.kr/position/54546437",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Linux",
-        "RTOS"
-      ],
-      "location": "경기 용인시 기흥구",
-      "closeAt": "2026-08-22",
-      "postedAt": "2026-07-24",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
       "company": "씨메스",
       "title": "플랫폼 풀스택 엔지니어",
       "url": "https://www.jumpit.co.kr/position/54616885",
@@ -11189,52 +9531,6 @@
     {
       "source": "jumpit",
       "company": "씨메스",
-      "title": "Backend (Python) 개발자",
-      "url": "https://www.jumpit.co.kr/position/54616506",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "C++",
-        "JavaScript",
-        "Python",
-        "React",
-        "FastAPI"
-      ],
-      "location": "서울 강남구",
-      "closeAt": "2026-08-31",
-      "postedAt": "2026-08-02",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "씨메스",
-      "title": "Senior Software Architect",
-      "url": "https://www.jumpit.co.kr/position/54618592",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "C++",
-        "Kafka",
-        "MQTT",
-        "Python",
-        "Redis",
-        "PLC"
-      ],
-      "location": "서울 강남구",
-      "closeAt": "2026-08-31",
-      "postedAt": "2026-08-02",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "씨메스",
       "title": "Vision Field Application Engineer",
       "url": "https://www.jumpit.co.kr/position/54616481",
       "tags": [
@@ -11248,6 +9544,109 @@
         "JavaScript",
         "Jira",
         "Qt"
+      ],
+      "location": "서울 강남구",
+      "closeAt": "2026-08-31",
+      "postedAt": "2026-08-02",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "씨메스",
+      "title": "[청주] 어플리케이션 소프트웨어 엔지니어",
+      "url": "https://www.jumpit.co.kr/position/54615983",
+      "tags": [
+        "주니어"
+      ],
+      "categories": [],
+      "stacks": [
+        "C",
+        "C++",
+        "JavaScript",
+        "Python"
+      ],
+      "location": "충북 청주시",
+      "closeAt": "2026-08-31",
+      "postedAt": "2026-08-02",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "씨메스",
+      "title": "시스템 기구/HW 설계 엔지니어",
+      "url": "https://www.jumpit.co.kr/position/54616978",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Solidworks"
+      ],
+      "location": "서울 강남구",
+      "closeAt": "2026-08-31",
+      "postedAt": "2026-08-02",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "씨메스",
+      "title": "Robotics Engineer",
+      "url": "https://www.jumpit.co.kr/position/54616460",
+      "tags": [
+        "신입"
+      ],
+      "categories": [],
+      "stacks": [
+        "C++",
+        "Python"
+      ],
+      "location": "서울 강남구",
+      "closeAt": "2026-08-31",
+      "postedAt": "2026-08-02",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "씨메스",
+      "title": "3D Vision & Robot Guidance Engineer",
+      "url": "https://www.jumpit.co.kr/position/54617845",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C++",
+        "Git",
+        "Python"
+      ],
+      "location": "서울 강남구",
+      "closeAt": "2026-08-31",
+      "postedAt": "2026-08-02",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "씨메스",
+      "title": "Backend (Python) 개발자",
+      "url": "https://www.jumpit.co.kr/position/54616506",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C++",
+        "JavaScript",
+        "Python",
+        "React",
+        "FastAPI"
       ],
       "location": "서울 강남구",
       "closeAt": "2026-08-31",
@@ -11328,49 +9727,6 @@
     },
     {
       "source": "jumpit",
-      "company": "씨앤지 마이크로웨이브",
-      "title": "S/W 소프트웨어 개발 - 신입",
-      "url": "https://www.jumpit.co.kr/position/54377716",
-      "tags": [
-        "신입"
-      ],
-      "categories": [],
-      "stacks": [
-        "C#",
-        "WPF",
-        "SW",
-        "Vb.net",
-        ".NET"
-      ],
-      "location": "대전 유성구",
-      "closeAt": "2026-08-06",
-      "postedAt": "2026-07-08",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "씨앤지 마이크로웨이브",
-      "title": "S/W 소프트웨어 설계(경력)",
-      "url": "https://www.jumpit.co.kr/position/54621046",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Linux",
-        "SW",
-        "MCU",
-        "ARM"
-      ],
-      "location": "대전",
-      "closeAt": "2026-08-29",
-      "postedAt": "2026-07-31",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
       "company": "씨어스테크놀로지",
       "title": "백엔드 개발자 경력 채용",
       "url": "https://www.jumpit.co.kr/position/54570841",
@@ -11388,6 +9744,29 @@
       "location": "경기 성남시 분당구",
       "closeAt": "2026-08-26",
       "postedAt": "2026-07-28",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "씨어스테크놀로지",
+      "title": "LLM Developer",
+      "url": "https://www.jumpit.co.kr/position/54576019",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "AWS",
+        "MachineLearning",
+        "AI/인공지능",
+        "GCP",
+        "AZURE",
+        "NLP"
+      ],
+      "location": "경기 성남시 분당구",
+      "closeAt": "2026-08-27",
+      "postedAt": "2026-07-29",
       "employment": "",
       "salary": ""
     },
@@ -11559,30 +9938,6 @@
     {
       "source": "jumpit",
       "company": "아론티어",
-      "title": "AI기반 단백질 디자인 (병역특례)",
-      "url": "https://www.jumpit.co.kr/position/54593772",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Docker",
-        "GitHub",
-        "JavaScript",
-        "Linux",
-        "Python",
-        "React"
-      ],
-      "location": "서울 서초구",
-      "closeAt": "2026-08-27",
-      "postedAt": "2026-07-29",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "아론티어",
       "title": "AI Researcher Scientist (병역특례)",
       "url": "https://www.jumpit.co.kr/position/54593782",
       "tags": [
@@ -11614,6 +9969,51 @@
       "categories": [],
       "stacks": [
         "AI/인공지능"
+      ],
+      "location": "서울 서초구",
+      "closeAt": "2026-08-27",
+      "postedAt": "2026-07-29",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "아론티어",
+      "title": "Computational Protein Design Scientist (병역특례)",
+      "url": "https://www.jumpit.co.kr/position/54593660",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Linux",
+        "Python",
+        "AI/인공지능"
+      ],
+      "location": "서울 서초구",
+      "closeAt": "2026-08-27",
+      "postedAt": "2026-07-29",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "아론티어",
+      "title": "AI기반 단백질 디자인 (병역특례)",
+      "url": "https://www.jumpit.co.kr/position/54593772",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Docker",
+        "GitHub",
+        "JavaScript",
+        "Linux",
+        "Python",
+        "React"
       ],
       "location": "서울 서초구",
       "closeAt": "2026-08-27",
@@ -11990,32 +10390,6 @@
     },
     {
       "source": "wanted",
-      "company": "아우토크립트",
-      "title": "전기차 충전 PnC 개발 [3년 이상]",
-      "url": "https://www.wanted.co.kr/wd/329186",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Java",
-        "Spring Boot",
-        "Spring",
-        "JPA",
-        "MySQL",
-        "MariaDB",
-        "Docker",
-        "Kubernetes"
-      ],
-      "location": "서울",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "wanted",
       "company": "아이들랩",
       "title": "개발 리드 (Tech Lead)",
       "url": "https://www.wanted.co.kr/wd/179315",
@@ -12083,30 +10457,6 @@
     {
       "source": "jumpit",
       "company": "아이벡스",
-      "title": "[전문연구요원]로봇 시스템 비전 소프트웨어 엔지니어",
-      "url": "https://www.jumpit.co.kr/position/54394541",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "C++",
-        "Docker",
-        "Git",
-        "Python",
-        "Ubuntu",
-        "OpenCV"
-      ],
-      "location": "서울 서초구",
-      "closeAt": "2026-08-09",
-      "postedAt": "2026-07-11",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "아이벡스",
       "title": "Frontend Engineer (MLOps, Vision AI Platform)",
       "url": "https://www.jumpit.co.kr/position/54508194",
       "tags": [
@@ -12129,24 +10479,25 @@
     },
     {
       "source": "jumpit",
-      "company": "아이씨티케이홀딩스(ICTK)",
-      "title": "보안칩 SW 개발자",
-      "url": "https://www.jumpit.co.kr/position/54431659",
+      "company": "아이벡스",
+      "title": "[전문연구요원]로봇 시스템 비전 소프트웨어 엔지니어",
+      "url": "https://www.jumpit.co.kr/position/54394541",
       "tags": [
+        "주니어",
         "경력"
       ],
       "categories": [],
       "stacks": [
-        "C",
-        "C#",
         "C++",
-        "FW",
-        "Embedded",
-        "RTOS"
+        "Docker",
+        "Git",
+        "Python",
+        "Ubuntu",
+        "OpenCV"
       ],
-      "location": "서울 강남구",
-      "closeAt": "2026-08-08",
-      "postedAt": "2026-07-10",
+      "location": "서울 서초구",
+      "closeAt": "2026-08-09",
+      "postedAt": "2026-07-11",
       "employment": "",
       "salary": ""
     },
@@ -12188,6 +10539,50 @@
         "C++",
         "Embedded",
         "Embedded Linux"
+      ],
+      "location": "서울 강남구",
+      "closeAt": "2026-08-08",
+      "postedAt": "2026-07-10",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "아이씨티케이홀딩스(ICTK)",
+      "title": "SoC 칩개발",
+      "url": "https://www.jumpit.co.kr/position/54431596",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C",
+        "C++",
+        "Embedded",
+        "Verilog"
+      ],
+      "location": "서울 강남구",
+      "closeAt": "2026-08-08",
+      "postedAt": "2026-07-10",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "아이씨티케이홀딩스(ICTK)",
+      "title": "보안칩 SW 개발자",
+      "url": "https://www.jumpit.co.kr/position/54431659",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C",
+        "C#",
+        "C++",
+        "FW",
+        "Embedded",
+        "RTOS"
       ],
       "location": "서울 강남구",
       "closeAt": "2026-08-08",
@@ -12349,8 +10744,8 @@
         "React"
       ],
       "location": "경기 파주시",
-      "closeAt": "2026-08-30",
-      "postedAt": "2026-07-31",
+      "closeAt": "2026-08-31",
+      "postedAt": "2026-08-01",
       "employment": "",
       "salary": ""
     },
@@ -12412,29 +10807,6 @@
     {
       "source": "jumpit",
       "company": "아이제라",
-      "title": "AI Agent 개발자 (오산)",
-      "url": "https://www.jumpit.co.kr/position/54615820",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Django",
-        "Next.js",
-        "Node.js",
-        "PostgreSQL",
-        "Python",
-        "React"
-      ],
-      "location": "경기 오산시",
-      "closeAt": "2026-08-31",
-      "postedAt": "2026-08-02",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "아이제라",
       "title": "시니어 에이전틱 AI 엔지니어 (오산)",
       "url": "https://www.jumpit.co.kr/position/54615615",
       "tags": [
@@ -12448,6 +10820,29 @@
         "PyTorch",
         "AI/인공지능",
         "OpenAPI"
+      ],
+      "location": "경기 오산시",
+      "closeAt": "2026-08-31",
+      "postedAt": "2026-08-02",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "아이제라",
+      "title": "AI Agent 개발자 (오산)",
+      "url": "https://www.jumpit.co.kr/position/54615820",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Django",
+        "Next.js",
+        "Node.js",
+        "PostgreSQL",
+        "Python",
+        "React"
       ],
       "location": "경기 오산시",
       "closeAt": "2026-08-31",
@@ -12504,29 +10899,6 @@
     {
       "source": "jumpit",
       "company": "아이제라",
-      "title": "AI 엔지니어 (거제)",
-      "url": "https://www.jumpit.co.kr/position/54615833",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "C++",
-        "Python",
-        "PyTorch",
-        "REST API",
-        "AI/인공지능",
-        "DB"
-      ],
-      "location": "경남 거제시",
-      "closeAt": "2026-08-31",
-      "postedAt": "2026-08-02",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "아이제라",
       "title": "AI 에이전트 엔지니어 (5년차~)",
       "url": "https://www.jumpit.co.kr/position/54505496",
       "tags": [
@@ -12565,6 +10937,52 @@
         "PLC"
       ],
       "location": "서울 금천구",
+      "closeAt": "2026-08-31",
+      "postedAt": "2026-08-02",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "아이제라",
+      "title": "시니어 AI 솔루션 엔지니어 (오산)",
+      "url": "https://www.jumpit.co.kr/position/54615657",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C++",
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "OpenCV",
+        "PLC"
+      ],
+      "location": "경기 오산시",
+      "closeAt": "2026-08-31",
+      "postedAt": "2026-08-02",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "아이제라",
+      "title": "시니어 AI 솔루션 엔지니어 (대구)",
+      "url": "https://www.jumpit.co.kr/position/54615744",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C++",
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "OpenCV",
+        "PLC"
+      ],
+      "location": "대구 서구",
       "closeAt": "2026-08-31",
       "postedAt": "2026-08-02",
       "employment": "",
@@ -13444,24 +11862,6 @@
       "salary": ""
     },
     {
-      "source": "jumpit",
-      "company": "어보브반도체",
-      "title": "Automotive MCU Engineer(경력)",
-      "url": "https://www.jumpit.co.kr/position/54621179",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "MCU"
-      ],
-      "location": "서울 강남구",
-      "closeAt": "2026-08-27",
-      "postedAt": "2026-07-29",
-      "employment": "",
-      "salary": ""
-    },
-    {
       "source": "wanted",
       "company": "어쎈드",
       "title": "Product Engineer (AI/LLM 기반 리서치 프로덕트)",
@@ -13631,30 +12031,6 @@
       "salary": ""
     },
     {
-      "source": "jumpit",
-      "company": "에너자이",
-      "title": "AI 컴파일러 엔지니어",
-      "url": "https://www.jumpit.co.kr/position/54610529",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "C",
-        "C++",
-        "Haskell",
-        "Python",
-        "PyTorch",
-        "Scala"
-      ],
-      "location": "서울 강남구",
-      "closeAt": "2026-08-30",
-      "postedAt": "2026-08-01",
-      "employment": "",
-      "salary": ""
-    },
-    {
       "source": "wanted",
       "company": "에버온",
       "title": "플랫폼 백엔드 개발자 (API/Gateway/BFF담당)",
@@ -13701,10 +12077,9 @@
     {
       "source": "jumpit",
       "company": "에스디바이오센서",
-      "title": "SW 개발자(3~9년)",
-      "url": "https://www.jumpit.co.kr/position/54646879",
+      "title": "SW 개발자(10~15년)",
+      "url": "https://www.jumpit.co.kr/position/54646893",
       "tags": [
-        "주니어",
         "경력"
       ],
       "categories": [],
@@ -13741,47 +12116,6 @@
       "location": "서울 강남구",
       "closeAt": "2026-08-11",
       "postedAt": "2026-07-13",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "에스시지주식회사",
-      "title": "Java 백엔드 개발자 채용 공고",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54619247",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "전남광주",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "에스투더블유",
-      "title": "정보보호담당자 (ISO)",
-      "url": "https://www.jumpit.co.kr/position/54486880",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Confluence",
-        "Jira",
-        "AWS",
-        "GCP",
-        "AZURE",
-        "ISMS"
-      ],
-      "location": "경기 성남시 분당구",
-      "closeAt": "2026-08-14",
-      "postedAt": "2026-07-16",
       "employment": "",
       "salary": ""
     },
@@ -13835,11 +12169,58 @@
     },
     {
       "source": "jumpit",
-      "company": "에스피코리아",
-      "title": "백엔드 개발자(4~6년)",
-      "url": "https://www.jumpit.co.kr/position/54552128",
+      "company": "에스투더블유",
+      "title": "멀웨어 분석가 (Malware Analyst)",
+      "url": "https://www.jumpit.co.kr/position/54462541",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C",
+        "C++",
+        "Docker",
+        "Git",
+        "Go",
+        "Jira"
+      ],
+      "location": "경기 성남시 분당구",
+      "closeAt": "2026-08-12",
+      "postedAt": "2026-07-14",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "에스투더블유",
+      "title": "정보보호담당자 (ISO)",
+      "url": "https://www.jumpit.co.kr/position/54486880",
       "tags": [
         "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Confluence",
+        "Jira",
+        "AWS",
+        "GCP",
+        "AZURE",
+        "ISMS"
+      ],
+      "location": "경기 성남시 분당구",
+      "closeAt": "2026-08-14",
+      "postedAt": "2026-07-16",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "에스피코리아",
+      "title": "백엔드 개발자(1~3년)",
+      "url": "https://www.jumpit.co.kr/position/54552121",
+      "tags": [
+        "주니어"
       ],
       "categories": [],
       "stacks": [
@@ -13859,10 +12240,10 @@
     {
       "source": "jumpit",
       "company": "에스피코리아",
-      "title": "백엔드 개발자(1~3년)",
-      "url": "https://www.jumpit.co.kr/position/54552121",
+      "title": "백엔드 개발자(4~6년)",
+      "url": "https://www.jumpit.co.kr/position/54552128",
       "tags": [
-        "주니어"
+        "경력"
       ],
       "categories": [],
       "stacks": [
@@ -13905,29 +12286,6 @@
     {
       "source": "jumpit",
       "company": "에스피코리아",
-      "title": "게임 개발자(7년 이상)",
-      "url": "https://www.jumpit.co.kr/position/54552101",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Java",
-        "MariaDB",
-        "MySQL",
-        "NGINX",
-        "Node.js",
-        "Swift"
-      ],
-      "location": "서울 강서구",
-      "closeAt": "2026-08-24",
-      "postedAt": "2026-07-26",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "에스피코리아",
       "title": "게임 개발자(1~3년)",
       "url": "https://www.jumpit.co.kr/position/54552082",
       "tags": [
@@ -13953,6 +12311,29 @@
       "company": "에스피코리아",
       "title": "게임 개발자(4~6년)",
       "url": "https://www.jumpit.co.kr/position/54552093",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Java",
+        "MariaDB",
+        "MySQL",
+        "NGINX",
+        "Node.js",
+        "Swift"
+      ],
+      "location": "서울 강서구",
+      "closeAt": "2026-08-24",
+      "postedAt": "2026-07-26",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "에스피코리아",
+      "title": "게임 개발자(7년 이상)",
+      "url": "https://www.jumpit.co.kr/position/54552101",
       "tags": [
         "경력"
       ],
@@ -14267,6 +12648,30 @@
     {
       "source": "jumpit",
       "company": "에이스웍스코리아",
+      "title": "소프트웨어 엔지니어",
+      "url": "https://www.jumpit.co.kr/position/54475987",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C#",
+        "C++",
+        "Git",
+        "Python",
+        "XML",
+        "JSON"
+      ],
+      "location": "서울 강남구",
+      "closeAt": "2026-08-13",
+      "postedAt": "2026-07-15",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "에이스웍스코리아",
       "title": "자율주행 플랫폼 소프트웨어 엔지니어",
       "url": "https://www.jumpit.co.kr/position/54483582",
       "tags": [
@@ -14286,30 +12691,6 @@
       "location": "서울 강남구",
       "closeAt": "2026-08-16",
       "postedAt": "2026-07-18",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "에이스웍스코리아",
-      "title": "소프트웨어 엔지니어",
-      "url": "https://www.jumpit.co.kr/position/54475987",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "C#",
-        "C++",
-        "Git",
-        "Python",
-        "XML",
-        "JSON"
-      ],
-      "location": "서울 강남구",
-      "closeAt": "2026-08-13",
-      "postedAt": "2026-07-15",
       "employment": "",
       "salary": ""
     },
@@ -14583,88 +12964,6 @@
     },
     {
       "source": "wanted",
-      "company": "에이치아이티",
-      "title": "풀스택 Nest.js 서버 개발, React 및 Flutter web 개발",
-      "url": "https://www.wanted.co.kr/wd/370193",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [
-        "솔루션"
-      ],
-      "stacks": [
-        "MySQL",
-        "Redis",
-        "AWS",
-        "Docker",
-        "Node.js",
-        "NestJS",
-        "TypeScript"
-      ],
-      "location": "서울",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "에이치엔아이엑스(주)",
-      "title": "[HNIX] AI/백엔드개발자 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54551996",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 중구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "에이치원래디오",
-      "title": "Wi-Fi H/W 개발(3~10년)",
-      "url": "https://www.jumpit.co.kr/position/54516674",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Pads"
-      ],
-      "location": "경기 안양시 동안구",
-      "closeAt": "2026-08-20",
-      "postedAt": "2026-07-22",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "에이치원래디오",
-      "title": "Wi-Fi S/W 개발(7~10년)",
-      "url": "https://www.jumpit.co.kr/position/54516579",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "C",
-        "L2",
-        "Embedded Linux"
-      ],
-      "location": "경기 안양시 동안구",
-      "closeAt": "2026-08-20",
-      "postedAt": "2026-07-22",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "wanted",
       "company": "에이티씨아이",
       "title": "Software Engineer (AI Agent부문)",
       "url": "https://www.wanted.co.kr/wd/349626",
@@ -14719,6 +13018,25 @@
     {
       "source": "jumpit",
       "company": "에코트로닉스",
+      "title": "해상용 레이다 스캐너 신호처리(FPGA) 엔지니어(5년 이상)",
+      "url": "https://www.jumpit.co.kr/position/54646931",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Verilog",
+        "VHDL"
+      ],
+      "location": "경기 성남시",
+      "closeAt": "2026-09-02",
+      "postedAt": "2026-08-04",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "에코트로닉스",
       "title": "로봇 소프트웨어 개발자 채용 공고",
       "url": "https://www.jumpit.co.kr/position/54647438",
       "tags": [
@@ -14736,27 +13054,6 @@
       "location": "경기 성남시",
       "closeAt": "2026-09-02",
       "postedAt": "2026-08-04",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "에티포스",
-      "title": "C-ITS / V2X SW 엔지니어(시니어) 채용",
-      "url": "https://www.jumpit.co.kr/position/54583198",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "C",
-        "Linux",
-        "Embedded",
-        "SW"
-      ],
-      "location": "경기 성남시 분당구",
-      "closeAt": "2026-08-27",
-      "postedAt": "2026-07-29",
       "employment": "",
       "salary": ""
     },
@@ -14816,47 +13113,6 @@
       "title": "하드웨어 개발자 (경력 13~20년)",
       "url": "https://www.jumpit.co.kr/position/54391162",
       "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "HW",
-        "SMPS",
-        "Analog"
-      ],
-      "location": "경기 김포시",
-      "closeAt": "2026-08-05",
-      "postedAt": "2026-07-07",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "에프에스케이",
-      "title": "하드웨어 개발자 (경력 8~12년)",
-      "url": "https://www.jumpit.co.kr/position/54391142",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "HW",
-        "SMPS",
-        "Analog"
-      ],
-      "location": "경기 김포시",
-      "closeAt": "2026-08-05",
-      "postedAt": "2026-07-07",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "에프에스케이",
-      "title": "하드웨어 개발자 (경력 3~7년)",
-      "url": "https://www.jumpit.co.kr/position/54391117",
-      "tags": [
-        "주니어",
         "경력"
       ],
       "categories": [],
@@ -14941,58 +13197,6 @@
       "salary": ""
     },
     {
-      "source": "jumpit",
-      "company": "엔쓰리엔",
-      "title": "[개발본부]클라우드 PM (12~17년)",
-      "url": "https://www.jumpit.co.kr/position/54582342",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Azure DevOps"
-      ],
-      "location": "서울 강남구",
-      "closeAt": "2026-08-28",
-      "postedAt": "2026-07-30",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "엔쓰리엔",
-      "title": "[개발본부]클라우드 PM (7~11년)",
-      "url": "https://www.jumpit.co.kr/position/54486689",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Azure DevOps"
-      ],
-      "location": "서울 강남구",
-      "closeAt": "2026-08-17",
-      "postedAt": "2026-07-19",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "엔에이치엔두레이(주)",
-      "title": "[NHN Dooray] 백엔드개발",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54594694",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "경기 성남시",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
       "source": "jobkorea",
       "company": "엔에이치엔두레이㈜",
       "title": "백엔드개발",
@@ -15003,23 +13207,6 @@
       "categories": [],
       "stacks": [],
       "location": "경기 성남시포",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jobkorea",
-      "company": "엔에이치엔케이씨피㈜",
-      "title": "[NHN KCP] Java 백엔드 웹개발 담당",
-      "url": "https://www.jobkorea.co.kr/Recruit/GI_Read/49566980",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 구로구솔",
       "closeAt": "",
       "postedAt": "",
       "employment": "",
@@ -15166,26 +13353,6 @@
     {
       "source": "jumpit",
       "company": "엔클로니",
-      "title": "멀티카메라 영상처리 시스템 개발자 채용",
-      "url": "https://www.jumpit.co.kr/position/54529927",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "C++",
-        "Windows",
-        "FFMPEG"
-      ],
-      "location": "서울 구로구",
-      "closeAt": "2026-08-21",
-      "postedAt": "2026-07-23",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "엔클로니",
       "title": "[C/C++, C#] 검사장비 고속 제어 및 비전 SW 개발자 채용 (경력)",
       "url": "https://www.jumpit.co.kr/position/54607673",
       "tags": [
@@ -15314,45 +13481,6 @@
     },
     {
       "source": "jumpit",
-      "company": "엘씨텍",
-      "title": "[판교]S/W, F/W 경력사원(경력5년↑)",
-      "url": "https://www.jumpit.co.kr/position/54554938",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Orcad",
-        "FPGA"
-      ],
-      "location": "경기 성남시 분당구",
-      "closeAt": "2026-08-22",
-      "postedAt": "2026-07-24",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "엘씨텍",
-      "title": "H/W 경력사원 (5~10년)",
-      "url": "https://www.jumpit.co.kr/position/54555430",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Orcad",
-        "RF",
-        "PCB"
-      ],
-      "location": "경북 구미시",
-      "closeAt": "2026-08-22",
-      "postedAt": "2026-07-24",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
       "company": "엘아이지시스템",
       "title": "TA(Techical Achitect) 경력 채용",
       "url": "https://www.jumpit.co.kr/position/54618343",
@@ -15430,60 +13558,12 @@
       "salary": ""
     },
     {
-      "source": "wanted",
-      "company": "엣지크로스",
-      "title": "AIoT 서비스 백앤드 개발자 (3년 이상)",
-      "url": "https://www.wanted.co.kr/wd/338476",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [
-        "플랫폼"
-      ],
-      "stacks": [
-        "Java",
-        "Spring",
-        "JPA",
-        "Kafka",
-        "AWS",
-        "Docker"
-      ],
-      "location": "서울",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
       "source": "jumpit",
       "company": "연합인포맥스",
       "title": "IT/AI부문(전문연구요원 포함)신입",
       "url": "https://www.jumpit.co.kr/position/54631149",
       "tags": [
         "신입"
-      ],
-      "categories": [],
-      "stacks": [
-        "Azure DevOps",
-        "Python",
-        "AWS",
-        "GCP",
-        "AZURE"
-      ],
-      "location": "서울 종로구",
-      "closeAt": "2026-09-01",
-      "postedAt": "2026-08-03",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "연합인포맥스",
-      "title": "IT/AI부문(전문연구요원포함)경력(1~3)",
-      "url": "https://www.jumpit.co.kr/position/54631124",
-      "tags": [
-        "경력"
       ],
       "categories": [],
       "stacks": [
@@ -15729,30 +13809,6 @@
     {
       "source": "jumpit",
       "company": "오투플러스",
-      "title": "Back-end 개발자",
-      "url": "https://www.jumpit.co.kr/position/54450549",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Elasticsearch",
-        "Laravel",
-        "MySQL",
-        "PHP",
-        "RabbitMQ",
-        "RDB"
-      ],
-      "location": "경기 용인시 수지구",
-      "closeAt": "2026-08-13",
-      "postedAt": "2026-07-15",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "오투플러스",
       "title": "프론트엔드 개발자",
       "url": "https://www.jumpit.co.kr/position/54450560",
       "tags": [
@@ -15767,6 +13823,52 @@
         "Vue.js",
         "vuex",
         "REST API"
+      ],
+      "location": "경기 용인시 수지구",
+      "closeAt": "2026-08-13",
+      "postedAt": "2026-07-15",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "오투플러스",
+      "title": "개발PM",
+      "url": "https://www.jumpit.co.kr/position/54450493",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Docker",
+        "Java",
+        "PHP",
+        "React",
+        "Redis Cloud"
+      ],
+      "location": "경기 용인시 수지구",
+      "closeAt": "2026-08-13",
+      "postedAt": "2026-07-15",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "오투플러스",
+      "title": "Back-end 개발자",
+      "url": "https://www.jumpit.co.kr/position/54450549",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Elasticsearch",
+        "Laravel",
+        "MySQL",
+        "PHP",
+        "RabbitMQ",
+        "RDB"
       ],
       "location": "경기 용인시 수지구",
       "closeAt": "2026-08-13",
@@ -15952,26 +14054,6 @@
     {
       "source": "jumpit",
       "company": "오픈엣지테크놀로지",
-      "title": "[NPU]RTL Design Engineer",
-      "url": "https://www.jumpit.co.kr/position/54588315",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "C",
-        "Python",
-        "Verilog"
-      ],
-      "location": "서울 강남구",
-      "closeAt": "2026-08-26",
-      "postedAt": "2026-07-28",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "오픈엣지테크놀로지",
       "title": "[NPU] Compiler Engineer",
       "url": "https://www.jumpit.co.kr/position/54588057",
       "tags": [
@@ -16002,6 +14084,48 @@
       "categories": [],
       "stacks": [
         "C"
+      ],
+      "location": "서울 강남구",
+      "closeAt": "2026-08-26",
+      "postedAt": "2026-07-28",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "오픈엣지테크놀로지",
+      "title": "[Network-on-Chip]RTL Design Engineer",
+      "url": "https://www.jumpit.co.kr/position/54588262",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C",
+        "Python",
+        "Verilog"
+      ],
+      "location": "서울 강남구",
+      "closeAt": "2026-08-26",
+      "postedAt": "2026-07-28",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "오픈엣지테크놀로지",
+      "title": "[DRAM PHY] Digital Engineer",
+      "url": "https://www.jumpit.co.kr/position/54588067",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C",
+        "Python",
+        "Verilog"
       ],
       "location": "서울 강남구",
       "closeAt": "2026-08-26",
@@ -16070,6 +14194,44 @@
       "stacks": [
         "Python",
         "Solidworks"
+      ],
+      "location": "경기 시흥시",
+      "closeAt": "2026-08-17",
+      "postedAt": "2026-07-19",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "옵토전자",
+      "title": "연구소 회로설계 채용",
+      "url": "https://www.jumpit.co.kr/position/54487099",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Python",
+        "MCU"
+      ],
+      "location": "경기 시흥시",
+      "closeAt": "2026-08-17",
+      "postedAt": "2026-07-19",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "옵토전자",
+      "title": "기술연구소 대졸 신입 채용(광학설계)",
+      "url": "https://www.jumpit.co.kr/position/54487088",
+      "tags": [
+        "신입"
+      ],
+      "categories": [],
+      "stacks": [
+        "Python"
       ],
       "location": "경기 시흥시",
       "closeAt": "2026-08-17",
@@ -16255,6 +14417,30 @@
       "salary": ""
     },
     {
+      "source": "jumpit",
+      "company": "와탭랩스",
+      "title": "보안 제품 기획/설계",
+      "url": "https://www.jumpit.co.kr/position/54621081",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Java",
+        "Python",
+        "AWS",
+        "GCP",
+        "AZURE",
+        "CISSP"
+      ],
+      "location": "서울 서초구",
+      "closeAt": "2026-08-10",
+      "postedAt": "2026-07-12",
+      "employment": "",
+      "salary": ""
+    },
+    {
       "source": "wanted",
       "company": "와탭랩스(WhaTapLabs)",
       "title": "LLM Observability 개발자",
@@ -16391,6 +14577,29 @@
       "salary": ""
     },
     {
+      "source": "jumpit",
+      "company": "우리엔",
+      "title": "Windows Application 개발자 (C/C++)",
+      "url": "https://www.jumpit.co.kr/position/54634966",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C",
+        "C++",
+        "REST API",
+        "SQL",
+        "TCP/IP",
+        "Delphi"
+      ],
+      "location": "경기 화성시",
+      "closeAt": "2026-09-01",
+      "postedAt": "2026-08-03",
+      "employment": "",
+      "salary": ""
+    },
+    {
       "source": "wanted",
       "company": "우아한형제들(배달의민족)",
       "title": "플랫폼엔지니어링(배포시스템)",
@@ -16510,50 +14719,6 @@
     {
       "source": "jumpit",
       "company": "원익로보틱스",
-      "title": "로봇핸드 제어 엔지니어",
-      "url": "https://www.jumpit.co.kr/position/54408552",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "C",
-        "C++",
-        "Python",
-        "ethernet"
-      ],
-      "location": "경기 성남시 분당구",
-      "closeAt": "2026-08-06",
-      "postedAt": "2026-07-08",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "원익로보틱스",
-      "title": "로봇핸드 AI 기술개발",
-      "url": "https://www.jumpit.co.kr/position/54408524",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "C++",
-        "Linux",
-        "Python",
-        "PyTorch",
-        "TensorFlow",
-        "AI/인공지능"
-      ],
-      "location": "경기 성남시 분당구",
-      "closeAt": "2026-08-06",
-      "postedAt": "2026-07-08",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "원익로보틱스",
       "title": "Application SW 개발",
       "url": "https://www.jumpit.co.kr/position/54408533",
       "tags": [
@@ -16597,41 +14762,45 @@
     },
     {
       "source": "jumpit",
-      "company": "원익피앤이",
-      "title": "F/W개발(MCU) (경력 11~15년)",
-      "url": "https://www.jumpit.co.kr/position/54429347",
+      "company": "원익로보틱스",
+      "title": "로봇핸드 제어 엔지니어",
+      "url": "https://www.jumpit.co.kr/position/54408552",
       "tags": [
         "경력"
       ],
       "categories": [],
       "stacks": [
         "C",
-        "FW",
-        "MCU"
+        "C++",
+        "Python",
+        "ethernet"
       ],
-      "location": "경기 수원시",
-      "closeAt": "2026-08-08",
-      "postedAt": "2026-07-10",
+      "location": "경기 성남시 분당구",
+      "closeAt": "2026-08-06",
+      "postedAt": "2026-07-08",
       "employment": "",
       "salary": ""
     },
     {
       "source": "jumpit",
-      "company": "원익피앤이",
-      "title": "F/W개발(MCU) (경력 8~10년)",
-      "url": "https://www.jumpit.co.kr/position/54429353",
+      "company": "원익로보틱스",
+      "title": "로봇핸드 AI 기술개발",
+      "url": "https://www.jumpit.co.kr/position/54408524",
       "tags": [
         "경력"
       ],
       "categories": [],
       "stacks": [
-        "C",
-        "FW",
-        "MCU"
+        "C++",
+        "Linux",
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "AI/인공지능"
       ],
-      "location": "경기 수원시",
-      "closeAt": "2026-08-08",
-      "postedAt": "2026-07-10",
+      "location": "경기 성남시 분당구",
+      "closeAt": "2026-08-06",
+      "postedAt": "2026-07-08",
       "employment": "",
       "salary": ""
     },
@@ -16642,6 +14811,26 @@
       "url": "https://www.jumpit.co.kr/position/54429364",
       "tags": [
         "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C",
+        "FW",
+        "MCU"
+      ],
+      "location": "경기 수원시",
+      "closeAt": "2026-08-08",
+      "postedAt": "2026-07-10",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "원익피앤이",
+      "title": "F/W개발(MCU) (경력 11~15년)",
+      "url": "https://www.jumpit.co.kr/position/54429347",
+      "tags": [
         "경력"
       ],
       "categories": [],
@@ -16697,26 +14886,6 @@
       "location": "서울 강서구",
       "closeAt": "2026-08-26",
       "postedAt": "2026-07-28",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "위드네트웍스",
-      "title": "보안솔루션 엔지니어",
-      "url": "https://www.jumpit.co.kr/position/54503104",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Python",
-        "REST API"
-      ],
-      "location": "서울 강서구",
-      "closeAt": "2026-08-18",
-      "postedAt": "2026-07-20",
       "employment": "",
       "salary": ""
     },
@@ -17162,29 +15331,6 @@
     {
       "source": "jumpit",
       "company": "이너버스",
-      "title": "백엔드 개발자 (시니어)",
-      "url": "https://www.jumpit.co.kr/position/54586069",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Docker",
-        "Elasticsearch",
-        "Gradle",
-        "Java",
-        "Linux",
-        "Python"
-      ],
-      "location": "서울 영등포구",
-      "closeAt": "2026-08-26",
-      "postedAt": "2026-07-28",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "이너버스",
       "title": "백엔드 개발자 (신입)",
       "url": "https://www.jumpit.co.kr/position/54586009",
       "tags": [
@@ -17226,6 +15372,52 @@
       "location": "서울 영등포구",
       "closeAt": "2026-08-26",
       "postedAt": "2026-07-28",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "이너버스",
+      "title": "백엔드 개발자 (시니어)",
+      "url": "https://www.jumpit.co.kr/position/54586069",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Docker",
+        "Elasticsearch",
+        "Gradle",
+        "Java",
+        "Linux",
+        "Python"
+      ],
+      "location": "서울 영등포구",
+      "closeAt": "2026-08-26",
+      "postedAt": "2026-07-28",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "이너버스",
+      "title": "통합보안관리 엔지니어(경력)",
+      "url": "https://www.jumpit.co.kr/position/54618106",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Docker",
+        "Elasticsearch",
+        "Kafka",
+        "Linux",
+        "Python",
+        "vmware"
+      ],
+      "location": "서울 영등포구",
+      "closeAt": "2026-08-30",
+      "postedAt": "2026-08-01",
       "employment": "",
       "salary": ""
     },
@@ -17282,22 +15474,6 @@
       "closeAt": "",
       "postedAt": "",
       "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "이너뷰",
-      "title": "[이너뷰] Node.js 백엔드 개발자 경력직 모집(4.5일제 운영)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54631871",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 구로구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
       "salary": ""
     },
     {
@@ -17370,28 +15546,12 @@
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "이도에코원(주)",
-      "title": "이도에스테이트 IT사업팀 백엔드 / 웹 개발 채용 (단기계약직)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54552725",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 중구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "계약직",
-      "salary": ""
-    },
-    {
       "source": "jumpit",
       "company": "이랜텍",
-      "title": "본사(동탄) 배터리팩 S/W개발자 경력",
-      "url": "https://www.jumpit.co.kr/position/54599976",
+      "title": "본사(동탄) 배터리팩 S/W개발자 신입",
+      "url": "https://www.jumpit.co.kr/position/54599964",
       "tags": [
-        "경력"
+        "신입"
       ],
       "categories": [],
       "stacks": [
@@ -17411,10 +15571,10 @@
     {
       "source": "jumpit",
       "company": "이랜텍",
-      "title": "본사(동탄) 배터리팩 S/W개발자 신입",
-      "url": "https://www.jumpit.co.kr/position/54599964",
+      "title": "본사(동탄) 배터리팩 S/W개발자 경력",
+      "url": "https://www.jumpit.co.kr/position/54599976",
       "tags": [
-        "신입"
+        "경력"
       ],
       "categories": [],
       "stacks": [
@@ -17872,6 +16032,30 @@
       "salary": ""
     },
     {
+      "source": "jumpit",
+      "company": "인아텍앤코포",
+      "title": "스마트팩토리 자율주행로봇 S/W개발",
+      "url": "https://www.jumpit.co.kr/position/54614532",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C++",
+        "Git",
+        "Linux",
+        "Python",
+        "OpenCV",
+        "AI/인공지능"
+      ],
+      "location": "인천",
+      "closeAt": "2026-08-31",
+      "postedAt": "2026-08-02",
+      "employment": "",
+      "salary": ""
+    },
+    {
       "source": "wanted",
       "company": "인이지",
       "title": "소프트웨어 엔지니어 미들/시니어",
@@ -18043,26 +16227,6 @@
       "location": "서울",
       "closeAt": "",
       "postedAt": "",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "인텍에프에이",
-      "title": "전기· 시스템 설계 경력 채용",
-      "url": "https://www.jumpit.co.kr/position/54586967",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Orcad",
-        "HW",
-        "Pads"
-      ],
-      "location": "경기 용인시",
-      "closeAt": "2026-08-26",
-      "postedAt": "2026-07-28",
       "employment": "",
       "salary": ""
     },
@@ -18474,6 +16638,27 @@
     {
       "source": "jumpit",
       "company": "인피닉",
+      "title": "[수원/IVI] SW 테스트 엔지니어(QA) 경력 채용",
+      "url": "https://www.jumpit.co.kr/position/54534366",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C++",
+        "Python",
+        "QA",
+        "SW"
+      ],
+      "location": "경기 수원시 영통구",
+      "closeAt": "2026-08-21",
+      "postedAt": "2026-07-23",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "인피닉",
       "title": "AI 응용개발 경력직 채용",
       "url": "https://www.jumpit.co.kr/position/54505775",
       "tags": [
@@ -18498,48 +16683,6 @@
       "company": "인피닉",
       "title": "[수원/AVN] SW 테스트 엔지니어(QA) 경력 채용",
       "url": "https://www.jumpit.co.kr/position/54534370",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "C++",
-        "Python",
-        "QA",
-        "SW"
-      ],
-      "location": "경기 수원시 영통구",
-      "closeAt": "2026-08-21",
-      "postedAt": "2026-07-23",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "인피닉",
-      "title": "[수원/OTA] SW 테스트 엔지니어(QA) 경력 채용",
-      "url": "https://www.jumpit.co.kr/position/54534358",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "C++",
-        "Python",
-        "QA",
-        "SW"
-      ],
-      "location": "경기 수원시 영통구",
-      "closeAt": "2026-08-21",
-      "postedAt": "2026-07-23",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "인피닉",
-      "title": "[수원/IVI] SW 테스트 엔지니어(QA) 경력 채용",
-      "url": "https://www.jumpit.co.kr/position/54534366",
       "tags": [
         "경력"
       ],
@@ -18718,24 +16861,6 @@
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "정유니브(주)",
-      "title": "[신입/경력] Spring Boot 보안 백엔드 개발자 모집",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54477120",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "부산 남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
       "source": "wanted",
       "company": "제네시스네스트",
       "title": "Flutter App 개발자 (1년~8년)",
@@ -18873,6 +16998,24 @@
       "location": "서울",
       "closeAt": "",
       "postedAt": "",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "제이브이엠",
+      "title": "제어팀 설계변경/양산기술",
+      "url": "https://www.jumpit.co.kr/position/54584442",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Orcad"
+      ],
+      "location": "대구",
+      "closeAt": "2026-08-27",
+      "postedAt": "2026-07-29",
       "employment": "",
       "salary": ""
     },
@@ -19123,23 +17266,6 @@
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "주식회사 버넥트",
-      "title": "[VIRNECT] 백엔드 개발자 채용(3년차이상)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54352654",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 용산구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
       "source": "jobkorea",
       "company": "주식회사 빗썸",
       "title": "[빗썸] Backend Engineer(빗썸페이)",
@@ -19179,23 +17305,6 @@
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "주식회사 셈웨어",
-      "title": "[셈웨어] 백엔드 개발자 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54642393",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 금천구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
       "source": "jobkorea",
       "company": "주식회사 솔트룩스",
       "title": "[AI서비스사업본부] 블록체인·스테이블코인 백엔드 개발자 채용",
@@ -19231,42 +17340,6 @@
       "closeAt": "",
       "postedAt": "",
       "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "주식회사슈튜(SyuTyu)",
-      "title": "함께하실 Backend(백엔드)개발자 모집합니다.",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54503019",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 영등포구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "주식회사코드아펙스에이아이",
-      "title": "AI 백엔드 개발자 인턴 (정규직 전환형)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54559344",
-      "tags": [
-        "인턴",
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "부산 해운대구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "인턴",
       "salary": ""
     },
     {
@@ -19509,28 +17582,33 @@
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "지티원(주)",
-      "title": "백엔드 개발자 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54465231",
+      "source": "jumpit",
+      "company": "지피에이코리아",
+      "title": "개발팀 팀장",
+      "url": "https://www.jumpit.co.kr/position/54544779",
       "tags": [
-        "신입",
-        "주니어",
         "경력"
       ],
       "categories": [],
-      "stacks": [],
-      "location": "서울 영등포구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
+      "stacks": [
+        "Amazon EC2",
+        "Android OS",
+        "Flutter",
+        "iOS",
+        "Java",
+        "JavaScript"
+      ],
+      "location": "서울 강남구",
+      "closeAt": "2026-08-21",
+      "postedAt": "2026-07-23",
+      "employment": "",
       "salary": ""
     },
     {
       "source": "jumpit",
       "company": "지피에이코리아",
-      "title": "개발팀 팀장",
-      "url": "https://www.jumpit.co.kr/position/54544779",
+      "title": "풀스택 고급 개발자",
+      "url": "https://www.jumpit.co.kr/position/54544907",
       "tags": [
         "경력"
       ],
@@ -19571,47 +17649,6 @@
       "closeAt": "2026-08-21",
       "postedAt": "2026-07-23",
       "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "지피에이코리아",
-      "title": "풀스택 고급 개발자",
-      "url": "https://www.jumpit.co.kr/position/54544907",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Amazon EC2",
-        "Android OS",
-        "Flutter",
-        "iOS",
-        "Java",
-        "JavaScript"
-      ],
-      "location": "서울 강남구",
-      "closeAt": "2026-08-21",
-      "postedAt": "2026-07-23",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "진수랩스 주식회사",
-      "title": "회계세무 파이썬 백엔드 개발자 채용 공고",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54596353",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 영등포구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
       "salary": ""
     },
     {
@@ -19744,28 +17781,6 @@
     {
       "source": "jumpit",
       "company": "채비",
-      "title": "UI 개발(대리~과장급)",
-      "url": "https://www.jumpit.co.kr/position/54474948",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "C#",
-        "Linux",
-        "Windows",
-        "WPF",
-        "SW"
-      ],
-      "location": "서울 서초구",
-      "closeAt": "2026-08-13",
-      "postedAt": "2026-07-15",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "채비",
       "title": "제품개발실 실장 채용",
       "url": "https://www.jumpit.co.kr/position/54522039",
       "tags": [
@@ -19804,6 +17819,72 @@
       "location": "서울 서초구",
       "closeAt": "2026-09-01",
       "postedAt": "2026-08-03",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "채비",
+      "title": "SW품질 보증 엔지니어",
+      "url": "https://www.jumpit.co.kr/position/54620947",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C#",
+        "Windows",
+        "WPF",
+        "SW"
+      ],
+      "location": "대구 수성구",
+      "closeAt": "2026-09-01",
+      "postedAt": "2026-08-03",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "채비",
+      "title": "UI 개발(과장~차장급)",
+      "url": "https://www.jumpit.co.kr/position/54620916",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C#",
+        "Linux",
+        "Windows",
+        "WPF",
+        "SW"
+      ],
+      "location": "서울 서초구",
+      "closeAt": "2026-09-01",
+      "postedAt": "2026-08-03",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "채비",
+      "title": "UI 개발(대리~과장급)",
+      "url": "https://www.jumpit.co.kr/position/54474948",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C#",
+        "Linux",
+        "Windows",
+        "WPF",
+        "SW"
+      ],
+      "location": "서울 서초구",
+      "closeAt": "2026-08-13",
+      "postedAt": "2026-07-15",
       "employment": "",
       "salary": ""
     },
@@ -20159,6 +18240,30 @@
       "location": "서울 강남구",
       "closeAt": "2026-08-07",
       "postedAt": "2026-07-09",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "캠틱종합기술원",
+      "title": "R&BD사업본부 피지컬 AI VLA 기반 로봇 제어 연구개발자",
+      "url": "https://www.jumpit.co.kr/position/54463673",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C++",
+        "Python",
+        "PyTorch",
+        "TensorFlow",
+        "Ajax",
+        "CUDA"
+      ],
+      "location": "전북 전주시",
+      "closeAt": "2026-08-12",
+      "postedAt": "2026-07-14",
       "employment": "",
       "salary": ""
     },
@@ -20700,29 +18805,6 @@
     {
       "source": "jumpit",
       "company": "코보시스",
-      "title": "C# 개발자",
-      "url": "https://www.jumpit.co.kr/position/54621364",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        ".NET",
-        "C#",
-        "Git",
-        "WPF",
-        "SW"
-      ],
-      "location": "서울 송파구",
-      "closeAt": "2026-08-30",
-      "postedAt": "2026-08-01",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "코보시스",
       "title": "서버 개발자",
       "url": "https://www.jumpit.co.kr/position/54621359",
       "tags": [
@@ -20770,6 +18852,48 @@
     },
     {
       "source": "jumpit",
+      "company": "코보시스",
+      "title": "C# 개발자",
+      "url": "https://www.jumpit.co.kr/position/54621364",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        ".NET",
+        "C#",
+        "Git",
+        "WPF",
+        "SW"
+      ],
+      "location": "서울 송파구",
+      "closeAt": "2026-08-30",
+      "postedAt": "2026-08-01",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "코아칩스",
+      "title": "하드웨어 개발(경력) 채용",
+      "url": "https://www.jumpit.co.kr/position/54463568",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "AWS IoT Device Management",
+        "HW"
+      ],
+      "location": "경기 수원시",
+      "closeAt": "2026-08-13",
+      "postedAt": "2026-07-15",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
       "company": "코아칩스",
       "title": "펌웨어(FW) 개발 (경력) 채용",
       "url": "https://www.jumpit.co.kr/position/54475942",
@@ -20792,6 +18916,24 @@
       "salary": ""
     },
     {
+      "source": "jumpit",
+      "company": "코어시큐리티",
+      "title": "보안기술연구 담당자 채용",
+      "url": "https://www.jumpit.co.kr/position/54545930",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "TCP/IP"
+      ],
+      "location": "서울 송파구",
+      "closeAt": "2026-08-30",
+      "postedAt": "2026-08-01",
+      "employment": "",
+      "salary": ""
+    },
+    {
       "source": "wanted",
       "company": "코오롱베니트",
       "title": "IBM 엔지니어",
@@ -20806,6 +18948,26 @@
       "closeAt": "",
       "postedAt": "",
       "employment": "정규직",
+      "salary": ""
+    },
+    {
+      "source": "wanted",
+      "company": "코이스토리",
+      "title": "풀스택 개발자 (4~6년차) — 인플루언서 여행플랫폼",
+      "url": "https://www.wanted.co.kr/wd/378872",
+      "tags": [
+        "경력"
+      ],
+      "categories": [
+        "플랫폼"
+      ],
+      "stacks": [
+        "AWS"
+      ],
+      "location": "서울",
+      "closeAt": "",
+      "postedAt": "",
+      "employment": "",
       "salary": ""
     },
     {
@@ -21197,46 +19359,6 @@
     {
       "source": "jumpit",
       "company": "쿤텍",
-      "title": "AI기반 가상머신개발AX(신입)",
-      "url": "https://www.jumpit.co.kr/position/54470485",
-      "tags": [
-        "신입"
-      ],
-      "categories": [],
-      "stacks": [
-        "AI/인공지능",
-        "FastAPI"
-      ],
-      "location": "경기 성남시",
-      "closeAt": "2026-08-13",
-      "postedAt": "2026-07-15",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "쿤텍",
-      "title": "임베디드SW/FW개발(6↑)",
-      "url": "https://www.jumpit.co.kr/position/54470686",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Python",
-        "SW",
-        "FastAPI",
-        "FW"
-      ],
-      "location": "경기 성남시",
-      "closeAt": "2026-08-13",
-      "postedAt": "2026-07-15",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "쿤텍",
       "title": "응용SW 풀스택 개발자(2↑)",
       "url": "https://www.jumpit.co.kr/position/54470515",
       "tags": [
@@ -21289,6 +19411,25 @@
       "stacks": [
         "Python",
         "SW",
+        "FastAPI"
+      ],
+      "location": "경기 성남시",
+      "closeAt": "2026-08-13",
+      "postedAt": "2026-07-15",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "쿤텍",
+      "title": "AI기반 가상머신개발AX(신입)",
+      "url": "https://www.jumpit.co.kr/position/54470485",
+      "tags": [
+        "신입"
+      ],
+      "categories": [],
+      "stacks": [
+        "AI/인공지능",
         "FastAPI"
       ],
       "location": "경기 성남시",
@@ -21702,29 +19843,6 @@
     {
       "source": "wanted",
       "company": "크래프트테크놀로지스",
-      "title": "Backend Engineer_솔루션 제작/고도화(MX Dev팀)",
-      "url": "https://www.wanted.co.kr/wd/371616",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Docker",
-        "Kubernetes",
-        "Python",
-        "Go",
-        "Rust",
-        "Linux"
-      ],
-      "location": "서울",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "wanted",
-      "company": "크래프트테크놀로지스",
       "title": "Quant Developer(QT Dev팀)",
       "url": "https://www.wanted.co.kr/wd/371043",
       "tags": [
@@ -21738,63 +19856,6 @@
       "location": "서울",
       "closeAt": "",
       "postedAt": "",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "크럭셀",
-      "title": "H/W 회로 설계 차장급 채용",
-      "url": "https://www.jumpit.co.kr/position/54544592",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "HW",
-        "FPGA"
-      ],
-      "location": "대전 유성구",
-      "closeAt": "2026-08-21",
-      "postedAt": "2026-07-23",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "크럭셀",
-      "title": "FPGA 코딩/ 설계 과장급 채용",
-      "url": "https://www.jumpit.co.kr/position/54544770",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "HW",
-        "FPGA"
-      ],
-      "location": "대전 유성구",
-      "closeAt": "2026-08-21",
-      "postedAt": "2026-07-23",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "크럭셀",
-      "title": "HW 회로설계 엔지니어 과장급 채용",
-      "url": "https://www.jumpit.co.kr/position/54544565",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "HW",
-        "FPGA"
-      ],
-      "location": "대전 유성구",
-      "closeAt": "2026-08-21",
-      "postedAt": "2026-07-23",
       "employment": "",
       "salary": ""
     },
@@ -21824,6 +19885,64 @@
       "url": "https://www.jumpit.co.kr/position/54544822",
       "tags": [
         "주니어"
+      ],
+      "categories": [],
+      "stacks": [
+        "HW",
+        "FPGA"
+      ],
+      "location": "대전 유성구",
+      "closeAt": "2026-08-21",
+      "postedAt": "2026-07-23",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "크럭셀",
+      "title": "FPGA 코딩/ 설계 주임급 채용",
+      "url": "https://www.jumpit.co.kr/position/54544613",
+      "tags": [
+        "주니어"
+      ],
+      "categories": [],
+      "stacks": [
+        "HW",
+        "FPGA"
+      ],
+      "location": "대전 유성구",
+      "closeAt": "2026-08-21",
+      "postedAt": "2026-07-23",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "크럭셀",
+      "title": "H/W 회로 설계 과장급 채용",
+      "url": "https://www.jumpit.co.kr/position/54544782",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "HW",
+        "FPGA"
+      ],
+      "location": "대전 유성구",
+      "closeAt": "2026-08-21",
+      "postedAt": "2026-07-23",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "크럭셀",
+      "title": "H/W 회로 설계 대리급 채용",
+      "url": "https://www.jumpit.co.kr/position/54544802",
+      "tags": [
+        "주니어",
+        "경력"
       ],
       "categories": [],
       "stacks": [
@@ -21877,6 +19996,52 @@
       "location": "인천 연수구",
       "closeAt": "2026-08-24",
       "postedAt": "2026-07-26",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "크레셈",
+      "title": "SMART AI (C#, WPF) 개발 엔지니어 모집",
+      "url": "https://www.jumpit.co.kr/position/54552482",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        ".NET",
+        "Entity Framework",
+        "Git",
+        "Microsoft SQL Server",
+        "Oracle",
+        "Visual Studio"
+      ],
+      "location": "인천 연수구",
+      "closeAt": "2026-08-24",
+      "postedAt": "2026-07-26",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "크레셈",
+      "title": "비젼개발팀 Vision SW 경력(2~5년)채용",
+      "url": "https://www.jumpit.co.kr/position/54657281",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C#",
+        "OpenCV",
+        "WPF",
+        "SW",
+        "PCB"
+      ],
+      "location": "인천 연수구",
+      "closeAt": "2026-09-03",
+      "postedAt": "2026-08-05",
       "employment": "",
       "salary": ""
     },
@@ -22142,24 +20307,6 @@
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "킨코스코리아(주)",
-      "title": "킨코스코리아㈜ 백엔드 개발자/디자인그룹 경력 및 신입사원 모집",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54607844",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 중구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
       "source": "wanted",
       "company": "타이드풀(TIDEPOOL)",
       "title": "AI-Product Engineer (Senior)",
@@ -22238,10 +20385,10 @@
     {
       "source": "jumpit",
       "company": "테솔로",
-      "title": "로봇/로보틱스 S/W 엔지니어 신입 모집",
-      "url": "https://www.jumpit.co.kr/position/54557699",
+      "title": "로봇/로보틱스 S/W 엔지니어 경력 모집",
+      "url": "https://www.jumpit.co.kr/position/54557689",
       "tags": [
-        "신입"
+        "경력"
       ],
       "categories": [],
       "stacks": [
@@ -22258,10 +20405,10 @@
     {
       "source": "jumpit",
       "company": "테솔로",
-      "title": "로봇/로보틱스 S/W 엔지니어 경력 모집",
-      "url": "https://www.jumpit.co.kr/position/54557689",
+      "title": "로봇/로보틱스 S/W 엔지니어 신입 모집",
+      "url": "https://www.jumpit.co.kr/position/54557699",
       "tags": [
-        "경력"
+        "신입"
       ],
       "categories": [],
       "stacks": [
@@ -22488,6 +20635,25 @@
     {
       "source": "jumpit",
       "company": "텐빌리언",
+      "title": "프론트엔드 개발 경력 (10년 이상)",
+      "url": "https://www.jumpit.co.kr/position/54510058",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "HTML5",
+        "JavaScript"
+      ],
+      "location": "서울 구로구",
+      "closeAt": "2026-08-18",
+      "postedAt": "2026-07-20",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "텐빌리언",
       "title": "프론트엔드 개발 경력 (2~5년)",
       "url": "https://www.jumpit.co.kr/position/54510091",
       "tags": [
@@ -22522,97 +20688,6 @@
       "closeAt": "2026-08-18",
       "postedAt": "2026-07-20",
       "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "텐빌리언",
-      "title": "네트워크 엔지니어 경력(2~5년)",
-      "url": "https://www.jumpit.co.kr/position/54650320",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Network"
-      ],
-      "location": "서울 구로구",
-      "closeAt": "2026-09-02",
-      "postedAt": "2026-08-04",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "텐빌리언",
-      "title": "네트워크 엔지니어 경력(10년이상)",
-      "url": "https://www.jumpit.co.kr/position/54650308",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Network"
-      ],
-      "location": "서울 구로구",
-      "closeAt": "2026-09-02",
-      "postedAt": "2026-08-04",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "텐빌리언",
-      "title": "네트워크 엔지니어 경력(6~9년)",
-      "url": "https://www.jumpit.co.kr/position/54650298",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Network"
-      ],
-      "location": "서울 구로구",
-      "closeAt": "2026-09-02",
-      "postedAt": "2026-08-04",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "텐빌리언",
-      "title": "프론트엔드 개발 경력 (10년 이상)",
-      "url": "https://www.jumpit.co.kr/position/54510058",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "HTML5",
-        "JavaScript"
-      ],
-      "location": "서울 구로구",
-      "closeAt": "2026-08-18",
-      "postedAt": "2026-07-20",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "텔코웨어(주)",
-      "title": "[텔코웨어] Java 백엔드 개발 경력사원 채용공고",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54445154",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 서초구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
       "salary": ""
     },
     {
@@ -22854,44 +20929,6 @@
       "location": "서울 강남구",
       "closeAt": "2026-08-31",
       "postedAt": "2026-08-02",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "트루엔",
-      "title": "NVR Web viewer개발(9↑)",
-      "url": "https://www.jumpit.co.kr/position/54508699",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Linux",
-        "FW"
-      ],
-      "location": "서울 구로구",
-      "closeAt": "2026-08-18",
-      "postedAt": "2026-07-20",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "트루엔",
-      "title": "NVR Web viewer개발(5↑)",
-      "url": "https://www.jumpit.co.kr/position/54508679",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Linux",
-        "FW"
-      ],
-      "location": "서울 구로구",
-      "closeAt": "2026-08-18",
-      "postedAt": "2026-07-20",
       "employment": "",
       "salary": ""
     },
@@ -23159,26 +21196,6 @@
     {
       "source": "jumpit",
       "company": "티시스아이티",
-      "title": "인프라보안",
-      "url": "https://www.jumpit.co.kr/position/54634086",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Network",
-        "IPS",
-        "ESET Endpoint Security"
-      ],
-      "location": "서울 중구",
-      "closeAt": "2026-09-01",
-      "postedAt": "2026-08-03",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "티시스아이티",
       "title": "보안관제",
       "url": "https://www.jumpit.co.kr/position/54475284",
       "tags": [
@@ -23219,6 +21236,46 @@
     },
     {
       "source": "jumpit",
+      "company": "티시스아이티",
+      "title": "ADS운영",
+      "url": "https://www.jumpit.co.kr/position/54634103",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Splunk",
+        "CISSP",
+        "IPS"
+      ],
+      "location": "서울 중구",
+      "closeAt": "2026-09-01",
+      "postedAt": "2026-08-03",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "티시스아이티",
+      "title": "인프라보안",
+      "url": "https://www.jumpit.co.kr/position/54634086",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Network",
+        "IPS",
+        "ESET Endpoint Security"
+      ],
+      "location": "서울 중구",
+      "closeAt": "2026-09-01",
+      "postedAt": "2026-08-03",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
       "company": "티엔에이치",
       "title": "백엔드 개발자",
       "url": "https://www.jumpit.co.kr/position/54458667",
@@ -23239,23 +21296,6 @@
       "closeAt": "2026-08-12",
       "postedAt": "2026-07-14",
       "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "티엔에이치(주)",
-      "title": "백엔드 개발자",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54458667",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "경기 성남시",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
       "salary": ""
     },
     {
@@ -23335,8 +21375,8 @@
     {
       "source": "jumpit",
       "company": "티투엘",
-      "title": "고급 백엔드 설계 개발자(10~12년)",
-      "url": "https://www.jumpit.co.kr/position/54593414",
+      "title": "중급 백엔드 개발자 (5~7년)",
+      "url": "https://www.jumpit.co.kr/position/54593396",
       "tags": [
         "경력"
       ],
@@ -23353,8 +21393,8 @@
     {
       "source": "jumpit",
       "company": "티투엘",
-      "title": "중급 백엔드 개발자 (5~7년)",
-      "url": "https://www.jumpit.co.kr/position/54593396",
+      "title": "고급 백엔드 설계 개발자(10~12년)",
+      "url": "https://www.jumpit.co.kr/position/54593414",
       "tags": [
         "경력"
       ],
@@ -23543,25 +21583,6 @@
     {
       "source": "jumpit",
       "company": "파스텍",
-      "title": "모터드라이브 하드웨어/ 펌웨어개발 경력자 채용",
-      "url": "https://www.jumpit.co.kr/position/54544654",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Embedded",
-        "Embedded Linux"
-      ],
-      "location": "경기 부천시",
-      "closeAt": "2026-08-22",
-      "postedAt": "2026-07-24",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "파스텍",
       "title": "모터드라이브 하드웨어/ 펌웨어개발 신입 채용",
       "url": "https://www.jumpit.co.kr/position/54544667",
       "tags": [
@@ -23601,6 +21622,30 @@
     {
       "source": "jumpit",
       "company": "파이오링크",
+      "title": "ADC(L4-L7 스위치) 애플리케이션 개발",
+      "url": "https://www.jumpit.co.kr/position/54485589",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C",
+        "C++",
+        "Docker",
+        "Git",
+        "Linux",
+        "Python"
+      ],
+      "location": "서울 금천구",
+      "closeAt": "2026-08-15",
+      "postedAt": "2026-07-17",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "파이오링크",
       "title": "어플리케이션 및 클라우드 개발",
       "url": "https://www.jumpit.co.kr/position/54485608",
       "tags": [
@@ -23624,25 +21669,24 @@
     },
     {
       "source": "jumpit",
-      "company": "파이오링크",
-      "title": "ADC(L4-L7 스위치) 애플리케이션 개발",
-      "url": "https://www.jumpit.co.kr/position/54485589",
+      "company": "파인디지털",
+      "title": "[분당 상장사] 파인뷰 HW개발",
+      "url": "https://www.jumpit.co.kr/position/54509151",
       "tags": [
-        "주니어",
         "경력"
       ],
       "categories": [],
       "stacks": [
         "C",
-        "C++",
-        "Docker",
-        "Git",
         "Linux",
-        "Python"
+        "Orcad",
+        "HW",
+        "Embedded",
+        "SW"
       ],
-      "location": "서울 금천구",
-      "closeAt": "2026-08-15",
-      "postedAt": "2026-07-17",
+      "location": "경기 성남시 분당구",
+      "closeAt": "2026-08-18",
+      "postedAt": "2026-07-20",
       "employment": "",
       "salary": ""
     },
@@ -23667,29 +21711,6 @@
       "location": "경기 성남시 분당구",
       "closeAt": "2026-08-06",
       "postedAt": "2026-07-08",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "파인디지털",
-      "title": "[분당 상장사] 파인뷰 HW개발",
-      "url": "https://www.jumpit.co.kr/position/54509151",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "C",
-        "Linux",
-        "Orcad",
-        "HW",
-        "Embedded",
-        "SW"
-      ],
-      "location": "경기 성남시 분당구",
-      "closeAt": "2026-08-18",
-      "postedAt": "2026-07-20",
       "employment": "",
       "salary": ""
     },
@@ -23763,37 +21784,26 @@
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "패스트레인(여신티켓)",
-      "title": "백엔드 개발자",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54360464",
+      "source": "jumpit",
+      "company": "패스트파이브",
+      "title": "네트워크 담당자 (Middle)",
+      "url": "https://www.jumpit.co.kr/position/54645723",
       "tags": [
         "경력"
       ],
       "categories": [],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "패스트파이브(주)",
-      "title": "백엔드 개발자 (멤버십 플랫폼)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54224645",
-      "tags": [
-        "경력"
+      "stacks": [
+        "VPN",
+        "Utm",
+        "L2",
+        "L3",
+        "Ccna",
+        "Ccnp"
       ],
-      "categories": [
-        "플랫폼"
-      ],
-      "stacks": [],
       "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
+      "closeAt": "2026-09-03",
+      "postedAt": "2026-08-05",
+      "employment": "",
       "salary": ""
     },
     {
@@ -23975,24 +21985,6 @@
       "closeAt": "",
       "postedAt": "",
       "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "saramin",
-      "company": "펄포즌(PURPOZEN)",
-      "title": "주도적으로 설계하는 Java/Spring 백엔드 개발자 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54626054",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
       "salary": ""
     },
     {
@@ -24286,22 +22278,6 @@
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "포스엘앤에스(주)",
-      "title": "프론트·백엔드 개발자(Java/Spring) 경력 채용 공고",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54377947",
-      "tags": [
-        "주니어"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 영등포구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
       "source": "wanted",
       "company": "포스트매스",
       "title": "[수학비서] 백엔드 개발 3~10년 (대전)",
@@ -24588,22 +22564,6 @@
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "프로페셔날핸즈인핸즈코리아(주)",
-      "title": "서비스(백엔드등) 개발운영- 국내 우량 디지털종합광고 기업",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54628679",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 중구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
       "source": "wanted",
       "company": "프론텍",
       "title": "IT 인프라 구축 서버·스토리지 전문 엔지니어",
@@ -24664,72 +22624,6 @@
       "location": "서울",
       "closeAt": "",
       "postedAt": "",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "플라잎",
-      "title": "[울산지사] Mechanical Engineer",
-      "url": "https://www.jumpit.co.kr/position/54534136",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "HW",
-        "Solidworks",
-        "Autocad"
-      ],
-      "location": "울산 남구",
-      "closeAt": "2026-08-20",
-      "postedAt": "2026-07-22",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "플라잎",
-      "title": "Robot Control Engineer (3년 이상)",
-      "url": "https://www.jumpit.co.kr/position/54555517",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "C",
-        "C++",
-        "Python",
-        "MachineLearning",
-        "AI/인공지능",
-        "ROS"
-      ],
-      "location": "경기 성남시 분당구",
-      "closeAt": "2026-08-22",
-      "postedAt": "2026-07-24",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "플라잎",
-      "title": "[울산지사] Forward Deployed Engineer",
-      "url": "https://www.jumpit.co.kr/position/54555589",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "NumPy",
-        "Pandas",
-        "PyTorch"
-      ],
-      "location": "경기 성남시 분당구",
-      "closeAt": "2026-08-22",
-      "postedAt": "2026-07-24",
       "employment": "",
       "salary": ""
     },
@@ -24804,6 +22698,29 @@
     {
       "source": "jumpit",
       "company": "플라잎",
+      "title": "AI Manipulation Engineer (경력)",
+      "url": "https://www.jumpit.co.kr/position/54555492",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C",
+        "C++",
+        "Git",
+        "Linux",
+        "Python",
+        "PyTorch"
+      ],
+      "location": "경기 성남시 분당구",
+      "closeAt": "2026-08-22",
+      "postedAt": "2026-07-24",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "플라잎",
       "title": "Physical AI Research Engineer (전문연 가능)",
       "url": "https://www.jumpit.co.kr/position/54555482",
       "tags": [
@@ -24828,23 +22745,110 @@
     {
       "source": "jumpit",
       "company": "플라잎",
-      "title": "AI Manipulation Engineer (경력)",
-      "url": "https://www.jumpit.co.kr/position/54555492",
+      "title": "로봇 제어 · 학습 기반 제어 연구원",
+      "url": "https://www.jumpit.co.kr/position/54555522",
       "tags": [
+        "주니어",
         "경력"
       ],
       "categories": [],
       "stacks": [
         "C",
         "C++",
-        "Git",
-        "Linux",
-        "Python",
+        "MATLAB"
+      ],
+      "location": "경기 성남시 분당구",
+      "closeAt": "2026-08-22",
+      "postedAt": "2026-07-24",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "플라잎",
+      "title": "Forward Deployed Engineer (AI)",
+      "url": "https://www.jumpit.co.kr/position/54555574",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "NumPy",
+        "Pandas",
         "PyTorch"
       ],
       "location": "경기 성남시 분당구",
       "closeAt": "2026-08-22",
       "postedAt": "2026-07-24",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "플라잎",
+      "title": "[울산지사] Mechanical Engineer",
+      "url": "https://www.jumpit.co.kr/position/54534136",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "HW",
+        "Solidworks",
+        "Autocad"
+      ],
+      "location": "울산 남구",
+      "closeAt": "2026-08-20",
+      "postedAt": "2026-07-22",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "플래티어",
+      "title": "[AI CX사업부문] 데이터 엔지니어",
+      "url": "https://www.jumpit.co.kr/position/54485682",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Google BigQuery",
+        "MySQL",
+        "NumPy",
+        "Pandas",
+        "Python",
+        "SQL"
+      ],
+      "location": "서울 송파구",
+      "closeAt": "2026-08-17",
+      "postedAt": "2026-07-19",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "플래티어",
+      "title": "UI/UX 테스트 자동화 솔루션 엔지니어",
+      "url": "https://www.jumpit.co.kr/position/54635260",
+      "tags": [
+        "주니어",
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Apache JMeter",
+        "Azure DevOps",
+        "Java",
+        "Postman",
+        "Python",
+        "Selenium"
+      ],
+      "location": "서울 송파구",
+      "closeAt": "2026-09-02",
+      "postedAt": "2026-08-04",
       "employment": "",
       "salary": ""
     },
@@ -24935,29 +22939,6 @@
       "location": "서울 송파구",
       "closeAt": "2026-08-25",
       "postedAt": "2026-07-27",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "플래티어",
-      "title": "[AI CX사업부문] 데이터 엔지니어",
-      "url": "https://www.jumpit.co.kr/position/54485682",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Google BigQuery",
-        "MySQL",
-        "NumPy",
-        "Pandas",
-        "Python",
-        "SQL"
-      ],
-      "location": "서울 송파구",
-      "closeAt": "2026-08-17",
-      "postedAt": "2026-07-19",
       "employment": "",
       "salary": ""
     },
@@ -25155,24 +23136,6 @@
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "피스챌린지그룹(주)",
-      "title": "[피스챌린지그룹] 백엔드 개발자 채용 (신입/경력)",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54540719",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 서초구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
       "source": "wanted",
       "company": "피에프씨테크놀로지스",
       "title": "Backend Engineer(백엔드 엔지니어) - BizOps",
@@ -25223,75 +23186,6 @@
       "location": "서울",
       "closeAt": "",
       "postedAt": "",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "피엠인터내셔널코리아",
-      "title": "개인정보보호 담당자(경력15년~20년)",
-      "url": "https://www.jumpit.co.kr/position/54643490",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Confluence",
-        "Jira",
-        "AWS",
-        "AZURE",
-        "ISMS",
-        "CPPG"
-      ],
-      "location": "서울 영등포구",
-      "closeAt": "2026-09-03",
-      "postedAt": "2026-08-05",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "피엠인터내셔널코리아",
-      "title": "개인정보보호 담당자(경력4년~8년)",
-      "url": "https://www.jumpit.co.kr/position/54643089",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Confluence",
-        "Jira",
-        "AWS",
-        "AZURE",
-        "ISMS",
-        "CPPG"
-      ],
-      "location": "서울 영등포구",
-      "closeAt": "2026-09-03",
-      "postedAt": "2026-08-05",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "피엠인터내셔널코리아",
-      "title": "개인정보보호 담당자(경력9년~14년)",
-      "url": "https://www.jumpit.co.kr/position/54643423",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Confluence",
-        "Jira",
-        "AWS",
-        "AZURE",
-        "ISMS",
-        "CPPG"
-      ],
-      "location": "서울 영등포구",
-      "closeAt": "2026-09-03",
-      "postedAt": "2026-08-05",
       "employment": "",
       "salary": ""
     },
@@ -25405,6 +23299,29 @@
     },
     {
       "source": "jumpit",
+      "company": "핀다",
+      "title": "Application Security Engineer",
+      "url": "https://www.jumpit.co.kr/position/54644966",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Jira",
+        "Python",
+        "Docker",
+        "GitLab",
+        "Kubernetes",
+        "AWS"
+      ],
+      "location": "서울 강남구",
+      "closeAt": "2026-09-02",
+      "postedAt": "2026-08-04",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
       "company": "필라넷",
       "title": ".NET 풀스택 개발자 채용",
       "url": "https://www.jumpit.co.kr/position/54507141",
@@ -25447,6 +23364,29 @@
       "location": "경기 성남시",
       "closeAt": "2026-08-24",
       "postedAt": "2026-07-26",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "하마랩",
+      "title": "QA Lead / 테스트 매니저 (경력)",
+      "url": "https://www.jumpit.co.kr/position/54409448",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Confluence",
+        "Cypress",
+        "Jira",
+        "Playwright",
+        "Postman",
+        "Redmine"
+      ],
+      "location": "경기 성남시",
+      "closeAt": "2026-08-07",
+      "postedAt": "2026-07-09",
       "employment": "",
       "salary": ""
     },
@@ -25498,29 +23438,6 @@
       "salary": ""
     },
     {
-      "source": "jumpit",
-      "company": "하마랩",
-      "title": "QA Lead / 테스트 매니저 (경력)",
-      "url": "https://www.jumpit.co.kr/position/54409448",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Confluence",
-        "Cypress",
-        "Jira",
-        "Playwright",
-        "Postman",
-        "Redmine"
-      ],
-      "location": "경기 성남시",
-      "closeAt": "2026-08-07",
-      "postedAt": "2026-07-09",
-      "employment": "",
-      "salary": ""
-    },
-    {
       "source": "wanted",
       "company": "하이로컬",
       "title": "IOT 하드웨어·펌웨어 개발자 (BLE 오디오 구현)",
@@ -25536,6 +23453,28 @@
       "location": "서울",
       "closeAt": "",
       "postedAt": "",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "하이퍼정보",
+      "title": "데이터 모델 및 분석 담당자 모집",
+      "url": "https://www.jumpit.co.kr/position/54629776",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "Python",
+        "AI/인공지능",
+        "SQL",
+        "Tableau",
+        "Power BI"
+      ],
+      "location": "서울 강남구",
+      "closeAt": "2026-09-02",
+      "postedAt": "2026-08-04",
       "employment": "",
       "salary": ""
     },
@@ -25563,31 +23502,9 @@
       "salary": ""
     },
     {
-      "source": "jumpit",
-      "company": "하이퍼정보",
-      "title": "데이터 모델 및 분석 담당자 모집",
-      "url": "https://www.jumpit.co.kr/position/54629776",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Python",
-        "AI/인공지능",
-        "SQL",
-        "Tableau",
-        "Power BI"
-      ],
-      "location": "서울 강남구",
-      "closeAt": "2026-09-02",
-      "postedAt": "2026-08-04",
-      "employment": "",
-      "salary": ""
-    },
-    {
       "source": "wanted",
       "company": "하이퍼커넥트",
-      "title": "Senior Software Engineer, Backend (Tinder Seoul)",
+      "title": "Senior Software Engineer, Backend — Seoul Studios (Tinder Seoul)",
       "url": "https://www.wanted.co.kr/wd/377919",
       "tags": [
         "경력"
@@ -25684,29 +23601,6 @@
       "salary": ""
     },
     {
-      "source": "jumpit",
-      "company": "한국비즈넷",
-      "title": "Jira & Jenkins 관리업무 담당자",
-      "url": "https://www.jumpit.co.kr/position/54507028",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Git",
-        "GitHub",
-        "Jenkins",
-        "Jira",
-        "Spring Boot"
-      ],
-      "location": "서울 구로구",
-      "closeAt": "2026-08-18",
-      "postedAt": "2026-07-20",
-      "employment": "",
-      "salary": ""
-    },
-    {
       "source": "wanted",
       "company": "한국신용데이터(KCD)",
       "title": "[인사기획팀] Sr.HRBP",
@@ -25787,6 +23681,28 @@
     {
       "source": "jumpit",
       "company": "한솔테크닉스",
+      "title": "전장 S/W 개발 (Lamp)",
+      "url": "https://www.jumpit.co.kr/position/54409604",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C",
+        "C++",
+        "Embedded",
+        "SW",
+        "MCU"
+      ],
+      "location": "경기 수원시 영통구",
+      "closeAt": "2026-08-06",
+      "postedAt": "2026-07-08",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "한솔테크닉스",
       "title": "S/W 개발(태양광 인버터) 경력",
       "url": "https://www.jumpit.co.kr/position/54531354",
       "tags": [
@@ -25804,28 +23720,6 @@
       "location": "충북 진천군",
       "closeAt": "2026-08-20",
       "postedAt": "2026-07-22",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "한솔테크닉스",
-      "title": "전장 S/W 개발 (Lamp)",
-      "url": "https://www.jumpit.co.kr/position/54409604",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "C",
-        "C++",
-        "Embedded",
-        "SW",
-        "MCU"
-      ],
-      "location": "경기 수원시 영통구",
-      "closeAt": "2026-08-06",
-      "postedAt": "2026-07-08",
       "employment": "",
       "salary": ""
     },
@@ -25963,49 +23857,6 @@
       "location": "서울",
       "closeAt": "2026-08-31",
       "postedAt": "",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "혜성테크윈",
-      "title": "통신장비 연구개발(주임/대리급)",
-      "url": "https://www.jumpit.co.kr/position/54519550",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Embedded",
-        "Network",
-        "Ccna",
-        "Ccnp"
-      ],
-      "location": "경기",
-      "closeAt": "2026-08-20",
-      "postedAt": "2026-07-22",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "혜성테크윈",
-      "title": "통신장비 연구개발(과장급)",
-      "url": "https://www.jumpit.co.kr/position/54519521",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Embedded",
-        "Network",
-        "Ccna",
-        "Ccnp"
-      ],
-      "location": "경기",
-      "closeAt": "2026-08-20",
-      "postedAt": "2026-07-22",
       "employment": "",
       "salary": ""
     },
@@ -26173,24 +24024,6 @@
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "휴먼웍스",
-      "title": "백엔드(python) 개발자 채용",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54629613",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 강남구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "계약직",
-      "salary": ""
-    },
-    {
       "source": "wanted",
       "company": "흑자",
       "title": "풀스택 엔지니어 (Vision AI · Cloud)",
@@ -26205,32 +24038,6 @@
         "GCP",
         "Docker",
         "Kubernetes"
-      ],
-      "location": "서울",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "wanted",
-      "company": "힐링페이퍼(강남언니)",
-      "title": "[병원 운영 솔루션] 백엔드 개발자 (B2B SaaS)",
-      "url": "https://www.wanted.co.kr/wd/281357",
-      "tags": [
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "Java",
-        "Kotlin",
-        "Spring Boot",
-        "Spring",
-        "MongoDB",
-        "AWS",
-        "Kubernetes",
-        "Express"
       ],
       "location": "서울",
       "closeAt": "",
@@ -26276,24 +24083,6 @@
       "salary": ""
     },
     {
-      "source": "saramin",
-      "company": "HM소프트",
-      "title": "에서 백엔드 개발자와 함께 성장해요",
-      "url": "https://www.saramin.co.kr/zf_user/jobs/relay/view?rec_idx=54392290",
-      "tags": [
-        "신입",
-        "주니어",
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [],
-      "location": "서울 송파구",
-      "closeAt": "",
-      "postedAt": "",
-      "employment": "정규직",
-      "salary": ""
-    },
-    {
       "source": "jobkorea",
       "company": "NICE정보통신㈜",
       "title": "2026년 NICE 정보통신 상시 인재 영입(백엔드 서버개발자 경력직)",
@@ -26307,29 +24096,6 @@
       "location": "서울 영등포구",
       "closeAt": "",
       "postedAt": "",
-      "employment": "",
-      "salary": ""
-    },
-    {
-      "source": "jumpit",
-      "company": "WATA Inc.",
-      "title": "비전알고리즘 개발자",
-      "url": "https://www.jumpit.co.kr/position/54382808",
-      "tags": [
-        "경력"
-      ],
-      "categories": [],
-      "stacks": [
-        "C++",
-        "Linux",
-        "Python",
-        "OpenCV",
-        "AWS",
-        "ROS"
-      ],
-      "location": "경기 성남시 분당구",
-      "closeAt": "2026-08-05",
-      "postedAt": "2026-07-07",
       "employment": "",
       "salary": ""
     },
@@ -26374,6 +24140,29 @@
         "Linux",
         "PostgreSQL",
         "Python"
+      ],
+      "location": "경기 성남시 분당구",
+      "closeAt": "2026-08-05",
+      "postedAt": "2026-07-07",
+      "employment": "",
+      "salary": ""
+    },
+    {
+      "source": "jumpit",
+      "company": "WATA Inc.",
+      "title": "비전알고리즘 개발자",
+      "url": "https://www.jumpit.co.kr/position/54382808",
+      "tags": [
+        "경력"
+      ],
+      "categories": [],
+      "stacks": [
+        "C++",
+        "Linux",
+        "Python",
+        "OpenCV",
+        "AWS",
+        "ROS"
       ],
       "location": "경기 성남시 분당구",
       "closeAt": "2026-08-05",
